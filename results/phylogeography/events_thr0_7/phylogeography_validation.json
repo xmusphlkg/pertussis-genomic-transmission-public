@@ -1,0 +1,11 @@
+{
+  "n_tree_tips": 989,
+  "n_focal_tip_attributions": 774,
+  "transition_threshold": 0.7,
+  "successful_cluster_minimum_genomes": 5,
+  "successful_cluster_minimum_span_days": 180,
+  "n_high_support_introduction_edges": 163,
+  "n_high_support_post_reseeding_edges": 71,
+  "n_successful_sampled_clusters": 3,
+  "uncertainty_semantics": "PastML marginal-state support propagated through a modular phylogeographic layer; not a full joint phylogenetic posterior"
+}

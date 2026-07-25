@@ -1,0 +1,5 @@
+model_lineage_id	n_genomes	n_focal	n_countries	countries	n_periods	periods	min_year	max_year	primary_model_eligible	exclusion_reason
+L1_02	750	574	26	ARG;AUS;AUT;BEL;BRA;CAN;CHN;DEU;DNK;ESP;FIN;FRA;GTM;HTI;IND;IRL;IRN;ISR;ITA;JPN;MEX;NLD;NOR;SWE;TUN;USA	3	pandemic;prepandemic;resurgence	1994	2025	TRUE	""
+L1_01	190	174	13	AUS;BEL;CHN;DNK;ESP;FRA;IND;IRN;JPN;NOR;POL;SWE;USA	3	pandemic;prepandemic;resurgence	1962	2024	TRUE	""
+L1_03	46	26	9	AUT;CHN;DNK;IND;IRN;JPN;KEN;NLD;USA	2	prepandemic;resurgence	1939	2024	TRUE	""
+L1_04	3	0	3	DEU;IRN;USA	1	prepandemic	1952	2015	FALSE	Fewer than 20 genomes or insufficient cross-country/cross-period coverage

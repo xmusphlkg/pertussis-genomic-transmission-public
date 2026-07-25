@@ -1,0 +1,8 @@
+{
+  "n_tips": 989,
+  "adjusted_rand_index_level2": 0.9835320175423237,
+  "minimum_primary_member_recovery_among_model_lineages": 0.9798657718120806,
+  "minimum_jaccard_among_model_lineages": 0.9647058823529412,
+  "high_growth_lineage_L1_02_07_member_recovery": 1.0,
+  "high_growth_lineage_L1_02_07_jaccard": 1.0
+}

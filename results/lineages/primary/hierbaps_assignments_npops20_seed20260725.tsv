@@ -1,0 +1,990 @@
+tree_sample_id	level 1	level 2	tree_role	country_iso3	date_lower	date_upper	date_resolution	year	month	epidemic_period	project_id	preliminary_lineage_id	model_lineage_id	model_sublineage_id	lineage_definition_method	lineage_definition_seed	lineage_definition_n_pops
+AUS__SAMEA751508	1	1	focal	AUS	1971-01-01	1971-12-31	year	1971		prepandemic	PRJEB2274	ptxP1/fim3-1	L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMEA751513	1	1	focal	AUS	1974-01-01	1974-12-31	year	1974		prepandemic	PRJEB2274	ptxP1/fim3-1	L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMEA751511	1	1	focal	AUS	1977-01-01	1977-12-31	year	1977		prepandemic	PRJEB2274	ptxP1/fim3-1	L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMEA751512	1	1	focal	AUS	1977-01-01	1977-12-31	year	1977		prepandemic	PRJEB2274	ptxP1/fim3-1	L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMEA751183	1	1	focal	AUS	1995-01-01	1995-12-31	year	1995		prepandemic	PRJEB2274	ptxP1/fim3-1	L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMEA751337	2	5	focal	AUS	1998-01-01	1998-12-31	year	1998		prepandemic	PRJEB2274	ptxP1/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMEA751155	2	5	focal	AUS	2000-01-01	2000-12-31	year	2000		prepandemic	PRJEB2274	ptxP1/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMEA751475	1	1	focal	AUS	2000-01-01	2000-12-31	year	2000		prepandemic	PRJEB2274		L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMEA751476	2	5	focal	AUS	2004-01-01	2004-12-31	year	2004		prepandemic	PRJEB2274		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMEA751477	2	5	focal	AUS	2004-01-01	2004-12-31	year	2004		prepandemic	PRJEB2274	ptxP1/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN18200432	2	5	focal	AUS	2008-01-01	2008-12-31	year	2008		prepandemic	PRJNA695314	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN22857989	2	6	focal	AUS	2008-01-01	2008-12-31	year	2008		prepandemic	PRJNA562796	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN22858044	2	6	focal	AUS	2008-01-01	2008-12-31	year	2008		prepandemic	PRJNA562796	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN22857945	2	6	focal	AUS	2009-01-01	2009-12-31	year	2009		prepandemic	PRJNA562796	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN22858020	2	5	focal	AUS	2009-01-01	2009-12-31	year	2009		prepandemic	PRJNA562796	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN22858066	2	6	focal	AUS	2010-01-01	2010-12-31	year	2010		prepandemic	PRJNA562796	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN22858115	2	6	focal	AUS	2010-01-01	2010-12-31	year	2010		prepandemic	PRJNA562796	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN18200430	2	5	focal	AUS	2011-01-01	2011-12-31	year	2011		prepandemic	PRJNA695314	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN22858161	2	5	focal	AUS	2011-01-01	2011-12-31	year	2011		prepandemic	PRJNA562796	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN22858166	2	5	focal	AUS	2011-01-01	2011-12-31	year	2011		prepandemic	PRJNA562796	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN22858150	2	5	focal	AUS	2012-01-01	2012-12-31	year	2012		prepandemic	PRJNA562796	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN22858181	2	6	focal	AUS	2012-01-01	2012-12-31	year	2012		prepandemic	PRJNA562796	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN08443709	2	6	focal	AUS	2013-01-01	2013-12-31	year	2013		prepandemic	PRJNA432286	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN08443715	1	2	focal	AUS	2013-01-01	2013-12-31	year	2013		prepandemic	PRJNA432286	ptxP1/fim3-4	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN07235949	2	6	focal	AUS	2014-03-07	2014-03-07	day	2014	3	prepandemic	PRJNA390469	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN08443734	2	6	focal	AUS	2014-01-01	2014-12-31	year	2014		prepandemic	PRJNA432286	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN08443746	2	6	focal	AUS	2014-01-01	2014-12-31	year	2014		prepandemic	PRJNA432286	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN08443742	2	6	focal	AUS	2015-01-01	2015-12-31	year	2015		prepandemic	PRJNA432286	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN08443767	2	6	focal	AUS	2015-01-01	2015-12-31	year	2015		prepandemic	PRJNA432286	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN18200431	1	2	focal	AUS	2015-01-01	2015-12-31	year	2015		prepandemic	PRJNA695314	ptxP1/fim3-4	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN08443771	2	6	focal	AUS	2016-01-01	2016-12-31	year	2016		prepandemic	PRJNA432286	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN08443772	2	6	focal	AUS	2016-01-01	2016-12-31	year	2016		prepandemic	PRJNA432286	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810538	2	6	focal	AUS	2016-01-01	2016-01-31	month	2016	1	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810571	2	6	focal	AUS	2016-01-01	2016-01-31	month	2016	1	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810572	2	6	focal	AUS	2016-02-01	2016-02-29	month	2016	2	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810573	2	6	focal	AUS	2016-02-01	2016-02-29	month	2016	2	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810574	2	6	focal	AUS	2016-04-01	2016-04-30	month	2016	4	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN08443778	2	6	focal	AUS	2017-01-01	2017-12-31	year	2017		prepandemic	PRJNA432286	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN08443780	2	6	focal	AUS	2017-01-01	2017-12-31	year	2017		prepandemic	PRJNA432286	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810527	2	6	focal	AUS	2018-07-01	2018-07-31	month	2018	7	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810539	2	6	focal	AUS	2018-10-01	2018-10-31	month	2018	10	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810547	2	6	focal	AUS	2019-01-01	2019-01-31	month	2019	1	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810575	2	6	focal	AUS	2019-03-01	2019-03-31	month	2019	3	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810511	2	6	focal	AUS	2023-09-01	2023-09-30	month	2023	9	resurgence	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN44480251	2	7	focal	AUS	2024-08-01	2024-08-31	month	2024	8	resurgence	PRJNA1178746	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN44480252	2	7	focal	AUS	2024-08-01	2024-08-31	month	2024	8	resurgence	PRJNA1178746	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810503	2	5	focal	AUS	2024-02-01	2024-02-29	month	2024	2	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810504	2	5	focal	AUS	2024-06-01	2024-06-30	month	2024	6	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810513	2	6	focal	AUS	2024-01-01	2024-01-31	month	2024	1	resurgence	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810536	2	6	focal	AUS	2024-06-01	2024-06-30	month	2024	6	resurgence	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810543	2	5	focal	AUS	2024-01-01	2024-01-31	month	2024	1	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810549	2	6	focal	AUS	2024-05-01	2024-05-31	month	2024	5	resurgence	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810556	1	2	focal	AUS	2024-07-01	2024-07-31	month	2024	7	resurgence	PRJNA1199062		L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810557	2	5	focal	AUS	2024-07-01	2024-07-31	month	2024	7	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810558	2	5	focal	AUS	2024-01-01	2024-01-31	month	2024	1	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810562	2	5	focal	AUS	2024-07-01	2024-07-31	month	2024	7	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810564	2	6	focal	AUS	2024-07-01	2024-07-31	month	2024	7	resurgence	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810580	2	6	focal	AUS	2024-05-01	2024-05-31	month	2024	5	resurgence	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810582	1	2	focal	AUS	2024-05-01	2024-05-31	month	2024	5	resurgence	PRJNA1199062		L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810584	2	7	focal	AUS	2024-08-01	2024-08-31	month	2024	8	resurgence	PRJNA1199062		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810594	2	6	focal	AUS	2024-09-01	2024-09-30	month	2024	9	resurgence	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810596	2	5	focal	AUS	2024-08-01	2024-08-31	month	2024	8	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810598	2	5	focal	AUS	2024-08-01	2024-08-31	month	2024	8	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810606	2	5	focal	AUS	2024-09-01	2024-09-30	month	2024	9	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810610	2	5	focal	AUS	2024-09-01	2024-09-30	month	2024	9	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810611	1	2	focal	AUS	2024-09-01	2024-09-30	month	2024	9	resurgence	PRJNA1199062		L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810627	2	6	focal	AUS	2024-10-01	2024-10-31	month	2024	10	resurgence	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810630	2	5	focal	AUS	2024-10-01	2024-10-31	month	2024	10	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810633	2	6	focal	AUS	2024-10-01	2024-10-31	month	2024	10	resurgence	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810634	2	5	focal	AUS	2024-10-01	2024-10-31	month	2024	10	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810638	2	5	focal	AUS	2024-10-01	2024-10-31	month	2024	10	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810640	2	5	focal	AUS	2024-09-01	2024-09-30	month	2024	9	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810642	2	6	focal	AUS	2024-09-01	2024-09-30	month	2024	9	resurgence	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810643	2	5	focal	AUS	2024-09-01	2024-09-30	month	2024	9	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810645	2	6	focal	AUS	2024-10-01	2024-10-31	month	2024	10	resurgence	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810646	2	5	focal	AUS	2024-10-01	2024-10-31	month	2024	10	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45811366	2	5	focal	AUS	2024-07-01	2024-07-31	month	2024	7	resurgence	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45811367	2	6	focal	AUS	2024-07-01	2024-07-31	month	2024	7	resurgence	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45811368	2	6	focal	AUS	2024-06-01	2024-06-30	month	2024	6	resurgence	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45811371	1	2	focal	AUS	2024-06-01	2024-06-30	month	2024	6	resurgence	PRJNA1199062		L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989203	2	6	focal	BEL	2014-01-30	2014-01-30	day	2014	1	prepandemic	PRJEB88325	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989205	2	6	focal	BEL	2014-06-27	2014-06-27	day	2014	6	prepandemic	PRJEB88325		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989208	2	6	focal	BEL	2014-07-30	2014-07-30	day	2014	7	prepandemic	PRJEB88325	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989209	2	6	focal	BEL	2014-08-01	2014-08-01	day	2014	8	prepandemic	PRJEB88325	United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989211	2	6	focal	BEL	2014-09-04	2014-09-04	day	2014	9	prepandemic	PRJEB88325	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989214	2	5	focal	BEL	2014-12-20	2014-12-20	day	2014	12	prepandemic	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989221	1	2	focal	BEL	2015-05-04	2015-05-04	day	2015	5	prepandemic	PRJEB88325	others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989226	2	7	focal	BEL	2015-12-21	2015-12-21	day	2015	12	prepandemic	PRJEB88325	MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989252	2	6	focal	BEL	2017-04-18	2017-04-18	day	2017	4	prepandemic	PRJEB88325		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989259	2	7	focal	BEL	2017-05-05	2017-05-05	day	2017	5	prepandemic	PRJEB88325	MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989272	2	6	focal	BEL	2017-06-16	2017-06-16	day	2017	6	prepandemic	PRJEB88325	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989286	2	6	focal	BEL	2017-07-25	2017-07-25	day	2017	7	prepandemic	PRJEB88325	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989308	2	7	focal	BEL	2017-09-06	2017-09-06	day	2017	9	prepandemic	PRJEB88325	MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989309	2	5	focal	BEL	2017-09-06	2017-09-06	day	2017	9	prepandemic	PRJEB88325		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989353	2	5	focal	BEL	2018-03-26	2018-03-26	day	2018	3	prepandemic	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989425	2	5	focal	BEL	2018-10-09	2018-10-09	day	2018	10	prepandemic	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989434	2	6	focal	BEL	2018-12-12	2018-12-12	day	2018	12	prepandemic	PRJEB88325	United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989436	2	5	focal	BEL	2019-01-15	2019-01-15	day	2019	1	prepandemic	PRJEB88325		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989467	2	6	focal	BEL	2019-04-24	2019-04-24	day	2019	4	prepandemic	PRJEB88325	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989479	2	5	focal	BEL	2019-07-24	2019-07-24	day	2019	7	prepandemic	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989511	2	6	focal	BEL	2020-01-13	2020-01-13	day	2020	1	pandemic	PRJEB88325	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989512	2	5	focal	BEL	2020-01-15	2020-01-15	day	2020	1	pandemic	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989513	2	7	focal	BEL	2020-01-24	2020-01-24	day	2020	1	pandemic	PRJEB88325	MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989514	2	5	focal	BEL	2020-02-21	2020-02-21	day	2020	2	pandemic	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989515	2	5	focal	BEL	2020-03-05	2020-03-05	day	2020	3	pandemic	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989516	2	5	focal	BEL	2020-03-13	2020-03-13	day	2020	3	pandemic	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989517	2	6	focal	BEL	2020-03-16	2020-03-16	day	2020	3	pandemic	PRJEB88325	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989518	2	5	focal	BEL	2020-03-16	2020-03-16	day	2020	3	pandemic	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989519	2	5	focal	BEL	2020-03-23	2020-03-23	day	2020	3	pandemic	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989520	2	6	focal	BEL	2020-03-23	2020-03-23	day	2020	3	pandemic	PRJEB88325	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989521	2	6	focal	BEL	2020-04-07	2020-04-07	day	2020	4	pandemic	PRJEB88325	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989522	2	6	focal	BEL	2020-04-09	2020-04-09	day	2020	4	pandemic	PRJEB88325	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989523	2	6	focal	BEL	2020-04-24	2020-04-24	day	2020	4	pandemic	PRJEB88325	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989524	2	5	focal	BEL	2020-05-20	2020-05-20	day	2020	5	pandemic	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989525	2	6	focal	BEL	2022-08-01	2022-08-01	day	2022	8	pandemic	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989526	2	6	focal	BEL	2022-11-14	2022-11-14	day	2022	11	pandemic	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989527	2	6	focal	BEL	2022-11-25	2022-11-25	day	2022	11	pandemic	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989528	2	6	focal	BEL	2023-01-23	2023-01-23	day	2023	1	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989529	2	6	focal	BEL	2023-03-31	2023-03-31	day	2023	3	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989530	2	6	focal	BEL	2023-04-21	2023-04-21	day	2023	4	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989531	2	6	focal	BEL	2023-04-21	2023-04-21	day	2023	4	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989532	2	6	focal	BEL	2023-04-25	2023-04-25	day	2023	4	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989533	2	6	focal	BEL	2023-05-08	2023-05-08	day	2023	5	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989534	2	6	focal	BEL	2023-05-09	2023-05-09	day	2023	5	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989535	2	6	focal	BEL	2023-05-14	2023-05-14	day	2023	5	resurgence	PRJEB88325	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989536	2	6	focal	BEL	2023-05-24	2023-05-24	day	2023	5	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989537	2	6	focal	BEL	2023-06-01	2023-06-01	day	2023	6	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989538	2	6	focal	BEL	2023-06-07	2023-06-07	day	2023	6	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989539	2	6	focal	BEL	2023-06-07	2023-06-07	day	2023	6	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989540	2	6	focal	BEL	2023-06-12	2023-06-12	day	2023	6	resurgence	PRJEB88325	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989541	1	2	focal	BEL	2023-06-12	2023-06-12	day	2023	6	resurgence	PRJEB88325	others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989542	2	6	focal	BEL	2023-06-12	2023-06-12	day	2023	6	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989543	2	6	focal	BEL	2023-06-09	2023-06-09	day	2023	6	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989544	2	6	focal	BEL	2023-06-20	2023-06-20	day	2023	6	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989545	2	7	focal	BEL	2023-07-07	2023-07-07	day	2023	7	resurgence	PRJEB88325	MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989546	1	2	focal	BEL	2023-07-10	2023-07-10	day	2023	7	resurgence	PRJEB88325	others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989547	2	5	focal	BEL	2023-07-03	2023-07-03	day	2023	7	resurgence	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989548	2	6	focal	BEL	2023-07-19	2023-07-19	day	2023	7	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989549	2	6	focal	BEL	2023-07-24	2023-07-24	day	2023	7	resurgence	PRJEB88325	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989550	1	2	focal	BEL	2023-07-25	2023-07-25	day	2023	7	resurgence	PRJEB88325	others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989551	2	6	focal	BEL	2023-07-20	2023-07-20	day	2023	7	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989552	2	6	focal	BEL	2023-07-30	2023-07-30	day	2023	7	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989553	2	6	focal	BEL	2023-07-27	2023-07-27	day	2023	7	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989554	2	6	focal	BEL	2023-07-28	2023-07-28	day	2023	7	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989555	2	6	focal	BEL	2023-08-01	2023-08-01	day	2023	8	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989556	2	6	focal	BEL	2023-08-04	2023-08-04	day	2023	8	resurgence	PRJEB88325	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989557	2	6	focal	BEL	2023-08-07	2023-08-07	day	2023	8	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989558	2	6	focal	BEL	2023-08-21	2023-08-21	day	2023	8	resurgence	PRJEB88325	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989559	2	6	focal	BEL	2023-08-22	2023-08-22	day	2023	8	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989560	2	6	focal	BEL	2023-08-28	2023-08-28	day	2023	8	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989561	2	6	focal	BEL	2023-08-28	2023-08-28	day	2023	8	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989562	2	6	focal	BEL	2023-08-26	2023-08-26	day	2023	8	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989564	2	6	focal	BEL	2023-08-31	2023-08-31	day	2023	8	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989565	2	6	focal	BEL	2023-08-30	2023-08-30	day	2023	8	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989567	2	6	focal	BEL	2023-09-07	2023-09-07	day	2023	9	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989568	2	6	focal	BEL	2023-09-08	2023-09-08	day	2023	9	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989569	2	6	focal	BEL	2023-09-08	2023-09-08	day	2023	9	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989570	2	6	focal	BEL	2023-09-08	2023-09-08	day	2023	9	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989571	2	6	focal	BEL	2023-09-14	2023-09-14	day	2023	9	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989572	2	6	focal	BEL	2023-09-19	2023-09-19	day	2023	9	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989573	2	7	focal	BEL	2023-09-25	2023-09-25	day	2023	9	resurgence	PRJEB88325	MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989574	2	6	focal	BEL	2023-09-25	2023-09-25	day	2023	9	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989575	2	6	focal	BEL	2023-09-26	2023-09-26	day	2023	9	resurgence	PRJEB88325	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989576	2	6	focal	BEL	2023-10-02	2023-10-02	day	2023	10	resurgence	PRJEB88325	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989577	2	6	focal	BEL	2023-10-05	2023-10-05	day	2023	10	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989578	2	6	focal	BEL	2023-10-08	2023-10-08	day	2023	10	resurgence	PRJEB88325	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989579	2	5	focal	BEL	2023-10-12	2023-10-12	day	2023	10	resurgence	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989580	2	6	focal	BEL	2023-10-13	2023-10-13	day	2023	10	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989581	2	6	focal	BEL	2023-10-18	2023-10-18	day	2023	10	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989582	2	6	focal	BEL	2023-10-19	2023-10-19	day	2023	10	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989583	2	6	focal	BEL	2023-10-17	2023-10-17	day	2023	10	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989584	1	2	focal	BEL	2023-10-31	2023-10-31	day	2023	10	resurgence	PRJEB88325	others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989585	2	6	focal	BEL	2023-10-30	2023-10-30	day	2023	10	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989586	2	6	focal	BEL	2023-11-06	2023-11-06	day	2023	11	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989587	2	6	focal	BEL	2023-11-08	2023-11-08	day	2023	11	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989588	2	5	focal	BEL	2023-11-13	2023-11-13	day	2023	11	resurgence	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989589	2	6	focal	BEL	2023-11-14	2023-11-14	day	2023	11	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989590	2	6	focal	BEL	2023-11-14	2023-11-14	day	2023	11	resurgence	PRJEB88325	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989592	2	5	focal	BEL	2023-11-16	2023-11-16	day	2023	11	resurgence	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989593	2	6	focal	BEL	2023-11-20	2023-11-20	day	2023	11	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989594	2	6	focal	BEL	2023-11-27	2023-11-27	day	2023	11	resurgence	PRJEB88325	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989595	2	6	focal	BEL	2023-11-27	2023-11-27	day	2023	11	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989596	2	6	focal	BEL	2023-11-27	2023-11-27	day	2023	11	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989597	2	6	focal	BEL	2023-11-26	2023-11-26	day	2023	11	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989598	2	6	focal	BEL	2023-11-29	2023-11-29	day	2023	11	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989599	1	2	focal	BEL	2023-12-05	2023-12-05	day	2023	12	resurgence	PRJEB88325	others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989601	2	6	focal	BEL	2023-12-11	2023-12-11	day	2023	12	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989604	2	6	focal	BEL	2023-12-11	2023-12-11	day	2023	12	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989605	2	6	focal	BEL	2023-12-14	2023-12-14	day	2023	12	resurgence	PRJEB88325	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989606	2	6	focal	BEL	2023-12-15	2023-12-15	day	2023	12	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989608	2	5	focal	BEL	2023-12-19	2023-12-19	day	2023	12	resurgence	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989610	2	5	focal	BEL	2023-12-20	2023-12-20	day	2023	12	resurgence	PRJEB88325	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989611	2	6	focal	BEL	2023-12-22	2023-12-22	day	2023	12	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989612	2	6	focal	BEL	2023-12-20	2023-12-20	day	2023	12	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989613	2	7	focal	BEL	2023-12-26	2023-12-26	day	2023	12	resurgence	PRJEB88325	MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989614	2	6	focal	BEL	2023-12-31	2023-12-31	day	2023	12	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989615	2	6	focal	BEL	2023-12-31	2023-12-31	day	2023	12	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989616	2	6	focal	BEL	2023-12-31	2023-12-31	day	2023	12	resurgence	PRJEB88325	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BEL__SAMEA117989617	2	6	focal	BEL	2023-12-31	2023-12-31	day	2023	12	resurgence	PRJEB88325	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN03249373	3	8	focal	CHN	1951-01-01	1951-12-31	year	1951		prepandemic	PRJNA266616	ptxP1/fim3-1	L1_03	L1_03.08	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN22851881	3	8	focal	CHN	1951-01-01	1951-12-31	year	1951		prepandemic	PRJNA777368	ptxP1/fim3-1	L1_03	L1_03.08	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN09947459	2	6	focal	CHN	2013-01-01	2013-12-31	year	2013		prepandemic	PRJNA489102		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN09947460	1	2	focal	CHN	2013-01-01	2013-12-31	year	2013		prepandemic	PRJNA489102	ptxP1/fim3-4	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN09947464	1	3	focal	CHN	2013-01-01	2013-12-31	year	2013		prepandemic	PRJNA489102	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN09947467	1	4	focal	CHN	2014-01-01	2014-12-31	year	2014		prepandemic	PRJNA489102	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN09947473	1	4	focal	CHN	2014-01-01	2014-12-31	year	2014		prepandemic	PRJNA489102	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN09947475	1	3	focal	CHN	2014-01-01	2014-12-31	year	2014		prepandemic	PRJNA489102	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN11295233	1	4	focal	CHN	2014-09-25	2014-09-25	day	2014	9	prepandemic	PRJNA530108	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN07326325	1	3	focal	CHN	2015-01-01	2015-12-31	year	2015		prepandemic	PRJNA393244		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN07329769	1	4	focal	CHN	2015-01-01	2015-12-31	year	2015		prepandemic	PRJNA393244	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN07329777	2	6	focal	CHN	2015-01-01	2015-12-31	year	2015		prepandemic	PRJNA393244	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN07329779	1	4	focal	CHN	2015-01-01	2015-12-31	year	2015		prepandemic	PRJNA393244	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN07329785	2	7	focal	CHN	2015-01-01	2015-12-31	year	2015		prepandemic	PRJNA393244	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN07329787	1	4	focal	CHN	2015-01-01	2015-12-31	year	2015		prepandemic	PRJNA393244	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN09947486	1	3	focal	CHN	2015-01-01	2015-12-31	year	2015		prepandemic	PRJNA489102	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN09947492	1	4	focal	CHN	2015-01-01	2015-12-31	year	2015		prepandemic	PRJNA489102	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN09947493	1	4	focal	CHN	2015-01-01	2015-12-31	year	2015		prepandemic	PRJNA489102		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN07329781	1	4	focal	CHN	2016-01-01	2016-12-31	year	2016		prepandemic	PRJNA393244	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN07329782	1	4	focal	CHN	2016-01-01	2016-12-31	year	2016		prepandemic	PRJNA393244	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN07329783	1	3	focal	CHN	2016-01-01	2016-12-31	year	2016		prepandemic	PRJNA393244	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN07329789	1	3	focal	CHN	2016-01-01	2016-12-31	year	2016		prepandemic	PRJNA393244	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN07329790	1	3	focal	CHN	2016-01-01	2016-12-31	year	2016		prepandemic	PRJNA393244		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN07329793	2	6	focal	CHN	2016-01-01	2016-12-31	year	2016		prepandemic	PRJNA393244	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN33268689	2	6	focal	CHN	2016-02-01	2016-02-29	month	2016	2	prepandemic	PRJNA934182	ptxP3	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN33268690	1	3	focal	CHN	2016-06-01	2016-06-30	month	2016	6	prepandemic	PRJNA934183		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN39683174	2	6	focal	CHN	2016-01-01	2016-12-31	year	2016		prepandemic	PRJNA1071282	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN39683176	2	6	focal	CHN	2016-01-01	2016-12-31	year	2016		prepandemic	PRJNA1071282	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN39682877	1	4	focal	CHN	2017-01-01	2017-12-31	year	2017		prepandemic	PRJNA1071282	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN39682878	1	4	focal	CHN	2017-01-01	2017-12-31	year	2017		prepandemic	PRJNA1071282	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN09941175	1	3	focal	CHN	2018-08-21	2018-08-21	day	2018	8	prepandemic	PRJNA488737	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN17613197	1	4	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA695405	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN17613198	1	4	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA695405	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN22233915	1	3	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA770762	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN22233924	2	5	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA770762	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN32033974	1	4	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA908268		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN32033981	1	3	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA908268		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN33268552	2	7	focal	CHN	2018-04-01	2018-04-30	month	2018	4	prepandemic	PRJNA934178	ptxP3	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN39682971	1	3	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1071282	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN39683227	2	6	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1071282	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151934	2	6	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151935	1	4	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151936	1	4	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151937	1	4	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151938	1	4	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151939	1	3	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151940	2	6	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151941	1	3	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151942	1	4	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151943	2	6	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151944	2	6	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151945	1	3	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151946	1	4	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151947	2	6	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151948	1	3	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151949	1	3	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151950	2	6	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151951	2	6	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151952	1	3	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151953	1	3	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151954	1	3	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151955	2	7	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151956	2	7	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151957	2	6	focal	CHN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN22233918	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA770762	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN22233923	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA770762	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN32033992	1	4	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA908268		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN32033997	2	7	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA908268		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN39683481	2	7	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1071282	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN39683486	1	4	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1071282	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373914	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373915	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373916	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373917	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373918	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373919	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373920	2	6	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373921	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373922	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373923	2	6	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373924	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373925	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373927	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373928	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373929	1	4	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373930	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373931	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373932	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373933	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373934	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373935	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373936	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373937	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373938	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373939	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373940	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373941	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373942	1	4	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373943	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373944	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373945	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373946	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373947	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373948	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373949	2	6	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373950	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373951	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373952	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373953	2	6	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373954	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373955	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373956	1	4	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373957	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373958	2	6	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373959	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373960	1	4	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373961	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373962	1	4	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373963	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373964	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373965	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373966	1	4	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373967	1	4	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373968	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373969	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373970	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373971	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373972	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373973	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373974	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373975	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1110622	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151958	2	7	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151959	1	4	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151960	2	6	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151961	2	6	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151962	2	7	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151963	2	7	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151964	2	7	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151965	2	7	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151966	2	6	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151967	2	6	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151968	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151969	2	6	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151970	2	6	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151971	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151972	1	4	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151973	2	6	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151974	1	4	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151975	1	4	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151976	1	4	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151977	2	7	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151978	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151979	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151980	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151981	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151982	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151983	1	3	focal	CHN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJNA1295129		L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN41373926	2	6	focal	CHN	2020-01-01	2020-12-31	year	2020		pandemic	PRJNA1110622	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156013	2	7	focal	CHN	2020-01-01	2020-12-31	year	2020		pandemic	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN32034026	2	7	focal	CHN	2021-01-01	2021-12-31	year	2021		pandemic	PRJNA908268		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN32034035	2	6	focal	CHN	2021-01-01	2021-12-31	year	2021		pandemic	PRJNA908268		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN39683296	2	6	focal	CHN	2021-01-01	2021-12-31	year	2021		pandemic	PRJNA1071282	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN39683299	2	6	focal	CHN	2021-01-01	2021-12-31	year	2021		pandemic	PRJNA1071282	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391088	1	3	focal	CHN	2021-07-28	2021-07-28	day	2021	7	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391089	1	3	focal	CHN	2021-11-13	2021-11-13	day	2021	11	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391090	1	3	focal	CHN	2021-11-21	2021-11-21	day	2021	11	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391091	1	3	focal	CHN	2021-11-22	2021-11-22	day	2021	11	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391092	1	4	focal	CHN	2021-11-27	2021-11-27	day	2021	11	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391093	1	3	focal	CHN	2021-12-08	2021-12-08	day	2021	12	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391095	1	3	focal	CHN	2021-12-20	2021-12-20	day	2021	12	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391096	1	3	focal	CHN	2021-12-20	2021-12-20	day	2021	12	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391098	1	3	focal	CHN	2021-12-30	2021-12-30	day	2021	12	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391099	1	3	focal	CHN	2021-12-30	2021-12-30	day	2021	12	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391105	1	3	focal	CHN	2021-08-22	2021-08-22	day	2021	8	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391107	1	3	focal	CHN	2021-08-26	2021-08-26	day	2021	8	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391108	1	3	focal	CHN	2021-09-13	2021-09-13	day	2021	9	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391109	2	6	focal	CHN	2021-10-03	2021-10-03	day	2021	10	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391110	1	4	focal	CHN	2021-10-26	2021-10-26	day	2021	10	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391111	1	3	focal	CHN	2021-10-23	2021-10-23	day	2021	10	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391112	1	3	focal	CHN	2021-12-09	2021-12-09	day	2021	12	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391113	1	3	focal	CHN	2021-12-14	2021-12-14	day	2021	12	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391114	1	3	focal	CHN	2021-12-10	2021-12-10	day	2021	12	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391115	2	7	focal	CHN	2021-12-10	2021-12-10	day	2021	12	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151990	2	7	focal	CHN	2021-01-01	2021-12-31	year	2021		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151991	2	7	focal	CHN	2021-01-01	2021-12-31	year	2021		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151995	2	7	focal	CHN	2021-01-01	2021-12-31	year	2021		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50151998	2	7	focal	CHN	2021-01-01	2021-12-31	year	2021		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152004	2	7	focal	CHN	2021-01-01	2021-12-31	year	2021		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152005	2	7	focal	CHN	2021-01-01	2021-12-31	year	2021		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152007	2	7	focal	CHN	2021-01-01	2021-12-31	year	2021		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152013	2	7	focal	CHN	2021-01-01	2021-12-31	year	2021		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN32034055	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA908268		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN32034068	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA908268		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN33268551	2	7	focal	CHN	2022-08-01	2022-08-31	month	2022	8	pandemic	PRJNA934177	ptxP3	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN39683369	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1071282	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN39683412	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1071282	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391094	1	3	focal	CHN	2022-08-09	2022-08-09	day	2022	8	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391100	1	3	focal	CHN	2022-02-10	2022-02-10	day	2022	2	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391101	1	3	focal	CHN	2022-02-24	2022-02-24	day	2022	2	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391102	1	3	focal	CHN	2022-03-15	2022-03-15	day	2022	3	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391103	2	7	focal	CHN	2022-03-15	2022-03-15	day	2022	3	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391104	2	7	focal	CHN	2022-03-16	2022-03-16	day	2022	3	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391106	1	3	focal	CHN	2022-03-21	2022-03-21	day	2022	3	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391116	2	7	focal	CHN	2022-02-24	2022-02-24	day	2022	2	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391117	1	3	focal	CHN	2022-03-06	2022-03-06	day	2022	3	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391118	2	7	focal	CHN	2022-03-24	2022-03-24	day	2022	3	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391119	2	7	focal	CHN	2022-03-25	2022-03-25	day	2022	3	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391120	1	3	focal	CHN	2022-03-27	2022-03-27	day	2022	3	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391121	2	7	focal	CHN	2022-03-29	2022-03-29	day	2022	3	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391122	2	7	focal	CHN	2022-04-21	2022-04-21	day	2022	4	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391123	1	3	focal	CHN	2022-04-21	2022-04-21	day	2022	4	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391124	2	7	focal	CHN	2022-05-01	2022-05-01	day	2022	5	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391125	1	3	focal	CHN	2022-05-06	2022-05-06	day	2022	5	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391126	2	7	focal	CHN	2022-05-08	2022-05-08	day	2022	5	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391127	1	3	focal	CHN	2022-05-21	2022-05-21	day	2022	5	pandemic	PRJNA1133929	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391128	2	7	focal	CHN	2022-05-25	2022-05-25	day	2022	5	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391129	2	7	focal	CHN	2022-05-28	2022-05-28	day	2022	5	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391130	2	7	focal	CHN	2022-06-11	2022-06-11	day	2022	6	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391131	2	7	focal	CHN	2022-06-14	2022-06-14	day	2022	6	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391132	2	7	focal	CHN	2022-08-07	2022-08-07	day	2022	8	pandemic	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156014	1	4	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1193776		L1_01	L1_01.04	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156015	2	6	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156016	2	6	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1193776		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156019	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156020	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156021	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156022	1	3	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1193776	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152020	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152021	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152026	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152028	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152031	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152036	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152040	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152043	2	7	focal	CHN	2022-01-01	2022-12-31	year	2022		pandemic	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN39683154	1	3	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1071282	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN39683447	2	7	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1071282	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391133	2	7	focal	CHN	2023-05-17	2023-05-17	day	2023	5	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391134	2	7	focal	CHN	2023-06-26	2023-06-26	day	2023	6	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391135	2	7	focal	CHN	2023-08-10	2023-08-10	day	2023	8	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391136	2	7	focal	CHN	2023-08-17	2023-08-17	day	2023	8	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391137	2	7	focal	CHN	2023-08-27	2023-08-27	day	2023	8	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391138	2	7	focal	CHN	2023-08-30	2023-08-30	day	2023	8	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391139	2	7	focal	CHN	2023-09-12	2023-09-12	day	2023	9	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391140	2	7	focal	CHN	2023-10-15	2023-10-15	day	2023	10	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391141	2	7	focal	CHN	2023-10-20	2023-10-20	day	2023	10	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391142	2	7	focal	CHN	2023-10-28	2023-10-28	day	2023	10	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391143	2	7	focal	CHN	2023-10-30	2023-10-30	day	2023	10	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391144	2	7	focal	CHN	2023-11-10	2023-11-10	day	2023	11	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391145	2	7	focal	CHN	2023-11-08	2023-11-08	day	2023	11	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391146	2	7	focal	CHN	2023-11-13	2023-11-13	day	2023	11	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391147	2	7	focal	CHN	2023-11-14	2023-11-14	day	2023	11	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391148	2	7	focal	CHN	2023-11-22	2023-11-22	day	2023	11	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391149	2	7	focal	CHN	2023-12-19	2023-12-19	day	2023	12	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN42391150	2	7	focal	CHN	2023-12-29	2023-12-29	day	2023	12	resurgence	PRJNA1133929	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583814	2	7	focal	CHN	2023-02-04	2023-02-04	day	2023	2	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583815	2	7	focal	CHN	2023-02-07	2023-02-07	day	2023	2	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583816	2	7	focal	CHN	2023-03-27	2023-03-27	day	2023	3	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583817	2	7	focal	CHN	2023-03-27	2023-03-27	day	2023	3	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583818	2	7	focal	CHN	2023-03-27	2023-03-27	day	2023	3	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583819	2	7	focal	CHN	2023-04-06	2023-04-06	day	2023	4	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583820	2	7	focal	CHN	2023-04-23	2023-04-23	day	2023	4	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583821	2	7	focal	CHN	2023-04-21	2023-04-21	day	2023	4	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583822	2	6	focal	CHN	2023-06-08	2023-06-08	day	2023	6	resurgence	PRJNA1182239		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583823	2	7	focal	CHN	2023-06-12	2023-06-12	day	2023	6	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583824	2	7	focal	CHN	2023-06-12	2023-06-12	day	2023	6	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583825	2	7	focal	CHN	2023-06-23	2023-06-23	day	2023	6	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583826	2	7	focal	CHN	2023-07-21	2023-07-21	day	2023	7	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583827	2	7	focal	CHN	2023-07-30	2023-07-30	day	2023	7	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583828	2	7	focal	CHN	2023-09-23	2023-09-23	day	2023	9	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583829	2	7	focal	CHN	2023-11-10	2023-11-10	day	2023	11	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583830	2	7	focal	CHN	2023-11-14	2023-11-14	day	2023	11	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583831	2	7	focal	CHN	2023-11-14	2023-11-14	day	2023	11	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583832	2	7	focal	CHN	2023-11-16	2023-11-16	day	2023	11	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156018	2	7	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156024	2	7	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156025	2	6	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1193776		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156026	2	6	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1193776		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156027	2	7	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156028	2	7	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156030	2	7	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152046	2	7	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152047	2	7	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152049	2	7	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152051	2	7	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152052	2	7	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152053	2	7	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152054	2	7	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152056	2	7	focal	CHN	2023-01-01	2023-12-31	year	2023		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN40924133	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1071282	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN40924154	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1071282	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024010	2	7	focal	CHN	2024-04-22	2024-04-22	day	2024	4	resurgence	PRJNA1143937	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024011	2	7	focal	CHN	2024-04-22	2024-04-22	day	2024	4	resurgence	PRJNA1143937	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024012	2	7	focal	CHN	2024-04-22	2024-04-22	day	2024	4	resurgence	PRJNA1143937	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024013	2	7	focal	CHN	2024-04-23	2024-04-23	day	2024	4	resurgence	PRJNA1143937	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024014	2	7	focal	CHN	2024-04-20	2024-04-20	day	2024	4	resurgence	PRJNA1143937	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024015	2	7	focal	CHN	2024-04-20	2024-04-20	day	2024	4	resurgence	PRJNA1143937	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024016	2	7	focal	CHN	2024-04-29	2024-04-29	day	2024	4	resurgence	PRJNA1143937	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024017	2	7	focal	CHN	2024-05-02	2024-05-02	day	2024	5	resurgence	PRJNA1143937	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024018	2	7	focal	CHN	2024-05-02	2024-05-02	day	2024	5	resurgence	PRJNA1143937	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024019	2	7	focal	CHN	2024-05-02	2024-05-02	day	2024	5	resurgence	PRJNA1143937	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024020	2	7	focal	CHN	2024-05-02	2024-05-02	day	2024	5	resurgence	PRJNA1143937	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024021	2	7	focal	CHN	2024-05-02	2024-05-02	day	2024	5	resurgence	PRJNA1143937	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024023	2	7	focal	CHN	2024-05-13	2024-05-13	day	2024	5	resurgence	PRJNA1143937		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024024	2	7	focal	CHN	2024-05-16	2024-05-16	day	2024	5	resurgence	PRJNA1143937		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024025	2	7	focal	CHN	2024-05-16	2024-05-16	day	2024	5	resurgence	PRJNA1143937		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024027	2	7	focal	CHN	2024-06-03	2024-06-03	day	2024	6	resurgence	PRJNA1143937		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024031	2	7	focal	CHN	2024-05-30	2024-05-30	day	2024	5	resurgence	PRJNA1143937	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024032	2	7	focal	CHN	2024-05-01	2024-05-31	month	2024	5	resurgence	PRJNA1143937		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN43024034	2	7	focal	CHN	2024-05-01	2024-05-31	month	2024	5	resurgence	PRJNA1143937		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583833	2	7	focal	CHN	2024-01-18	2024-01-18	day	2024	1	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583834	2	7	focal	CHN	2024-01-18	2024-01-18	day	2024	1	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583835	2	7	focal	CHN	2024-01-24	2024-01-24	day	2024	1	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583837	2	7	focal	CHN	2024-01-25	2024-01-25	day	2024	1	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583838	2	7	focal	CHN	2024-01-30	2024-01-30	day	2024	1	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583839	2	7	focal	CHN	2024-01-30	2024-01-30	day	2024	1	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583840	2	7	focal	CHN	2024-01-31	2024-01-31	day	2024	1	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583843	2	7	focal	CHN	2024-02-02	2024-02-02	day	2024	2	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583845	2	7	focal	CHN	2024-02-02	2024-02-02	day	2024	2	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583846	2	7	focal	CHN	2024-02-02	2024-02-02	day	2024	2	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583859	2	7	focal	CHN	2024-02-06	2024-02-06	day	2024	2	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583863	2	7	focal	CHN	2024-01-31	2024-01-31	day	2024	1	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583865	2	7	focal	CHN	2024-02-08	2024-02-08	day	2024	2	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583870	2	7	focal	CHN	2024-02-23	2024-02-23	day	2024	2	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583871	2	7	focal	CHN	2024-02-26	2024-02-26	day	2024	2	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583872	2	7	focal	CHN	2024-02-26	2024-02-26	day	2024	2	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583886	2	7	focal	CHN	2024-03-05	2024-03-05	day	2024	3	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583912	2	7	focal	CHN	2024-03-15	2024-03-15	day	2024	3	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583924	2	7	focal	CHN	2024-03-15	2024-03-15	day	2024	3	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583927	2	7	focal	CHN	2024-03-18	2024-03-18	day	2024	3	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583945	2	7	focal	CHN	2024-03-20	2024-03-20	day	2024	3	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583946	2	7	focal	CHN	2024-03-20	2024-03-20	day	2024	3	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583959	2	7	focal	CHN	2024-03-22	2024-03-22	day	2024	3	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44583972	2	7	focal	CHN	2024-03-25	2024-03-25	day	2024	3	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584005	2	7	focal	CHN	2024-04-03	2024-04-03	day	2024	4	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584012	2	7	focal	CHN	2024-04-10	2024-04-10	day	2024	4	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584022	2	7	focal	CHN	2024-04-12	2024-04-12	day	2024	4	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584026	2	7	focal	CHN	2024-04-16	2024-04-16	day	2024	4	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584033	2	7	focal	CHN	2024-04-18	2024-04-18	day	2024	4	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584039	2	7	focal	CHN	2024-04-18	2024-04-18	day	2024	4	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584040	2	7	focal	CHN	2024-04-18	2024-04-18	day	2024	4	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584044	2	7	focal	CHN	2024-04-23	2024-04-23	day	2024	4	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584067	2	7	focal	CHN	2024-05-09	2024-05-09	day	2024	5	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584068	2	7	focal	CHN	2024-05-09	2024-05-09	day	2024	5	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584073	2	7	focal	CHN	2024-05-14	2024-05-14	day	2024	5	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584075	2	7	focal	CHN	2024-05-16	2024-05-16	day	2024	5	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584082	2	7	focal	CHN	2024-05-16	2024-05-16	day	2024	5	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584094	2	7	focal	CHN	2024-05-24	2024-05-24	day	2024	5	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44584104	2	7	focal	CHN	2024-05-30	2024-05-30	day	2024	5	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590209	2	7	focal	CHN	2024-05-30	2024-05-30	day	2024	5	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590214	2	7	focal	CHN	2024-06-03	2024-06-03	day	2024	6	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590219	2	7	focal	CHN	2024-06-06	2024-06-06	day	2024	6	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590224	2	7	focal	CHN	2024-06-03	2024-06-03	day	2024	6	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590233	2	7	focal	CHN	2024-06-13	2024-06-13	day	2024	6	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590238	2	7	focal	CHN	2024-06-13	2024-06-13	day	2024	6	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590242	2	7	focal	CHN	2024-06-19	2024-06-19	day	2024	6	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590252	2	7	focal	CHN	2024-06-21	2024-06-21	day	2024	6	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590257	2	7	focal	CHN	2024-06-27	2024-06-27	day	2024	6	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590261	2	7	focal	CHN	2024-07-01	2024-07-01	day	2024	7	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590265	2	7	focal	CHN	2024-07-04	2024-07-04	day	2024	7	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590268	2	7	focal	CHN	2024-07-04	2024-07-04	day	2024	7	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590275	2	7	focal	CHN	2024-07-04	2024-07-04	day	2024	7	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590276	2	7	focal	CHN	2024-07-04	2024-07-04	day	2024	7	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590282	2	7	focal	CHN	2024-07-19	2024-07-19	day	2024	7	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590283	2	7	focal	CHN	2024-07-19	2024-07-19	day	2024	7	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590291	2	7	focal	CHN	2024-07-19	2024-07-19	day	2024	7	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590292	2	7	focal	CHN	2024-08-01	2024-08-01	day	2024	8	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590294	2	7	focal	CHN	2024-08-01	2024-08-01	day	2024	8	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590295	2	7	focal	CHN	2024-08-01	2024-08-01	day	2024	8	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590307	2	7	focal	CHN	2024-08-27	2024-08-27	day	2024	8	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590310	2	7	focal	CHN	2024-08-27	2024-08-27	day	2024	8	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590311	2	7	focal	CHN	2024-08-27	2024-08-27	day	2024	8	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590312	2	7	focal	CHN	2024-08-27	2024-08-27	day	2024	8	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN44590314	2	7	focal	CHN	2024-08-30	2024-08-30	day	2024	8	resurgence	PRJNA1182239		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156031	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156034	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156054	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156057	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156063	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN45156066	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1193776	ptxP3/fim3-1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152057	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152059	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152066	2	6	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1295129		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152069	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152080	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152085	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152092	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CHN__SAMN50152101	2	7	focal	CHN	2024-01-01	2024-12-31	year	2024		resurgence	PRJNA1295129		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA751372	2	5	focal	FRA	2000-01-01	2000-12-31	year	2000		prepandemic	PRJEB2274	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMN03366100	2	5	focal	FRA	2007-01-01	2007-12-31	year	2007		prepandemic	PRJNA266616	fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMN03491902	2	5	focal	FRA	2008-01-01	2008-12-31	year	2008		prepandemic	PRJNA281570	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMN03491903	2	5	focal	FRA	2009-01-01	2009-12-31	year	2009		prepandemic	PRJNA281570	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA4700352	2	6	focal	FRA	2014-01-01	2014-12-31	year	2014		prepandemic	PRJEB27048	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMN09862835	2	6	focal	FRA	2014-01-01	2014-12-31	year	2014		prepandemic	PRJNA486745	ptxP3	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874185	2	6	focal	FRA	2023-01-01	2023-12-31	year	2023		resurgence	PRJEB42353	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874186	2	6	focal	FRA	2023-01-01	2023-12-31	year	2023		resurgence	PRJEB42353	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874187	2	6	focal	FRA	2023-01-01	2023-12-31	year	2023		resurgence	PRJEB42353	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874188	2	6	focal	FRA	2023-01-01	2023-12-31	year	2023		resurgence	PRJEB42353	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874189	2	5	focal	FRA	2023-01-01	2023-12-31	year	2023		resurgence	PRJEB42353	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874190	2	6	focal	FRA	2023-01-01	2023-12-31	year	2023		resurgence	PRJEB42353	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874191	2	6	focal	FRA	2023-01-01	2023-12-31	year	2023		resurgence	PRJEB42353	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874193	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874194	2	5	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874195	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874196	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874197	2	7	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874198	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874199	2	7	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874200	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874201	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874203	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874206	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874207	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874208	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874210	2	7	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	MR-MT28-PG1	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874211	2	5	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874212	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874213	1	2	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874214	2	5	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874215	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 2	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874216	1	2	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874217	2	7	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874218	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874219	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874220	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874222	1	2	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874223	2	7	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874224	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874225	2	5	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874226	1	2	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874228	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874229	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874235	2	5	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874237	2	5	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874240	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874241	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874242	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874243	1	2	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874245	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874248	2	5	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA115874249	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB42353	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA117615782	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB85093	ptxP3	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA117615783	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB85093	ptxP3	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA117615784	2	7	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB85093	ptxP3	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA117615785	2	6	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB85093	ptxP3	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMEA117615786	1	2	focal	FRA	2024-01-01	2024-12-31	year	2024		resurgence	PRJEB85093	ptxP1	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FRA__SAMN42490576	2	6	focal	FRA	2024-05-01	2024-05-31	month	2024	5	resurgence	PRJNA1135758	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMN04875532	3	8	focal	JPN	1950-01-01	1950-12-31	year	1950		prepandemic	PRJNA231221	ptxP1/fim3-1	L1_03	L1_03.08	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMN03249374	3	8	focal	JPN	1954-01-01	1954-12-31	year	1954		prepandemic	PRJNA266616	ptxP1	L1_03	L1_03.08	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMN09862822	3	8	focal	JPN	1954-01-01	1954-12-31	year	1954		prepandemic	PRJNA486745	ptxP1	L1_03	L1_03.08	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41263168	3	9	focal	JPN	1982-01-01	1982-12-31	year	1982		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41187418	3	9	focal	JPN	1983-01-01	1983-12-31	year	1983		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41296918	3	9	focal	JPN	1983-01-01	1983-12-31	year	1983		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41211418	3	9	focal	JPN	1990-01-01	1990-12-31	year	1990		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41286418	3	9	focal	JPN	1990-01-01	1990-12-31	year	1990		prepandemic	PRJEB18624	others	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA751448	3	9	focal	JPN	1991-01-01	1991-12-31	year	1991		prepandemic	PRJEB2274		L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41226418	1	1	focal	JPN	1992-01-01	1992-12-31	year	1992		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41241418	2	5	focal	JPN	1994-01-01	1994-12-31	year	1994		prepandemic	PRJEB18624	ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41249668	2	5	focal	JPN	1994-01-01	1994-12-31	year	1994		prepandemic	PRJEB18624	ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41188918	2	5	focal	JPN	1999-01-01	1999-12-31	year	1999		prepandemic	PRJEB18624	ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA751489	3	8	focal	JPN	1999-01-01	1999-12-31	year	1999		prepandemic	PRJEB2274	ptxP1/fim3-1	L1_03	L1_03.08	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41194168	2	5	focal	JPN	2000-01-01	2000-12-31	year	2000		prepandemic	PRJEB18624	ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41214418	2	6	focal	JPN	2002-01-01	2002-12-31	year	2002		prepandemic	PRJEB18624	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41218168	3	9	focal	JPN	2003-01-01	2003-12-31	year	2003		prepandemic	PRJEB18624	others	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41218918	3	9	focal	JPN	2003-01-01	2003-12-31	year	2003		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00570793	2	5	focal	JPN	2004-01-01	2004-12-31	year	2004		prepandemic	PRJDB7578	ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41224918	3	9	focal	JPN	2004-01-01	2004-12-31	year	2004		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41227918	2	5	focal	JPN	2005-01-01	2005-12-31	year	2005		prepandemic	PRJEB18624	ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41231668	2	5	focal	JPN	2006-01-01	2006-12-31	year	2006		prepandemic	PRJEB18624	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA751127	3	9	focal	JPN	2006-01-01	2006-12-31	year	2006		prepandemic	PRJEB2274	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41239918	2	5	focal	JPN	2007-01-01	2007-12-31	year	2007		prepandemic	PRJEB18624	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41242918	2	5	focal	JPN	2007-01-01	2007-12-31	year	2007		prepandemic	PRJEB18624	ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41240668	2	5	focal	JPN	2008-01-01	2008-12-31	year	2008		prepandemic	PRJEB18624	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41297668	3	9	focal	JPN	2008-01-01	2008-12-31	year	2008		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41307418	3	9	focal	JPN	2009-01-01	2009-12-31	year	2009		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00328188	2	6	focal	JPN	2010-01-01	2010-12-31	year	2010		prepandemic	PRJDB7578	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00328195	2	6	focal	JPN	2011-01-01	2011-12-31	year	2011		prepandemic	PRJDB7578	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41257168	2	6	focal	JPN	2011-01-01	2011-12-31	year	2011		prepandemic	PRJEB18624	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00328201	2	6	focal	JPN	2012-01-01	2012-12-31	year	2012		prepandemic	PRJDB7578	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41264668	2	5	focal	JPN	2012-01-01	2012-12-31	year	2012		prepandemic	PRJEB18624	ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41323168	2	6	focal	JPN	2012-01-01	2012-12-31	year	2012		prepandemic	PRJEB18624	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00549621	2	6	focal	JPN	2015-01-01	2015-12-31	year	2015		prepandemic	PRJDB7578	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00549631	3	9	focal	JPN	2016-01-01	2016-12-31	year	2016		prepandemic	PRJDB7578	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00328237	1	3	focal	JPN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJDB7578	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00549575	1	3	focal	JPN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJDB7578	ptxP1/fim3-1	L1_01	L1_01.03	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00549636	2	6	focal	JPN	2018-01-01	2018-12-31	year	2018		prepandemic	PRJDB7578	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00872997	2	6	focal	JPN	2019-01-01	2019-12-31	year	2019		prepandemic	PRJDB7578		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00570813	2	6	focal	JPN	2020-01-01	2020-12-31	year	2020		pandemic	PRJDB7578	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00885979	2	7	focal	JPN	2024-12-09	2024-12-09	day	2024	12	resurgence	PRJDB20292		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00885980	2	7	focal	JPN	2024-12-09	2024-12-09	day	2024	12	resurgence	PRJDB20292		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892034	2	7	focal	JPN	2024-12-14	2024-12-14	day	2024	12	resurgence	PRJDB20413		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00920271	2	7	focal	JPN	2024-01-01	2024-12-31	year	2024		resurgence	PRJDB34249		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00920272	2	7	focal	JPN	2024-01-01	2024-12-31	year	2024		resurgence	PRJDB34249		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00920273	2	7	focal	JPN	2024-01-01	2024-12-31	year	2024		resurgence	PRJDB34249		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00920274	2	5	focal	JPN	2024-01-01	2024-12-31	year	2024		resurgence	PRJDB34249		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00920275	2	7	focal	JPN	2024-01-01	2024-12-31	year	2024		resurgence	PRJDB34249		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00920276	2	7	focal	JPN	2024-01-01	2024-12-31	year	2024		resurgence	PRJDB34249		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00920279	2	7	focal	JPN	2024-01-01	2024-12-31	year	2024		resurgence	PRJDB34249		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00920280	2	7	focal	JPN	2024-01-01	2024-12-31	year	2024		resurgence	PRJDB34249		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01593369	2	7	focal	JPN	2024-09-12	2024-09-12	day	2024	9	resurgence	PRJDB35593	ptxP3	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01593370	2	7	focal	JPN	2024-09-18	2024-09-18	day	2024	9	resurgence	PRJDB35593	ptxP3	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01593371	2	7	focal	JPN	2024-11-13	2024-11-13	day	2024	11	resurgence	PRJDB35593	ptxP3	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01593372	1	2	focal	JPN	2024-12-12	2024-12-12	day	2024	12	resurgence	PRJDB35593	ptxP1	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01593373	2	7	focal	JPN	2024-12-12	2024-12-12	day	2024	12	resurgence	PRJDB35593	ptxP3	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01593374	2	7	focal	JPN	2024-12-11	2024-12-11	day	2024	12	resurgence	PRJDB35593	ptxP3	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892035	2	7	focal	JPN	2025-01-06	2025-01-06	day	2025	1	resurgence	PRJDB20413		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892036	2	7	focal	JPN	2025-01-15	2025-01-15	day	2025	1	resurgence	PRJDB20413		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892038	2	6	focal	JPN	2025-01-21	2025-01-21	day	2025	1	resurgence	PRJDB20413		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892039	2	7	focal	JPN	2025-01-24	2025-01-24	day	2025	1	resurgence	PRJDB20413		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892040	2	7	focal	JPN	2025-01-22	2025-01-22	day	2025	1	resurgence	PRJDB20413		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892042	2	7	focal	JPN	2025-01-25	2025-01-25	day	2025	1	resurgence	PRJDB20413		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892045	2	7	focal	JPN	2025-02-03	2025-02-03	day	2025	2	resurgence	PRJDB20413		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892046	2	7	focal	JPN	2025-02-03	2025-02-03	day	2025	2	resurgence	PRJDB20413		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892047	2	7	focal	JPN	2025-02-07	2025-02-07	day	2025	2	resurgence	PRJDB20413		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892048	2	7	focal	JPN	2025-01-30	2025-01-30	day	2025	1	resurgence	PRJDB20413		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892049	2	7	focal	JPN	2025-02-06	2025-02-06	day	2025	2	resurgence	PRJDB20413		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892050	2	7	focal	JPN	2025-01-28	2025-01-28	day	2025	1	resurgence	PRJDB20413		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892052	2	7	focal	JPN	2025-02-03	2025-02-03	day	2025	2	resurgence	PRJDB20413		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00892053	2	7	focal	JPN	2025-02-03	2025-02-03	day	2025	2	resurgence	PRJDB20413		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00920281	2	5	focal	JPN	2025-01-01	2025-12-31	year	2025		resurgence	PRJDB34249		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD00920282	2	7	focal	JPN	2025-01-01	2025-12-31	year	2025		resurgence	PRJDB34249		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01593375	2	7	focal	JPN	2025-01-21	2025-01-21	day	2025	1	resurgence	PRJDB35593	ptxP3	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01593376	2	7	focal	JPN	2025-01-16	2025-01-16	day	2025	1	resurgence	PRJDB35593	ptxP3	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697899	2	7	focal	JPN	2025-05-01	2025-05-01	day	2025	5	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697901	2	7	focal	JPN	2025-05-19	2025-05-19	day	2025	5	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697902	2	7	focal	JPN	2025-05-19	2025-05-19	day	2025	5	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697903	2	7	focal	JPN	2025-05-26	2025-05-26	day	2025	5	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697906	2	7	focal	JPN	2025-05-26	2025-05-26	day	2025	5	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697907	2	7	focal	JPN	2025-05-26	2025-05-26	day	2025	5	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697909	2	7	focal	JPN	2025-05-26	2025-05-26	day	2025	5	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697911	2	7	focal	JPN	2025-02-25	2025-02-25	day	2025	2	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697912	2	7	focal	JPN	2025-02-25	2025-02-25	day	2025	2	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697913	2	7	focal	JPN	2025-02-25	2025-02-25	day	2025	2	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697914	2	7	focal	JPN	2025-02-25	2025-02-25	day	2025	2	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697915	2	7	focal	JPN	2025-02-25	2025-02-25	day	2025	2	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697916	2	7	focal	JPN	2025-02-25	2025-02-25	day	2025	2	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697917	2	7	focal	JPN	2025-02-25	2025-02-25	day	2025	2	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697918	2	7	focal	JPN	2025-02-25	2025-02-25	day	2025	2	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697919	2	6	focal	JPN	2025-03-03	2025-03-03	day	2025	3	resurgence	PRJDB37898		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697920	2	7	focal	JPN	2025-03-07	2025-03-07	day	2025	3	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697925	2	7	focal	JPN	2025-04-22	2025-04-22	day	2025	4	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697929	2	7	focal	JPN	2025-06-02	2025-06-02	day	2025	6	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697933	2	7	focal	JPN	2025-06-09	2025-06-09	day	2025	6	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01697934	2	7	focal	JPN	2025-06-16	2025-06-16	day	2025	6	resurgence	PRJDB37898		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01797761	2	5	focal	JPN	2025-03-01	2025-03-31	month	2025	3	resurgence	PRJDB34249		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01797762	2	7	focal	JPN	2025-05-01	2025-05-31	month	2025	5	resurgence	PRJDB34249		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01797763	2	7	focal	JPN	2025-07-01	2025-07-31	month	2025	7	resurgence	PRJDB34249		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMD01797764	2	7	focal	JPN	2025-10-01	2025-10-31	month	2025	10	resurgence	PRJDB34249		L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ARG__SAMEA751134	2	5	global_background	ARG	2008-01-01	2008-12-31	year	2008		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUT__SAMN15396157	2	6	global_background	AUT			unknown			unknown		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUT__SAMN29408379	2	6	global_background	AUT			unknown			unknown		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUT__SAMN15702625	3	9	global_background	AUT	2003-01-01	2003-12-31	year	2003		prepandemic		ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUT__SAMN15396194	2	7	global_background	AUT	2018-01-01	2018-12-31	year	2018		prepandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUT__SAMN15396214	2	5	global_background	AUT	2018-01-01	2018-12-31	year	2018		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUT__SAMN15396105	2	7	global_background	AUT	2019-01-01	2019-12-31	year	2019		prepandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUT__SAMN15396117	2	5	global_background	AUT	2019-01-01	2019-12-31	year	2019		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUT__SAMN15396122	2	6	global_background	AUT	2019-01-01	2019-12-31	year	2019		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUT__SAMN15396159	2	6	global_background	AUT	2019-01-01	2019-12-31	year	2019		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUT__SAMN15396107	2	6	global_background	AUT	2020-01-01	2020-12-31	year	2020		pandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUT__SAMN15396108	2	5	global_background	AUT	2020-01-01	2020-12-31	year	2020		pandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUT__SAMN15396109	2	7	global_background	AUT	2020-01-01	2020-12-31	year	2020		pandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUT__SAMN15396110	2	6	global_background	AUT	2020-01-01	2020-12-31	year	2020		pandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUT__SAMN15396112	2	7	global_background	AUT	2020-01-01	2020-12-31	year	2020		pandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BRA__SAMN05776224	2	5	global_background	BRA	2004-01-01	2004-12-31	year	2004		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BRA__SAMN05782317	2	5	global_background	BRA	2004-01-01	2004-12-31	year	2004		prepandemic		ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BRA__SAMN05784484	2	5	global_background	BRA	2008-01-01	2008-12-31	year	2008		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BRA__SAMN02940632	2	5	global_background	BRA	2011-01-01	2011-12-31	year	2011		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+BRA__SAMN05783037	2	5	global_background	BRA	2013-01-01	2013-12-31	year	2013		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CAN__SAMN06113467	2	6	global_background	CAN	2013-01-01	2013-12-31	year	2013		prepandemic		United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+CAN__SAMN06113472	2	6	global_background	CAN	2013-01-01	2013-12-31	year	2013		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+DEU__SAMN22091640	4	12	global_background	DEU			unknown			unknown		others	L1_04	L1_04.12	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+DEU__SAMN43964887	2	5	global_background	DEU	2011-01-01	2011-12-31	year	2011		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+DNK__SAMEA3923585	3	10	global_background	DNK	1952-01-01	1952-12-31	year	1952		prepandemic		others	L1_03	L1_03.10	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+DNK__SAMEA751162	1	1	global_background	DNK	1962-01-01	1962-12-31	year	1962		prepandemic		ptxP1/fim3-1	L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+DNK__SAMEA3923584	3	10	global_background	DNK	1973-01-01	1973-12-31	year	1973		prepandemic		others	L1_03	L1_03.10	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+DNK__SAMEA751164	2	5	global_background	DNK	2002-01-01	2002-12-31	year	2002		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+DNK__SAMEA8914402	2	7	global_background	DNK	2015-01-01	2015-12-31	year	2015		prepandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+DNK__SAMEA8914404	2	6	global_background	DNK	2015-01-01	2015-12-31	year	2015		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+DNK__SAMEA8914415	2	5	global_background	DNK	2015-01-01	2015-12-31	year	2015		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+DNK__SAMEA8914405	2	6	global_background	DNK	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+DNK__SAMEA8914410	2	7	global_background	DNK	2016-01-01	2016-12-31	year	2016		prepandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378546	1	1	global_background	ESP	1989-01-01	1989-12-31	year	1989		prepandemic		ptxP1/fim3-1	L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378544	2	5	global_background	ESP	1996-01-01	1996-12-31	year	1996		prepandemic		ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378549	2	5	global_background	ESP	1999-01-01	1999-12-31	year	1999		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378550	2	5	global_background	ESP	1999-01-01	1999-12-31	year	1999		prepandemic		ptxP1/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378551	2	5	global_background	ESP	1999-01-01	1999-12-31	year	1999		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378322	2	5	global_background	ESP	2000-01-01	2000-12-31	year	2000		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378558	2	6	global_background	ESP	2008-01-01	2008-12-31	year	2008		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378352	2	5	global_background	ESP	2009-01-01	2009-12-31	year	2009		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378570	2	6	global_background	ESP	2009-01-01	2009-12-31	year	2009		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378565	2	5	global_background	ESP	2010-01-01	2010-12-31	year	2010		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378366	2	5	global_background	ESP	2011-01-01	2011-12-31	year	2011		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378393	2	6	global_background	ESP	2012-01-01	2012-12-31	year	2012		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378592	2	6	global_background	ESP	2012-01-01	2012-12-31	year	2012		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMEA8914418	1	1	global_background	ESP	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP1/fim3-1	L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378404	1	1	global_background	ESP	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP1/fim3-1	L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMEA8914438	2	5	global_background	ESP	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378420	2	5	global_background	ESP	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378598	2	6	global_background	ESP	2017-01-01	2017-12-31	year	2017		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN16378425	2	6	global_background	ESP	2018-01-01	2018-12-31	year	2018		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN40551704	2	6	global_background	ESP	2024-01-01	2024-12-31	year	2024		resurgence		Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ESP__SAMN40551705	2	6	global_background	ESP	2024-01-01	2024-12-31	year	2024		resurgence		Europe sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FIN__SAMEA751152	2	5	global_background	FIN	1999-01-01	1999-12-31	year	1999		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FIN__SAMEA8914452	2	6	global_background	FIN	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FIN__SAMEA8914453	2	5	global_background	FIN	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FIN__SAMEA8914454	2	6	global_background	FIN	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FIN__SAMEA8914458	2	6	global_background	FIN	2015-01-01	2015-12-31	year	2015		prepandemic		United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FIN__SAMEA8914464	2	5	global_background	FIN	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FIN__SAMEA8914470	2	7	global_background	FIN	2016-01-01	2016-12-31	year	2016		prepandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FIN__SAMEA8914471	2	7	global_background	FIN	2016-01-01	2016-12-31	year	2016		prepandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FIN__SAMEA8914472	2	6	global_background	FIN	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FIN__SAMEA8914474	2	5	global_background	FIN	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+FIN__SAMEA8914475	2	6	global_background	FIN	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+GTM__SAMN08395632	2	6	global_background	GTM	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+GTM__SAMN08395634	2	6	global_background	GTM	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+HTI__SAMN08524449	2	5	global_background	HTI	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IND__SAMN10525643	3	9	global_background	IND	1977-01-01	1977-12-31	year	1977		prepandemic		ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IND__SAMN10457989	1	2	global_background	IND	2017-01-01	2017-12-31	year	2017		prepandemic		others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IND__SAMN19416301	3	9	global_background	IND	2018-01-01	2018-12-31	year	2018		prepandemic		ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IND__SAMN19416302	3	8	global_background	IND	2018-01-01	2018-12-31	year	2018		prepandemic		ptxP1/fim3-1	L1_03	L1_03.08	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IND__SAMN19416303	3	10	global_background	IND	2019-01-01	2019-12-31	year	2019		prepandemic		others	L1_03	L1_03.10	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IND__SAMN19416304	2	6	global_background	IND	2019-01-01	2019-12-31	year	2019		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRL__SAMEA8914479	2	5	global_background	IRL	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRL__SAMEA8914484	2	6	global_background	IRL	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRL__SAMEA8914485	2	6	global_background	IRL	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRL__SAMEA8914488	2	5	global_background	IRL	2015-01-01	2015-12-31	year	2015		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRL__SAMEA8914497	2	6	global_background	IRL	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRL__SAMEA8914500	2	6	global_background	IRL	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRL__SAMEA8914501	2	5	global_background	IRL	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRL__SAMEA8914503	2	7	global_background	IRL	2016-01-01	2016-12-31	year	2016		prepandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRL__SAMEA8914514	2	7	global_background	IRL	2016-01-01	2016-12-31	year	2016		prepandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRN__SAMN12675034	2	5	global_background	IRN	2012-01-01	2012-12-31	year	2012		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRN__SAMN12675035	2	5	global_background	IRN	2012-01-01	2012-12-31	year	2012		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRN__SAMN12675064	2	5	global_background	IRN	2015-01-01	2015-12-31	year	2015		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRN__SAMN12675069	3	9	global_background	IRN	2015-01-01	2015-12-31	year	2015		prepandemic		ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRN__SAMN12675070	3	9	global_background	IRN	2015-01-01	2015-12-31	year	2015		prepandemic		ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRN__SAMN12675071	2	5	global_background	IRN	2015-01-01	2015-12-31	year	2015		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRN__SAMN12675072	4	12	global_background	IRN	2015-01-01	2015-12-31	year	2015		prepandemic		others	L1_04	L1_04.12	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRN__SAMN12675074	2	6	global_background	IRN	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+IRN__SAMN12675075	1	2	global_background	IRN	2016-01-01	2016-12-31	year	2016		prepandemic		others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ISR__SAMN05908234	2	6	global_background	ISR			unknown			unknown		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ISR__SAMN05908228	2	6	global_background	ISR	2007-01-01	2007-12-31	year	2007		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ISR__SAMN05908230	2	6	global_background	ISR	2007-01-01	2007-12-31	year	2007		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ISR__SAMN05908227	2	5	global_background	ISR	2008-01-01	2008-12-31	year	2008		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ISR__SAMN05908236	2	5	global_background	ISR	2008-01-01	2008-12-31	year	2008		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ISR__SAMN05908237	2	5	global_background	ISR	2009-01-01	2009-12-31	year	2009		prepandemic		ptxP1/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ISR__SAMN05908238	2	6	global_background	ISR	2011-01-01	2011-12-31	year	2011		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ITA__SAMEA751497	2	5	global_background	ITA	1994-01-01	1994-12-31	year	1994		prepandemic		ptxP1/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ITA__SAMEA8914521	2	5	global_background	ITA	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ITA__SAMEA8914539	2	5	global_background	ITA	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP1/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ITA__SAMEA8914541	2	6	global_background	ITA	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ITA__SAMN03784877	2	5	global_background	ITA	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ITA__SAMEA8914518	2	5	global_background	ITA	2015-01-01	2015-12-31	year	2015		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ITA__SAMEA8914529	2	6	global_background	ITA	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+ITA__SAMEA8914531	2	6	global_background	ITA	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+KEN__SAMEA1931748	3	11	global_background	KEN	1975-01-01	1975-12-31	year	1975		prepandemic		others	L1_03	L1_03.11	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+MEX__SAMN07362432	2	5	global_background	MEX	2008-01-01	2008-12-31	year	2008		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+MEX__SAMN07362433	2	5	global_background	MEX	2009-01-01	2009-12-31	year	2009		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+MEX__SAMN07362434	2	6	global_background	MEX	2012-01-01	2012-12-31	year	2012		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+MEX__SAMN07362435	2	6	global_background	MEX	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NLD__SAMEA751360	3	11	global_background	NLD	1977-01-01	1977-12-31	year	1977		prepandemic		others	L1_03	L1_03.11	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NLD__SAMN03566780	2	5	global_background	NLD	1999-01-01	1999-12-31	year	1999		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NLD__SAMN03566781	2	5	global_background	NLD	1999-01-01	1999-12-31	year	1999		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NLD__SAMN03566785	2	6	global_background	NLD	2010-01-01	2010-12-31	year	2010		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NLD__SAMN03566787	2	6	global_background	NLD	2012-01-01	2012-12-31	year	2012		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NLD__SAMEA8914547	2	5	global_background	NLD	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NLD__SAMEA8914556	2	6	global_background	NLD	2015-01-01	2015-12-31	year	2015		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NLD__SAMEA8914562	2	5	global_background	NLD	2015-01-01	2015-12-31	year	2015		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NLD__SAMEA8914566	2	6	global_background	NLD	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NLD__SAMEA8914568	2	5	global_background	NLD	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057869	2	5	global_background	NOR	1996-01-01	1996-12-31	year	1996		prepandemic		ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057881	2	5	global_background	NOR	1997-01-01	1997-12-31	year	1997		prepandemic		ptxP1/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057882	2	5	global_background	NOR	1997-01-01	1997-12-31	year	1997		prepandemic		ptxP1/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057895	2	5	global_background	NOR	1998-01-01	1998-12-31	year	1998		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057896	2	5	global_background	NOR	1999-01-01	1999-12-31	year	1999		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057903	2	5	global_background	NOR	1999-01-01	1999-12-31	year	1999		prepandemic		ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057914	2	5	global_background	NOR	2001-01-01	2001-12-31	year	2001		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057937	1	1	global_background	NOR	2004-01-01	2004-12-31	year	2004		prepandemic		ptxP1/fim3-1	L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057952	1	2	global_background	NOR	2005-01-01	2005-12-31	year	2005		prepandemic		others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057955	2	5	global_background	NOR	2006-01-01	2006-12-31	year	2006		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057975	2	6	global_background	NOR	2009-01-01	2009-12-31	year	2009		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMN03566786	2	6	global_background	NOR	2009-01-01	2009-12-31	year	2009		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057987	2	5	global_background	NOR	2012-01-01	2012-12-31	year	2012		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057988	2	7	global_background	NOR	2012-01-01	2012-12-31	year	2012		prepandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057989	2	7	global_background	NOR	2012-01-01	2012-12-31	year	2012		prepandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10057995	2	6	global_background	NOR	2013-01-01	2013-12-31	year	2013		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA8914580	2	6	global_background	NOR	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA8914583	2	5	global_background	NOR	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA8914585	2	6	global_background	NOR	2014-01-01	2014-12-31	year	2014		prepandemic		United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10058004	2	6	global_background	NOR	2015-01-01	2015-12-31	year	2015		prepandemic		United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10058007	2	5	global_background	NOR	2015-01-01	2015-12-31	year	2015		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA8914588	1	2	global_background	NOR	2015-01-01	2015-12-31	year	2015		prepandemic		others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA8914592	1	2	global_background	NOR	2015-01-01	2015-12-31	year	2015		prepandemic		others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10058016	2	7	global_background	NOR	2016-01-01	2016-12-31	year	2016		prepandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA8914600	2	6	global_background	NOR	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10058021	2	6	global_background	NOR	2017-01-01	2017-12-31	year	2017		prepandemic		United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10058023	2	7	global_background	NOR	2017-01-01	2017-12-31	year	2017		prepandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+NOR__SAMEA10058036	2	5	global_background	NOR	2019-01-01	2019-12-31	year	2019		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+POL__SAMEA1931348	1	1	global_background	POL	1963-01-01	1963-12-31	year	1963		prepandemic		ptxP1/fim3-1	L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+SWE__SAMEA751314	1	1	global_background	SWE	1970-01-01	1970-12-31	year	1970		prepandemic		ptxP1/fim3-1	L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+SWE__SAMEA751294	2	6	global_background	SWE	1999-01-01	1999-12-31	year	1999		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+SWE__SAMN03566783	2	5	global_background	SWE	2009-01-01	2009-12-31	year	2009		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+SWE__SAMN03566784	2	6	global_background	SWE	2009-01-01	2009-12-31	year	2009		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+SWE__SAMEA8914617	2	5	global_background	SWE	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+SWE__SAMEA8914628	2	5	global_background	SWE	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+SWE__SAMEA8914632	2	6	global_background	SWE	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+SWE__SAMEA8914634	2	6	global_background	SWE	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+SWE__SAMEA8914609	2	6	global_background	SWE	2015-01-01	2015-12-31	year	2015		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+SWE__SAMEA8914621	1	2	global_background	SWE	2016-01-01	2016-12-31	year	2016		prepandemic		others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+SWE__SAMEA8914623	2	5	global_background	SWE	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+SWE__SAMEA8914625	2	5	global_background	SWE	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+SWE__SAMEA8914626	2	6	global_background	SWE	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+TUN__SAMEA4752844	2	6	global_background	TUN	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+TUN__SAMEA4752845	2	5	global_background	TUN	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+TUN__SAMEA4752846	2	6	global_background	TUN	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+TUN__SAMEA4752850	2	5	global_background	TUN	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN16357507	3	8	global_background	USA			unknown			unknown		ptxP1/fim3-1	L1_03	L1_03.08	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN16357509	2	5	global_background	USA			unknown			unknown		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN16357510	3	8	global_background	USA			unknown			unknown		ptxP1/fim3-1	L1_03	L1_03.08	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN03877216	3	10	global_background	USA	1939-01-01	1939-12-31	year	1939		prepandemic		others	L1_03	L1_03.10	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN05333716	3	9	global_background	USA	1946-01-01	1946-12-31	year	1946		prepandemic		ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN03996251	4	12	global_background	USA	1952-01-01	1952-12-31	year	1952		prepandemic		others	L1_04	L1_04.12	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN04994865	3	9	global_background	USA	1977-01-01	1977-12-31	year	1977		prepandemic		ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN18620695	2	5	global_background	USA	1998-01-01	1998-12-31	year	1998		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN18620696	2	5	global_background	USA	1998-01-01	1998-12-31	year	1998		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN03996260	2	5	global_background	USA	1999-01-01	1999-12-31	year	1999		prepandemic		ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMEA751257	1	1	global_background	USA	2000-01-01	2000-12-31	year	2000		prepandemic		ptxP1/fim3-1	L1_01	L1_01.01	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN04221183	2	5	global_background	USA	2000-01-01	2000-12-31	year	2000		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN05583850	2	5	global_background	USA	2003-01-01	2003-12-31	year	2003		prepandemic		ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN05583818	2	5	global_background	USA	2005-01-01	2005-12-31	year	2005		prepandemic		ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN08136975	3	9	global_background	USA	2007-01-01	2007-12-31	year	2007		prepandemic		ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN08178168	2	5	global_background	USA	2007-01-01	2007-12-31	year	2007		prepandemic		United States Sublineage 1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN03249362	3	9	global_background	USA	2010-01-01	2010-12-31	year	2010		prepandemic		ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN03455354	3	9	global_background	USA	2011-01-01	2011-12-31	year	2011		prepandemic		ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN06007763	2	6	global_background	USA	2011-01-01	2011-12-31	year	2011		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN03702646	2	5	global_background	USA	2012-01-01	2012-12-31	year	2012		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN03702647	2	5	global_background	USA	2012-01-01	2012-12-31	year	2012		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN05948796	2	6	global_background	USA	2012-01-01	2012-12-31	year	2012		prepandemic		United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN11821785	1	2	global_background	USA	2012-01-01	2012-12-31	year	2012		prepandemic		others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN11822192	1	2	global_background	USA	2013-01-01	2013-12-31	year	2013		prepandemic		others	L1_01	L1_01.02	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN05950790	2	6	global_background	USA	2014-01-01	2014-12-31	year	2014		prepandemic		United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN07352218	2	6	global_background	USA	2014-01-01	2014-12-31	year	2014		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN10176206	2	6	global_background	USA	2015-01-01	2015-12-31	year	2015		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN10298220	2	5	global_background	USA	2016-01-01	2016-12-31	year	2016		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN10182728	2	6	global_background	USA	2017-01-01	2017-12-31	year	2017		prepandemic		United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN11539680	2	5	global_background	USA	2018-01-01	2018-12-31	year	2018		prepandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN11539704	2	7	global_background	USA	2018-01-01	2018-12-31	year	2018		prepandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN12392429	2	7	global_background	USA	2018-01-01	2018-12-31	year	2018		prepandemic		MS-MT28	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN14488305	2	6	global_background	USA	2019-01-01	2019-12-31	year	2019		prepandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN14488313	2	6	global_background	USA	2019-01-01	2019-12-31	year	2019		prepandemic		United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN18620777	2	6	global_background	USA	2020-01-01	2020-12-31	year	2020		pandemic		United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN18620802	2	6	global_background	USA	2020-01-01	2020-12-31	year	2020		pandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN18620814	2	6	global_background	USA	2020-01-01	2020-12-31	year	2020		pandemic		United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN18620816	2	5	global_background	USA	2020-01-01	2020-12-31	year	2020		pandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN18620823	2	5	global_background	USA	2020-01-01	2020-12-31	year	2020		pandemic		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN45987639	2	6	global_background	USA	2022-01-01	2022-12-31	year	2022		pandemic		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN45987611	2	6	global_background	USA	2023-01-01	2023-12-31	year	2023		resurgence		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN45987613	2	6	global_background	USA	2023-01-01	2023-12-31	year	2023		resurgence		ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN45987640	3	10	global_background	USA	2024-01-01	2024-12-31	year	2024		resurgence		others	L1_03	L1_03.10	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN45987655	2	5	global_background	USA	2024-01-01	2024-12-31	year	2024		resurgence		ptxP3/fim3-2	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN45987657	2	6	global_background	USA	2024-01-01	2024-12-31	year	2024		resurgence		United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN46491808	2	7	global_background	USA	2024-01-01	2024-12-31	year	2024		resurgence		MR-MT28-others	L1_02	L1_02.07	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+USA__SAMN48440030	2	6	global_background	USA	2024-01-01	2024-12-31	year	2024		resurgence		United States Sublineage 1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810521	2	5	focal	AUS	2012-01-01	2012-01-31	month	2012	1	prepandemic	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810550	2	5	focal	AUS	2015-12-01	2015-12-31	month	2015	12	prepandemic	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810522	2	6	focal	AUS	2016-01-01	2016-01-31	month	2016	1	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810537	2	6	focal	AUS	2016-04-01	2016-04-30	month	2016	4	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810524	2	6	focal	AUS	2018-01-01	2018-01-31	month	2018	1	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810525	2	6	focal	AUS	2018-06-01	2018-06-30	month	2018	6	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810526	2	6	focal	AUS	2018-12-01	2018-12-31	month	2018	12	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810528	2	6	focal	AUS	2018-08-01	2018-08-31	month	2018	8	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810529	2	6	focal	AUS	2018-03-01	2018-03-31	month	2018	3	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810546	2	5	focal	AUS	2018-11-01	2018-11-30	month	2018	11	prepandemic	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810501	2	5	focal	AUS	2019-10-01	2019-10-31	month	2019	10	prepandemic	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810505	2	6	focal	AUS	2019-08-01	2019-08-31	month	2019	8	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810506	2	6	focal	AUS	2019-09-01	2019-09-30	month	2019	9	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810507	2	6	focal	AUS	2019-10-01	2019-10-31	month	2019	10	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810523	2	6	focal	AUS	2019-12-01	2019-12-31	month	2019	12	prepandemic	PRJNA1199062		L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810532	2	5	focal	AUS	2019-10-01	2019-10-31	month	2019	10	prepandemic	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+AUS__SAMN45810545	2	5	focal	AUS	2019-05-01	2019-05-31	month	2019	5	prepandemic	PRJNA1199062		L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41216668	3	9	focal	JPN	1986-01-01	1986-12-31	year	1986		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41292418	3	9	focal	JPN	1987-01-01	1987-12-31	year	1987		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41283418	3	9	focal	JPN	1988-01-01	1988-12-31	year	1988		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41247418	3	9	focal	JPN	1994-01-01	1994-12-31	year	1994		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41200168	2	5	focal	JPN	1995-01-01	1995-12-31	year	1995		prepandemic	PRJEB18624	ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41186668	3	9	focal	JPN	1996-01-01	1996-12-31	year	1996		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41205418	3	9	focal	JPN	1996-01-01	1996-12-31	year	1996		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41197168	3	9	focal	JPN	1999-01-01	1999-12-31	year	1999		prepandemic	PRJEB18624	ptxP1/fim3-1	L1_03	L1_03.09	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41275918	2	5	focal	JPN	1999-01-01	1999-12-31	year	1999		prepandemic	PRJEB18624	ptxP3/fim3-1	L1_02	L1_02.05	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20
+JPN__SAMEA41278168	2	6	focal	JPN	2000-01-01	2000-12-31	year	2000		prepandemic	PRJEB18624	ptxP3/fim3-1	L1_02	L1_02.06	hierBAPS_v1.1.4_parsimony_informative_core_SNPs_pre_effect_freeze	20260725	20

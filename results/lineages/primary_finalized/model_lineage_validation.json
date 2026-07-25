@@ -1,0 +1,15 @@
+{
+  "n_tree_genomes": 989,
+  "n_level1_populations": 4,
+  "n_level2_populations": 12,
+  "n_primary_model_lineages_excluding_other": 4,
+  "primary_model_lineages": [
+    "L1_01.02",
+    "L1_02.05",
+    "L1_02.06",
+    "L1_02.07"
+  ],
+  "n_month_resolved_focal_genomes": 404,
+  "case_data_used_for_lineage_definition": false,
+  "gate_pass": true
+}

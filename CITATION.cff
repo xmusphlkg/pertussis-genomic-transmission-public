@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the accompanying manuscript."
+title: "Pertussis genomic transmission: public reproducibility package"
+version: 1.0.0
+date-released: 2026-07-25
+repository-code: "https://github.com/xmusphlkg/pertussis-genomic-transmission-public"
+authors:
+  - family-names: Li
+    given-names: Kangguo
+  - family-names: Xie
+    given-names: Yulun
+  - family-names: Xu
+    given-names: Zhiying
+  - family-names: Zenghuang
+    given-names: Yunzhi
+  - family-names: Chen
+    given-names: Tao
+  - family-names: Bu
+    given-names: Zheni
+  - family-names: Liu
+    given-names: Ziyan
+  - family-names: Zhang
+    given-names: Yu
+  - family-names: Su
+    given-names: Yanhua
+  - family-names: Luo
+    given-names: Kaiwei
+  - family-names: Chen
+    given-names: Tianmu

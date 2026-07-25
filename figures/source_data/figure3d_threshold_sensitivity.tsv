@@ -1,0 +1,4 @@
+n_tree_tips	n_focal_tip_attributions	transition_threshold	successful_cluster_minimum_genomes	successful_cluster_minimum_span_days	n_high_support_introduction_edges	n_high_support_post_reseeding_edges	n_successful_sampled_clusters	uncertainty_semantics
+989	774	0.5	5	180	174	75	3	PastML marginal-state support propagated through a modular phylogeographic layer; not a full joint phylogenetic posterior
+989	774	0.7	5	180	163	71	3	PastML marginal-state support propagated through a modular phylogeographic layer; not a full joint phylogenetic posterior
+989	774	0.9	5	180	133	62	2	PastML marginal-state support propagated through a modular phylogeographic layer; not a full joint phylogenetic posterior

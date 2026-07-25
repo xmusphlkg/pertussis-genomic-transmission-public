@@ -1,0 +1,10 @@
+.DS_Store
+.RData
+.Rhistory
+.Rproj.user/
+.venv/
+.venv-tests/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+~$*

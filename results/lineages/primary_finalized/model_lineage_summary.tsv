@@ -1,0 +1,13 @@
+model_sublineage_id	n_genomes	n_focal	n_countries	n_periods	n_prepandemic	n_pandemic	n_resurgence	min_year	max_year	primary_model_eligible
+L1_02.06	298	222	22	3	146	23	126	1999.0	2025.0	True
+L1_02.07	288	271	11	3	29	44	215	2012.0	2025.0	True
+L1_02.05	164	81	23	3	118	10	35	1994.0	2025.0	True
+L1_01.02	28	20	10	2	12	0	16	2005.0	2024.0	True
+L1_01.03	109	109	2	3	81	27	1	2013.0	2023.0	False
+L1_01.04	38	38	1	2	35	3	0	2014.0	2022.0	False
+L1_03.09	30	20	5	1	30	0	0	1946.0	2018.0	False
+L1_01.01	15	7	8	1	15	0	0	1962.0	2014.0	False
+L1_03.08	9	6	4	1	7	0	0	1950.0	2018.0	False
+L1_03.10	5	0	3	2	4	0	1	1939.0	2024.0	False
+L1_04.12	3	0	3	1	2	0	0	1952.0	2015.0	False
+L1_03.11	2	0	2	1	2	0	0	1975.0	1977.0	False

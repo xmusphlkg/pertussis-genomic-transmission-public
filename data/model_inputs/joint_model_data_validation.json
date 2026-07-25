@@ -1,0 +1,25 @@
+{
+  "countries": [
+    "AUS",
+    "CHN",
+    "JPN"
+  ],
+  "lineages": [
+    "L1_01.02",
+    "L1_02.05",
+    "L1_02.06",
+    "L1_02.07",
+    "Other"
+  ],
+  "start_month": "2019-01-01",
+  "end_month": "2025-12-01",
+  "n_case_months_per_country": 84,
+  "n_genome_observation_strata": 72,
+  "n_genomes_in_observation_model": 261,
+  "n_projects": 11,
+  "use_project_effects": true,
+  "n_phylogeographic_event_lineage_rows": 31,
+  "n_unique_phylogeographic_events": 31,
+  "case_counts_used_for_lineage_definition": false,
+  "exact_tmrca_used": false
+}

@@ -1,0 +1,14 @@
+reference	status	identifier	verification_source	notes
+1	verified	URL:https://www.ecdc.europa.eu/en/publications-data/pertussis-annual-epidemiological-report-2024	ECDC	Official suggested citation and publication year confirmed; accessed 2026-07-25
+2	verified	PMID:41720794;DOI:10.1038/s41467-026-69885-0	PubMed;Nature Communications	Title, authors, journal, year, volume, issue, and article number confirmed
+3	verified	PMID:41578214;DOI:10.1186/s12879-026-12521-5	PubMed	Title, authors, journal, year, volume, issue, and article number confirmed
+4	verified	PMID:41802571;DOI:10.1016/j.jinf.2026.106718	PubMed;Journal of Infection	Title, journal, year, volume, issue, article number, and 8117-genome study description confirmed
+5	verified	PMID:41763238;DOI:10.1016/j.lanmic.2025.101286	PubMed	Title, journal, 2026 publication year, volume 7, issue 3, and article number confirmed
+6	corrected	PMID:41910322;DOI:10.1128/spectrum.01535-25	PubMed;Microbiology Spectrum	Original eLocator e0153525 corrected to e01535-25; volume 14 issue 5 confirmed
+7	verified	PMID:39092529;DOI:10.2807/1560-7917.ES.2024.29.31.2400459	PubMed	Title, journal, year, volume, issue, and article number confirmed
+8	verified	PMID:41579932;DOI:10.1016/j.ijid.2026.108397	PubMed	Title, journal, year, volume, and article number confirmed
+9	verified	PMID:39406504;DOI:10.1101/gr.279449.124	PubMed	Title, authors, journal, year, volume, issue, and pages confirmed
+10	verified	PMID:32011700;DOI:10.1093/molbev/msaa015	PubMed	Title, authors, journal, year, volume, issue, and pages confirmed
+11	verified	PMID:30345380;DOI:10.12688/wellcomeopenres.14694.1	PubMed	Title, authors, journal, year, volume, and article number confirmed
+12	verified	PMID:31127303;DOI:10.1093/molbev/msz131	PubMed	Title, authors, journal, year, volume, issue, and pages confirmed
+13	verified	DOI:10.3201/eid2406.171464	CDC Emerging Infectious Diseases;PubMed Central	Title, authors, journal, year, volume, issue, and pages confirmed

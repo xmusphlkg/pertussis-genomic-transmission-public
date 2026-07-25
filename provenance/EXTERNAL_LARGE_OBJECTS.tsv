@@ -1,0 +1,7 @@
+analysis	object_type	bytes	sha256	repository_policy
+project_adjusted	Stan fit	388331688	3cb3c38b5ebd542fbec935ddeeefdb48a98b2fffaea9f2e0683bcee3c796abbc	Excluded from Git repository; summary tables included
+project_adjusted	Posterior draws	151084908	23fc93570f981e39a49f6989b0d529130e29264df3315aa2312c43dc7f9a7eb6	Excluded from Git repository; summary tables included
+project_adjusted	Compiled Stan model	28140504	a4072240fe493826e7582e34f57a7e06ef4785102a2e5860cfe449bc2cad419b	Excluded from Git repository; Stan source included
+no_project	Stan fit	381057740	b1b896db7fb4bc96c5a695583cf66298490d10746a8398ec97825bcefdbca32b	Excluded from Git repository; summary tables included
+no_project	Posterior draws	147355804	e7c75b133072c8e8634916793a79b687c9ce6d684a0328192f8193fd4c9f85de	Excluded from Git repository; summary tables included
+no_project	Compiled Stan model	28140504	a4072240fe493826e7582e34f57a7e06ef4785102a2e5860cfe449bc2cad419b	Excluded from Git repository; Stan source included

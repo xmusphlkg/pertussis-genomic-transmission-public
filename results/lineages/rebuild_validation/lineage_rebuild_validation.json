@@ -1,0 +1,9 @@
+{
+  "n_previous": 890,
+  "n_rebuilt": 989,
+  "n_shared": 817,
+  "level2_adjusted_rand_index": 0.9988501040412281,
+  "primary_lineage_exact_agreement": 1.0,
+  "n_primary_lineage_disagreements": 0,
+  "interpretation": "A value of 1 denotes identical formal model-lineage labels among shared samples; expanded-cohort samples are audited separately."
+}

@@ -1,0 +1,11 @@
+{
+  "n_cgmlst_profiles": 582,
+  "n_profiles_with_frozen_core_snp_lineage": 582,
+  "n_pairwise_core_snp_comparisons": 169071,
+  "core_snp_cgmlst_spearman_rho": 0.856179402064694,
+  "core_snp_cgmlst_spearman_p": 0.0,
+  "nearest_neighbour_lineage_agreement_all": 0.9965635738831615,
+  "nearest_neighbour_lineage_agreement_formal_lineages": 0.9975550122249389,
+  "mean_five_neighbour_same_lineage_fraction_formal_lineages": 0.9877750611246944,
+  "boundary": "Assembly-available focal subset; cgMLST validates cluster concordance and is not used for temporal or branch-length inference."
+}

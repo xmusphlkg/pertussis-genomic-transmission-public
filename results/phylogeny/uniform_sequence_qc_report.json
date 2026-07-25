@@ -1,0 +1,41 @@
+{
+  "n_manifest": 1188,
+  "n_uniform_qc_pass": 1078,
+  "n_uniform_qc_fail": 110,
+  "status_counts": {
+    "PASS": 1078,
+    "FAIL_ASSEMBLY_QC": 108,
+    "FAIL_READ_QC": 2
+  },
+  "pass_by_role_country": {
+    "focal:AUS": 156,
+    "focal:BEL": 120,
+    "focal:CHN": 388,
+    "focal:FRA": 65,
+    "focal:JPN": 128,
+    "global_background:ARG": 1,
+    "global_background:AUT": 14,
+    "global_background:BRA": 5,
+    "global_background:CAN": 3,
+    "global_background:DEU": 2,
+    "global_background:DNK": 9,
+    "global_background:ESP": 21,
+    "global_background:FIN": 11,
+    "global_background:GTM": 2,
+    "global_background:HTI": 1,
+    "global_background:IND": 6,
+    "global_background:IRL": 9,
+    "global_background:IRN": 9,
+    "global_background:ISR": 7,
+    "global_background:ITA": 8,
+    "global_background:KEN": 1,
+    "global_background:MEX": 4,
+    "global_background:NLD": 11,
+    "global_background:NOR": 29,
+    "global_background:POL": 1,
+    "global_background:SEN": 1,
+    "global_background:SWE": 13,
+    "global_background:TUN": 4,
+    "global_background:USA": 49
+  }
+}

@@ -1,0 +1,3 @@
+parameter_type	n_parameters	coverage_95	median_absolute_log_error	correlation_truth_posterior_median
+lineage_growth	30	0.866666666666667	0.0184291298773222	0.742184757164206
+import_scale	18	0.888888888888889	0.622756284886117	-0.0342767637466229
