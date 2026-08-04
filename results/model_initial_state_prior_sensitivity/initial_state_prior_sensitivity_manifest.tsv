@@ -1,0 +1,3 @@
+analysis_id	analysis_label	initial_state_prior	posterior_rds	diagnostics_json	n_posterior_draws	n_lineages	lineage_order	target_lineage
+historical_pre2019	Strict primary: historical genomes before 2019	country_specific_historical_genomes_strictly_before_2019			4000	5	L1_01.02;L1_02.05;L1_02.06;L1_02.07;Other	L1_02.07
+symmetric_dirichlet	Sensitivity: symmetric Dirichlet(0.5)	symmetric_dirichlet_0.5_each_lineage			4000	5	L1_01.02;L1_02.05;L1_02.06;L1_02.07;Other	L1_02.07

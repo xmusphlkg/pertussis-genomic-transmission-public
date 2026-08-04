@@ -1,0 +1,8 @@
+figure	source_file
+Supplementary Figure S1	results/cgmlst/cgmlst_core_snp_pairwise_comparison.tsv
+Supplementary Figure S1	results/cgmlst/cgmlst_nearest_neighbour_lineage_concordance.tsv
+Supplementary Figure S1	results/lineages/sensitivity/lineage_partition_sensitivity.tsv
+Supplementary Figure S2	figures/source_data/figure4abc_monthly_counterfactuals.tsv
+Supplementary Figure S2	results/model_main/posterior_predictive_metrics.tsv
+Supplementary Figure S3	results/phylogeography_sensitivity_summary/country_ancestry_rank_stability.tsv
+Supplementary Figure S3	results/model_input_sensitivity_summary/l10207_input_sensitivity.tsv

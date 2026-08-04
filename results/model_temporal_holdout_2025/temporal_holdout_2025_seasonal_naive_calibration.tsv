@@ -1,0 +1,4 @@
+country_iso3	residual_definition	residual_months	raw_residual_median	raw_residual_mad	bootstrap_draws
+AUS	log1p(case_t)-log1p(case_t_minus_12), median-centred	60	-0.0443180363583158	1.71417403470811	4000
+CHN	log1p(case_t)-log1p(case_t_minus_12), median-centred	60	0.583358927128816	2.38934828656901	4000
+JPN	log1p(case_t)-log1p(case_t_minus_12), median-centred	60	-0.172926352653324	1.12552934569859	4000

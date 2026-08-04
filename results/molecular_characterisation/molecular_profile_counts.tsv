@@ -1,0 +1,375 @@
+country_iso3	epidemic_period	lineage_group	feature	category	n_category	n_feature_annotated	n_feature_interpretable	n_feature_missing	n_lineage_tree_total	category_percent_of_annotated	category_percent_of_tree_total
+AUS	prepandemic	Other_model_lineages	source_ptxP	ptxP3	48	58	58	2	60	82.7586206896552	80
+AUS	prepandemic	Other_model_lineages	source_ptxP	ptxP1	10	58	58	2	60	17.2413793103448	16.6666666666667
+AUS	prepandemic	Other_model_lineages	source_ptxP	MISSING	2	58	58	2	60		3.33333333333333
+AUS	prepandemic	Other_model_lineages	source_fim3	fim3-1	41	58	58	2	60	70.6896551724138	68.3333333333333
+AUS	prepandemic	Other_model_lineages	source_fim3	fim3-2	12	58	58	2	60	20.6896551724138	20
+AUS	prepandemic	Other_model_lineages	source_fim3	fim3-27	2	58	58	2	60	3.44827586206897	3.33333333333333
+AUS	prepandemic	Other_model_lineages	source_fim3	fim3-4	2	58	58	2	60	3.44827586206897	3.33333333333333
+AUS	prepandemic	Other_model_lineages	source_fim3	MISSING	2	58	58	2	60		3.33333333333333
+AUS	prepandemic	Other_model_lineages	source_fim3	fim3-45	1	58	58	2	60	1.72413793103448	1.66666666666667
+AUS	prepandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-1	33	58	58	2	60	56.8965517241379	55
+AUS	prepandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-2	12	58	58	2	60	20.6896551724138	20
+AUS	prepandemic	Other_model_lineages	source_antigen_profile	ptxP1/fim3-1	8	58	58	2	60	13.7931034482759	13.3333333333333
+AUS	prepandemic	Other_model_lineages	source_antigen_profile	MISSING	2	58	58	2	60		3.33333333333333
+AUS	prepandemic	Other_model_lineages	source_antigen_profile	ptxP1/fim3-4	2	58	58	2	60	3.44827586206897	3.33333333333333
+AUS	prepandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-27	2	58	58	2	60	3.44827586206897	3.33333333333333
+AUS	prepandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-45	1	58	58	2	60	1.72413793103448	1.66666666666667
+AUS	prepandemic	Other_model_lineages	source_23S_raw	MS	31	57	57	3	60	54.3859649122807	51.6666666666667
+AUS	prepandemic	Other_model_lineages	source_23S_raw	Susceptible	25	57	57	3	60	43.859649122807	41.6666666666667
+AUS	prepandemic	Other_model_lineages	source_23S_raw	MISSING	3	57	57	3	60		5
+AUS	prepandemic	Other_model_lineages	source_23S_raw	Mutations in 23S rRNA V domain detected	1	57	57	3	60	1.75438596491228	1.66666666666667
+AUS	prepandemic	Other_model_lineages	frozen_23S_status	MS	31	31	31	29	60	100	51.6666666666667
+AUS	prepandemic	Other_model_lineages	frozen_23S_status	MISSING	29	31	31	29	60		48.3333333333333
+AUS	prepandemic	Other_model_lineages	frozen_PRN_outcome	MISSING	26	34	12	26	60		43.3333333333333
+AUS	prepandemic	Other_model_lineages	frozen_PRN_outcome	non_interpretable	22	34	12	26	60	64.7058823529412	36.6666666666667
+AUS	prepandemic	Other_model_lineages	frozen_PRN_outcome	intact	11	34	12	26	60	32.3529411764706	18.3333333333333
+AUS	prepandemic	Other_model_lineages	frozen_PRN_outcome	disrupted	1	34	12	26	60	2.94117647058824	1.66666666666667
+AUS	prepandemic	Other_model_lineages	frozen_PRN_mechanism	MISSING	26	34	12	26	60		43.3333333333333
+AUS	prepandemic	Other_model_lineages	frozen_PRN_mechanism	insufficient_data	11	34	12	26	60	32.3529411764706	18.3333333333333
+AUS	prepandemic	Other_model_lineages	frozen_PRN_mechanism	intact	11	34	12	26	60	32.3529411764706	18.3333333333333
+AUS	prepandemic	Other_model_lineages	frozen_PRN_mechanism	uncertain_fragmented_assembly	11	34	12	26	60	32.3529411764706	18.3333333333333
+AUS	prepandemic	Other_model_lineages	frozen_PRN_mechanism	coding_disrupted_inversion_or_rearrangement	1	34	12	26	60	2.94117647058824	1.66666666666667
+AUS	prepandemic	Other_model_lineages	published_MT_label	MISSING	60	0	0	60	60		100
+AUS	resurgence	L1_02.07	source_ptxP	ptxP3	3	3	3	0	3	100	100
+AUS	resurgence	L1_02.07	source_fim3	fim3-1	3	3	3	0	3	100	100
+AUS	resurgence	L1_02.07	source_antigen_profile	ptxP3/fim3-1	3	3	3	0	3	100	100
+AUS	resurgence	L1_02.07	source_23S_raw	MS	2	3	3	0	3	66.6666666666667	66.6666666666667
+AUS	resurgence	L1_02.07	source_23S_raw	Resistant	1	3	3	0	3	33.3333333333333	33.3333333333333
+AUS	resurgence	L1_02.07	frozen_23S_status	MS	2	2	2	1	3	100	66.6666666666667
+AUS	resurgence	L1_02.07	frozen_23S_status	MISSING	1	2	2	1	3		33.3333333333333
+AUS	resurgence	L1_02.07	frozen_PRN_outcome	disrupted	2	2	2	1	3	100	66.6666666666667
+AUS	resurgence	L1_02.07	frozen_PRN_outcome	MISSING	1	2	2	1	3		33.3333333333333
+AUS	resurgence	L1_02.07	frozen_PRN_mechanism	coding_disrupted_is481	2	2	2	1	3	100	66.6666666666667
+AUS	resurgence	L1_02.07	frozen_PRN_mechanism	MISSING	1	2	2	1	3		33.3333333333333
+AUS	resurgence	L1_02.07	published_MT_label	MR-MT28-PG1	3	3	3	0	3	100	100
+AUS	resurgence	Other_model_lineages	source_ptxP	ptxP3	30	34	34	0	34	88.2352941176471	88.2352941176471
+AUS	resurgence	Other_model_lineages	source_ptxP	ptxP1	3	34	34	0	34	8.82352941176471	8.82352941176471
+AUS	resurgence	Other_model_lineages	source_ptxP	ptxP(~5)	1	34	34	0	34	2.94117647058824	2.94117647058824
+AUS	resurgence	Other_model_lineages	source_fim3	fim3-2	17	34	34	0	34	50	50
+AUS	resurgence	Other_model_lineages	source_fim3	fim3-1	13	34	34	0	34	38.2352941176471	38.2352941176471
+AUS	resurgence	Other_model_lineages	source_fim3	fim3-26	4	34	34	0	34	11.7647058823529	11.7647058823529
+AUS	resurgence	Other_model_lineages	source_antigen_profile	ptxP3/fim3-2	17	34	34	0	34	50	50
+AUS	resurgence	Other_model_lineages	source_antigen_profile	ptxP3/fim3-1	13	34	34	0	34	38.2352941176471	38.2352941176471
+AUS	resurgence	Other_model_lineages	source_antigen_profile	ptxP1/fim3-26	3	34	34	0	34	8.82352941176471	8.82352941176471
+AUS	resurgence	Other_model_lineages	source_antigen_profile	ptxP(~5)/fim3-26	1	34	34	0	34	2.94117647058824	2.94117647058824
+AUS	resurgence	Other_model_lineages	source_23S_raw	Susceptible	33	34	34	0	34	97.0588235294118	97.0588235294118
+AUS	resurgence	Other_model_lineages	source_23S_raw	Mutations in 23S rRNA V domain detected	1	34	34	0	34	2.94117647058824	2.94117647058824
+AUS	resurgence	Other_model_lineages	frozen_23S_status	MISSING	34	0	0	34	34		100
+AUS	resurgence	Other_model_lineages	frozen_PRN_outcome	MISSING	34	0	0	34	34		100
+AUS	resurgence	Other_model_lineages	frozen_PRN_mechanism	MISSING	34	0	0	34	34		100
+AUS	resurgence	Other_model_lineages	published_MT_label	MISSING	34	0	0	34	34		100
+BEL	prepandemic	L1_02.07	source_ptxP	ptxP3	3	3	3	0	3	100	100
+BEL	prepandemic	L1_02.07	source_fim3	fim3-1	3	3	3	0	3	100	100
+BEL	prepandemic	L1_02.07	source_antigen_profile	ptxP3/fim3-1	3	3	3	0	3	100	100
+BEL	prepandemic	L1_02.07	source_23S_raw	23S_rRNA_1	3	3	3	0	3	100	100
+BEL	prepandemic	L1_02.07	frozen_23S_status	MISSING	3	0	0	3	3		100
+BEL	prepandemic	L1_02.07	frozen_PRN_outcome	MISSING	3	0	0	3	3		100
+BEL	prepandemic	L1_02.07	frozen_PRN_mechanism	MISSING	3	0	0	3	3		100
+BEL	prepandemic	L1_02.07	published_MT_label	MS-MT28	3	3	3	0	3	100	100
+BEL	prepandemic	Other_model_lineages	source_ptxP	ptxP3	12	13	13	4	17	92.3076923076923	70.5882352941177
+BEL	prepandemic	Other_model_lineages	source_ptxP	MISSING	4	13	13	4	17		23.5294117647059
+BEL	prepandemic	Other_model_lineages	source_ptxP	ptxP1	1	13	13	4	17	7.69230769230769	5.88235294117647
+BEL	prepandemic	Other_model_lineages	source_fim3	fim3-1	8	13	13	4	17	61.5384615384615	47.0588235294118
+BEL	prepandemic	Other_model_lineages	source_fim3	fim3-2	4	13	13	4	17	30.7692307692308	23.5294117647059
+BEL	prepandemic	Other_model_lineages	source_fim3	MISSING	4	13	13	4	17		23.5294117647059
+BEL	prepandemic	Other_model_lineages	source_fim3	fim3-4	1	13	13	4	17	7.69230769230769	5.88235294117647
+BEL	prepandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-1	8	13	13	4	17	61.5384615384615	47.0588235294118
+BEL	prepandemic	Other_model_lineages	source_antigen_profile	MISSING	4	13	13	4	17		23.5294117647059
+BEL	prepandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-2	4	13	13	4	17	30.7692307692308	23.5294117647059
+BEL	prepandemic	Other_model_lineages	source_antigen_profile	ptxP1/fim3-4	1	13	13	4	17	7.69230769230769	5.88235294117647
+BEL	prepandemic	Other_model_lineages	source_23S_raw	23S_rRNA_1	13	13	13	4	17	100	76.4705882352941
+BEL	prepandemic	Other_model_lineages	source_23S_raw	MISSING	4	13	13	4	17		23.5294117647059
+BEL	prepandemic	Other_model_lineages	frozen_23S_status	MISSING	17	0	0	17	17		100
+BEL	prepandemic	Other_model_lineages	frozen_PRN_outcome	MISSING	17	0	0	17	17		100
+BEL	prepandemic	Other_model_lineages	frozen_PRN_mechanism	MISSING	17	0	0	17	17		100
+BEL	prepandemic	Other_model_lineages	published_MT_label	MISSING	17	0	0	17	17		100
+BEL	pandemic	L1_02.07	source_ptxP	ptxP3	1	1	1	0	1	100	100
+BEL	pandemic	L1_02.07	source_fim3	fim3-1	1	1	1	0	1	100	100
+BEL	pandemic	L1_02.07	source_antigen_profile	ptxP3/fim3-1	1	1	1	0	1	100	100
+BEL	pandemic	L1_02.07	source_23S_raw	23S_rRNA_1	1	1	1	0	1	100	100
+BEL	pandemic	L1_02.07	frozen_23S_status	MISSING	1	0	0	1	1		100
+BEL	pandemic	L1_02.07	frozen_PRN_outcome	MISSING	1	0	0	1	1		100
+BEL	pandemic	L1_02.07	frozen_PRN_mechanism	MISSING	1	0	0	1	1		100
+BEL	pandemic	L1_02.07	published_MT_label	MS-MT28	1	1	1	0	1	100	100
+BEL	pandemic	Other_model_lineages	source_ptxP	ptxP3	16	16	16	0	16	100	100
+BEL	pandemic	Other_model_lineages	source_fim3	fim3-1	9	16	16	0	16	56.25	56.25
+BEL	pandemic	Other_model_lineages	source_fim3	fim3-2	7	16	16	0	16	43.75	43.75
+BEL	pandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-1	9	16	16	0	16	56.25	56.25
+BEL	pandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-2	7	16	16	0	16	43.75	43.75
+BEL	pandemic	Other_model_lineages	source_23S_raw	23S_rRNA_1	16	16	16	0	16	100	100
+BEL	pandemic	Other_model_lineages	frozen_23S_status	MISSING	16	0	0	16	16		100
+BEL	pandemic	Other_model_lineages	frozen_PRN_outcome	MISSING	16	0	0	16	16		100
+BEL	pandemic	Other_model_lineages	frozen_PRN_mechanism	MISSING	16	0	0	16	16		100
+BEL	pandemic	Other_model_lineages	published_MT_label	MISSING	16	0	0	16	16		100
+BEL	resurgence	L1_02.07	source_ptxP	ptxP3	3	3	3	0	3	100	100
+BEL	resurgence	L1_02.07	source_fim3	fim3-1	3	3	3	0	3	100	100
+BEL	resurgence	L1_02.07	source_antigen_profile	ptxP3/fim3-1	3	3	3	0	3	100	100
+BEL	resurgence	L1_02.07	source_23S_raw	23S_rRNA_1	3	3	3	0	3	100	100
+BEL	resurgence	L1_02.07	frozen_23S_status	MISSING	3	0	0	3	3		100
+BEL	resurgence	L1_02.07	frozen_PRN_outcome	MISSING	3	0	0	3	3		100
+BEL	resurgence	L1_02.07	frozen_PRN_mechanism	MISSING	3	0	0	3	3		100
+BEL	resurgence	L1_02.07	published_MT_label	MS-MT28	3	3	3	0	3	100	100
+BEL	resurgence	Other_model_lineages	source_ptxP	ptxP3	74	79	79	0	79	93.6708860759494	93.6708860759494
+BEL	resurgence	Other_model_lineages	source_ptxP	ptxP1	5	79	79	0	79	6.32911392405063	6.32911392405063
+BEL	resurgence	Other_model_lineages	source_fim3	fim3-1	68	79	79	0	79	86.0759493670886	86.0759493670886
+BEL	resurgence	Other_model_lineages	source_fim3	fim3-2	6	79	79	0	79	7.59493670886076	7.59493670886076
+BEL	resurgence	Other_model_lineages	source_fim3	fim3-4	4	79	79	0	79	5.06329113924051	5.06329113924051
+BEL	resurgence	Other_model_lineages	source_fim3	fim3-26	1	79	79	0	79	1.26582278481013	1.26582278481013
+BEL	resurgence	Other_model_lineages	source_antigen_profile	ptxP3/fim3-1	68	79	79	0	79	86.0759493670886	86.0759493670886
+BEL	resurgence	Other_model_lineages	source_antigen_profile	ptxP3/fim3-2	6	79	79	0	79	7.59493670886076	7.59493670886076
+BEL	resurgence	Other_model_lineages	source_antigen_profile	ptxP1/fim3-4	4	79	79	0	79	5.06329113924051	5.06329113924051
+BEL	resurgence	Other_model_lineages	source_antigen_profile	ptxP1/fim3-26	1	79	79	0	79	1.26582278481013	1.26582278481013
+BEL	resurgence	Other_model_lineages	source_23S_raw	23S_rRNA_1	79	79	79	0	79	100	100
+BEL	resurgence	Other_model_lineages	frozen_23S_status	MISSING	79	0	0	79	79		100
+BEL	resurgence	Other_model_lineages	frozen_PRN_outcome	MISSING	79	0	0	79	79		100
+BEL	resurgence	Other_model_lineages	frozen_PRN_mechanism	MISSING	79	0	0	79	79		100
+BEL	resurgence	Other_model_lineages	published_MT_label	MISSING	79	0	0	79	79		100
+CHN	prepandemic	L1_02.07	source_ptxP	MISSING	9	3	3	9	12		75
+CHN	prepandemic	L1_02.07	source_ptxP	ptxP3	3	3	3	9	12	100	25
+CHN	prepandemic	L1_02.07	source_fim3	MISSING	10	2	2	10	12		83.3333333333333
+CHN	prepandemic	L1_02.07	source_fim3	fim3-1	2	2	2	10	12	100	16.6666666666667
+CHN	prepandemic	L1_02.07	source_antigen_profile	MISSING	10	2	2	10	12		83.3333333333333
+CHN	prepandemic	L1_02.07	source_antigen_profile	ptxP3/fim3-1	2	2	2	10	12	100	16.6666666666667
+CHN	prepandemic	L1_02.07	source_23S_raw	MISSING	9	3	3	9	12		75
+CHN	prepandemic	L1_02.07	source_23S_raw	MS	2	3	3	9	12	66.6666666666667	16.6666666666667
+CHN	prepandemic	L1_02.07	source_23S_raw	MR_A2047G	1	3	3	9	12	33.3333333333333	8.33333333333333
+CHN	prepandemic	L1_02.07	frozen_23S_status	MISSING	9	3	3	9	12		75
+CHN	prepandemic	L1_02.07	frozen_23S_status	MS	2	3	3	9	12	66.6666666666667	16.6666666666667
+CHN	prepandemic	L1_02.07	frozen_23S_status	MR_A2047G	1	3	3	9	12	33.3333333333333	8.33333333333333
+CHN	prepandemic	L1_02.07	frozen_PRN_outcome	non_interpretable	8	12	4	0	12	66.6666666666667	66.6666666666667
+CHN	prepandemic	L1_02.07	frozen_PRN_outcome	intact	4	12	4	0	12	33.3333333333333	33.3333333333333
+CHN	prepandemic	L1_02.07	frozen_PRN_mechanism	insufficient_data	8	12	4	0	12	66.6666666666667	66.6666666666667
+CHN	prepandemic	L1_02.07	frozen_PRN_mechanism	intact	4	12	4	0	12	33.3333333333333	33.3333333333333
+CHN	prepandemic	L1_02.07	published_MT_label	MISSING	10	2	2	10	12		83.3333333333333
+CHN	prepandemic	L1_02.07	published_MT_label	MR-MT28-others	1	2	2	10	12	50	8.33333333333333
+CHN	prepandemic	L1_02.07	published_MT_label	MS-MT28	1	2	2	10	12	50	8.33333333333333
+CHN	prepandemic	Other_model_lineages	source_ptxP	ptxP1	83	95	95	50	145	87.3684210526316	57.2413793103448
+CHN	prepandemic	Other_model_lineages	source_ptxP	MISSING	50	95	95	50	145		34.4827586206897
+CHN	prepandemic	Other_model_lineages	source_ptxP	ptxP3	12	95	95	50	145	12.6315789473684	8.27586206896552
+CHN	prepandemic	Other_model_lineages	source_fim3	fim3-1	92	94	94	51	145	97.8723404255319	63.448275862069
+CHN	prepandemic	Other_model_lineages	source_fim3	MISSING	51	94	94	51	145		35.1724137931034
+CHN	prepandemic	Other_model_lineages	source_fim3	fim3-2	1	94	94	51	145	1.06382978723404	0.689655172413793
+CHN	prepandemic	Other_model_lineages	source_fim3	fim3-4	1	94	94	51	145	1.06382978723404	0.689655172413793
+CHN	prepandemic	Other_model_lineages	source_antigen_profile	ptxP1/fim3-1	82	94	94	51	145	87.2340425531915	56.551724137931
+CHN	prepandemic	Other_model_lineages	source_antigen_profile	MISSING	51	94	94	51	145		35.1724137931034
+CHN	prepandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-1	10	94	94	51	145	10.6382978723404	6.89655172413793
+CHN	prepandemic	Other_model_lineages	source_antigen_profile	ptxP1/fim3-4	1	94	94	51	145	1.06382978723404	0.689655172413793
+CHN	prepandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-2	1	94	94	51	145	1.06382978723404	0.689655172413793
+CHN	prepandemic	Other_model_lineages	source_23S_raw	MR_A2047G	79	95	95	50	145	83.1578947368421	54.4827586206897
+CHN	prepandemic	Other_model_lineages	source_23S_raw	MISSING	50	95	95	50	145		34.4827586206897
+CHN	prepandemic	Other_model_lineages	source_23S_raw	MS	16	95	95	50	145	16.8421052631579	11.0344827586207
+CHN	prepandemic	Other_model_lineages	frozen_23S_status	MR_A2047G	79	95	95	50	145	83.1578947368421	54.4827586206897
+CHN	prepandemic	Other_model_lineages	frozen_23S_status	MISSING	50	95	95	50	145		34.4827586206897
+CHN	prepandemic	Other_model_lineages	frozen_23S_status	MS	16	95	95	50	145	16.8421052631579	11.0344827586207
+CHN	prepandemic	Other_model_lineages	frozen_PRN_outcome	non_interpretable	109	145	36	0	145	75.1724137931034	75.1724137931034
+CHN	prepandemic	Other_model_lineages	frozen_PRN_outcome	intact	36	145	36	0	145	24.8275862068966	24.8275862068966
+CHN	prepandemic	Other_model_lineages	frozen_PRN_mechanism	insufficient_data	107	145	36	0	145	73.7931034482759	73.7931034482759
+CHN	prepandemic	Other_model_lineages	frozen_PRN_mechanism	intact	36	145	36	0	145	24.8275862068966	24.8275862068966
+CHN	prepandemic	Other_model_lineages	frozen_PRN_mechanism	uncertain_fragmented_assembly	2	145	36	0	145	1.37931034482759	1.37931034482759
+CHN	prepandemic	Other_model_lineages	published_MT_label	MISSING	145	0	0	145	145		100
+CHN	pandemic	L1_02.07	source_ptxP	ptxP3	22	22	22	19	41	100	53.6585365853659
+CHN	pandemic	L1_02.07	source_ptxP	MISSING	19	22	22	19	41		46.3414634146341
+CHN	pandemic	L1_02.07	source_fim3	fim3-1	21	21	21	20	41	100	51.219512195122
+CHN	pandemic	L1_02.07	source_fim3	MISSING	20	21	21	20	41		48.780487804878
+CHN	pandemic	L1_02.07	source_antigen_profile	ptxP3/fim3-1	21	21	21	20	41	100	51.219512195122
+CHN	pandemic	L1_02.07	source_antigen_profile	MISSING	20	21	21	20	41		48.780487804878
+CHN	pandemic	L1_02.07	source_23S_raw	MISSING	19	22	22	19	41		46.3414634146341
+CHN	pandemic	L1_02.07	source_23S_raw	MS	17	22	22	19	41	77.2727272727273	41.4634146341463
+CHN	pandemic	L1_02.07	source_23S_raw	MR_A2047G	5	22	22	19	41	22.7272727272727	12.1951219512195
+CHN	pandemic	L1_02.07	frozen_23S_status	MISSING	19	22	22	19	41		46.3414634146341
+CHN	pandemic	L1_02.07	frozen_23S_status	MS	17	22	22	19	41	77.2727272727273	41.4634146341463
+CHN	pandemic	L1_02.07	frozen_23S_status	MR_A2047G	5	22	22	19	41	22.7272727272727	12.1951219512195
+CHN	pandemic	L1_02.07	frozen_PRN_outcome	non_interpretable	16	41	25	0	41	39.0243902439024	39.0243902439024
+CHN	pandemic	L1_02.07	frozen_PRN_outcome	intact	15	41	25	0	41	36.5853658536585	36.5853658536585
+CHN	pandemic	L1_02.07	frozen_PRN_outcome	disrupted	10	41	25	0	41	24.390243902439	24.390243902439
+CHN	pandemic	L1_02.07	frozen_PRN_mechanism	insufficient_data	16	41	25	0	41	39.0243902439024	39.0243902439024
+CHN	pandemic	L1_02.07	frozen_PRN_mechanism	intact	15	41	25	0	41	36.5853658536585	36.5853658536585
+CHN	pandemic	L1_02.07	frozen_PRN_mechanism	coding_disrupted_other	5	41	25	0	41	12.1951219512195	12.1951219512195
+CHN	pandemic	L1_02.07	frozen_PRN_mechanism	coding_disrupted_is481	4	41	25	0	41	9.75609756097561	9.75609756097561
+CHN	pandemic	L1_02.07	frozen_PRN_mechanism	coding_disrupted_inversion_or_rearrangement	1	41	25	0	41	2.4390243902439	2.4390243902439
+CHN	pandemic	L1_02.07	published_MT_label	MISSING	20	21	21	20	41		48.780487804878
+CHN	pandemic	L1_02.07	published_MT_label	MR-MT28-PG1	10	21	21	20	41	47.6190476190476	24.390243902439
+CHN	pandemic	L1_02.07	published_MT_label	MR-MT28-others	7	21	21	20	41	33.3333333333333	17.0731707317073
+CHN	pandemic	L1_02.07	published_MT_label	MR-MT28-PG2	3	21	21	20	41	14.2857142857143	7.31707317073171
+CHN	pandemic	L1_02.07	published_MT_label	MS-MT28	1	21	21	20	41	4.76190476190476	2.4390243902439
+CHN	pandemic	Other_model_lineages	source_ptxP	ptxP1	29	34	34	3	37	85.2941176470588	78.3783783783784
+CHN	pandemic	Other_model_lineages	source_ptxP	ptxP3	5	34	34	3	37	14.7058823529412	13.5135135135135
+CHN	pandemic	Other_model_lineages	source_ptxP	MISSING	3	34	34	3	37		8.10810810810811
+CHN	pandemic	Other_model_lineages	source_fim3	fim3-1	34	34	34	3	37	100	91.8918918918919
+CHN	pandemic	Other_model_lineages	source_fim3	MISSING	3	34	34	3	37		8.10810810810811
+CHN	pandemic	Other_model_lineages	source_antigen_profile	ptxP1/fim3-1	29	34	34	3	37	85.2941176470588	78.3783783783784
+CHN	pandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-1	5	34	34	3	37	14.7058823529412	13.5135135135135
+CHN	pandemic	Other_model_lineages	source_antigen_profile	MISSING	3	34	34	3	37		8.10810810810811
+CHN	pandemic	Other_model_lineages	source_23S_raw	MS	33	34	34	3	37	97.0588235294118	89.1891891891892
+CHN	pandemic	Other_model_lineages	source_23S_raw	MISSING	3	34	34	3	37		8.10810810810811
+CHN	pandemic	Other_model_lineages	source_23S_raw	MR_A2047G	1	34	34	3	37	2.94117647058824	2.7027027027027
+CHN	pandemic	Other_model_lineages	frozen_23S_status	MS	33	34	34	3	37	97.0588235294118	89.1891891891892
+CHN	pandemic	Other_model_lineages	frozen_23S_status	MISSING	3	34	34	3	37		8.10810810810811
+CHN	pandemic	Other_model_lineages	frozen_23S_status	MR_A2047G	1	34	34	3	37	2.94117647058824	2.7027027027027
+CHN	pandemic	Other_model_lineages	frozen_PRN_outcome	intact	35	37	35	0	37	94.5945945945946	94.5945945945946
+CHN	pandemic	Other_model_lineages	frozen_PRN_outcome	non_interpretable	2	37	35	0	37	5.40540540540541	5.40540540540541
+CHN	pandemic	Other_model_lineages	frozen_PRN_mechanism	intact	35	37	35	0	37	94.5945945945946	94.5945945945946
+CHN	pandemic	Other_model_lineages	frozen_PRN_mechanism	insufficient_data	1	37	35	0	37	2.7027027027027	2.7027027027027
+CHN	pandemic	Other_model_lineages	frozen_PRN_mechanism	uncertain_fragmented_assembly	1	37	35	0	37	2.7027027027027	2.7027027027027
+CHN	pandemic	Other_model_lineages	published_MT_label	MISSING	37	0	0	37	37		100
+CHN	resurgence	L1_02.07	source_ptxP	MISSING	103	45	45	103	148		69.5945945945946
+CHN	resurgence	L1_02.07	source_ptxP	ptxP3	45	45	45	103	148	100	30.4054054054054
+CHN	resurgence	L1_02.07	source_fim3	MISSING	103	45	45	103	148		69.5945945945946
+CHN	resurgence	L1_02.07	source_fim3	fim3-1	45	45	45	103	148	100	30.4054054054054
+CHN	resurgence	L1_02.07	source_antigen_profile	MISSING	103	45	45	103	148		69.5945945945946
+CHN	resurgence	L1_02.07	source_antigen_profile	ptxP3/fim3-1	45	45	45	103	148	100	30.4054054054054
+CHN	resurgence	L1_02.07	source_23S_raw	MISSING	103	45	45	103	148		69.5945945945946
+CHN	resurgence	L1_02.07	source_23S_raw	MR_A2047G	27	45	45	103	148	60	18.2432432432432
+CHN	resurgence	L1_02.07	source_23S_raw	MS	18	45	45	103	148	40	12.1621621621622
+CHN	resurgence	L1_02.07	frozen_23S_status	MISSING	103	45	45	103	148		69.5945945945946
+CHN	resurgence	L1_02.07	frozen_23S_status	MR_A2047G	27	45	45	103	148	60	18.2432432432432
+CHN	resurgence	L1_02.07	frozen_23S_status	MS	18	45	45	103	148	40	12.1621621621622
+CHN	resurgence	L1_02.07	frozen_PRN_outcome	non_interpretable	118	148	30	0	148	79.7297297297297	79.7297297297297
+CHN	resurgence	L1_02.07	frozen_PRN_outcome	intact	27	148	30	0	148	18.2432432432432	18.2432432432432
+CHN	resurgence	L1_02.07	frozen_PRN_outcome	disrupted	3	148	30	0	148	2.02702702702703	2.02702702702703
+CHN	resurgence	L1_02.07	frozen_PRN_mechanism	insufficient_data	116	148	30	0	148	78.3783783783784	78.3783783783784
+CHN	resurgence	L1_02.07	frozen_PRN_mechanism	intact	27	148	30	0	148	18.2432432432432	18.2432432432432
+CHN	resurgence	L1_02.07	frozen_PRN_mechanism	coding_disrupted_is481	3	148	30	0	148	2.02702702702703	2.02702702702703
+CHN	resurgence	L1_02.07	frozen_PRN_mechanism	uncertain_fragmented_assembly	2	148	30	0	148	1.35135135135135	1.35135135135135
+CHN	resurgence	L1_02.07	published_MT_label	MISSING	104	44	44	104	148		70.2702702702703
+CHN	resurgence	L1_02.07	published_MT_label	MR-MT28-others	27	44	44	104	148	61.3636363636364	18.2432432432432
+CHN	resurgence	L1_02.07	published_MT_label	MR-MT28-PG2	12	44	44	104	148	27.2727272727273	8.10810810810811
+CHN	resurgence	L1_02.07	published_MT_label	MR-MT28-PG1	5	44	44	104	148	11.3636363636364	3.37837837837838
+CHN	resurgence	Other_model_lineages	source_ptxP	MISSING	4	1	1	4	5		80
+CHN	resurgence	Other_model_lineages	source_ptxP	ptxP1	1	1	1	4	5	100	20
+CHN	resurgence	Other_model_lineages	source_fim3	MISSING	4	1	1	4	5		80
+CHN	resurgence	Other_model_lineages	source_fim3	fim3-1	1	1	1	4	5	100	20
+CHN	resurgence	Other_model_lineages	source_antigen_profile	MISSING	4	1	1	4	5		80
+CHN	resurgence	Other_model_lineages	source_antigen_profile	ptxP1/fim3-1	1	1	1	4	5	100	20
+CHN	resurgence	Other_model_lineages	source_23S_raw	MISSING	4	1	1	4	5		80
+CHN	resurgence	Other_model_lineages	source_23S_raw	MR_A2047G	1	1	1	4	5	100	20
+CHN	resurgence	Other_model_lineages	frozen_23S_status	MISSING	4	1	1	4	5		80
+CHN	resurgence	Other_model_lineages	frozen_23S_status	MR_A2047G	1	1	1	4	5	100	20
+CHN	resurgence	Other_model_lineages	frozen_PRN_outcome	intact	3	5	3	0	5	60	60
+CHN	resurgence	Other_model_lineages	frozen_PRN_outcome	non_interpretable	2	5	3	0	5	40	40
+CHN	resurgence	Other_model_lineages	frozen_PRN_mechanism	intact	3	5	3	0	5	60	60
+CHN	resurgence	Other_model_lineages	frozen_PRN_mechanism	insufficient_data	2	5	3	0	5	40	40
+CHN	resurgence	Other_model_lineages	published_MT_label	MISSING	5	0	0	5	5		100
+FRA	prepandemic	Other_model_lineages	source_ptxP	ptxP3	5	5	5	1	6	100	83.3333333333333
+FRA	prepandemic	Other_model_lineages	source_ptxP	MISSING	1	5	5	1	6		16.6666666666667
+FRA	prepandemic	Other_model_lineages	source_fim3	fim3-2	4	5	5	1	6	80	66.6666666666667
+FRA	prepandemic	Other_model_lineages	source_fim3	fim3-1	1	5	5	1	6	20	16.6666666666667
+FRA	prepandemic	Other_model_lineages	source_fim3	MISSING	1	5	5	1	6		16.6666666666667
+FRA	prepandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-2	3	4	4	2	6	75	50
+FRA	prepandemic	Other_model_lineages	source_antigen_profile	MISSING	2	4	4	2	6		33.3333333333333
+FRA	prepandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-1	1	4	4	2	6	25	16.6666666666667
+FRA	prepandemic	Other_model_lineages	source_23S_raw	MS	6	6	6	0	6	100	100
+FRA	prepandemic	Other_model_lineages	frozen_23S_status	MS	6	6	6	0	6	100	100
+FRA	prepandemic	Other_model_lineages	frozen_PRN_outcome	intact	4	6	5	0	6	66.6666666666667	66.6666666666667
+FRA	prepandemic	Other_model_lineages	frozen_PRN_outcome	disrupted	1	6	5	0	6	16.6666666666667	16.6666666666667
+FRA	prepandemic	Other_model_lineages	frozen_PRN_outcome	non_interpretable	1	6	5	0	6	16.6666666666667	16.6666666666667
+FRA	prepandemic	Other_model_lineages	frozen_PRN_mechanism	intact	4	6	5	0	6	66.6666666666667	66.6666666666667
+FRA	prepandemic	Other_model_lineages	frozen_PRN_mechanism	coding_disrupted_is481	1	6	5	0	6	16.6666666666667	16.6666666666667
+FRA	prepandemic	Other_model_lineages	frozen_PRN_mechanism	insufficient_data	1	6	5	0	6	16.6666666666667	16.6666666666667
+FRA	prepandemic	Other_model_lineages	published_MT_label	MISSING	6	0	0	6	6		100
+FRA	resurgence	L1_02.07	source_ptxP	ptxP3	6	6	6	0	6	100	100
+FRA	resurgence	L1_02.07	source_fim3	fim3-1	5	5	5	1	6	100	83.3333333333333
+FRA	resurgence	L1_02.07	source_fim3	MISSING	1	5	5	1	6		16.6666666666667
+FRA	resurgence	L1_02.07	source_antigen_profile	ptxP3/fim3-1	5	5	5	1	6	100	83.3333333333333
+FRA	resurgence	L1_02.07	source_antigen_profile	MISSING	1	5	5	1	6		16.6666666666667
+FRA	resurgence	L1_02.07	source_23S_raw	23S_rRNA_1	4	6	6	0	6	66.6666666666667	66.6666666666667
+FRA	resurgence	L1_02.07	source_23S_raw	23S_rRNA_13	1	6	6	0	6	16.6666666666667	16.6666666666667
+FRA	resurgence	L1_02.07	source_23S_raw	MS	1	6	6	0	6	16.6666666666667	16.6666666666667
+FRA	resurgence	L1_02.07	frozen_23S_status	MISSING	5	1	1	5	6		83.3333333333333
+FRA	resurgence	L1_02.07	frozen_23S_status	MS	1	1	1	5	6	100	16.6666666666667
+FRA	resurgence	L1_02.07	frozen_PRN_outcome	MISSING	5	1	1	5	6		83.3333333333333
+FRA	resurgence	L1_02.07	frozen_PRN_outcome	intact	1	1	1	5	6	100	16.6666666666667
+FRA	resurgence	L1_02.07	frozen_PRN_mechanism	MISSING	5	1	1	5	6		83.3333333333333
+FRA	resurgence	L1_02.07	frozen_PRN_mechanism	intact	1	1	1	5	6	100	16.6666666666667
+FRA	resurgence	L1_02.07	published_MT_label	MS-MT28	4	5	5	1	6	80	66.6666666666667
+FRA	resurgence	L1_02.07	published_MT_label	MISSING	1	5	5	1	6		16.6666666666667
+FRA	resurgence	L1_02.07	published_MT_label	MR-MT28-PG1	1	5	5	1	6	20	16.6666666666667
+FRA	resurgence	Other_model_lineages	source_ptxP	ptxP3	41	47	47	0	47	87.2340425531915	87.2340425531915
+FRA	resurgence	Other_model_lineages	source_ptxP	ptxP1	6	47	47	0	47	12.7659574468085	12.7659574468085
+FRA	resurgence	Other_model_lineages	source_fim3	fim3-1	29	43	43	4	47	67.4418604651163	61.7021276595745
+FRA	resurgence	Other_model_lineages	source_fim3	fim3-2	8	43	43	4	47	18.6046511627907	17.0212765957447
+FRA	resurgence	Other_model_lineages	source_fim3	fim3-26	4	43	43	4	47	9.30232558139535	8.51063829787234
+FRA	resurgence	Other_model_lineages	source_fim3	MISSING	4	43	43	4	47		8.51063829787234
+FRA	resurgence	Other_model_lineages	source_fim3	fim3-27	1	43	43	4	47	2.32558139534884	2.12765957446809
+FRA	resurgence	Other_model_lineages	source_fim3	fim3-4	1	43	43	4	47	2.32558139534884	2.12765957446809
+FRA	resurgence	Other_model_lineages	source_antigen_profile	ptxP3/fim3-1	29	43	43	4	47	67.4418604651163	61.7021276595745
+FRA	resurgence	Other_model_lineages	source_antigen_profile	ptxP3/fim3-2	8	43	43	4	47	18.6046511627907	17.0212765957447
+FRA	resurgence	Other_model_lineages	source_antigen_profile	MISSING	4	43	43	4	47		8.51063829787234
+FRA	resurgence	Other_model_lineages	source_antigen_profile	ptxP1/fim3-26	4	43	43	4	47	9.30232558139535	8.51063829787234
+FRA	resurgence	Other_model_lineages	source_antigen_profile	ptxP1/fim3-4	1	43	43	4	47	2.32558139534884	2.12765957446809
+FRA	resurgence	Other_model_lineages	source_antigen_profile	ptxP3/fim3-27	1	43	43	4	47	2.32558139534884	2.12765957446809
+FRA	resurgence	Other_model_lineages	source_23S_raw	23S_rRNA_1	42	47	47	0	47	89.3617021276596	89.3617021276596
+FRA	resurgence	Other_model_lineages	source_23S_raw	MS	5	47	47	0	47	10.6382978723404	10.6382978723404
+FRA	resurgence	Other_model_lineages	frozen_23S_status	MISSING	42	5	5	42	47		89.3617021276596
+FRA	resurgence	Other_model_lineages	frozen_23S_status	MS	5	5	5	42	47	100	10.6382978723404
+FRA	resurgence	Other_model_lineages	frozen_PRN_outcome	MISSING	42	5	5	42	47		89.3617021276596
+FRA	resurgence	Other_model_lineages	frozen_PRN_outcome	intact	5	5	5	42	47	100	10.6382978723404
+FRA	resurgence	Other_model_lineages	frozen_PRN_mechanism	MISSING	42	5	5	42	47		89.3617021276596
+FRA	resurgence	Other_model_lineages	frozen_PRN_mechanism	intact	5	5	5	42	47	100	10.6382978723404
+FRA	resurgence	Other_model_lineages	published_MT_label	MISSING	47	0	0	47	47		100
+JPN	prepandemic	Other_model_lineages	source_ptxP	ptxP1	24	48	48	2	50	50	48
+JPN	prepandemic	Other_model_lineages	source_ptxP	ptxP3	22	48	48	2	50	45.8333333333333	44
+JPN	prepandemic	Other_model_lineages	source_ptxP	MISSING	2	48	48	2	50		4
+JPN	prepandemic	Other_model_lineages	source_ptxP	ptxP8	2	48	48	2	50	4.16666666666667	4
+JPN	prepandemic	Other_model_lineages	source_fim3	fim3-1	42	46	46	4	50	91.304347826087	84
+JPN	prepandemic	Other_model_lineages	source_fim3	fim3-2	4	46	46	4	50	8.69565217391304	8
+JPN	prepandemic	Other_model_lineages	source_fim3	MISSING	4	46	46	4	50		8
+JPN	prepandemic	Other_model_lineages	source_antigen_profile	ptxP1/fim3-1	22	46	46	4	50	47.8260869565217	44
+JPN	prepandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-1	18	46	46	4	50	39.1304347826087	36
+JPN	prepandemic	Other_model_lineages	source_antigen_profile	MISSING	4	46	46	4	50		8
+JPN	prepandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-2	4	46	46	4	50	8.69565217391304	8
+JPN	prepandemic	Other_model_lineages	source_antigen_profile	ptxP8/fim3-1	2	46	46	4	50	4.34782608695652	4
+JPN	prepandemic	Other_model_lineages	source_23S_raw	23S_rRNA_1	34	48	48	2	50	70.8333333333333	68
+JPN	prepandemic	Other_model_lineages	source_23S_raw	MS	14	48	48	2	50	29.1666666666667	28
+JPN	prepandemic	Other_model_lineages	source_23S_raw	MISSING	2	48	48	2	50		4
+JPN	prepandemic	Other_model_lineages	frozen_23S_status	MISSING	31	19	19	31	50		62
+JPN	prepandemic	Other_model_lineages	frozen_23S_status	MS	19	19	19	31	50	100	38
+JPN	prepandemic	Other_model_lineages	frozen_PRN_outcome	MISSING	29	21	18	29	50		58
+JPN	prepandemic	Other_model_lineages	frozen_PRN_outcome	intact	18	21	18	29	50	85.7142857142857	36
+JPN	prepandemic	Other_model_lineages	frozen_PRN_outcome	non_interpretable	3	21	18	29	50	14.2857142857143	6
+JPN	prepandemic	Other_model_lineages	frozen_PRN_mechanism	MISSING	29	21	18	29	50		58
+JPN	prepandemic	Other_model_lineages	frozen_PRN_mechanism	intact	18	21	18	29	50	85.7142857142857	36
+JPN	prepandemic	Other_model_lineages	frozen_PRN_mechanism	insufficient_data	3	21	18	29	50	14.2857142857143	6
+JPN	prepandemic	Other_model_lineages	published_MT_label	MISSING	50	0	0	50	50		100
+JPN	pandemic	Other_model_lineages	source_ptxP	ptxP3	1	1	1	0	1	100	100
+JPN	pandemic	Other_model_lineages	source_fim3	fim3-1	1	1	1	0	1	100	100
+JPN	pandemic	Other_model_lineages	source_antigen_profile	ptxP3/fim3-1	1	1	1	0	1	100	100
+JPN	pandemic	Other_model_lineages	source_23S_raw	MS	1	1	1	0	1	100	100
+JPN	pandemic	Other_model_lineages	frozen_23S_status	MS	1	1	1	0	1	100	100
+JPN	pandemic	Other_model_lineages	frozen_PRN_outcome	intact	1	1	1	0	1	100	100
+JPN	pandemic	Other_model_lineages	frozen_PRN_mechanism	intact	1	1	1	0	1	100	100
+JPN	pandemic	Other_model_lineages	published_MT_label	MISSING	1	0	0	1	1		100
+JPN	resurgence	L1_02.07	source_ptxP	MISSING	47	7	7	47	54		87.037037037037
+JPN	resurgence	L1_02.07	source_ptxP	ptxP3	7	7	7	47	54	100	12.962962962963
+JPN	resurgence	L1_02.07	source_fim3	MISSING	54	0	0	54	54		100
+JPN	resurgence	L1_02.07	source_antigen_profile	MISSING	54	0	0	54	54		100
+JPN	resurgence	L1_02.07	source_23S_raw	MISSING	47	7	7	47	54		87.037037037037
+JPN	resurgence	L1_02.07	source_23S_raw	MS	7	7	7	47	54	100	12.962962962963
+JPN	resurgence	L1_02.07	frozen_23S_status	MISSING	47	7	7	47	54		87.037037037037
+JPN	resurgence	L1_02.07	frozen_23S_status	MS	7	7	7	47	54	100	12.962962962963
+JPN	resurgence	L1_02.07	frozen_PRN_outcome	MISSING	20	34	16	20	54		37.037037037037
+JPN	resurgence	L1_02.07	frozen_PRN_outcome	non_interpretable	18	34	16	20	54	52.9411764705882	33.3333333333333
+JPN	resurgence	L1_02.07	frozen_PRN_outcome	intact	14	34	16	20	54	41.1764705882353	25.9259259259259
+JPN	resurgence	L1_02.07	frozen_PRN_outcome	disrupted	2	34	16	20	54	5.88235294117647	3.7037037037037
+JPN	resurgence	L1_02.07	frozen_PRN_mechanism	MISSING	20	34	16	20	54		37.037037037037
+JPN	resurgence	L1_02.07	frozen_PRN_mechanism	insufficient_data	16	34	16	20	54	47.0588235294118	29.6296296296296
+JPN	resurgence	L1_02.07	frozen_PRN_mechanism	intact	14	34	16	20	54	41.1764705882353	25.9259259259259
+JPN	resurgence	L1_02.07	frozen_PRN_mechanism	coding_disrupted_is481	2	34	16	20	54	5.88235294117647	3.7037037037037
+JPN	resurgence	L1_02.07	frozen_PRN_mechanism	uncertain_fragmented_assembly	2	34	16	20	54	5.88235294117647	3.7037037037037
+JPN	resurgence	L1_02.07	published_MT_label	MISSING	54	0	0	54	54		100
+JPN	resurgence	Other_model_lineages	source_ptxP	MISSING	5	1	1	5	6		83.3333333333333
+JPN	resurgence	Other_model_lineages	source_ptxP	ptxP1	1	1	1	5	6	100	16.6666666666667
+JPN	resurgence	Other_model_lineages	source_fim3	MISSING	6	0	0	6	6		100
+JPN	resurgence	Other_model_lineages	source_antigen_profile	MISSING	6	0	0	6	6		100
+JPN	resurgence	Other_model_lineages	source_23S_raw	MISSING	5	1	1	5	6		83.3333333333333
+JPN	resurgence	Other_model_lineages	source_23S_raw	MS	1	1	1	5	6	100	16.6666666666667
+JPN	resurgence	Other_model_lineages	frozen_23S_status	MISSING	5	1	1	5	6		83.3333333333333
+JPN	resurgence	Other_model_lineages	frozen_23S_status	MS	1	1	1	5	6	100	16.6666666666667
+JPN	resurgence	Other_model_lineages	frozen_PRN_outcome	MISSING	3	3	2	3	6		50
+JPN	resurgence	Other_model_lineages	frozen_PRN_outcome	intact	2	3	2	3	6	66.6666666666667	33.3333333333333
+JPN	resurgence	Other_model_lineages	frozen_PRN_outcome	non_interpretable	1	3	2	3	6	33.3333333333333	16.6666666666667
+JPN	resurgence	Other_model_lineages	frozen_PRN_mechanism	MISSING	3	3	2	3	6		50
+JPN	resurgence	Other_model_lineages	frozen_PRN_mechanism	intact	2	3	2	3	6	66.6666666666667	33.3333333333333
+JPN	resurgence	Other_model_lineages	frozen_PRN_mechanism	insufficient_data	1	3	2	3	6	33.3333333333333	16.6666666666667
+JPN	resurgence	Other_model_lineages	published_MT_label	MISSING	6	0	0	6	6		100

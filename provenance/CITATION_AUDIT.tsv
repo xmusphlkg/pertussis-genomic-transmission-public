@@ -12,3 +12,6 @@ reference	status	identifier	verification_source	notes
 11	verified	PMID:30345380;DOI:10.12688/wellcomeopenres.14694.1	PubMed	Title, authors, journal, year, volume, and article number confirmed
 12	verified	PMID:31127303;DOI:10.1093/molbev/msz131	PubMed	Title, authors, journal, year, volume, issue, and pages confirmed
 13	verified	DOI:10.3201/eid2406.171464	CDC Emerging Infectious Diseases;PubMed Central	Title, authors, journal, year, volume, issue, and pages confirmed
+14	verified	PMID:35476597;DOI:10.1126/scitranslmed.abn3253	PubMed;Europe PMC;Science Translational Medicine	Title, abstract, authors, journal, year, volume, issue, article number, and DOI confirmed
+15	verified	PMID:39743587;DOI:10.1038/s41586-024-08309-9	PubMed;Europe PMC;Nature	Title, abstract, authors, journal, year, volume, issue, pages, and DOI confirmed
+16	verified	PMID:42020402;DOI:10.1038/s41467-026-72213-1	PubMed;Europe PMC;Nature Communications	Title, abstract, authors, journal, year, volume, issue, article number, and DOI confirmed

@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "joint_all_parameters_pass": false,
+  "lineage_growth_domain_pass": true,
+  "import_scale_domain_pass": false,
+  "target_specific_inference_status": "descriptive_only_n_6_replicates",
+  "domains": {
+    "all_lineage_growth": {
+      "n_replicates": 6,
+      "n_parameters": 5,
+      "n_parameter_replicate_pairs": 30,
+      "n_covered_95": 24,
+      "coverage_95": 0.8,
+      "median_absolute_log_error": 0.0192237038533898,
+      "truth_posterior_median_correlation": 0.816922220856696,
+      "highest_lineage_rank_recovery": 1,
+      "thresholds_copied_from_existing_gate": {
+        "minimum_95_interval_coverage": 0.8,
+        "maximum_median_absolute_log_error": 0.2,
+        "minimum_truth_median_correlation": 0.7,
+        "minimum_highest_lineage_rank_recovery": 0.75
+      },
+      "zero_divergence_constraint_pass": true,
+      "domain_pass": true
+    },
+    "target_lineage_growth": {
+      "analysis_identifier": "L1_02.07",
+      "model_parameter": "lineage_relative_transmission[4]",
+      "n_replicates": 6,
+      "n_parameters": 1,
+      "n_parameter_replicate_pairs": 6,
+      "n_covered_95": 4,
+      "coverage_95": 0.666666666666667,
+      "median_absolute_log_error": 0.0156798124286418,
+      "truth_posterior_median_correlation": -0.304461351396602,
+      "inference_status": "descriptive_only_n_6_replicates",
+      "threshold_evaluated": false,
+      "reason": "Target-specific recovery is reported descriptively because only 6 recovery replicates were run."
+    },
+    "import_scale": {
+      "n_replicates": 6,
+      "n_parameters": 3,
+      "n_parameter_replicate_pairs": 18,
+      "n_covered_95": 13,
+      "coverage_95": 0.722222222222222,
+      "median_absolute_log_error": 0.845173006101988,
+      "truth_posterior_median_correlation": -0.0549693349720176,
+      "thresholds_copied_from_existing_gate": {
+        "minimum_95_interval_coverage": 0.8,
+        "maximum_median_absolute_log_error": 0.5,
+        "minimum_truth_median_correlation": 0.7
+      },
+      "zero_divergence_constraint_pass": true,
+      "domain_pass": false
+    }
+  },
+  "highest_lineage_rank_recovery": {
+    "n_replicates": 6,
+    "n_correct": 6,
+    "recovery_fraction": 1
+  },
+  "sampler_diagnostics": {
+    "n_replicates": 6,
+    "divergent_transitions": 0,
+    "maximum_treedepth_hits": 0,
+    "maximum_rhat": 1.00661978157224,
+    "minimum_neff": 541.614808589802,
+    "zero_divergence_constraint_pass": true,
+    "gating_note": "Only the zero-divergence constraint belonged to the original joint gate. Maximum-treedepth hits, R-hat, and effective sample size are reported descriptively without newly introduced cutoffs."
+  },
+  "interpretation": {
+    "joint_gate": "The original joint all-parameter gate is retained exactly and is not replaced by either domain-specific result.",
+    "lineage_growth": "The all-lineage growth domain is evaluated with only the lineage thresholds, highest-lineage rank threshold, and zero-divergence constraint prespecified in the existing gate.",
+    "import_scale": "Within this simulation-refit design, import-scale parameters are structurally less recoverable than shared lineage growth. Scenario evidence that depends on import scale must remain conditional."
+  },
+  "provenance": {
+    "input_files": {
+      "all_recovery": {
+        "basename": "all_recovery.tsv",
+        "md5": "fe8618d8b3d51d42277f1e9410ae513c"
+      },
+      "all_diagnostics": {
+        "basename": "all_diagnostics.tsv",
+        "md5": "be5bb4b4bd715688795ba5cc8a279384"
+      },
+      "identifiability_gate": {
+        "basename": "identifiability_gate.json",
+        "md5": "bcf00fce4568955d1b9641a15f752072"
+      }
+    },
+    "joint_gate_source_field": "pass",
+    "joint_gate_value_copied_not_recomputed": true,
+    "domain_pass_does_not_replace_joint_gate": true,
+    "threshold_source": "thresholds_defined_before_recovery_results in the supplied gate",
+    "new_inferential_thresholds_added": false,
+    "diagnostic_constraint_reused": "zero total divergent transitions",
+    "diagnostic_metrics_reported_without_new_cutoffs": ["maximum_treedepth_hits", "maximum_rhat", "minimum_neff"],
+    "frozen_lineage_parameter_map": {
+      "lineage_relative_transmission[1]": "L1_01.02",
+      "lineage_relative_transmission[2]": "L1_02.05",
+      "lineage_relative_transmission[3]": "L1_02.06",
+      "lineage_relative_transmission[4]": "L1_02.07",
+      "lineage_relative_transmission[5]": "Other"
+    },
+    "gate_input_consistency_tolerance": 5.1e-05,
+    "gate_input_consistency_tolerance_role": "display-rounding check only; never used for inference or domain pass"
+  }
+}

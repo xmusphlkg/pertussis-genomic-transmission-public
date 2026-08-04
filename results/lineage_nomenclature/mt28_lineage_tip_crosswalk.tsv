@@ -1,0 +1,990 @@
+tree_sample_id	genome_record_id	tree_role	country_iso3	epidemic_period	model_sublineage_id	primary_model_lineage_id	published_branch	published_lineage	published_sublineage	published_mt28_label	has_published_mt28_label	is_l10207	inside_published_mt28_mrca	published_annotation_source
+AUS__SAMN44480251	AUS::SAMN44480251	focal	AUS	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+AUS__SAMN44480252	AUS::SAMN44480252	focal	AUS	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+AUS__SAMN45810584	AUS::SAMN45810584	focal	AUS	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+BEL__SAMEA117989226	BEL::SAMEA117989226	focal	BEL	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	transmission_genome_records
+BEL__SAMEA117989259	BEL::SAMEA117989259	focal	BEL	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	transmission_genome_records
+BEL__SAMEA117989308	BEL::SAMEA117989308	focal	BEL	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	transmission_genome_records
+BEL__SAMEA117989513	BEL::SAMEA117989513	focal	BEL	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	transmission_genome_records
+BEL__SAMEA117989545	BEL::SAMEA117989545	focal	BEL	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	transmission_genome_records
+BEL__SAMEA117989573	BEL::SAMEA117989573	focal	BEL	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	transmission_genome_records
+BEL__SAMEA117989613	BEL::SAMEA117989613	focal	BEL	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN07329785	CHN::SAMN07329785	focal	CHN	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN39683369	CHN::SAMN39683369	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN39683412	CHN::SAMN39683412	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN39683447	CHN::SAMN39683447	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN39683481	CHN::SAMN39683481	focal	CHN	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN40924133	CHN::SAMN40924133	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN40924154	CHN::SAMN40924154	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391103	CHN::SAMN42391103	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391104	CHN::SAMN42391104	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391115	CHN::SAMN42391115	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391116	CHN::SAMN42391116	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391118	CHN::SAMN42391118	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391119	CHN::SAMN42391119	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391121	CHN::SAMN42391121	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391122	CHN::SAMN42391122	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391124	CHN::SAMN42391124	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391126	CHN::SAMN42391126	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391128	CHN::SAMN42391128	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391129	CHN::SAMN42391129	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391130	CHN::SAMN42391130	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391131	CHN::SAMN42391131	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391132	CHN::SAMN42391132	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391133	CHN::SAMN42391133	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391134	CHN::SAMN42391134	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391135	CHN::SAMN42391135	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391136	CHN::SAMN42391136	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391137	CHN::SAMN42391137	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391138	CHN::SAMN42391138	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391139	CHN::SAMN42391139	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391140	CHN::SAMN42391140	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391141	CHN::SAMN42391141	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391142	CHN::SAMN42391142	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391143	CHN::SAMN42391143	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391144	CHN::SAMN42391144	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391145	CHN::SAMN42391145	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391146	CHN::SAMN42391146	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391147	CHN::SAMN42391147	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391148	CHN::SAMN42391148	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391149	CHN::SAMN42391149	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN42391150	CHN::SAMN42391150	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024010	CHN::SAMN43024010	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024011	CHN::SAMN43024011	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024012	CHN::SAMN43024012	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024013	CHN::SAMN43024013	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024014	CHN::SAMN43024014	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024015	CHN::SAMN43024015	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024016	CHN::SAMN43024016	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024017	CHN::SAMN43024017	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024018	CHN::SAMN43024018	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024019	CHN::SAMN43024019	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024020	CHN::SAMN43024020	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024021	CHN::SAMN43024021	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156013	CHN::SAMN45156013	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156018	CHN::SAMN45156018	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156019	CHN::SAMN45156019	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156020	CHN::SAMN45156020	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156021	CHN::SAMN45156021	focal	CHN	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156024	CHN::SAMN45156024	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156027	CHN::SAMN45156027	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156028	CHN::SAMN45156028	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG2	MR-MT28-PG2	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156030	CHN::SAMN45156030	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156031	CHN::SAMN45156031	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156034	CHN::SAMN45156034	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156054	CHN::SAMN45156054	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156057	CHN::SAMN45156057	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156063	CHN::SAMN45156063	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN45156066	CHN::SAMN45156066	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	transmission_genome_records
+FRA__SAMEA115874197	FRA::SAMEA115874197	focal	FRA	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	transmission_genome_records
+FRA__SAMEA115874199	FRA::SAMEA115874199	focal	FRA	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	transmission_genome_records
+FRA__SAMEA115874210	FRA::SAMEA115874210	focal	FRA	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-PG1	MR-MT28-PG1	TRUE	TRUE	TRUE	transmission_genome_records
+FRA__SAMEA115874217	FRA::SAMEA115874217	focal	FRA	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	transmission_genome_records
+FRA__SAMEA115874223	FRA::SAMEA115874223	focal	FRA	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	transmission_genome_records
+AUT__SAMN15396105	BG::SAMN15396105	global_background	AUT	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+AUT__SAMN15396109	BG::SAMN15396109	global_background	AUT	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+AUT__SAMN15396112	BG::SAMN15396112	global_background	AUT	pandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+AUT__SAMN15396194	BG::SAMN15396194	global_background	AUT	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+DNK__SAMEA8914402	BG::SAMEA8914402	global_background	DNK	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+DNK__SAMEA8914410	BG::SAMEA8914410	global_background	DNK	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+FIN__SAMEA8914470	BG::SAMEA8914470	global_background	FIN	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+FIN__SAMEA8914471	BG::SAMEA8914471	global_background	FIN	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+IRL__SAMEA8914503	BG::SAMEA8914503	global_background	IRL	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+IRL__SAMEA8914514	BG::SAMEA8914514	global_background	IRL	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+NOR__SAMEA10057988	BG::SAMEA10057988	global_background	NOR	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+NOR__SAMEA10057989	BG::SAMEA10057989	global_background	NOR	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+NOR__SAMEA10058016	BG::SAMEA10058016	global_background	NOR	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+NOR__SAMEA10058023	BG::SAMEA10058023	global_background	NOR	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+USA__SAMN11539704	BG::SAMN11539704	global_background	USA	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+USA__SAMN12392429	BG::SAMN12392429	global_background	USA	prepandemic	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MS-MT28	MS-MT28	TRUE	TRUE	TRUE	global_tree_background_records
+USA__SAMN46491808	BG::SAMN46491808	global_background	USA	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1	MR-MT28-others	MR-MT28-others	TRUE	TRUE	TRUE	global_tree_background_records
+CHN__SAMN32033997	CHN::SAMN32033997	focal	CHN	prepandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN32034026	CHN::SAMN32034026	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN32034055	CHN::SAMN32034055	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN32034068	CHN::SAMN32034068	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN33268551	CHN::SAMN33268551	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN33268552	CHN::SAMN33268552	focal	CHN	prepandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024023	CHN::SAMN43024023	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024024	CHN::SAMN43024024	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024025	CHN::SAMN43024025	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024027	CHN::SAMN43024027	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024031	CHN::SAMN43024031	focal	CHN	resurgence	L1_02.07	L1_02.07	Branch_IIb	ptxP3/fim3-1			FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024032	CHN::SAMN43024032	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN43024034	CHN::SAMN43024034	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583814	CHN::SAMN44583814	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583815	CHN::SAMN44583815	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583816	CHN::SAMN44583816	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583817	CHN::SAMN44583817	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583818	CHN::SAMN44583818	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583819	CHN::SAMN44583819	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583820	CHN::SAMN44583820	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583821	CHN::SAMN44583821	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583823	CHN::SAMN44583823	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583824	CHN::SAMN44583824	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583825	CHN::SAMN44583825	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583826	CHN::SAMN44583826	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583827	CHN::SAMN44583827	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583828	CHN::SAMN44583828	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583829	CHN::SAMN44583829	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583830	CHN::SAMN44583830	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583831	CHN::SAMN44583831	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583832	CHN::SAMN44583832	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583833	CHN::SAMN44583833	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583834	CHN::SAMN44583834	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583835	CHN::SAMN44583835	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583837	CHN::SAMN44583837	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583838	CHN::SAMN44583838	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583839	CHN::SAMN44583839	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583840	CHN::SAMN44583840	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583843	CHN::SAMN44583843	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583845	CHN::SAMN44583845	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583846	CHN::SAMN44583846	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583859	CHN::SAMN44583859	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583863	CHN::SAMN44583863	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583865	CHN::SAMN44583865	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583870	CHN::SAMN44583870	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583871	CHN::SAMN44583871	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583872	CHN::SAMN44583872	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583886	CHN::SAMN44583886	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583912	CHN::SAMN44583912	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583924	CHN::SAMN44583924	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583927	CHN::SAMN44583927	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583945	CHN::SAMN44583945	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583946	CHN::SAMN44583946	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583959	CHN::SAMN44583959	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44583972	CHN::SAMN44583972	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584005	CHN::SAMN44584005	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584012	CHN::SAMN44584012	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584022	CHN::SAMN44584022	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584026	CHN::SAMN44584026	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584033	CHN::SAMN44584033	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584039	CHN::SAMN44584039	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584040	CHN::SAMN44584040	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584044	CHN::SAMN44584044	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584067	CHN::SAMN44584067	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584068	CHN::SAMN44584068	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584073	CHN::SAMN44584073	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584075	CHN::SAMN44584075	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584082	CHN::SAMN44584082	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584094	CHN::SAMN44584094	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44584104	CHN::SAMN44584104	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590209	CHN::SAMN44590209	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590214	CHN::SAMN44590214	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590219	CHN::SAMN44590219	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590224	CHN::SAMN44590224	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590233	CHN::SAMN44590233	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590238	CHN::SAMN44590238	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590242	CHN::SAMN44590242	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590252	CHN::SAMN44590252	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590257	CHN::SAMN44590257	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590261	CHN::SAMN44590261	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590265	CHN::SAMN44590265	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590268	CHN::SAMN44590268	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590275	CHN::SAMN44590275	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590276	CHN::SAMN44590276	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590282	CHN::SAMN44590282	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590283	CHN::SAMN44590283	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590291	CHN::SAMN44590291	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590292	CHN::SAMN44590292	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590294	CHN::SAMN44590294	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590295	CHN::SAMN44590295	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590307	CHN::SAMN44590307	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590310	CHN::SAMN44590310	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590311	CHN::SAMN44590311	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590312	CHN::SAMN44590312	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN44590314	CHN::SAMN44590314	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50151955	CHN::SAMN50151955	focal	CHN	prepandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50151956	CHN::SAMN50151956	focal	CHN	prepandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50151958	CHN::SAMN50151958	focal	CHN	prepandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50151962	CHN::SAMN50151962	focal	CHN	prepandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50151963	CHN::SAMN50151963	focal	CHN	prepandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50151964	CHN::SAMN50151964	focal	CHN	prepandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50151965	CHN::SAMN50151965	focal	CHN	prepandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50151977	CHN::SAMN50151977	focal	CHN	prepandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50151990	CHN::SAMN50151990	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50151991	CHN::SAMN50151991	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50151995	CHN::SAMN50151995	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50151998	CHN::SAMN50151998	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152004	CHN::SAMN50152004	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152005	CHN::SAMN50152005	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152007	CHN::SAMN50152007	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152013	CHN::SAMN50152013	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152020	CHN::SAMN50152020	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152021	CHN::SAMN50152021	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152026	CHN::SAMN50152026	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152028	CHN::SAMN50152028	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152031	CHN::SAMN50152031	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152036	CHN::SAMN50152036	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152040	CHN::SAMN50152040	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152043	CHN::SAMN50152043	focal	CHN	pandemic	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152046	CHN::SAMN50152046	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152047	CHN::SAMN50152047	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152049	CHN::SAMN50152049	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152051	CHN::SAMN50152051	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152052	CHN::SAMN50152052	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152053	CHN::SAMN50152053	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152054	CHN::SAMN50152054	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152056	CHN::SAMN50152056	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152057	CHN::SAMN50152057	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152059	CHN::SAMN50152059	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152069	CHN::SAMN50152069	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152080	CHN::SAMN50152080	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152085	CHN::SAMN50152085	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152092	CHN::SAMN50152092	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+CHN__SAMN50152101	CHN::SAMN50152101	focal	CHN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+FRA__SAMEA117615784	FRA::SAMEA117615784	focal	FRA	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00885979	JPN::SAMD00885979	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00885980	JPN::SAMD00885980	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00892034	JPN::SAMD00892034	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00892035	JPN::SAMD00892035	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00892036	JPN::SAMD00892036	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00892039	JPN::SAMD00892039	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00892040	JPN::SAMD00892040	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00892042	JPN::SAMD00892042	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00892045	JPN::SAMD00892045	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00892046	JPN::SAMD00892046	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00892047	JPN::SAMD00892047	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00892048	JPN::SAMD00892048	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00892049	JPN::SAMD00892049	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00892050	JPN::SAMD00892050	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00892052	JPN::SAMD00892052	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00892053	JPN::SAMD00892053	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00920271	JPN::SAMD00920271	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00920272	JPN::SAMD00920272	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00920273	JPN::SAMD00920273	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00920275	JPN::SAMD00920275	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00920276	JPN::SAMD00920276	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00920279	JPN::SAMD00920279	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00920280	JPN::SAMD00920280	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD00920282	JPN::SAMD00920282	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01593369	JPN::SAMD01593369	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01593370	JPN::SAMD01593370	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01593371	JPN::SAMD01593371	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01593373	JPN::SAMD01593373	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01593374	JPN::SAMD01593374	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01593375	JPN::SAMD01593375	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01593376	JPN::SAMD01593376	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697899	JPN::SAMD01697899	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697901	JPN::SAMD01697901	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697902	JPN::SAMD01697902	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697903	JPN::SAMD01697903	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697906	JPN::SAMD01697906	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697907	JPN::SAMD01697907	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697909	JPN::SAMD01697909	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697911	JPN::SAMD01697911	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697912	JPN::SAMD01697912	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697913	JPN::SAMD01697913	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697914	JPN::SAMD01697914	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697915	JPN::SAMD01697915	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697916	JPN::SAMD01697916	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697917	JPN::SAMD01697917	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697918	JPN::SAMD01697918	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697920	JPN::SAMD01697920	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697925	JPN::SAMD01697925	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697929	JPN::SAMD01697929	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697933	JPN::SAMD01697933	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01697934	JPN::SAMD01697934	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01797762	JPN::SAMD01797762	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01797763	JPN::SAMD01797763	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+JPN__SAMD01797764	JPN::SAMD01797764	focal	JPN	resurgence	L1_02.07	L1_02.07					FALSE	TRUE	TRUE	transmission_genome_records
+AUS__SAMEA751155	AUS::SAMEA751155	focal	AUS	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMEA751183	AUS::SAMEA751183	focal	AUS	prepandemic	L1_01.01	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMEA751337	AUS::SAMEA751337	focal	AUS	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMEA751475	AUS::SAMEA751475	focal	AUS	prepandemic	L1_01.01	Other					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMEA751476	AUS::SAMEA751476	focal	AUS	prepandemic	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMEA751477	AUS::SAMEA751477	focal	AUS	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMEA751508	AUS::SAMEA751508	focal	AUS	prepandemic	L1_01.01	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMEA751511	AUS::SAMEA751511	focal	AUS	prepandemic	L1_01.01	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMEA751512	AUS::SAMEA751512	focal	AUS	prepandemic	L1_01.01	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMEA751513	AUS::SAMEA751513	focal	AUS	prepandemic	L1_01.01	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN07235949	AUS::SAMN07235949	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN08443709	AUS::SAMN08443709	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN08443715	AUS::SAMN08443715	focal	AUS	prepandemic	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN08443734	AUS::SAMN08443734	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN08443742	AUS::SAMN08443742	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN08443746	AUS::SAMN08443746	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN08443767	AUS::SAMN08443767	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN08443771	AUS::SAMN08443771	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN08443772	AUS::SAMN08443772	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN08443778	AUS::SAMN08443778	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN08443780	AUS::SAMN08443780	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN18200430	AUS::SAMN18200430	focal	AUS	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN18200431	AUS::SAMN18200431	focal	AUS	prepandemic	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN18200432	AUS::SAMN18200432	focal	AUS	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN22857945	AUS::SAMN22857945	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN22857989	AUS::SAMN22857989	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN22858020	AUS::SAMN22858020	focal	AUS	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN22858044	AUS::SAMN22858044	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN22858066	AUS::SAMN22858066	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN22858115	AUS::SAMN22858115	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN22858150	AUS::SAMN22858150	focal	AUS	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN22858161	AUS::SAMN22858161	focal	AUS	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN22858166	AUS::SAMN22858166	focal	AUS	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN22858181	AUS::SAMN22858181	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810501	AUS::SAMN45810501	focal	AUS	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810503	AUS::SAMN45810503	focal	AUS	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810504	AUS::SAMN45810504	focal	AUS	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810505	AUS::SAMN45810505	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810506	AUS::SAMN45810506	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810507	AUS::SAMN45810507	focal	AUS	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810511	AUS::SAMN45810511	focal	AUS	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810513	AUS::SAMN45810513	focal	AUS	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810521	AUS::SAMN45810521	focal	AUS	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810522	AUS::SAMN45810522	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810523	AUS::SAMN45810523	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810524	AUS::SAMN45810524	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810525	AUS::SAMN45810525	focal	AUS	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810526	AUS::SAMN45810526	focal	AUS	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810527	AUS::SAMN45810527	focal	AUS	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810528	AUS::SAMN45810528	focal	AUS	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810529	AUS::SAMN45810529	focal	AUS	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810532	AUS::SAMN45810532	focal	AUS	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810536	AUS::SAMN45810536	focal	AUS	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810537	AUS::SAMN45810537	focal	AUS	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810538	AUS::SAMN45810538	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810539	AUS::SAMN45810539	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810543	AUS::SAMN45810543	focal	AUS	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810545	AUS::SAMN45810545	focal	AUS	prepandemic	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810546	AUS::SAMN45810546	focal	AUS	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810547	AUS::SAMN45810547	focal	AUS	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810549	AUS::SAMN45810549	focal	AUS	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810550	AUS::SAMN45810550	focal	AUS	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810556	AUS::SAMN45810556	focal	AUS	resurgence	L1_01.02	L1_01.02					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810557	AUS::SAMN45810557	focal	AUS	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810558	AUS::SAMN45810558	focal	AUS	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810562	AUS::SAMN45810562	focal	AUS	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810564	AUS::SAMN45810564	focal	AUS	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810571	AUS::SAMN45810571	focal	AUS	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810572	AUS::SAMN45810572	focal	AUS	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810573	AUS::SAMN45810573	focal	AUS	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810574	AUS::SAMN45810574	focal	AUS	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810575	AUS::SAMN45810575	focal	AUS	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810580	AUS::SAMN45810580	focal	AUS	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810582	AUS::SAMN45810582	focal	AUS	resurgence	L1_01.02	L1_01.02					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810594	AUS::SAMN45810594	focal	AUS	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810596	AUS::SAMN45810596	focal	AUS	resurgence	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810598	AUS::SAMN45810598	focal	AUS	resurgence	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810606	AUS::SAMN45810606	focal	AUS	resurgence	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810610	AUS::SAMN45810610	focal	AUS	resurgence	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810611	AUS::SAMN45810611	focal	AUS	resurgence	L1_01.02	L1_01.02					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810627	AUS::SAMN45810627	focal	AUS	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810630	AUS::SAMN45810630	focal	AUS	resurgence	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810633	AUS::SAMN45810633	focal	AUS	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810634	AUS::SAMN45810634	focal	AUS	resurgence	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810638	AUS::SAMN45810638	focal	AUS	resurgence	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810640	AUS::SAMN45810640	focal	AUS	resurgence	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810642	AUS::SAMN45810642	focal	AUS	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810643	AUS::SAMN45810643	focal	AUS	resurgence	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810645	AUS::SAMN45810645	focal	AUS	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45810646	AUS::SAMN45810646	focal	AUS	resurgence	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45811366	AUS::SAMN45811366	focal	AUS	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45811367	AUS::SAMN45811367	focal	AUS	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45811368	AUS::SAMN45811368	focal	AUS	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+AUS__SAMN45811371	AUS::SAMN45811371	focal	AUS	resurgence	L1_01.02	L1_01.02					FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989203	BEL::SAMEA117989203	focal	BEL	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989205	BEL::SAMEA117989205	focal	BEL	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989208	BEL::SAMEA117989208	focal	BEL	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989209	BEL::SAMEA117989209	focal	BEL	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989211	BEL::SAMEA117989211	focal	BEL	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989214	BEL::SAMEA117989214	focal	BEL	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989221	BEL::SAMEA117989221	focal	BEL	prepandemic	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989252	BEL::SAMEA117989252	focal	BEL	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989272	BEL::SAMEA117989272	focal	BEL	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989286	BEL::SAMEA117989286	focal	BEL	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989309	BEL::SAMEA117989309	focal	BEL	prepandemic	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989353	BEL::SAMEA117989353	focal	BEL	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989425	BEL::SAMEA117989425	focal	BEL	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989434	BEL::SAMEA117989434	focal	BEL	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989436	BEL::SAMEA117989436	focal	BEL	prepandemic	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989467	BEL::SAMEA117989467	focal	BEL	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989479	BEL::SAMEA117989479	focal	BEL	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989511	BEL::SAMEA117989511	focal	BEL	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989512	BEL::SAMEA117989512	focal	BEL	pandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989514	BEL::SAMEA117989514	focal	BEL	pandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989515	BEL::SAMEA117989515	focal	BEL	pandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989516	BEL::SAMEA117989516	focal	BEL	pandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989517	BEL::SAMEA117989517	focal	BEL	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989518	BEL::SAMEA117989518	focal	BEL	pandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989519	BEL::SAMEA117989519	focal	BEL	pandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989520	BEL::SAMEA117989520	focal	BEL	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989521	BEL::SAMEA117989521	focal	BEL	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989522	BEL::SAMEA117989522	focal	BEL	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989523	BEL::SAMEA117989523	focal	BEL	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989524	BEL::SAMEA117989524	focal	BEL	pandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989525	BEL::SAMEA117989525	focal	BEL	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989526	BEL::SAMEA117989526	focal	BEL	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989527	BEL::SAMEA117989527	focal	BEL	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989528	BEL::SAMEA117989528	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989529	BEL::SAMEA117989529	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989530	BEL::SAMEA117989530	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989531	BEL::SAMEA117989531	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989532	BEL::SAMEA117989532	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989533	BEL::SAMEA117989533	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989534	BEL::SAMEA117989534	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989535	BEL::SAMEA117989535	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989536	BEL::SAMEA117989536	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989537	BEL::SAMEA117989537	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989538	BEL::SAMEA117989538	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989539	BEL::SAMEA117989539	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989540	BEL::SAMEA117989540	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989541	BEL::SAMEA117989541	focal	BEL	resurgence	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989542	BEL::SAMEA117989542	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989543	BEL::SAMEA117989543	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989544	BEL::SAMEA117989544	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989546	BEL::SAMEA117989546	focal	BEL	resurgence	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989547	BEL::SAMEA117989547	focal	BEL	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989548	BEL::SAMEA117989548	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989549	BEL::SAMEA117989549	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989550	BEL::SAMEA117989550	focal	BEL	resurgence	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989551	BEL::SAMEA117989551	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989552	BEL::SAMEA117989552	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989553	BEL::SAMEA117989553	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989554	BEL::SAMEA117989554	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989555	BEL::SAMEA117989555	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989556	BEL::SAMEA117989556	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989557	BEL::SAMEA117989557	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989558	BEL::SAMEA117989558	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989559	BEL::SAMEA117989559	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989560	BEL::SAMEA117989560	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989561	BEL::SAMEA117989561	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989562	BEL::SAMEA117989562	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989564	BEL::SAMEA117989564	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989565	BEL::SAMEA117989565	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989567	BEL::SAMEA117989567	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989568	BEL::SAMEA117989568	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989569	BEL::SAMEA117989569	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989570	BEL::SAMEA117989570	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989571	BEL::SAMEA117989571	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989572	BEL::SAMEA117989572	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989574	BEL::SAMEA117989574	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989575	BEL::SAMEA117989575	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989576	BEL::SAMEA117989576	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989577	BEL::SAMEA117989577	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989578	BEL::SAMEA117989578	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989579	BEL::SAMEA117989579	focal	BEL	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989580	BEL::SAMEA117989580	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989581	BEL::SAMEA117989581	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989582	BEL::SAMEA117989582	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989583	BEL::SAMEA117989583	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989584	BEL::SAMEA117989584	focal	BEL	resurgence	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989585	BEL::SAMEA117989585	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989586	BEL::SAMEA117989586	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989587	BEL::SAMEA117989587	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989588	BEL::SAMEA117989588	focal	BEL	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989589	BEL::SAMEA117989589	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989590	BEL::SAMEA117989590	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989592	BEL::SAMEA117989592	focal	BEL	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989593	BEL::SAMEA117989593	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989594	BEL::SAMEA117989594	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989595	BEL::SAMEA117989595	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989596	BEL::SAMEA117989596	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989597	BEL::SAMEA117989597	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989598	BEL::SAMEA117989598	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989599	BEL::SAMEA117989599	focal	BEL	resurgence	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989601	BEL::SAMEA117989601	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989604	BEL::SAMEA117989604	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989605	BEL::SAMEA117989605	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989606	BEL::SAMEA117989606	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989608	BEL::SAMEA117989608	focal	BEL	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989610	BEL::SAMEA117989610	focal	BEL	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989611	BEL::SAMEA117989611	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989612	BEL::SAMEA117989612	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989614	BEL::SAMEA117989614	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989615	BEL::SAMEA117989615	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989616	BEL::SAMEA117989616	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+BEL__SAMEA117989617	BEL::SAMEA117989617	focal	BEL	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN03249373	CHN::SAMN03249373	focal	CHN	prepandemic	L1_03.08	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN07326325	CHN::SAMN07326325	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN07329769	CHN::SAMN07329769	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN07329777	CHN::SAMN07329777	focal	CHN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN07329779	CHN::SAMN07329779	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN07329781	CHN::SAMN07329781	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN07329782	CHN::SAMN07329782	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN07329783	CHN::SAMN07329783	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN07329787	CHN::SAMN07329787	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN07329789	CHN::SAMN07329789	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN07329790	CHN::SAMN07329790	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN07329793	CHN::SAMN07329793	focal	CHN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN09941175	CHN::SAMN09941175	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN09947459	CHN::SAMN09947459	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN09947460	CHN::SAMN09947460	focal	CHN	prepandemic	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN09947464	CHN::SAMN09947464	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN09947467	CHN::SAMN09947467	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN09947473	CHN::SAMN09947473	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN09947475	CHN::SAMN09947475	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN09947486	CHN::SAMN09947486	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN09947492	CHN::SAMN09947492	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN09947493	CHN::SAMN09947493	focal	CHN	prepandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN11295233	CHN::SAMN11295233	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN17613197	CHN::SAMN17613197	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN17613198	CHN::SAMN17613198	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN22233915	CHN::SAMN22233915	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN22233918	CHN::SAMN22233918	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN22233923	CHN::SAMN22233923	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN22233924	CHN::SAMN22233924	focal	CHN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN22851881	CHN::SAMN22851881	focal	CHN	prepandemic	L1_03.08	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN32033974	CHN::SAMN32033974	focal	CHN	prepandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN32033981	CHN::SAMN32033981	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN32033992	CHN::SAMN32033992	focal	CHN	prepandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN32034035	CHN::SAMN32034035	focal	CHN	pandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN33268689	CHN::SAMN33268689	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN33268690	CHN::SAMN33268690	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN39682877	CHN::SAMN39682877	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN39682878	CHN::SAMN39682878	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN39682971	CHN::SAMN39682971	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN39683154	CHN::SAMN39683154	focal	CHN	resurgence	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN39683174	CHN::SAMN39683174	focal	CHN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN39683176	CHN::SAMN39683176	focal	CHN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN39683227	CHN::SAMN39683227	focal	CHN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN39683296	CHN::SAMN39683296	focal	CHN	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN39683299	CHN::SAMN39683299	focal	CHN	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN39683486	CHN::SAMN39683486	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373914	CHN::SAMN41373914	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373915	CHN::SAMN41373915	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373916	CHN::SAMN41373916	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373917	CHN::SAMN41373917	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373918	CHN::SAMN41373918	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373919	CHN::SAMN41373919	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373920	CHN::SAMN41373920	focal	CHN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373921	CHN::SAMN41373921	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373922	CHN::SAMN41373922	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373923	CHN::SAMN41373923	focal	CHN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373924	CHN::SAMN41373924	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373925	CHN::SAMN41373925	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373926	CHN::SAMN41373926	focal	CHN	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373927	CHN::SAMN41373927	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373928	CHN::SAMN41373928	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373929	CHN::SAMN41373929	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373930	CHN::SAMN41373930	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373931	CHN::SAMN41373931	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373932	CHN::SAMN41373932	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373933	CHN::SAMN41373933	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373934	CHN::SAMN41373934	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373935	CHN::SAMN41373935	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373936	CHN::SAMN41373936	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373937	CHN::SAMN41373937	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373938	CHN::SAMN41373938	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373939	CHN::SAMN41373939	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373940	CHN::SAMN41373940	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373941	CHN::SAMN41373941	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373942	CHN::SAMN41373942	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373943	CHN::SAMN41373943	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373944	CHN::SAMN41373944	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373945	CHN::SAMN41373945	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373946	CHN::SAMN41373946	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373947	CHN::SAMN41373947	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373948	CHN::SAMN41373948	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373949	CHN::SAMN41373949	focal	CHN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373950	CHN::SAMN41373950	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373951	CHN::SAMN41373951	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373952	CHN::SAMN41373952	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373953	CHN::SAMN41373953	focal	CHN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373954	CHN::SAMN41373954	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373955	CHN::SAMN41373955	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373956	CHN::SAMN41373956	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373957	CHN::SAMN41373957	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373958	CHN::SAMN41373958	focal	CHN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373959	CHN::SAMN41373959	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373960	CHN::SAMN41373960	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373961	CHN::SAMN41373961	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373962	CHN::SAMN41373962	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373963	CHN::SAMN41373963	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373964	CHN::SAMN41373964	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373965	CHN::SAMN41373965	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373966	CHN::SAMN41373966	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373967	CHN::SAMN41373967	focal	CHN	prepandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373968	CHN::SAMN41373968	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373969	CHN::SAMN41373969	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373970	CHN::SAMN41373970	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373971	CHN::SAMN41373971	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373972	CHN::SAMN41373972	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373973	CHN::SAMN41373973	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373974	CHN::SAMN41373974	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN41373975	CHN::SAMN41373975	focal	CHN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391088	CHN::SAMN42391088	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391089	CHN::SAMN42391089	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391090	CHN::SAMN42391090	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391091	CHN::SAMN42391091	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391092	CHN::SAMN42391092	focal	CHN	pandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391093	CHN::SAMN42391093	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391094	CHN::SAMN42391094	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391095	CHN::SAMN42391095	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391096	CHN::SAMN42391096	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391098	CHN::SAMN42391098	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391099	CHN::SAMN42391099	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391100	CHN::SAMN42391100	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391101	CHN::SAMN42391101	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391102	CHN::SAMN42391102	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391105	CHN::SAMN42391105	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391106	CHN::SAMN42391106	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391107	CHN::SAMN42391107	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391108	CHN::SAMN42391108	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391109	CHN::SAMN42391109	focal	CHN	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391110	CHN::SAMN42391110	focal	CHN	pandemic	L1_01.04	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391111	CHN::SAMN42391111	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391112	CHN::SAMN42391112	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391113	CHN::SAMN42391113	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391114	CHN::SAMN42391114	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391117	CHN::SAMN42391117	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391120	CHN::SAMN42391120	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391123	CHN::SAMN42391123	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391125	CHN::SAMN42391125	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN42391127	CHN::SAMN42391127	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN44583822	CHN::SAMN44583822	focal	CHN	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN45156014	CHN::SAMN45156014	focal	CHN	pandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN45156015	CHN::SAMN45156015	focal	CHN	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN45156016	CHN::SAMN45156016	focal	CHN	pandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN45156022	CHN::SAMN45156022	focal	CHN	pandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN45156025	CHN::SAMN45156025	focal	CHN	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN45156026	CHN::SAMN45156026	focal	CHN	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151934	CHN::SAMN50151934	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151935	CHN::SAMN50151935	focal	CHN	prepandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151936	CHN::SAMN50151936	focal	CHN	prepandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151937	CHN::SAMN50151937	focal	CHN	prepandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151938	CHN::SAMN50151938	focal	CHN	prepandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151939	CHN::SAMN50151939	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151940	CHN::SAMN50151940	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151941	CHN::SAMN50151941	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151942	CHN::SAMN50151942	focal	CHN	prepandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151943	CHN::SAMN50151943	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151944	CHN::SAMN50151944	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151945	CHN::SAMN50151945	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151946	CHN::SAMN50151946	focal	CHN	prepandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151947	CHN::SAMN50151947	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151948	CHN::SAMN50151948	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151949	CHN::SAMN50151949	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151950	CHN::SAMN50151950	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151951	CHN::SAMN50151951	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151952	CHN::SAMN50151952	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151953	CHN::SAMN50151953	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151954	CHN::SAMN50151954	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151957	CHN::SAMN50151957	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151959	CHN::SAMN50151959	focal	CHN	prepandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151960	CHN::SAMN50151960	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151961	CHN::SAMN50151961	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151966	CHN::SAMN50151966	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151967	CHN::SAMN50151967	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151968	CHN::SAMN50151968	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151969	CHN::SAMN50151969	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151970	CHN::SAMN50151970	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151971	CHN::SAMN50151971	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151972	CHN::SAMN50151972	focal	CHN	prepandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151973	CHN::SAMN50151973	focal	CHN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151974	CHN::SAMN50151974	focal	CHN	prepandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151975	CHN::SAMN50151975	focal	CHN	prepandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151976	CHN::SAMN50151976	focal	CHN	prepandemic	L1_01.04	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151978	CHN::SAMN50151978	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151979	CHN::SAMN50151979	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151980	CHN::SAMN50151980	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151981	CHN::SAMN50151981	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151982	CHN::SAMN50151982	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50151983	CHN::SAMN50151983	focal	CHN	prepandemic	L1_01.03	Other					FALSE	FALSE	FALSE	transmission_genome_records
+CHN__SAMN50152066	CHN::SAMN50152066	focal	CHN	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874185	FRA::SAMEA115874185	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874186	FRA::SAMEA115874186	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874187	FRA::SAMEA115874187	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874188	FRA::SAMEA115874188	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874189	FRA::SAMEA115874189	focal	FRA	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874190	FRA::SAMEA115874190	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874191	FRA::SAMEA115874191	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874193	FRA::SAMEA115874193	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874194	FRA::SAMEA115874194	focal	FRA	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874195	FRA::SAMEA115874195	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874196	FRA::SAMEA115874196	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874198	FRA::SAMEA115874198	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874200	FRA::SAMEA115874200	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874201	FRA::SAMEA115874201	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874203	FRA::SAMEA115874203	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874206	FRA::SAMEA115874206	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874207	FRA::SAMEA115874207	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874208	FRA::SAMEA115874208	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874211	FRA::SAMEA115874211	focal	FRA	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874212	FRA::SAMEA115874212	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874213	FRA::SAMEA115874213	focal	FRA	resurgence	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874214	FRA::SAMEA115874214	focal	FRA	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874215	FRA::SAMEA115874215	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 2		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874216	FRA::SAMEA115874216	focal	FRA	resurgence	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874218	FRA::SAMEA115874218	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874219	FRA::SAMEA115874219	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874220	FRA::SAMEA115874220	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874222	FRA::SAMEA115874222	focal	FRA	resurgence	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874224	FRA::SAMEA115874224	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874225	FRA::SAMEA115874225	focal	FRA	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874226	FRA::SAMEA115874226	focal	FRA	resurgence	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874228	FRA::SAMEA115874228	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874229	FRA::SAMEA115874229	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874235	FRA::SAMEA115874235	focal	FRA	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874237	FRA::SAMEA115874237	focal	FRA	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874240	FRA::SAMEA115874240	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874241	FRA::SAMEA115874241	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874242	FRA::SAMEA115874242	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874243	FRA::SAMEA115874243	focal	FRA	resurgence	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874245	FRA::SAMEA115874245	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874248	FRA::SAMEA115874248	focal	FRA	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA115874249	FRA::SAMEA115874249	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA117615782	FRA::SAMEA117615782	focal	FRA	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA117615783	FRA::SAMEA117615783	focal	FRA	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA117615785	FRA::SAMEA117615785	focal	FRA	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA117615786	FRA::SAMEA117615786	focal	FRA	resurgence	L1_01.02	L1_01.02					FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA4700352	FRA::SAMEA4700352	focal	FRA	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMEA751372	FRA::SAMEA751372	focal	FRA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMN03366100	FRA::SAMN03366100	focal	FRA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMN03491902	FRA::SAMN03491902	focal	FRA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMN03491903	FRA::SAMN03491903	focal	FRA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMN09862835	FRA::SAMN09862835	focal	FRA	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+FRA__SAMN42490576	FRA::SAMN42490576	focal	FRA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD00328188	JPN::SAMD00328188	focal	JPN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD00328195	JPN::SAMD00328195	focal	JPN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD00328201	JPN::SAMD00328201	focal	JPN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD00328237	JPN::SAMD00328237	focal	JPN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD00549575	JPN::SAMD00549575	focal	JPN	prepandemic	L1_01.03	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD00549621	JPN::SAMD00549621	focal	JPN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD00549631	JPN::SAMD00549631	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD00549636	JPN::SAMD00549636	focal	JPN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD00570793	JPN::SAMD00570793	focal	JPN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD00570813	JPN::SAMD00570813	focal	JPN	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD00872997	JPN::SAMD00872997	focal	JPN	prepandemic	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD00892038	JPN::SAMD00892038	focal	JPN	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD00920274	JPN::SAMD00920274	focal	JPN	resurgence	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD00920281	JPN::SAMD00920281	focal	JPN	resurgence	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD01593372	JPN::SAMD01593372	focal	JPN	resurgence	L1_01.02	L1_01.02					FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD01697919	JPN::SAMD01697919	focal	JPN	resurgence	L1_02.06	L1_02.06					FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMD01797761	JPN::SAMD01797761	focal	JPN	resurgence	L1_02.05	L1_02.05					FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41186668	JPN::SAMEA41186668	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41187418	JPN::SAMEA41187418	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41188918	JPN::SAMEA41188918	focal	JPN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41194168	JPN::SAMEA41194168	focal	JPN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41197168	JPN::SAMEA41197168	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41200168	JPN::SAMEA41200168	focal	JPN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41205418	JPN::SAMEA41205418	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41211418	JPN::SAMEA41211418	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41214418	JPN::SAMEA41214418	focal	JPN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41216668	JPN::SAMEA41216668	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41218168	JPN::SAMEA41218168	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41218918	JPN::SAMEA41218918	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41224918	JPN::SAMEA41224918	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41226418	JPN::SAMEA41226418	focal	JPN	prepandemic	L1_01.01	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41227918	JPN::SAMEA41227918	focal	JPN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41231668	JPN::SAMEA41231668	focal	JPN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41239918	JPN::SAMEA41239918	focal	JPN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41240668	JPN::SAMEA41240668	focal	JPN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41241418	JPN::SAMEA41241418	focal	JPN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41242918	JPN::SAMEA41242918	focal	JPN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41247418	JPN::SAMEA41247418	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41249668	JPN::SAMEA41249668	focal	JPN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41257168	JPN::SAMEA41257168	focal	JPN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41263168	JPN::SAMEA41263168	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41264668	JPN::SAMEA41264668	focal	JPN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41275918	JPN::SAMEA41275918	focal	JPN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41278168	JPN::SAMEA41278168	focal	JPN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41283418	JPN::SAMEA41283418	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41286418	JPN::SAMEA41286418	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	others			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41292418	JPN::SAMEA41292418	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41296918	JPN::SAMEA41296918	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41297668	JPN::SAMEA41297668	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41307418	JPN::SAMEA41307418	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA41323168	JPN::SAMEA41323168	focal	JPN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA751127	JPN::SAMEA751127	focal	JPN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA751448	JPN::SAMEA751448	focal	JPN	prepandemic	L1_03.09	Other					FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMEA751489	JPN::SAMEA751489	focal	JPN	prepandemic	L1_03.08	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMN03249374	JPN::SAMN03249374	focal	JPN	prepandemic	L1_03.08	Other					FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMN04875532	JPN::SAMN04875532	focal	JPN	prepandemic	L1_03.08	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	transmission_genome_records
+JPN__SAMN09862822	JPN::SAMN09862822	focal	JPN	prepandemic	L1_03.08	Other					FALSE	FALSE	FALSE	transmission_genome_records
+ARG__SAMEA751134	BG::SAMEA751134	global_background	ARG	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+AUT__SAMN15396107	BG::SAMN15396107	global_background	AUT	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+AUT__SAMN15396108	BG::SAMN15396108	global_background	AUT	pandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+AUT__SAMN15396110	BG::SAMN15396110	global_background	AUT	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+AUT__SAMN15396117	BG::SAMN15396117	global_background	AUT	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+AUT__SAMN15396122	BG::SAMN15396122	global_background	AUT	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+AUT__SAMN15396157	BG::SAMN15396157	global_background	AUT	unknown	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+AUT__SAMN15396159	BG::SAMN15396159	global_background	AUT	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+AUT__SAMN15396214	BG::SAMN15396214	global_background	AUT	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+AUT__SAMN15702625	BG::SAMN15702625	global_background	AUT	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+AUT__SAMN29408379	BG::SAMN29408379	global_background	AUT	unknown	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+BRA__SAMN02940632	BG::SAMN02940632	global_background	BRA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+BRA__SAMN05776224	BG::SAMN05776224	global_background	BRA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+BRA__SAMN05782317	BG::SAMN05782317	global_background	BRA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+BRA__SAMN05783037	BG::SAMN05783037	global_background	BRA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+BRA__SAMN05784484	BG::SAMN05784484	global_background	BRA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+CAN__SAMN06113467	BG::SAMN06113467	global_background	CAN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+CAN__SAMN06113472	BG::SAMN06113472	global_background	CAN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+DEU__SAMN22091640	BG::SAMN22091640	global_background	DEU	unknown	L1_04.12	Other	Branch_I	others			FALSE	FALSE	FALSE	global_tree_background_records
+DEU__SAMN43964887	BG::SAMN43964887	global_background	DEU	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+DNK__SAMEA3923584	BG::SAMEA3923584	global_background	DNK	prepandemic	L1_03.10	Other	Branch_IIa	others			FALSE	FALSE	FALSE	global_tree_background_records
+DNK__SAMEA3923585	BG::SAMEA3923585	global_background	DNK	prepandemic	L1_03.10	Other	Branch_IIa	others			FALSE	FALSE	FALSE	global_tree_background_records
+DNK__SAMEA751162	BG::SAMEA751162	global_background	DNK	prepandemic	L1_01.01	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+DNK__SAMEA751164	BG::SAMEA751164	global_background	DNK	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+DNK__SAMEA8914404	BG::SAMEA8914404	global_background	DNK	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+DNK__SAMEA8914405	BG::SAMEA8914405	global_background	DNK	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+DNK__SAMEA8914415	BG::SAMEA8914415	global_background	DNK	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMEA8914418	BG::SAMEA8914418	global_background	ESP	prepandemic	L1_01.01	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMEA8914438	BG::SAMEA8914438	global_background	ESP	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378322	BG::SAMN16378322	global_background	ESP	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378352	BG::SAMN16378352	global_background	ESP	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378366	BG::SAMN16378366	global_background	ESP	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378393	BG::SAMN16378393	global_background	ESP	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378404	BG::SAMN16378404	global_background	ESP	prepandemic	L1_01.01	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378420	BG::SAMN16378420	global_background	ESP	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378425	BG::SAMN16378425	global_background	ESP	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378544	BG::SAMN16378544	global_background	ESP	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378546	BG::SAMN16378546	global_background	ESP	prepandemic	L1_01.01	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378549	BG::SAMN16378549	global_background	ESP	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378550	BG::SAMN16378550	global_background	ESP	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378551	BG::SAMN16378551	global_background	ESP	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378558	BG::SAMN16378558	global_background	ESP	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378565	BG::SAMN16378565	global_background	ESP	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378570	BG::SAMN16378570	global_background	ESP	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378592	BG::SAMN16378592	global_background	ESP	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN16378598	BG::SAMN16378598	global_background	ESP	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN40551704	BG::SAMN40551704	global_background	ESP	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+ESP__SAMN40551705	BG::SAMN40551705	global_background	ESP	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	Europe sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+FIN__SAMEA751152	BG::SAMEA751152	global_background	FIN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+FIN__SAMEA8914452	BG::SAMEA8914452	global_background	FIN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+FIN__SAMEA8914453	BG::SAMEA8914453	global_background	FIN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+FIN__SAMEA8914454	BG::SAMEA8914454	global_background	FIN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+FIN__SAMEA8914458	BG::SAMEA8914458	global_background	FIN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+FIN__SAMEA8914464	BG::SAMEA8914464	global_background	FIN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+FIN__SAMEA8914472	BG::SAMEA8914472	global_background	FIN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+FIN__SAMEA8914474	BG::SAMEA8914474	global_background	FIN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+FIN__SAMEA8914475	BG::SAMEA8914475	global_background	FIN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+GTM__SAMN08395632	BG::SAMN08395632	global_background	GTM	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+GTM__SAMN08395634	BG::SAMN08395634	global_background	GTM	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+HTI__SAMN08524449	BG::SAMN08524449	global_background	HTI	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+IND__SAMN10457989	BG::SAMN10457989	global_background	IND	prepandemic	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	global_tree_background_records
+IND__SAMN10525643	BG::SAMN10525643	global_background	IND	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+IND__SAMN19416301	BG::SAMN19416301	global_background	IND	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+IND__SAMN19416302	BG::SAMN19416302	global_background	IND	prepandemic	L1_03.08	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+IND__SAMN19416303	BG::SAMN19416303	global_background	IND	prepandemic	L1_03.10	Other	Branch_IIa	others			FALSE	FALSE	FALSE	global_tree_background_records
+IND__SAMN19416304	BG::SAMN19416304	global_background	IND	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+IRL__SAMEA8914479	BG::SAMEA8914479	global_background	IRL	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+IRL__SAMEA8914484	BG::SAMEA8914484	global_background	IRL	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+IRL__SAMEA8914485	BG::SAMEA8914485	global_background	IRL	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+IRL__SAMEA8914488	BG::SAMEA8914488	global_background	IRL	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+IRL__SAMEA8914497	BG::SAMEA8914497	global_background	IRL	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+IRL__SAMEA8914500	BG::SAMEA8914500	global_background	IRL	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+IRL__SAMEA8914501	BG::SAMEA8914501	global_background	IRL	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+IRN__SAMN12675034	BG::SAMN12675034	global_background	IRN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+IRN__SAMN12675035	BG::SAMN12675035	global_background	IRN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+IRN__SAMN12675064	BG::SAMN12675064	global_background	IRN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+IRN__SAMN12675069	BG::SAMN12675069	global_background	IRN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+IRN__SAMN12675070	BG::SAMN12675070	global_background	IRN	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+IRN__SAMN12675071	BG::SAMN12675071	global_background	IRN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+IRN__SAMN12675072	BG::SAMN12675072	global_background	IRN	prepandemic	L1_04.12	Other	Branch_I	others			FALSE	FALSE	FALSE	global_tree_background_records
+IRN__SAMN12675074	BG::SAMN12675074	global_background	IRN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+IRN__SAMN12675075	BG::SAMN12675075	global_background	IRN	prepandemic	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	global_tree_background_records
+ISR__SAMN05908227	BG::SAMN05908227	global_background	ISR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+ISR__SAMN05908228	BG::SAMN05908228	global_background	ISR	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ISR__SAMN05908230	BG::SAMN05908230	global_background	ISR	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ISR__SAMN05908234	BG::SAMN05908234	global_background	ISR	unknown	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ISR__SAMN05908236	BG::SAMN05908236	global_background	ISR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+ISR__SAMN05908237	BG::SAMN05908237	global_background	ISR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ISR__SAMN05908238	BG::SAMN05908238	global_background	ISR	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ITA__SAMEA751497	BG::SAMEA751497	global_background	ITA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ITA__SAMEA8914518	BG::SAMEA8914518	global_background	ITA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+ITA__SAMEA8914521	BG::SAMEA8914521	global_background	ITA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+ITA__SAMEA8914529	BG::SAMEA8914529	global_background	ITA	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ITA__SAMEA8914531	BG::SAMEA8914531	global_background	ITA	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ITA__SAMEA8914539	BG::SAMEA8914539	global_background	ITA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ITA__SAMEA8914541	BG::SAMEA8914541	global_background	ITA	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+ITA__SAMN03784877	BG::SAMN03784877	global_background	ITA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+KEN__SAMEA1931748	BG::SAMEA1931748	global_background	KEN	prepandemic	L1_03.11	Other	Branch_IIb	others			FALSE	FALSE	FALSE	global_tree_background_records
+MEX__SAMN07362432	BG::SAMN07362432	global_background	MEX	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+MEX__SAMN07362433	BG::SAMN07362433	global_background	MEX	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+MEX__SAMN07362434	BG::SAMN07362434	global_background	MEX	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+MEX__SAMN07362435	BG::SAMN07362435	global_background	MEX	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+NLD__SAMEA751360	BG::SAMEA751360	global_background	NLD	prepandemic	L1_03.11	Other	Branch_IIb	others			FALSE	FALSE	FALSE	global_tree_background_records
+NLD__SAMEA8914547	BG::SAMEA8914547	global_background	NLD	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+NLD__SAMEA8914556	BG::SAMEA8914556	global_background	NLD	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+NLD__SAMEA8914562	BG::SAMEA8914562	global_background	NLD	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+NLD__SAMEA8914566	BG::SAMEA8914566	global_background	NLD	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+NLD__SAMEA8914568	BG::SAMEA8914568	global_background	NLD	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+NLD__SAMN03566780	BG::SAMN03566780	global_background	NLD	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+NLD__SAMN03566781	BG::SAMN03566781	global_background	NLD	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+NLD__SAMN03566785	BG::SAMN03566785	global_background	NLD	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+NLD__SAMN03566787	BG::SAMN03566787	global_background	NLD	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10057869	BG::SAMEA10057869	global_background	NOR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10057881	BG::SAMEA10057881	global_background	NOR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10057882	BG::SAMEA10057882	global_background	NOR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10057895	BG::SAMEA10057895	global_background	NOR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10057896	BG::SAMEA10057896	global_background	NOR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10057903	BG::SAMEA10057903	global_background	NOR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10057914	BG::SAMEA10057914	global_background	NOR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10057937	BG::SAMEA10057937	global_background	NOR	prepandemic	L1_01.01	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10057952	BG::SAMEA10057952	global_background	NOR	prepandemic	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10057955	BG::SAMEA10057955	global_background	NOR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10057975	BG::SAMEA10057975	global_background	NOR	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10057987	BG::SAMEA10057987	global_background	NOR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10057995	BG::SAMEA10057995	global_background	NOR	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10058004	BG::SAMEA10058004	global_background	NOR	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10058007	BG::SAMEA10058007	global_background	NOR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10058021	BG::SAMEA10058021	global_background	NOR	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA10058036	BG::SAMEA10058036	global_background	NOR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA8914580	BG::SAMEA8914580	global_background	NOR	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA8914583	BG::SAMEA8914583	global_background	NOR	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA8914585	BG::SAMEA8914585	global_background	NOR	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA8914588	BG::SAMEA8914588	global_background	NOR	prepandemic	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA8914592	BG::SAMEA8914592	global_background	NOR	prepandemic	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMEA8914600	BG::SAMEA8914600	global_background	NOR	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+NOR__SAMN03566786	BG::SAMN03566786	global_background	NOR	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+POL__SAMEA1931348	BG::SAMEA1931348	global_background	POL	prepandemic	L1_01.01	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+SWE__SAMEA751294	BG::SAMEA751294	global_background	SWE	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+SWE__SAMEA751314	BG::SAMEA751314	global_background	SWE	prepandemic	L1_01.01	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+SWE__SAMEA8914609	BG::SAMEA8914609	global_background	SWE	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+SWE__SAMEA8914617	BG::SAMEA8914617	global_background	SWE	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+SWE__SAMEA8914621	BG::SAMEA8914621	global_background	SWE	prepandemic	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	global_tree_background_records
+SWE__SAMEA8914623	BG::SAMEA8914623	global_background	SWE	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+SWE__SAMEA8914625	BG::SAMEA8914625	global_background	SWE	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+SWE__SAMEA8914626	BG::SAMEA8914626	global_background	SWE	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+SWE__SAMEA8914628	BG::SAMEA8914628	global_background	SWE	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+SWE__SAMEA8914632	BG::SAMEA8914632	global_background	SWE	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+SWE__SAMEA8914634	BG::SAMEA8914634	global_background	SWE	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+SWE__SAMN03566783	BG::SAMN03566783	global_background	SWE	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+SWE__SAMN03566784	BG::SAMN03566784	global_background	SWE	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+TUN__SAMEA4752844	BG::SAMEA4752844	global_background	TUN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+TUN__SAMEA4752845	BG::SAMEA4752845	global_background	TUN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+TUN__SAMEA4752846	BG::SAMEA4752846	global_background	TUN	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+TUN__SAMEA4752850	BG::SAMEA4752850	global_background	TUN	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMEA751257	BG::SAMEA751257	global_background	USA	prepandemic	L1_01.01	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN03249362	BG::SAMN03249362	global_background	USA	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN03455354	BG::SAMN03455354	global_background	USA	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN03702646	BG::SAMN03702646	global_background	USA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN03702647	BG::SAMN03702647	global_background	USA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN03877216	BG::SAMN03877216	global_background	USA	prepandemic	L1_03.10	Other	Branch_IIa	others			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN03996251	BG::SAMN03996251	global_background	USA	prepandemic	L1_04.12	Other	Branch_I	others			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN03996260	BG::SAMN03996260	global_background	USA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN04221183	BG::SAMN04221183	global_background	USA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN04994865	BG::SAMN04994865	global_background	USA	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN05333716	BG::SAMN05333716	global_background	USA	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN05583818	BG::SAMN05583818	global_background	USA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN05583850	BG::SAMN05583850	global_background	USA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN05948796	BG::SAMN05948796	global_background	USA	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN05950790	BG::SAMN05950790	global_background	USA	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN06007763	BG::SAMN06007763	global_background	USA	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN07352218	BG::SAMN07352218	global_background	USA	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN08136975	BG::SAMN08136975	global_background	USA	prepandemic	L1_03.09	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN08178168	BG::SAMN08178168	global_background	USA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN10176206	BG::SAMN10176206	global_background	USA	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN10182728	BG::SAMN10182728	global_background	USA	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN10298220	BG::SAMN10298220	global_background	USA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN11539680	BG::SAMN11539680	global_background	USA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN11821785	BG::SAMN11821785	global_background	USA	prepandemic	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN11822192	BG::SAMN11822192	global_background	USA	prepandemic	L1_01.02	L1_01.02	Branch_IIb	others			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN14488305	BG::SAMN14488305	global_background	USA	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN14488313	BG::SAMN14488313	global_background	USA	prepandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN16357507	BG::SAMN16357507	global_background	USA	unknown	L1_03.08	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN16357509	BG::SAMN16357509	global_background	USA	unknown	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN16357510	BG::SAMN16357510	global_background	USA	unknown	L1_03.08	Other	Branch_IIb	ptxP1/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN18620695	BG::SAMN18620695	global_background	USA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN18620696	BG::SAMN18620696	global_background	USA	prepandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN18620777	BG::SAMN18620777	global_background	USA	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN18620802	BG::SAMN18620802	global_background	USA	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN18620814	BG::SAMN18620814	global_background	USA	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN18620816	BG::SAMN18620816	global_background	USA	pandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN18620823	BG::SAMN18620823	global_background	USA	pandemic	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN45987611	BG::SAMN45987611	global_background	USA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN45987613	BG::SAMN45987613	global_background	USA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN45987639	BG::SAMN45987639	global_background	USA	pandemic	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN45987640	BG::SAMN45987640	global_background	USA	resurgence	L1_03.10	Other	Branch_IIa	others			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN45987655	BG::SAMN45987655	global_background	USA	resurgence	L1_02.05	L1_02.05	Branch_IIb	ptxP3/fim3-2			FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN45987657	BG::SAMN45987657	global_background	USA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records
+USA__SAMN48440030	BG::SAMN48440030	global_background	USA	resurgence	L1_02.06	L1_02.06	Branch_IIb	ptxP3/fim3-1	United States Sublineage 1		FALSE	FALSE	FALSE	global_tree_background_records

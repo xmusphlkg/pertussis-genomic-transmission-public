@@ -1,6 +1,6 @@
 # Pre-effect transmission-lineage freeze
 
-- Alignment: `[local_path_omitted]`
+- Alignment: frozen 11,550-position core-SNP alignment (not redistributed)
 - Genomes: 989
 - Parsimony-informative core SNPs: 11550
 - hierBAPS maximum populations: 15

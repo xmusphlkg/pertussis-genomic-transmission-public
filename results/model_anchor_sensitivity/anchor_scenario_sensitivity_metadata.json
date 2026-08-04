@@ -1,0 +1,9 @@
+{
+  "analysis": "anchored conditional-scenario sensitivity",
+  "anchors": ["2022-06", "2022-12", "2023-06", "2023-12"],
+  "evaluation_period": ["2024-01", "2025-12"],
+  "contrast_definition": "(baseline cumulative expected reported cases - scenario cumulative expected reported cases) / baseline cumulative expected reported cases; computed within each posterior draw before summarisation and not clipped",
+  "no_post_2022_exposure": "Import exposure is set to zero from 2023-01 or the first month after the anchor, whichever is later; all other terms are unchanged.",
+  "l10207_neutral_growth": "Only the L1_02.07 lineage relative net-growth multiplier is set to 1 from the first month after the anchor; exposure and all other lineage multipliers are retained.",
+  "baseline_check": "The first recursively projected baseline month is compared draw-wise with the corresponding Stan transformed-parameter mu_cases."
+}

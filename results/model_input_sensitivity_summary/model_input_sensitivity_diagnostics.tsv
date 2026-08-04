@@ -1,0 +1,7 @@
+analysis_id	analysis_label	chains	iterations_per_chain	post_warmup_draws	divergent_transitions	maximum_treedepth_hits	maximum_rhat	minimum_effective_sample_size
+primary_lower_0_5	Primary: threshold 0.5, lower-bound time	4	2000	4000	0	0	1.0018	1416.0738
+threshold_0_7	Transition threshold 0.7	4	2000	4000	0	0	1.0033	1107.1294
+threshold_0_9	Transition threshold 0.9	4	2000	4000	0	0	1.0032	1046.3178
+time_midpoint	Earliest-sample interval midpoint	4	2000	4000	0	0	1.0036	1351.684
+time_interval_uniform	Earliest-sample interval-uniform	4	2000	4000	0	0	1.0023	1478.113
+alternative_root	Alternative root	4	2000	4000	0	0	1.0045	1208.7417

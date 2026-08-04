@@ -1,0 +1,16 @@
+country_iso3	primary_model_lineage_id	initial_prior_mode	initial_prior_end_year	n_historical_tips	dirichlet_alpha
+AUS	L1_01.02	historical	2018	2	2.5
+AUS	L1_02.05	historical	2018	13	13.5
+AUS	L1_02.06	historical	2018	30	30.5
+AUS	L1_02.07	historical	2018	0	0.5
+AUS	Other	historical	2018	6	6.5
+CHN	L1_01.02	historical	2018	1	1.5
+CHN	L1_02.05	historical	2018	1	1.5
+CHN	L1_02.06	historical	2018	15	15.5
+CHN	L1_02.07	historical	2018	4	4.5
+CHN	Other	historical	2018	43	43.5
+JPN	L1_01.02	historical	2018	0	0.5
+JPN	L1_02.05	historical	2018	13	13.5
+JPN	L1_02.06	historical	2018	9	9.5
+JPN	L1_02.07	historical	2018	0	0.5
+JPN	Other	historical	2018	27	27.5

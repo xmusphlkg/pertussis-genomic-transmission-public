@@ -1,0 +1,16 @@
+analysis_id	analysis_type	country_subset	observation_specification	omitted_country	omitted_project_country	omitted_project_id	n_countries	n_genome_strata	n_genomes	n_omitted_genomes	lineage	mean	median	lower_95	upper_95	probability_above_reference	probability_highest_lineage	diagnostic_pass
+country_AUS_project_adjusted	country_only	AUS	project_adjusted	""	""	""	1	17	46	0	L1_02.07	0.963476143985148	0.986554323572366	0.702687442419678	1.15402968945122	0.471	0.28125	TRUE
+country_AUS_no_project	country_only	AUS	no_project	""	""	""	1	17	46	0	L1_02.07	0.948035339677904	0.960087866063417	0.695576794783977	1.14326290756929	0.40625	0.22025	TRUE
+country_CHN_project_adjusted	country_only	CHN	project_adjusted	""	""	""	1	38	165	0	L1_02.07	1.20072760475263	1.19280693584345	1.10818762149921	1.33225934796556	1	1	TRUE
+country_CHN_no_project	country_only	CHN	no_project	""	""	""	1	38	165	0	L1_02.07	1.18696413214619	1.17946181456426	1.10099118998522	1.31668457116192	1	0.99975	TRUE
+country_JPN_project_adjusted	country_only	JPN	project_adjusted	""	""	""	1	17	50	0	L1_02.07	1.2667565449614	1.25117854025066	1.1063988181749	1.50221550245689	1	0.992	TRUE
+country_JPN_no_project	country_only	JPN	no_project	""	""	""	1	17	50	0	L1_02.07	1.25354814978199	1.23961043029722	1.10713818534585	1.48833431748306	1	0.9905	TRUE
+omit_country_AUS	country_omission	CHN+JPN	project_adjusted	AUS	""	""	2	55	215	46	L1_02.07	1.21664078631903	1.21105848825616	1.12149405854292	1.34265894364418	1	1	TRUE
+omit_country_CHN	country_omission	AUS+JPN	project_adjusted	CHN	""	""	2	34	96	165	L1_02.07	1.12578353989464	1.12131329751613	1.06101276745679	1.2199956739545	0.9995	0.99375	TRUE
+omit_country_JPN	country_omission	AUS+CHN	project_adjusted	JPN			2	55	211	50	L1_02.07	1.10669647543592	1.1052518502578	1.06947234569106	1.15385870616661	1	0.999625	TRUE
+omit_country_AUS_no_project	country_omission	CHN+JPN	no_project	AUS			2	55	215	46	L1_02.07	1.19583057525669	1.18966840082326	1.10795693137828	1.31934331373596	1	1	TRUE
+omit_country_CHN_no_project	country_omission	AUS+JPN	no_project	CHN			2	34	96	165	L1_02.07	1.12328935967113	1.11766201959996	1.06208338276564	1.21563827365061	1	0.9975	TRUE
+omit_country_JPN_no_project	country_omission	AUS+CHN	no_project	JPN			2	55	211	50	L1_02.07	1.08379731804409	1.08257858933178	1.05845210092105	1.11406428149398	1	1	TRUE
+omit_dominant_project_AUS	dominant_project_omission	AUS+CHN+JPN	project_adjusted	""	AUS	PRJNA1199062	3	56	217	44	L1_02.07	1.219956298224	1.21425630862779	1.12550396216079	1.34603301732117	1	1	TRUE
+omit_dominant_project_CHN	dominant_project_omission	AUS+CHN+JPN	project_adjusted	""	CHN	PRJNA1182239	3	57	178	83	L1_02.07	1.12012605084311	1.11776899875386	1.0770593566926	1.17555724088259	1	1	TRUE
+omit_dominant_project_JPN	dominant_project_omission	AUS+CHN+JPN	project_adjusted	""	JPN	PRJDB37898	3	67	240	21	L1_02.07	1.1122826219032	1.11054231210506	1.07647272199645	1.15958180708906	1	1	TRUE

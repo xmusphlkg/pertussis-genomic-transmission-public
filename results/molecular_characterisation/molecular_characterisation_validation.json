@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "focal public-tree genomes only",
+  "n_tree_tips": 989,
+  "n_focal_tree_tips": 774,
+  "n_global_background_excluded": 215,
+  "n_focal_l10207": 271,
+  "n_focal_source_record_matches": 774,
+  "n_focal_frozen_archive_matches": 495,
+  "n_identifier_conflicts": 0,
+  "n_l10207_ptxP_annotated": 93,
+  "n_l10207_joint_antigen_annotated": 83,
+  "n_l10207_frozen_23S_annotated": 80,
+  "n_l10207_frozen_PRN_interpretable": 78,
+  "n_valid_period_shift_fisher_tests": 17,
+  "n_valid_feature_contrast_fisher_tests": 5,
+  "project_independent_molecular_period_effect_identifiable_in_CHN_or_JPN": false,
+  "reason_project_independent_effect_not_identifiable": "For the China/Japan expansion strata, no shared project had >=5 annotated records in both periods.",
+  "analysis_date": "2026-07-26"
+}

@@ -21,7 +21,6 @@ data {
   matrix[T, K] B;
   matrix[C, T] reporting_change;
   matrix<lower=0>[C, L] initial_alpha;
-  matrix<lower=0, upper=1>[C, L] persistence_support;
   real<lower=0> import_exposure[C, T, L];
   int<lower=1, upper=C> obs_country[J];
   int<lower=1, upper=T> obs_month[J];
@@ -126,87 +125,23 @@ model {
 generated quantities {
   vector[L] lineage_relative_transmission;
   real<lower=0, upper=1> post_import_fraction[C];
-  real<lower=0> expected_cases_baseline[C, T];
-  real<lower=0> expected_cases_no_import[C, T];
-  real<lower=0> expected_cases_equal_lineage[C, T];
   int<lower=0> cases_rep[C, T];
-  real<lower=0, upper=1> q_baseline[C, T, L];
-  real<lower=0, upper=1> q_no_import[C, T, L];
-  real<lower=0, upper=1> q_equal_lineage[C, T, L];
 
   lineage_relative_transmission = exp(log_theta);
 
   for (c in 1:C) {
     real post_import = 0;
     real post_total = 0;
-    expected_cases_baseline[c, 1] = cases[c, 1];
-    expected_cases_no_import[c, 1] = cases[c, 1];
-    expected_cases_equal_lineage[c, 1] = cases[c, 1];
     cases_rep[c, 1] = cases[c, 1];
-    for (l in 1:L) {
-      q_baseline[c, 1, l] = q0[c, l];
-      q_no_import[c, 1, l] = q0[c, l];
-      q_equal_lineage[c, 1, l] = q0[c, l];
-    }
-
     for (t in 2:T) {
-      real log_r_base = dot_product(to_vector(B[t]), to_vector(r_coef[c])) -
-                        density_feedback[c] *
-                        log1p(expected_cases_baseline[c, t - 1] / 1000.0);
-      real log_r_no_import = dot_product(to_vector(B[t]), to_vector(r_coef[c])) -
-                             density_feedback[c] *
-                             log1p(expected_cases_no_import[c, t - 1] / 1000.0);
-      real log_r_equal = dot_product(to_vector(B[t]), to_vector(r_coef[c])) -
-                         density_feedback[c] *
-                         log1p(expected_cases_equal_lineage[c, t - 1] / 1000.0);
-      real total_base = 0;
-      real total_no_import = 0;
-      real total_equal = 0;
-      real comp_base[L];
-      real comp_no_import[L];
-      real comp_equal[L];
-
-      for (l in 1:L) {
-        real imported = import_scale[c] * import_exposure[c, t, l];
-        comp_base[l] =
-          exp(log_r_base + log_theta[l]) * q_baseline[c, t - 1, l] *
-          (expected_cases_baseline[c, t - 1] + 0.5) + imported + 1e-9;
-        comp_no_import[l] =
-          exp(log_r_no_import + log_theta[l]) * q_no_import[c, t - 1, l] *
-          (expected_cases_no_import[c, t - 1] + 0.5) *
-          (t == 49 ? persistence_support[c, l] : 1.0) + 1e-9;
-        comp_equal[l] =
-          exp(log_r_equal) * q_equal_lineage[c, t - 1, l] *
-          (expected_cases_equal_lineage[c, t - 1] + 0.5) + imported + 1e-9;
-        total_base += comp_base[l];
-        total_no_import += comp_no_import[l];
-        total_equal += comp_equal[l];
-        if (t >= 49)
-          post_import += imported;
+      if (t >= 49) {
+        for (l in 1:L) {
+          post_import += import_component[c, t, l];
+          post_total += local_component[c, t, l] + import_component[c, t, l];
+        }
       }
-      if (t >= 49)
-        post_total += total_base;
-
-      expected_cases_baseline[c, t] = total_base * exp(
-        reporting_jump[c] *
-        (reporting_change[c, t] - reporting_change[c, t - 1])
-      );
-      expected_cases_no_import[c, t] = total_no_import * exp(
-        reporting_jump[c] *
-        (reporting_change[c, t] - reporting_change[c, t - 1])
-      );
-      expected_cases_equal_lineage[c, t] = total_equal * exp(
-        reporting_jump[c] *
-        (reporting_change[c, t] - reporting_change[c, t - 1])
-      );
-      for (l in 1:L) {
-        q_baseline[c, t, l] = comp_base[l] / total_base;
-        q_no_import[c, t, l] = comp_no_import[l] / total_no_import;
-        q_equal_lineage[c, t, l] = comp_equal[l] / total_equal;
-      }
-    }
-    post_import_fraction[c] = post_import / post_total;
-    for (t in 2:T)
       cases_rep[c, t] = neg_binomial_2_rng(mu_cases[c, t], phi_cases[c]);
+    }
+    post_import_fraction[c] = post_total > 0 ? post_import / post_total : 0;
   }
 }

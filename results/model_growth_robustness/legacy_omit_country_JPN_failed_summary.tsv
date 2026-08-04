@@ -1,0 +1,2 @@
+analysis_id	analysis_type	country_subset	observation_specification	omitted_country	omitted_project_country	omitted_project_id	n_countries	n_genome_strata	n_genomes	n_omitted_genomes	lineage	mean	median	lower_95	upper_95	probability_above_reference	probability_highest_lineage	diagnostic_pass
+omit_country_JPN	country_omission	AUS+CHN	project_adjusted	JPN	""	""	2	55	211	50	L1_02.07	0.958016358847538	1.08715906877451	0.507901237032544	1.1340873423743	0.75	0.7485	FALSE

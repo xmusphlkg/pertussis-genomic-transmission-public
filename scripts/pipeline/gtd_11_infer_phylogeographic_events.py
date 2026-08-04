@@ -44,6 +44,17 @@ def main() -> None:
     ]
     metadata = metadata.merge(lineage, on="tree_sample_id", how="left", validate="one_to_one")
     metadata = metadata.set_index("tree_sample_id")
+    metadata["date_lower"] = pd.to_datetime(metadata["date_lower"], errors="coerce")
+    metadata["date_upper"] = pd.to_datetime(metadata["date_upper"], errors="coerce")
+    invalid_intervals = metadata[
+        metadata["date_lower"].notna()
+        & metadata["date_upper"].notna()
+        & metadata["date_lower"].gt(metadata["date_upper"])
+    ]
+    if not invalid_intervals.empty:
+        raise ValueError(
+            "Metadata contains sampling-date intervals with date_lower after date_upper"
+        )
 
     marg = pd.read_csv(args.marginals, sep="\t").set_index("node")
     states = list(marg.columns)
@@ -96,7 +107,7 @@ def main() -> None:
             else:
                 top_source = "unresolved"
                 top_source_probability = np.nan
-            dates = pd.to_datetime(metadata.loc[country_tips, "date_lower"], errors="coerce")
+            dates = metadata.loc[country_tips, "date_lower"]
             periods = metadata.loc[country_tips, "epidemic_period"]
             edge_id = f"{parent_name}->{child_name}:{country}"
             edge_rows.append(
@@ -115,9 +126,9 @@ def main() -> None:
                     "n_descendant_pandemic": int(periods.eq("pandemic").sum()),
                     "n_descendant_resurgence": int(periods.eq("resurgence").sum()),
                     "descendant_date_lower": dates.min(),
-                    "descendant_date_upper": pd.to_datetime(
-                        metadata.loc[country_tips, "date_upper"], errors="coerce"
-                    ).max(),
+                    "descendant_date_upper": metadata.loc[
+                        country_tips, "date_upper"
+                    ].max(),
                 }
             )
             for state, probability in source_prob.items():
@@ -183,6 +194,9 @@ def main() -> None:
                 "country_iso3": country,
                 "epidemic_period": row["epidemic_period"],
                 "primary_model_lineage_id": row["primary_model_lineage_id"],
+                "date_lower": row["date_lower"],
+                "date_upper": row["date_upper"],
+                "date_resolution": row["date_resolution"],
                 "strongest_event_id": best["event_id"],
                 "strongest_transition_support": float(best["transition_support"]),
                 "strongest_post_event_id": (
@@ -196,8 +210,12 @@ def main() -> None:
         )
     attribution = pd.DataFrame(attribution)
 
-    # Successful sampled transmission clusters are defined before looking at
-    # cases: at least five attributed genomes spanning at least six months.
+    # Sampled-cluster duration is calculated only from tips attributed to the
+    # event, not from the event edge's entire descendant country clade. For
+    # interval-censored sampling dates, the minimum possible span is the gap
+    # between the latest lower bound and earliest upper bound (or zero when
+    # intervals overlap); the maximum possible span is the gap between the
+    # earliest lower bound and latest upper bound.
     event_assignments = attribution[
         attribution["epidemic_period"].eq("resurgence")
         & attribution["strongest_post_event_id"].ne("")
@@ -211,6 +229,11 @@ def main() -> None:
             n_attributed_tips=("tree_sample_id", "size"),
             n_resurgence=("epidemic_period", lambda x: int((x == "resurgence").sum())),
             n_lineages=("primary_model_lineage_id", "nunique"),
+            assigned_date_lower=("date_lower", "min"),
+            assigned_date_upper=("date_upper", "max"),
+            assigned_latest_date_lower=("date_lower", "max"),
+            assigned_earliest_date_upper=("date_upper", "min"),
+            n_year_only_dates=("date_resolution", lambda x: int((x == "year").sum())),
         )
         .reset_index()
         .rename(columns={"strongest_post_event_id": "event_id"})
@@ -219,10 +242,21 @@ def main() -> None:
     events[["n_attributed_tips", "n_resurgence", "n_lineages"]] = events[
         ["n_attributed_tips", "n_resurgence", "n_lineages"]
     ].fillna(0).astype(int)
-    events["sample_span_days"] = (
-        pd.to_datetime(events["descendant_date_upper"])
-        - pd.to_datetime(events["descendant_date_lower"])
-    ).dt.days
+    events["n_year_only_dates"] = events["n_year_only_dates"].fillna(0).astype(int)
+    events["assigned_span_min_days"] = (
+        pd.to_datetime(events["assigned_latest_date_lower"])
+        - pd.to_datetime(events["assigned_earliest_date_upper"])
+    ).dt.days.clip(lower=0)
+    events["assigned_span_max_days"] = (
+        pd.to_datetime(events["assigned_date_upper"])
+        - pd.to_datetime(events["assigned_date_lower"])
+    ).dt.days.clip(lower=0)
+    events[["assigned_span_min_days", "assigned_span_max_days"]] = events[
+        ["assigned_span_min_days", "assigned_span_max_days"]
+    ].astype("Int64")
+    # Backwards-compatible alias: unlike the historical implementation, this
+    # now refers to the attributed-tip maximum possible interval span.
+    events["sample_span_days"] = events["assigned_span_max_days"]
     events["high_support_introduction"] = events["transition_support"].ge(
         args.transition_threshold
     )
@@ -235,11 +269,19 @@ def main() -> None:
         events["post_resurgence_candidate"]
         & events["high_support_introduction"]
     )
-    events["successful_sampled_cluster"] = (
+    events["robust_success"] = (
         events["high_support_post_reseeding"]
         & events["n_attributed_tips"].ge(args.success_size)
-        & events["sample_span_days"].ge(args.success_span_days)
+        & events["assigned_span_min_days"].ge(args.success_span_days)
     )
+    events["interval_compatible_success"] = (
+        events["high_support_post_reseeding"]
+        & events["n_attributed_tips"].ge(args.success_size)
+        & events["assigned_span_max_days"].ge(args.success_span_days)
+    )
+    # Preserve the established downstream column name while making the
+    # conservative (minimum-span) definition the primary result.
+    events["successful_sampled_cluster"] = events["robust_success"]
 
     post = attribution[attribution["epidemic_period"].eq("resurgence")].copy()
     summary = (
@@ -262,9 +304,18 @@ def main() -> None:
         .reset_index()
     )
 
-    date_cols = ["descendant_date_lower", "descendant_date_upper"]
+    date_cols = [
+        "descendant_date_lower",
+        "descendant_date_upper",
+        "assigned_date_lower",
+        "assigned_date_upper",
+        "assigned_latest_date_lower",
+        "assigned_earliest_date_upper",
+    ]
     for col in date_cols:
         events[col] = pd.to_datetime(events[col]).dt.strftime("%Y-%m-%d")
+    for col in ["date_lower", "date_upper"]:
+        attribution[col] = pd.to_datetime(attribution[col]).dt.strftime("%Y-%m-%d")
     edges.to_csv(args.output_dir / "all_country_entry_edges.tsv", sep="\t", index=False)
     events.to_csv(args.output_dir / "introduction_events.tsv", sep="\t", index=False)
     pd.DataFrame(source_rows).to_csv(
@@ -293,6 +344,26 @@ def main() -> None:
             events["high_support_post_reseeding"].sum()
         ),
         "n_successful_sampled_clusters": int(events["successful_sampled_cluster"].sum()),
+        "n_robust_successful_sampled_clusters": int(
+            events["robust_success"].sum()
+        ),
+        "n_interval_compatible_successful_sampled_clusters": int(
+            events["interval_compatible_success"].sum()
+        ),
+        "successful_sampled_cluster_definition": (
+            "high-support post-resurgence edge with at least "
+            f"{args.success_size} attributed tips and an assigned-tip minimum "
+            f"possible sampling span of at least {args.success_span_days} days"
+        ),
+        "interval_compatible_sampled_cluster_definition": (
+            "high-support post-resurgence edge with at least "
+            f"{args.success_size} attributed tips and an assigned-tip maximum "
+            f"possible sampling span of at least {args.success_span_days} days"
+        ),
+        "sample_span_days_semantics": (
+            "Backwards-compatible alias of assigned_span_max_days; both "
+            "assigned span bounds use only event-attributed tips"
+        ),
         "uncertainty_semantics": (
             "PastML marginal-state support propagated through a modular "
             "phylogeographic layer; not a full joint phylogenetic posterior"

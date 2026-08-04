@@ -1,0 +1,66 @@
+country_iso3	feature	molecular_stratum	prepandemic_l10207	prepandemic_other	prepandemic_total	resurgence_l10207	resurgence_other	resurgence_total	prepandemic_l10207_percent	resurgence_l10207_percent	percentage_point_change	fisher_odds_ratio_resurgence_vs_prepandemic	fisher_conf_low	fisher_conf_high	fisher_p_value	analysis_status	n_prepandemic_projects	n_resurgence_projects	n_projects_in_both_periods	n_shared_projects_min5_each_period	project_overlap_note	fisher_p_bh_exploratory
+AUS	source_ptxP	ptxP3	0	48	48	3	30	33	0	9.09090909090909	9.09090909090909	Inf	0.616608612349426	Inf	0.0639474917955931	fisher_exact_prespecified	5	2	1	1	1 shared project(s) have >=5 annotated records in each period	0.0724738240350055
+AUS	source_ptxP	ptxP1	0	10	10	0	3	3	0	0	0	NA	NA	NA	NA	descriptive_only_sparse_period	3	1	0	0	no project represented in both periods	NA
+AUS	source_fim3	fim3-1	0	41	41	3	13	16	0	18.75	18.75	Inf	1.13425822678232	Inf	0.0191387559808612	fisher_exact_prespecified	5	2	1	1	1 shared project(s) have >=5 annotated records in each period	0.0325358851674641
+AUS	source_fim3	fim3-2	0	12	12	0	17	17	0	0	0	NA	NA	NA	NA	not_estimable_zero_lineage_margin	3	1	1	1	1 shared project(s) have >=5 annotated records in each period	NA
+AUS	source_antigen_profile	ptxP3/fim3-1	0	33	33	3	13	16	0	18.75	18.75	Inf	0.909106484197029	Inf	0.0303951367781155	fisher_exact_prespecified	4	2	1	1	1 shared project(s) have >=5 annotated records in each period	0.0397474865559972
+AUS	source_antigen_profile	ptxP1/fim3-1	0	8	8	0	0	0	0	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	1	0	0	0	no project represented in both periods	NA
+AUS	source_antigen_profile	ptxP3/fim3-2	0	12	12	0	17	17	0	0	0	NA	NA	NA	NA	not_estimable_zero_lineage_margin	3	1	1	1	1 shared project(s) have >=5 annotated records in each period	NA
+AUS	frozen_23S_status	MR_A2047G	0	0	0	0	0	0	NA	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	0	0	0	0	no project represented in both periods	NA
+AUS	frozen_23S_status	MS	0	31	31	2	0	2	0	100	100	NA	NA	NA	NA	descriptive_only_sparse_period	5	1	0	0	no project represented in both periods	NA
+AUS	frozen_PRN_outcome	intact	0	11	11	0	0	0	0	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	3	0	0	0	no project represented in both periods	NA
+AUS	frozen_PRN_outcome	disrupted	0	1	1	2	0	2	0	100	100	NA	NA	NA	NA	descriptive_only_sparse_period	1	1	0	0	no project represented in both periods	NA
+AUS	published_MT_label	MS-MT28	0	0	0	0	0	0	NA	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	0	0	0	0	no project represented in both periods	NA
+AUS	published_MT_label	MR-MT28-PG1	0	0	0	3	0	3	NA	100	NA	NA	NA	NA	NA	not_estimable_period_absent	0	2	0	0	no project represented in both periods	NA
+BEL	source_ptxP	ptxP3	3	12	15	3	74	77	20	3.8961038961039	-16.1038961038961	0.167186152694738	0.019914727003155	1.3932829217501	0.0526085271970756	fisher_exact_prespecified	1	1	1	1	1 shared project(s) have >=5 annotated records in each period	0.0638817830250204
+BEL	source_ptxP	ptxP1	0	1	1	0	5	5	0	0	0	NA	NA	NA	NA	descriptive_only_sparse_period	1	1	1	0	shared project exists, but none has >=5 annotated records in each period	NA
+BEL	source_fim3	fim3-1	3	8	11	3	68	71	27.2727272727273	4.22535211267606	-23.0473751600512	0.12316169648453	0.0139476659182946	1.07250476538227	0.0293689621414228	fisher_exact_prespecified	1	1	1	1	1 shared project(s) have >=5 annotated records in each period	0.0397474865559972
+BEL	source_fim3	fim3-2	0	4	4	0	6	6	0	0	0	NA	NA	NA	NA	descriptive_only_sparse_period	1	1	1	0	shared project exists, but none has >=5 annotated records in each period	NA
+BEL	source_antigen_profile	ptxP3/fim3-1	3	8	11	3	68	71	27.2727272727273	4.22535211267606	-23.0473751600512	0.12316169648453	0.0139476659182946	1.07250476538227	0.0293689621414228	fisher_exact_prespecified	1	1	1	1	1 shared project(s) have >=5 annotated records in each period	0.0397474865559972
+BEL	source_antigen_profile	ptxP1/fim3-1	0	0	0	0	0	0	NA	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	0	0	0	0	no project represented in both periods	NA
+BEL	source_antigen_profile	ptxP3/fim3-2	0	4	4	0	6	6	0	0	0	NA	NA	NA	NA	descriptive_only_sparse_period	1	1	1	0	shared project exists, but none has >=5 annotated records in each period	NA
+BEL	frozen_23S_status	MR_A2047G	0	0	0	0	0	0	NA	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	0	0	0	0	no project represented in both periods	NA
+BEL	frozen_23S_status	MS	0	0	0	0	0	0	NA	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	0	0	0	0	no project represented in both periods	NA
+BEL	frozen_PRN_outcome	intact	0	0	0	0	0	0	NA	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	0	0	0	0	no project represented in both periods	NA
+BEL	frozen_PRN_outcome	disrupted	0	0	0	0	0	0	NA	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	0	0	0	0	no project represented in both periods	NA
+BEL	published_MT_label	MS-MT28	3	0	3	3	0	3	100	100	0	NA	NA	NA	NA	descriptive_only_sparse_period	1	1	1	0	shared project exists, but none has >=5 annotated records in each period	NA
+BEL	published_MT_label	MR-MT28-PG1	0	0	0	0	0	0	NA	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	0	0	0	0	no project represented in both periods	NA
+CHN	source_ptxP	ptxP3	3	12	15	45	0	45	20	100	80	Inf	23.6277781782948	Inf	3.25148907754344e-10	fisher_exact_prespecified	6	4	1	0	shared project exists, but none has >=5 annotated records in each period	1.38188285795596e-09
+CHN	source_ptxP	ptxP1	0	83	83	0	1	1	0	0	0	NA	NA	NA	NA	descriptive_only_sparse_period	10	1	1	0	shared project exists, but none has >=5 annotated records in each period	NA
+CHN	source_fim3	fim3-1	2	92	94	45	1	46	2.12765957446809	97.8260869565217	95.6984273820537	1509.95396573812	157.58120273679	4503599627370496	4.47040785167834e-33	fisher_exact_prespecified	10	4	1	0	shared project exists, but none has >=5 annotated records in each period	7.59969334785317e-32
+CHN	source_fim3	fim3-2	0	1	1	0	0	0	0	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	1	0	0	0	no project represented in both periods	NA
+CHN	source_antigen_profile	ptxP3/fim3-1	2	10	12	45	0	45	16.6666666666667	100	83.3333333333333	Inf	24.2035009584953	Inf	1.52837851969144e-09	fisher_exact_prespecified	3	4	1	0	shared project exists, but none has >=5 annotated records in each period	5.19648696695089e-09
+CHN	source_antigen_profile	ptxP1/fim3-1	0	82	82	0	1	1	0	0	0	NA	NA	NA	NA	descriptive_only_sparse_period	10	1	1	0	shared project exists, but none has >=5 annotated records in each period	NA
+CHN	source_antigen_profile	ptxP3/fim3-2	0	1	1	0	0	0	0	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	1	0	0	0	no project represented in both periods	NA
+CHN	frozen_23S_status	MR_A2047G	1	79	80	27	1	28	1.25	96.4285714285714	95.1785714285714	1312.67837293311	106.562521947658	4503599627370496	3.69157706864274e-23	fisher_exact_prespecified	7	3	1	0	shared project exists, but none has >=5 annotated records in each period	3.13784050834633e-22
+CHN	frozen_23S_status	MS	2	16	18	18	0	18	11.1111111111111	100	88.8888888888889	Inf	15.6511767533137	Inf	4.18726539537101e-08	fisher_exact_prespecified	10	1	0	0	no project represented in both periods	1.18639186202179e-07
+CHN	frozen_PRN_outcome	intact	4	36	40	27	3	30	10	90	80	71.2668485652686	14.1447932980297	554.774504770926	9.08479239571086e-12	fisher_exact_prespecified	10	3	1	0	shared project exists, but none has >=5 annotated records in each period	5.14804902423615e-11
+CHN	frozen_PRN_outcome	disrupted	0	0	0	3	0	3	NA	100	NA	NA	NA	NA	NA	not_estimable_period_absent	0	1	0	0	no project represented in both periods	NA
+CHN	published_MT_label	MS-MT28	1	0	1	0	0	0	100	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	1	0	0	0	no project represented in both periods	NA
+CHN	published_MT_label	MR-MT28-PG1	0	0	0	5	0	5	NA	100	NA	NA	NA	NA	NA	not_estimable_period_absent	0	3	0	0	no project represented in both periods	NA
+FRA	source_ptxP	ptxP3	0	5	5	6	41	47	0	12.7659574468085	12.7659574468085	Inf	0.105429805568941	Inf	1	fisher_exact_prespecified	4	3	0	0	no project represented in both periods	1
+FRA	source_ptxP	ptxP1	0	0	0	0	6	6	NA	0	NA	NA	NA	NA	NA	not_estimable_period_absent	0	2	0	0	no project represented in both periods	NA
+FRA	source_fim3	fim3-1	0	1	1	5	29	34	0	14.7058823529412	14.7058823529412	NA	NA	NA	NA	descriptive_only_sparse_period	1	2	0	0	no project represented in both periods	NA
+FRA	source_fim3	fim3-2	0	4	4	0	8	8	0	0	0	NA	NA	NA	NA	descriptive_only_sparse_period	3	1	0	0	no project represented in both periods	NA
+FRA	source_antigen_profile	ptxP3/fim3-1	0	1	1	5	29	34	0	14.7058823529412	14.7058823529412	NA	NA	NA	NA	descriptive_only_sparse_period	1	2	0	0	no project represented in both periods	NA
+FRA	source_antigen_profile	ptxP1/fim3-1	0	0	0	0	0	0	NA	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	0	0	0	0	no project represented in both periods	NA
+FRA	source_antigen_profile	ptxP3/fim3-2	0	3	3	0	8	8	0	0	0	NA	NA	NA	NA	descriptive_only_sparse_period	2	1	0	0	no project represented in both periods	NA
+FRA	frozen_23S_status	MR_A2047G	0	0	0	0	0	0	NA	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	0	0	0	0	no project represented in both periods	NA
+FRA	frozen_23S_status	MS	0	6	6	1	5	6	0	16.6666666666667	16.6666666666667	Inf	0.0256406640625	Inf	1	fisher_exact_prespecified	5	2	0	0	no project represented in both periods	1
+FRA	frozen_PRN_outcome	intact	0	4	4	1	5	6	0	16.6666666666667	16.6666666666667	NA	NA	NA	NA	descriptive_only_sparse_period	4	2	0	0	no project represented in both periods	NA
+FRA	frozen_PRN_outcome	disrupted	0	1	1	0	0	0	0	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	1	0	0	0	no project represented in both periods	NA
+FRA	published_MT_label	MS-MT28	0	0	0	4	0	4	NA	100	NA	NA	NA	NA	NA	not_estimable_period_absent	0	1	0	0	no project represented in both periods	NA
+FRA	published_MT_label	MR-MT28-PG1	0	0	0	1	0	1	NA	100	NA	NA	NA	NA	NA	not_estimable_period_absent	0	1	0	0	no project represented in both periods	NA
+JPN	source_ptxP	ptxP3	0	22	22	7	0	7	0	100	100	Inf	17.2520250612047	Inf	6.40705288381451e-07	fisher_exact_prespecified	2	1	0	0	no project represented in both periods	1.36149873781058e-06
+JPN	source_ptxP	ptxP1	0	24	24	0	1	1	0	0	0	NA	NA	NA	NA	descriptive_only_sparse_period	6	1	0	0	no project represented in both periods	NA
+JPN	source_fim3	fim3-1	0	42	42	0	0	0	0	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	4	0	0	0	no project represented in both periods	NA
+JPN	source_fim3	fim3-2	0	4	4	0	0	0	0	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	1	0	0	0	no project represented in both periods	NA
+JPN	source_antigen_profile	ptxP3/fim3-1	0	18	18	0	0	0	0	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	2	0	0	0	no project represented in both periods	NA
+JPN	source_antigen_profile	ptxP1/fim3-1	0	22	22	0	0	0	0	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	4	0	0	0	no project represented in both periods	NA
+JPN	source_antigen_profile	ptxP3/fim3-2	0	4	4	0	0	0	0	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	1	0	0	0	no project represented in both periods	NA
+JPN	frozen_23S_status	MR_A2047G	0	0	0	0	0	0	NA	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	0	0	0	0	no project represented in both periods	NA
+JPN	frozen_23S_status	MS	0	19	19	7	1	8	0	87.5	87.5	Inf	8.96802382046382	Inf	9.00870466087858e-06	fisher_exact_prespecified	6	1	0	0	no project represented in both periods	1.70164421372151e-05
+JPN	frozen_PRN_outcome	intact	0	18	18	14	2	16	0	87.5	87.5	Inf	13.5434113463482	Inf	8.6208405198815e-08	fisher_exact_prespecified	5	3	0	0	no project represented in both periods	2.09363269768551e-07
+JPN	frozen_PRN_outcome	disrupted	0	0	0	2	0	2	NA	100	NA	NA	NA	NA	NA	not_estimable_period_absent	0	1	0	0	no project represented in both periods	NA
+JPN	published_MT_label	MS-MT28	0	0	0	0	0	0	NA	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	0	0	0	0	no project represented in both periods	NA
+JPN	published_MT_label	MR-MT28-PG1	0	0	0	0	0	0	NA	NA	NA	NA	NA	NA	NA	not_estimable_period_absent	0	0	0	0	no project represented in both periods	NA

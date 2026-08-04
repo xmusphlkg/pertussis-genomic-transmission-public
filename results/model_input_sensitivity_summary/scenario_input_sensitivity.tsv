@@ -1,0 +1,37 @@
+analysis_id	analysis_label	country_iso3	scenario	mean	median	lower_95	upper_95
+primary_lower_0_5	Primary: threshold 0.5, lower-bound time	AUS	no_new_exposure_case_difference_fraction	0.0344177465832903	0.0149634257877856	0.000549770923724804	0.195986746079902
+primary_lower_0_5	Primary: threshold 0.5, lower-bound time	AUS	l10207_growth_scenario_difference_fraction	0.277015214506894	0.250303999242486	0.0299901978257518	0.665396463251156
+primary_lower_0_5	Primary: threshold 0.5, lower-bound time	CHN	no_new_exposure_case_difference_fraction	0	0	0	0
+primary_lower_0_5	Primary: threshold 0.5, lower-bound time	CHN	l10207_growth_scenario_difference_fraction	0.608251723472175	0.603993674583728	0.373338664542845	0.847496863840037
+primary_lower_0_5	Primary: threshold 0.5, lower-bound time	JPN	no_new_exposure_case_difference_fraction	0.140216953436437	0.0801786420162046	0.00680041961084688	0.605745509220143
+primary_lower_0_5	Primary: threshold 0.5, lower-bound time	JPN	l10207_growth_scenario_difference_fraction	0.590929998430545	0.587168175685869	0.307653666550218	0.892995274065341
+threshold_0_7	Transition threshold 0.7	AUS	no_new_exposure_case_difference_fraction	0.0314754330073593	0.0139903250201122	0.000426625898146554	0.173877320807507
+threshold_0_7	Transition threshold 0.7	AUS	l10207_growth_scenario_difference_fraction	0.283557909547947	0.257321901047992	0.0277107088672654	0.690919071857186
+threshold_0_7	Transition threshold 0.7	CHN	no_new_exposure_case_difference_fraction	0	0	0	0
+threshold_0_7	Transition threshold 0.7	CHN	l10207_growth_scenario_difference_fraction	0.602855600672445	0.596375491561615	0.363298085624877	0.849963529839627
+threshold_0_7	Transition threshold 0.7	JPN	no_new_exposure_case_difference_fraction	0.137794938230186	0.0812124435572025	0.00680691459184625	0.581791881098801
+threshold_0_7	Transition threshold 0.7	JPN	l10207_growth_scenario_difference_fraction	0.592975473746795	0.590415627750358	0.294121561506745	0.903617992681912
+threshold_0_9	Transition threshold 0.9	AUS	no_new_exposure_case_difference_fraction	0.0315399170912756	0.0143839902772815	0.000737916738220554	0.174278533848111
+threshold_0_9	Transition threshold 0.9	AUS	l10207_growth_scenario_difference_fraction	0.24507295660892	0.21654805153243	0.0196049849085609	0.6337642804017
+threshold_0_9	Transition threshold 0.9	CHN	no_new_exposure_case_difference_fraction	0	0	0	0
+threshold_0_9	Transition threshold 0.9	CHN	l10207_growth_scenario_difference_fraction	0.572019317789933	0.563857927839358	0.341826177804296	0.822517990307246
+threshold_0_9	Transition threshold 0.9	JPN	no_new_exposure_case_difference_fraction	0.11683949157396	0.0614238331748847	0.00424959117398339	0.513978813316991
+threshold_0_9	Transition threshold 0.9	JPN	l10207_growth_scenario_difference_fraction	0.545943315158718	0.538889872339606	0.252677052260419	0.859803716939423
+time_midpoint	Earliest-sample interval midpoint	AUS	no_new_exposure_case_difference_fraction	0.0368251814260787	0.0168928545864258	0.000736188228746137	0.199739822769688
+time_midpoint	Earliest-sample interval midpoint	AUS	l10207_growth_scenario_difference_fraction	0.26103786496455	0.23265121075302	0.0219532952278966	0.656246968563639
+time_midpoint	Earliest-sample interval midpoint	CHN	no_new_exposure_case_difference_fraction	0	0	0	0
+time_midpoint	Earliest-sample interval midpoint	CHN	l10207_growth_scenario_difference_fraction	0.604501857306482	0.599429177855668	0.363967342944094	0.851131650811708
+time_midpoint	Earliest-sample interval midpoint	JPN	no_new_exposure_case_difference_fraction	0.186333487680402	0.113187457262586	0.0116047866082615	0.713115662697549
+time_midpoint	Earliest-sample interval midpoint	JPN	l10207_growth_scenario_difference_fraction	0.560504255911841	0.547584735779993	0.288852196942081	0.869541778439088
+time_interval_uniform	Earliest-sample interval-uniform	AUS	no_new_exposure_case_difference_fraction	0.0361135819897856	0.0168066198309197	0.000793729711844232	0.187347587271824
+time_interval_uniform	Earliest-sample interval-uniform	AUS	l10207_growth_scenario_difference_fraction	0.260702164277634	0.23015892934171	0.0250222659433199	0.660111240354007
+time_interval_uniform	Earliest-sample interval-uniform	CHN	no_new_exposure_case_difference_fraction	0	0	0	0
+time_interval_uniform	Earliest-sample interval-uniform	CHN	l10207_growth_scenario_difference_fraction	0.598065734221576	0.595946338295495	0.352966069165253	0.851701745418143
+time_interval_uniform	Earliest-sample interval-uniform	JPN	no_new_exposure_case_difference_fraction	0.317277889862903	0.240768639214542	0.0155614270425157	0.897244573280384
+time_interval_uniform	Earliest-sample interval-uniform	JPN	l10207_growth_scenario_difference_fraction	0.533897743603608	0.523243850550155	0.27487203433706	0.84717472193658
+alternative_root	Alternative root	AUS	no_new_exposure_case_difference_fraction	0.0335656540643324	0.0149042465098637	0.000707638942777347	0.185190661034538
+alternative_root	Alternative root	AUS	l10207_growth_scenario_difference_fraction	0.281634252202738	0.251883430601937	0.0258353281792512	0.685403984128883
+alternative_root	Alternative root	CHN	no_new_exposure_case_difference_fraction	0	0	0	0
+alternative_root	Alternative root	CHN	l10207_growth_scenario_difference_fraction	0.601556252702986	0.595136727414644	0.371189483005819	0.851366739499046
+alternative_root	Alternative root	JPN	no_new_exposure_case_difference_fraction	0.137303015967482	0.0814313026487542	0.00659312765033602	0.574198822868556
+alternative_root	Alternative root	JPN	l10207_growth_scenario_difference_fraction	0.589344857200304	0.582270189118151	0.303115585449068	0.890782878323746

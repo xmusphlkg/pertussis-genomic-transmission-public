@@ -1,0 +1,3 @@
+analysis_id	analysis_label	chains	iterations_per_chain	post_warmup_draws	seed	divergent_transitions	maximum_treedepth_hits	maximum_rhat	minimum_effective_sample_size	minimum_effective_sample_size_field
+historical_pre2019	Strict primary: historical genomes before 2019	4	2000	4000	20260725	0	0	1.0018	1416.0738	minimum_bulk_neff
+symmetric_dirichlet	Sensitivity: symmetric Dirichlet(0.5)	4	2000	4000	20260906	0	0	1.0054	1101.6113	minimum_neff

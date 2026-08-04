@@ -6,6 +6,11 @@
   "successful_cluster_minimum_span_days": 180,
   "n_high_support_introduction_edges": 163,
   "n_high_support_post_reseeding_edges": 71,
-  "n_successful_sampled_clusters": 3,
+  "n_successful_sampled_clusters": 1,
+  "n_robust_successful_sampled_clusters": 1,
+  "n_interval_compatible_successful_sampled_clusters": 3,
+  "successful_sampled_cluster_definition": "high-support post-resurgence edge with at least 5 attributed tips and an assigned-tip minimum possible sampling span of at least 180 days",
+  "interval_compatible_sampled_cluster_definition": "high-support post-resurgence edge with at least 5 attributed tips and an assigned-tip maximum possible sampling span of at least 180 days",
+  "sample_span_days_semantics": "Backwards-compatible alias of assigned_span_max_days; both assigned span bounds use only event-attributed tips",
   "uncertainty_semantics": "PastML marginal-state support propagated through a modular phylogeographic layer; not a full joint phylogenetic posterior"
 }

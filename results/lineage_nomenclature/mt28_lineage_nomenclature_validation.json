@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "analysis_identifier": "L1_02.07",
+  "recommended_display_name": "MT28-associated genomic lineage",
+  "published_annotation_source": "Zhang et al. Evolutionary dynamics and global spread of macrolide-resistant Bordetella pertussis during the post-pandemic pertussis resurgence. Journal of Infection. 2026;92:106718.",
+  "published_annotation_source_doi": "10.1016/j.jinf.2026.106718",
+  "n_tree_tips": 989,
+  "n_l10207_tree_tips": 288,
+  "n_l10207_focal_tips": 271,
+  "n_l10207_global_background_tips": 17,
+  "n_published_mt28_labelled_tips": 99,
+  "n_published_mt28_labels_in_l10207": 99,
+  "n_published_mt28_labels_outside_l10207": 0,
+  "n_l10207_without_published_mt28_label": 189,
+  "published_mt28_mrca_node": 1308,
+  "n_published_mt28_mrca_descendants": 288,
+  "n_non_l10207_inside_published_mt28_mrca": 0,
+  "n_l10207_outside_published_mt28_mrca": 0,
+  "l10207_monophyletic": true,
+  "published_mt28_mrca_exactly_matches_l10207": true,
+  "interpretation": "The source-published MT28 labels and their MRCA support the reader-facing alias 'MT28-associated genomic lineage' for the study-defined cluster. Machine-readable identifiers remain unchanged.",
+  "limitation": "The crosswalk does not impute MLVA type or resistance status to unlabelled tips and is not an independent test of lineage expansion."
+}

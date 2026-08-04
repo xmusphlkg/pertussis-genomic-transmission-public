@@ -1,0 +1,15 @@
+metric	numerator	denominator	percent	interpretation	limitation
+tree_tips	989	989	100	Frozen core-SNP tree denominator.	Conditional on the frozen public-tree cohort.
+l10207_tree_tips	288	989	29.1203235591507	Study-defined rhierBAPS level-2 population.	The identifier is analysis-specific and is retained in machine-readable outputs.
+l10207_focal_tips	271	288	94.0972222222222	Focal members used in genomic observation and case-linked models.	Focal public genomes are not a national prevalence sample.
+l10207_background_tips	17	288	5.90277777777778	Global-background members used only to stabilize phylogenetic context.	Background tips are excluded from national observation denominators.
+published_mt28_labelled_tips	99	989	10.010111223458	Tips with an MT28 category in the source-published Sublineages field.	Published labels are unavailable for many tree tips.
+published_mt28_labels_in_l10207	99	99	100	All source-published MT28-labelled tips mapped to L1_02.07.	Concordance is a nomenclature crosswalk, not an independent expansion test.
+published_mt28_labels_outside_l10207	0	99	0	No source-published MT28-labelled tip mapped outside L1_02.07.	The source-published field may be missing even when a tip belongs to the same clade.
+l10207_published_mt28_annotation_coverage	99	288	34.375	Published MT28 labels directly covered a subset of L1_02.07.	189 of 288 L1_02.07 tips lacked a source-published MT28 sublineage label.
+published_mt28_label_positive_predictive_value	99	99	100	A published MT28 label predicted L1_02.07 membership without an observed exception.	This does not imply that every unlabelled L1_02.07 tip was directly MLVA-typed as MT28.
+published_mt28_mrca_descendant_tips	288	989	29.1203235591507	Descendant span of the MRCA of all source-published MT28-labelled tips.	MRCA correspondence supports a clade-level display name, not imputation of per-tip MLVA type.
+published_mt28_mrca_l10207_recovery	288	288	100	The published-MT28 MRCA recovered every L1_02.07 member.	Recovery is evaluated in the same frozen tree used to define L1_02.07.
+published_mt28_mrca_l10207_precision	288	288	100	The published-MT28 MRCA contained no non-L1_02.07 tip.	Precision is evaluated in the same frozen tree used to define L1_02.07.
+l10207_target_monophyletic	1	1	100	L1_02.07 was monophyletic in the frozen core-SNP tree.	Monophyly does not establish a mechanism for expansion.
+published_mt28_mrca_exactly_matches_l10207	1	1	100	The published-MT28 MRCA descendant set equalled L1_02.07.	The professional alias should remain linked to the analysis identifier in Methods and reproducibility files.

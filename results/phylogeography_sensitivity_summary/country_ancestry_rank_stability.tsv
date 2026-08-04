@@ -1,0 +1,31 @@
+analysis_id	analysis_class	analysis_label	country_iso3	n_replicates	local_rank_median	local_rank_lower_95	local_rank_upper_95	probability_highest_local	reseeding_rank_median	reseeding_rank_lower_95	reseeding_rank_upper_95	probability_highest_reseeding
+primary_ml_midpoint	primary	Primary ML tree, midpoint root	AUS	1	3	3	3	0	3	3	3	0
+primary_ml_midpoint	primary	Primary ML tree, midpoint root	BEL	1	2	2	2	0	4	4	4	0
+primary_ml_midpoint	primary	Primary ML tree, midpoint root	CHN	1	1	1	1	1	5	5	5	0
+primary_ml_midpoint	primary	Primary ML tree, midpoint root	FRA	1	5	5	5	0	1	1	1	1
+primary_ml_midpoint	primary	Primary ML tree, midpoint root	JPN	1	4	4	4	0	2	2	2	0
+primary_ml_outgroup	rooting	Primary ML tree, outgroup root	AUS	1	3	3	3	0	3	3	3	0
+primary_ml_outgroup	rooting	Primary ML tree, outgroup root	BEL	1	2	2	2	0	4	4	4	0
+primary_ml_outgroup	rooting	Primary ML tree, outgroup root	CHN	1	1	1	1	1	5	5	5	0
+primary_ml_outgroup	rooting	Primary ML tree, outgroup root	FRA	1	5	5	5	0	1	1	1	1
+primary_ml_outgroup	rooting	Primary ML tree, outgroup root	JPN	1	4	4	4	0	2	2	2	0
+bootstrap_consensus_midpoint	topology	Bootstrap consensus tree, midpoint root	AUS	1	3	3	3	0	3	3	3	0
+bootstrap_consensus_midpoint	topology	Bootstrap consensus tree, midpoint root	BEL	1	2	2	2	0	4	4	4	0
+bootstrap_consensus_midpoint	topology	Bootstrap consensus tree, midpoint root	CHN	1	1	1	1	1	5	5	5	0
+bootstrap_consensus_midpoint	topology	Bootstrap consensus tree, midpoint root	FRA	1	5	5	5	0	1	1	1	1
+bootstrap_consensus_midpoint	topology	Bootstrap consensus tree, midpoint root	JPN	1	4	4	4	0	2	2	2	0
+bionj_midpoint	topology	BIONJ distance tree, midpoint root	AUS	1	3	3	3	0	3	3	3	0
+bionj_midpoint	topology	BIONJ distance tree, midpoint root	BEL	1	2	2	2	0	4	4	4	0
+bionj_midpoint	topology	BIONJ distance tree, midpoint root	CHN	1	1	1	1	1	5	5	5	0
+bionj_midpoint	topology	BIONJ distance tree, midpoint root	FRA	1	5	5	5	0	1	1	1	1
+bionj_midpoint	topology	BIONJ distance tree, midpoint root	JPN	1	4	4	4	0	2	2	2	0
+historical_reference_keep80	reference_sampling	Historical focal reference, 80% retained	AUS	30	3	3	3	0	3	3	3	0
+historical_reference_keep80	reference_sampling	Historical focal reference, 80% retained	BEL	30	2	2	2	0	4	4	4	0
+historical_reference_keep80	reference_sampling	Historical focal reference, 80% retained	CHN	30	1	1	1	1	5	5	5	0
+historical_reference_keep80	reference_sampling	Historical focal reference, 80% retained	FRA	30	5	5	5	0	1	1	2	0.933333333333333
+historical_reference_keep80	reference_sampling	Historical focal reference, 80% retained	JPN	30	4	4	4	0	2	1	2	0.0666666666666667
+global_background_keep80	background_sampling	Global background, 80% retained	AUS	30	3	3	3	0	3	3	3	0
+global_background_keep80	background_sampling	Global background, 80% retained	BEL	30	2	2	2	0	4	4	4	0
+global_background_keep80	background_sampling	Global background, 80% retained	CHN	30	1	1	1	1	5	5	5	0
+global_background_keep80	background_sampling	Global background, 80% retained	FRA	30	5	5	5	0	1	1	1.275	0.966666666666667
+global_background_keep80	background_sampling	Global background, 80% retained	JPN	30	4	4	4	0	2	1.725	2	0.0333333333333333

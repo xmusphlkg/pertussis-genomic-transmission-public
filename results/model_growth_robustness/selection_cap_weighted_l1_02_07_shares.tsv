@@ -1,0 +1,7 @@
+country_iso3	epidemic_period	n_final_tree_tips	n_l1_02_07	unweighted_share	weighted_l1_02_07_total	weighted_total	selection_cap_weighted_share	kish_effective_n	minimum_weight	maximum_weight	n_inventory_records	n_inventory_records_in_selected_strata	inventory_stratum_support_fraction
+AUS	prepandemic	60	0	0	0	60	0	60	1	1	88	88	1
+AUS	resurgence	37	3	0.0810810810810811	3	48.5	0.0618556701030928	29.6346456692913	1	3.125	127	127	1
+CHN	prepandemic	157	12	0.0764331210191083	12	157	0.0764331210191083	157	1	1	165	165	1
+CHN	resurgence	153	148	0.967320261437908	540.375	551.25	0.980272108843537	75.9436283123638	1	14.875	565	565	1
+JPN	prepandemic	50	0	0	0	159.666666666667	0	26.5772037530407	1	11.3333333333333	216	216	1
+JPN	resurgence	60	54	0.9	66.25	73.125	0.905982905982906	56.933122608551	1	1.875	89	89	1

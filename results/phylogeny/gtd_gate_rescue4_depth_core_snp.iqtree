@@ -1,6 +1,6 @@
 IQ-TREE 2.4.0 built Feb 12 2025
 
-Input file name: [local_path_omitted]
+Input file name: [local-path-omitted]
 Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
 Random seed number: 574468
 
@@ -4065,15 +4065,15 @@ ALISIM COMMAND
 --------------
 To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
 
---alisim simulated_MSA -t [local_path_omitted] -m "GTR{0.972058,2.25238,0.910077,0.364399,2.27479}+F{0.147954,0.355885,0.350296,0.145865}+ASC+R2{0.998197,0.923674,0.00180287,43.2594}" --length 11550
+--alisim simulated_MSA -t [local-path-omitted] -m "GTR{0.972058,2.25238,0.910077,0.364399,2.27479}+F{0.147954,0.355885,0.350296,0.145865}+ASC+R2{0.998197,0.923674,0.00180287,43.2594}" --length 11550
 
 To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
 
-iqtree -s [local_path_omitted] --alisim mimicked_MSA
+iqtree -s [local-path-omitted] --alisim mimicked_MSA
 
 To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
 
-iqtree -s [local_path_omitted] --alisim mimicked_MSA --num-alignments 100
+iqtree -s [local-path-omitted] --alisim mimicked_MSA --num-alignments 100
 
 For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
 

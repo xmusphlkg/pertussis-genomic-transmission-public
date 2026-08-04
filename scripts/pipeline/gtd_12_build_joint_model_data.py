@@ -24,11 +24,46 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("tip_attribution", type=Path)
     p.add_argument("output_dir", type=Path)
     p.add_argument("--disable-project-effects", action="store_true")
+    p.add_argument(
+        "--transition-threshold",
+        type=float,
+        default=0.5,
+        help="Minimum strongest post-transition support used to build exposure.",
+    )
+    p.add_argument(
+        "--exposure-time-rule",
+        choices=("lower", "midpoint", "interval-uniform"),
+        default="lower",
+        help=(
+            "Map the interval-censored earliest attributed sample to its lower "
+            "bound, midpoint, or uniformly across all intersecting months."
+        ),
+    )
+    p.add_argument(
+        "--initial-prior-mode",
+        choices=("historical", "symmetric"),
+        default="historical",
+        help=(
+            "Construct the initial-lineage prior from samples strictly before "
+            "the model period, or use a weak symmetric Dirichlet(0.5) prior."
+        ),
+    )
+    p.add_argument(
+        "--initial-prior-end-year",
+        type=int,
+        default=START.year - 1,
+        help=(
+            "Last sampling year eligible for the historical initial-lineage "
+            "prior. The default (2018) is strictly before the 2019 model start."
+        ),
+    )
     return p.parse_args()
 
 
 def main() -> None:
     args = parse_args()
+    if not 0 <= args.transition_threshold <= 1:
+        raise ValueError("--transition-threshold must be between 0 and 1")
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     months = pd.date_range(START, END, freq="MS")
@@ -67,25 +102,55 @@ def main() -> None:
     lineages["primary_model_lineage_id"] = lineages[
         "primary_model_lineage_id"
     ].fillna("Other")
+    lineages["joint_model_lineage_id"] = lineages[
+        "primary_model_lineage_id"
+    ].where(lineages["primary_model_lineage_id"].isin(LINEAGES), "Other")
     lineages["model_month"] = (
         pd.to_datetime(lineages["date_lower"], errors="coerce")
         .dt.to_period("M")
         .dt.to_timestamp()
     )
 
-    # Initial lineage proportions use all pre-2020 focal tree tips, including
-    # interval-censored year-only samples. These are priors, not monthly counts.
-    pre = lineages[
-        lineages["country_iso3"].isin(COUNTRIES)
-        & lineages["year"].le(2019)
-    ]
+    if args.initial_prior_end_year >= START.year:
+        raise ValueError(
+            "--initial-prior-end-year must be strictly before the model start year"
+        )
+
+    # The initial state is separated temporally from every monthly model
+    # observation. Historical priors may include interval-censored year-only
+    # samples, but only when their reported year precedes the model period.
+    pre = lineages.iloc[0:0].copy()
+    if args.initial_prior_mode == "historical":
+        pre = lineages[
+            lineages["country_iso3"].isin(COUNTRIES)
+            & lineages["year"].le(args.initial_prior_end_year)
+        ].copy()
     initial_alpha = np.full((len(COUNTRIES), len(LINEAGES)), 0.5)
     for (country, lineage), n in pre.groupby(
-        ["country_iso3", "primary_model_lineage_id"]
+        ["country_iso3", "joint_model_lineage_id"]
     ).size().items():
-        if lineage not in lineage_index:
-            lineage = "Other"
         initial_alpha[country_index[country] - 1, lineage_index[lineage] - 1] += int(n)
+
+    initial_prior_rows = []
+    for country in COUNTRIES:
+        for lineage in LINEAGES:
+            count = int(
+                (
+                    pre["country_iso3"].eq(country)
+                    & pre["joint_model_lineage_id"].eq(lineage)
+                ).sum()
+            )
+            initial_prior_rows.append(
+                {
+                    "country_iso3": country,
+                    "primary_model_lineage_id": lineage,
+                    "initial_prior_mode": args.initial_prior_mode,
+                    "initial_prior_end_year": args.initial_prior_end_year,
+                    "n_historical_tips": count,
+                    "dirichlet_alpha": 0.5 + count,
+                }
+            )
+    initial_prior_table = pd.DataFrame(initial_prior_rows)
 
     # Monthly genomic observations are restricted to exact day/month dates and
     # are grouped by country, month and public project.
@@ -132,6 +197,8 @@ def main() -> None:
         [
             "tree_sample_id",
             "date_lower",
+            "date_upper",
+            "date_resolution",
             "country_iso3",
             "primary_model_lineage_id",
             "epidemic_period",
@@ -141,6 +208,9 @@ def main() -> None:
         columns=[
             x
             for x in [
+                "date_lower",
+                "date_upper",
+                "date_resolution",
                 "country_iso3",
                 "primary_model_lineage_id",
                 "epidemic_period",
@@ -149,63 +219,78 @@ def main() -> None:
         ]
     ).merge(tip_fields, on="tree_sample_id", how="left", validate="one_to_one")
     attribution["date_lower"] = pd.to_datetime(attribution["date_lower"], errors="coerce")
+    attribution["date_upper"] = pd.to_datetime(attribution["date_upper"], errors="coerce")
     event_tips = attribution[
         attribution["country_iso3"].isin(COUNTRIES)
         & attribution["epidemic_period"].eq("resurgence")
         & attribution["strongest_post_event_id"].fillna("").ne("")
-        & attribution["strongest_post_transition_support"].ge(0.5)
+        & attribution["strongest_post_transition_support"].ge(
+            args.transition_threshold
+        )
     ].copy()
-
-    resurgence_support = attribution[
-        attribution["country_iso3"].isin(COUNTRIES)
-        & attribution["epidemic_period"].eq("resurgence")
-    ].copy()
-    country_fallback = (
-        resurgence_support.groupby("country_iso3")["local_persistence_support"].mean()
-    )
-    persistence_support = np.zeros((len(COUNTRIES), len(LINEAGES)))
-    for country in COUNTRIES:
-        for lineage in LINEAGES:
-            values = resurgence_support.loc[
-                resurgence_support["country_iso3"].eq(country)
-                & resurgence_support["primary_model_lineage_id"].fillna("Other").eq(lineage),
-                "local_persistence_support",
-            ]
-            value = (
-                float(values.mean())
-                if len(values)
-                else float(country_fallback.get(country, 0.5))
-            )
-            persistence_support[
-                country_index[country] - 1, lineage_index[lineage] - 1
-            ] = np.clip(value, 0.01, 0.99)
 
     # One event contributes its transition support once, split across model
-    # lineages according to attributed descendants. The first observed month
-    # supplies an interval-censored introduction proxy, not an exact event date.
+    # lineages according to attributed descendants. The event-time proxy is the
+    # interval for the earliest attributed sample: its lower and upper bounds
+    # are min(date_lower) and min(date_upper), respectively. Sensitivity inputs
+    # place this proxy at the lower bound, at the interval midpoint, or spread
+    # the same total event weight uniformly across all intersecting months.
     event_rows = []
     for (event_id, country), group in event_tips.groupby(
         ["strongest_post_event_id", "country_iso3"]
     ):
-        month = group["date_lower"].min().to_period("M").to_timestamp()
-        if month < START or month > END:
+        if group["date_lower"].isna().any() or group["date_upper"].isna().any():
+            raise ValueError(f"Missing date bounds among tips attributed to {event_id}")
+        event_date_lower = group["date_lower"].min()
+        event_date_upper = group["date_upper"].min()
+        if event_date_upper < event_date_lower:
+            raise ValueError(f"Inconsistent earliest-sample interval for {event_id}")
+
+        if args.exposure_time_rule == "lower":
+            allocated_months = [
+                event_date_lower.to_period("M").to_timestamp()
+            ]
+        elif args.exposure_time_rule == "midpoint":
+            midpoint = event_date_lower + (event_date_upper - event_date_lower) / 2
+            allocated_months = [midpoint.to_period("M").to_timestamp()]
+        else:
+            allocated_months = list(
+                pd.date_range(
+                    event_date_lower.to_period("M").to_timestamp(),
+                    event_date_upper.to_period("M").to_timestamp(),
+                    freq="MS",
+                )
+            )
+        allocated_months = [
+            month for month in allocated_months if START <= month <= END
+        ]
+        if not allocated_months:
             continue
+
         support = float(group["strongest_post_transition_support"].max())
         counts = group["primary_model_lineage_id"].fillna("Other").value_counts()
         total = int(counts.sum())
         for lineage, n in counts.items():
             lineage = lineage if lineage in lineage_index else "Other"
-            event_rows.append(
-                {
-                    "event_id": event_id,
-                    "country_iso3": country,
-                    "model_month": month,
-                    "primary_model_lineage_id": lineage,
-                    "transition_support": support,
-                    "lineage_event_weight": support * int(n) / total,
-                    "n_attributed_resurgence_tips": int(n),
-                }
-            )
+            total_lineage_weight = support * int(n) / total
+            allocated_lineage_weight = total_lineage_weight / len(allocated_months)
+            for month in allocated_months:
+                event_rows.append(
+                    {
+                        "event_id": event_id,
+                        "country_iso3": country,
+                        "model_month": month,
+                        "event_date_lower": event_date_lower,
+                        "event_date_upper": event_date_upper,
+                        "exposure_time_rule": args.exposure_time_rule,
+                        "n_allocated_months": len(allocated_months),
+                        "primary_model_lineage_id": lineage,
+                        "transition_support": support,
+                        "total_lineage_event_weight": total_lineage_weight,
+                        "lineage_event_weight": allocated_lineage_weight,
+                        "n_attributed_resurgence_tips": int(n),
+                    }
+                )
     event_table = pd.DataFrame(event_rows)
     exposure = np.zeros((len(COUNTRIES), len(months), len(LINEAGES)))
     for row in event_table.itertuples(index=False):
@@ -242,7 +327,6 @@ def main() -> None:
         "B": basis.tolist(),
         "reporting_change": reporting_change.tolist(),
         "initial_alpha": initial_alpha.tolist(),
-        "persistence_support": persistence_support.tolist(),
         "import_exposure": exposure.tolist(),
         "obs_country": obs["country_id"].astype(int).tolist(),
         "obs_month": obs["month_id"].astype(int).tolist(),
@@ -251,6 +335,9 @@ def main() -> None:
     }
     (args.output_dir / "joint_model_data.json").write_text(
         json.dumps(stan_data, separators=(",", ":"))
+    )
+    initial_prior_table.to_csv(
+        args.output_dir / "initial_lineage_prior.tsv", sep="\t", index=False
     )
     obs.to_csv(args.output_dir / "genome_observation_strata.tsv", sep="\t", index=False)
     event_table.to_csv(args.output_dir / "monthly_import_events.tsv", sep="\t", index=False)
@@ -272,13 +359,29 @@ def main() -> None:
         "lineages": LINEAGES,
         "start_month": str(START.date()),
         "end_month": str(END.date()),
+        "initial_prior_mode": args.initial_prior_mode,
+        "initial_prior_end_year": args.initial_prior_end_year,
+        "initial_prior_strictly_precedes_model": (
+            args.initial_prior_end_year < START.year
+        ),
+        "n_historical_tips_in_initial_prior": int(len(pre)),
         "n_case_months_per_country": len(months),
         "n_genome_observation_strata": len(obs),
         "n_genomes_in_observation_model": int(y_genome.sum()),
         "n_projects": len(projects),
         "use_project_effects": not args.disable_project_effects,
+        "transition_threshold": args.transition_threshold,
+        "exposure_time_rule": args.exposure_time_rule,
         "n_phylogeographic_event_lineage_rows": len(event_table),
         "n_unique_phylogeographic_events": int(event_table["event_id"].nunique()),
+        "n_unique_phylogeographic_event_lineages": int(
+            event_table[["event_id", "primary_model_lineage_id"]]
+            .drop_duplicates()
+            .shape[0]
+        ),
+        "total_phylogeographic_exposure_weight": float(
+            event_table["lineage_event_weight"].sum()
+        ),
         "case_counts_used_for_lineage_definition": False,
         "exact_tmrca_used": False,
     }

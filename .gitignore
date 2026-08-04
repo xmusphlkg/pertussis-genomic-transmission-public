@@ -8,3 +8,6 @@ __pycache__/
 .pytest_cache/
 *.py[cod]
 ~$*
+figures/letter/*.svg
+figures/letter/*.tif
+figures/letter/*.tiff

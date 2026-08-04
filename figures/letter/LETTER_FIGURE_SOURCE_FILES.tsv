@@ -1,0 +1,14 @@
+figure	source_file
+Figure 1	figures/source_data/figure2_tree_manifest.tsv
+Figure 1	figures/source_data/figure2a_tree_tip_metadata.tsv
+Figure 1	figures/source_data/figure2b_tip_ancestry_support.tsv
+Figure 1	figures/source_data/figure1a_cases.tsv
+Figure 1	figures/source_data/figure1b_annual_genomes.tsv
+Figure 1	figures/source_data/figure3d_selection_cap_weighted_l10207_shares.tsv
+Figure 1	figures/source_data/figure4e_australia_ct_curve.tsv
+Figure 2	figures/source_data/figure3a_lineage_growth_main.tsv
+Figure 2	figures/source_data/figure3b_l10207_pairwise_growth.tsv
+Figure 2	figures/source_data/figure3c_l10207_growth_robustness.tsv
+Figure 2	figures/source_data/figure4d_counterfactual_summary.tsv
+Figure 2	figures/source_data/figure4f_identifiability_recovery.tsv
+Figure 2	results/model_input_sensitivity_summary/l10207_input_sensitivity.tsv

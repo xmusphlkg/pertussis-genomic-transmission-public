@@ -7,12 +7,12 @@
     "minimum_highest_lineage_rank_recovery": 0.75
   },
   "observed": {
-    "lineage_growth_coverage": 0.8667,
-    "import_scale_coverage": 0.8889,
-    "lineage_growth_median_absolute_log_error": 0.0184,
-    "import_scale_median_absolute_log_error": 0.6228,
-    "lineage_growth_truth_median_correlation": 0.7422,
-    "import_scale_truth_median_correlation": -0.0343,
+    "lineage_growth_coverage": 0.8,
+    "import_scale_coverage": 0.7222,
+    "lineage_growth_median_absolute_log_error": 0.0192,
+    "import_scale_median_absolute_log_error": 0.8452,
+    "lineage_growth_truth_median_correlation": 0.8169,
+    "import_scale_truth_median_correlation": -0.055,
     "highest_lineage_rank_recovery": 1
   },
   "pass": false

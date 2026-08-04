@@ -1,0 +1,14 @@
+country_iso3	epidemic_period	n_tree_tips	n_l10207	n_other_lineages	l10207_percent
+AUS	prepandemic	60	0	60	0
+AUS	resurgence	37	3	34	8.10810810810811
+BEL	prepandemic	20	3	17	15
+BEL	pandemic	17	1	16	5.88235294117647
+BEL	resurgence	82	3	79	3.65853658536585
+CHN	prepandemic	157	12	145	7.64331210191083
+CHN	pandemic	78	41	37	52.5641025641026
+CHN	resurgence	153	148	5	96.7320261437908
+FRA	prepandemic	6	0	6	0
+FRA	resurgence	53	6	47	11.3207547169811
+JPN	prepandemic	50	0	50	0
+JPN	pandemic	1	0	1	0
+JPN	resurgence	60	54	6	90

@@ -1,0 +1,84 @@
+{
+  "all_versions_all_prespecified_gates_pass": true,
+  "analysis_id": "cohort_gate_pre_rescue_vs_final",
+  "comparison_table": "cohort_gate_sensitivity_long.tsv",
+  "input_manifest": "input_sha256_manifest.tsv",
+  "prespecified_gate_definition": {
+    "growth": "L1_02.07 lower_95 > 1 in each cohort",
+    "local_persistence": "CHN has rank 1 mean_local_persistence_support in each cohort",
+    "reseeding": "rank 1-2 mean_post_import_support country set is {FRA, JPN} in each cohort"
+  },
+  "status": "PASS",
+  "versions": {
+    "final": {
+      "all_prespecified_gates_pass": true,
+      "gates": {
+        "china_highest_local_persistence": {
+          "expected_top_country": "CHN",
+          "observed_top_country": "CHN",
+          "observed_top_support": 0.9986657453233722,
+          "pass": true
+        },
+        "france_japan_top2_reseeding": {
+          "expected_top2_set_sorted": [
+            "FRA",
+            "JPN"
+          ],
+          "observed_support_by_top2_order": {
+            "FRA": 0.8721294777604437,
+            "JPN": 0.8628041492705159
+          },
+          "observed_top2_ordered": [
+            "FRA",
+            "JPN"
+          ],
+          "observed_top2_set_sorted": [
+            "FRA",
+            "JPN"
+          ],
+          "pass": true
+        },
+        "l10207_lower_95_above_1": {
+          "observed_lower_95": 1.07829085892382,
+          "pass": true,
+          "threshold": 1.0
+        }
+      }
+    },
+    "pre_rescue": {
+      "all_prespecified_gates_pass": true,
+      "gates": {
+        "china_highest_local_persistence": {
+          "expected_top_country": "CHN",
+          "observed_top_country": "CHN",
+          "observed_top_support": 0.998828373617346,
+          "pass": true
+        },
+        "france_japan_top2_reseeding": {
+          "expected_top2_set_sorted": [
+            "FRA",
+            "JPN"
+          ],
+          "observed_support_by_top2_order": {
+            "FRA": 0.8760571161439243,
+            "JPN": 0.891006356848033
+          },
+          "observed_top2_ordered": [
+            "JPN",
+            "FRA"
+          ],
+          "observed_top2_set_sorted": [
+            "FRA",
+            "JPN"
+          ],
+          "pass": true
+        },
+        "l10207_lower_95_above_1": {
+          "observed_lower_95": 1.11043594801603,
+          "pass": true,
+          "threshold": 1.0
+        }
+      }
+    }
+  }
+}

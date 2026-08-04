@@ -1,0 +1,61 @@
+country_iso3	epidemic_period	contrast	exposed_category	reference_categories	l10207_exposed	l10207_reference	other_exposed	other_reference	l10207_exposed_percent	other_exposed_percent	fisher_odds_ratio_l10207_vs_other	fisher_conf_low	fisher_conf_high	fisher_p_value	analysis_status	fisher_p_bh_exploratory
+AUS	prepandemic	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	0	0	48	10		82.7586206896552					not_estimable_lineage_group_absent	
+AUS	prepandemic	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	0	0	41	17		70.6896551724138					not_estimable_lineage_group_absent	
+AUS	prepandemic	MR_A2047G_vs_MS	MR_A2047G	MS	0	0	0	31		0					not_estimable_lineage_group_absent	
+AUS	prepandemic	PRN_disrupted_vs_intact	disrupted	intact	0	0	1	11		8.33333333333333					not_estimable_lineage_group_absent	
+AUS	pandemic	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	0	0	0	0							not_estimable_lineage_group_absent	
+AUS	pandemic	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	0	0	0	0							not_estimable_lineage_group_absent	
+AUS	pandemic	MR_A2047G_vs_MS	MR_A2047G	MS	0	0	0	0							not_estimable_lineage_group_absent	
+AUS	pandemic	PRN_disrupted_vs_intact	disrupted	intact	0	0	0	0							not_estimable_lineage_group_absent	
+AUS	resurgence	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	3	0	30	4	100	88.2352941176471					descriptive_only_sparse_lineage_group	
+AUS	resurgence	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	3	0	13	21	100	38.2352941176471					descriptive_only_sparse_lineage_group	
+AUS	resurgence	MR_A2047G_vs_MS	MR_A2047G	MS	0	2	0	0	0						not_estimable_lineage_group_absent	
+AUS	resurgence	PRN_disrupted_vs_intact	disrupted	intact	2	0	0	0	100						not_estimable_lineage_group_absent	
+BEL	prepandemic	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	3	0	12	1	100	92.3076923076923					descriptive_only_sparse_lineage_group	
+BEL	prepandemic	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	3	0	8	5	100	61.5384615384615					descriptive_only_sparse_lineage_group	
+BEL	prepandemic	MR_A2047G_vs_MS	MR_A2047G	MS	0	0	0	0							not_estimable_lineage_group_absent	
+BEL	prepandemic	PRN_disrupted_vs_intact	disrupted	intact	0	0	0	0							not_estimable_lineage_group_absent	
+BEL	pandemic	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	1	0	16	0	100	100					descriptive_only_sparse_lineage_group	
+BEL	pandemic	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	1	0	9	7	100	56.25					descriptive_only_sparse_lineage_group	
+BEL	pandemic	MR_A2047G_vs_MS	MR_A2047G	MS	0	0	0	0							not_estimable_lineage_group_absent	
+BEL	pandemic	PRN_disrupted_vs_intact	disrupted	intact	0	0	0	0							not_estimable_lineage_group_absent	
+BEL	resurgence	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	3	0	74	5	100	93.6708860759494					descriptive_only_sparse_lineage_group	
+BEL	resurgence	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	3	0	68	11	100	86.0759493670886					descriptive_only_sparse_lineage_group	
+BEL	resurgence	MR_A2047G_vs_MS	MR_A2047G	MS	0	0	0	0							not_estimable_lineage_group_absent	
+BEL	resurgence	PRN_disrupted_vs_intact	disrupted	intact	0	0	0	0							not_estimable_lineage_group_absent	
+CHN	prepandemic	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	3	0	12	83	100	12.6315789473684					descriptive_only_sparse_lineage_group	
+CHN	prepandemic	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	2	0	92	2	100	97.8723404255319					descriptive_only_sparse_lineage_group	
+CHN	prepandemic	MR_A2047G_vs_MS	MR_A2047G	MS	1	2	79	16	33.3333333333333	83.1578947368421					descriptive_only_sparse_lineage_group	
+CHN	prepandemic	PRN_disrupted_vs_intact	disrupted	intact	0	4	0	36	0	0					descriptive_only_sparse_lineage_group	
+CHN	pandemic	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	22	0	5	29	100	14.7058823529412	Inf	20.6772197309116	Inf	3.76788301852689e-11	fisher_exact_prespecified	1.88394150926344e-10
+CHN	pandemic	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	21	0	34	0	100	100					not_estimable_zero_feature_margin	
+CHN	pandemic	MR_A2047G_vs_MS	MR_A2047G	MS	5	17	1	33	22.7272727272727	2.94117647058824	9.32075239065673	0.93748819156928	471.286192129767	0.029874213836478	fisher_exact_prespecified	0.0497903563941301
+CHN	pandemic	PRN_disrupted_vs_intact	disrupted	intact	10	15	0	35	40	0	Inf	4.37041430238967	Inf	4.33556888460232e-05	fisher_exact_prespecified	0.000108389222115058
+CHN	resurgence	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	45	0	0	1	100	0					descriptive_only_sparse_lineage_group	
+CHN	resurgence	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	45	0	1	0	100	100					descriptive_only_sparse_lineage_group	
+CHN	resurgence	MR_A2047G_vs_MS	MR_A2047G	MS	27	18	1	0	60	100					descriptive_only_sparse_lineage_group	
+CHN	resurgence	PRN_disrupted_vs_intact	disrupted	intact	3	27	0	3	10	0					descriptive_only_sparse_lineage_group	
+FRA	prepandemic	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	0	0	5	0		100					not_estimable_lineage_group_absent	
+FRA	prepandemic	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	0	0	1	4		20					not_estimable_lineage_group_absent	
+FRA	prepandemic	MR_A2047G_vs_MS	MR_A2047G	MS	0	0	0	6		0					not_estimable_lineage_group_absent	
+FRA	prepandemic	PRN_disrupted_vs_intact	disrupted	intact	0	0	1	4		20					not_estimable_lineage_group_absent	
+FRA	pandemic	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	0	0	0	0							not_estimable_lineage_group_absent	
+FRA	pandemic	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	0	0	0	0							not_estimable_lineage_group_absent	
+FRA	pandemic	MR_A2047G_vs_MS	MR_A2047G	MS	0	0	0	0							not_estimable_lineage_group_absent	
+FRA	pandemic	PRN_disrupted_vs_intact	disrupted	intact	0	0	0	0							not_estimable_lineage_group_absent	
+FRA	resurgence	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	6	0	41	6	100	87.2340425531915	Inf	0.132781308593799	Inf	1	fisher_exact_prespecified	1
+FRA	resurgence	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	5	0	29	14	100	67.4418604651163	Inf	0.383204190326135	Inf	0.302806043786617	fisher_exact_prespecified	0.378507554733272
+FRA	resurgence	MR_A2047G_vs_MS	MR_A2047G	MS	0	1	0	5	0	0					descriptive_only_sparse_lineage_group	
+FRA	resurgence	PRN_disrupted_vs_intact	disrupted	intact	0	1	0	5	0	0					descriptive_only_sparse_lineage_group	
+JPN	prepandemic	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	0	0	22	26		45.8333333333333					not_estimable_lineage_group_absent	
+JPN	prepandemic	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	0	0	42	4		91.304347826087					not_estimable_lineage_group_absent	
+JPN	prepandemic	MR_A2047G_vs_MS	MR_A2047G	MS	0	0	0	19		0					not_estimable_lineage_group_absent	
+JPN	prepandemic	PRN_disrupted_vs_intact	disrupted	intact	0	0	0	18		0					not_estimable_lineage_group_absent	
+JPN	pandemic	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	0	0	1	0		100					not_estimable_lineage_group_absent	
+JPN	pandemic	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	0	0	1	0		100					not_estimable_lineage_group_absent	
+JPN	pandemic	MR_A2047G_vs_MS	MR_A2047G	MS	0	0	0	1		0					not_estimable_lineage_group_absent	
+JPN	pandemic	PRN_disrupted_vs_intact	disrupted	intact	0	0	0	1		0					not_estimable_lineage_group_absent	
+JPN	resurgence	ptxP3_vs_other_ptxP	ptxP3	ptxP1;ptxP(~5);ptxP8	7	0	0	1	100	0					descriptive_only_sparse_lineage_group	
+JPN	resurgence	fim3-1_vs_other_fim3	fim3-1	fim3-4;fim3-2;fim3-27;fim3-45;fim3-26	0	0	0	0							not_estimable_lineage_group_absent	
+JPN	resurgence	MR_A2047G_vs_MS	MR_A2047G	MS	0	7	0	1	0	0					descriptive_only_sparse_lineage_group	
+JPN	resurgence	PRN_disrupted_vs_intact	disrupted	intact	2	14	0	2	12.5	0					descriptive_only_sparse_lineage_group	

@@ -84,10 +84,9 @@ write_json(
 draws <- extract(
   fit,
   pars = c(
-    "lineage_relative_transmission", "post_import_fraction", "q",
-    "project_effect", "mu_cases", "expected_cases_baseline",
-    "expected_cases_no_import", "expected_cases_equal_lineage",
-    "q_baseline", "q_no_import", "q_equal_lineage", "cases_rep"
+    "r_coef", "log_theta", "import_scale", "density_feedback",
+    "reporting_jump", "lineage_relative_transmission", "post_import_fraction", "q",
+    "project_effect", "mu_cases", "cases_rep"
   ),
   permuted = TRUE
 )

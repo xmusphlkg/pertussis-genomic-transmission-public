@@ -1,0 +1,10 @@
+{
+  "chains": 4,
+  "iterations_per_chain": 2000,
+  "post_warmup_draws": 4000,
+  "seed": 20260725,
+  "divergent_transitions": 0,
+  "maximum_treedepth_hits": 0,
+  "maximum_rhat": 1.004,
+  "minimum_bulk_neff": 1403.7578
+}

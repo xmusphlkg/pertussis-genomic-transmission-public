@@ -1,0 +1,33 @@
+{
+  "countries": [
+    "AUS",
+    "CHN",
+    "JPN"
+  ],
+  "lineages": [
+    "L1_01.02",
+    "L1_02.05",
+    "L1_02.06",
+    "L1_02.07",
+    "Other"
+  ],
+  "start_month": "2019-01-01",
+  "end_month": "2025-12-01",
+  "initial_prior_mode": "historical",
+  "initial_prior_end_year": 2018,
+  "initial_prior_strictly_precedes_model": true,
+  "n_historical_tips_in_initial_prior": 164,
+  "n_case_months_per_country": 84,
+  "n_genome_observation_strata": 72,
+  "n_genomes_in_observation_model": 261,
+  "n_projects": 11,
+  "use_project_effects": true,
+  "transition_threshold": 0.5,
+  "exposure_time_rule": "midpoint",
+  "n_phylogeographic_event_lineage_rows": 31,
+  "n_unique_phylogeographic_events": 31,
+  "n_unique_phylogeographic_event_lineages": 31,
+  "total_phylogeographic_exposure_weight": 29.753020760988985,
+  "case_counts_used_for_lineage_definition": false,
+  "exact_tmrca_used": false
+}

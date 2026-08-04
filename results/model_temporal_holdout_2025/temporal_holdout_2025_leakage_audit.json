@@ -1,0 +1,154 @@
+{
+  "analysis": "2025 leakage-aware temporal holdout",
+  "source_full_data_json": "data/model_inputs/joint_model_data.json",
+  "source_full_data_sha256": "4679c33fb068f6d2ba7f47d28d9b22e4f871d60ec750eacb5a2d768505e68cf6",
+  "training_data_json": "excluded fitted-object workspace; checksum retained",
+  "training_data_sha256": "7713c9ca73aacf208647b6dd8913a5e55c2ebe60e0575ef382a0e948ba3fef89",
+  "model_start_month": "2019-01",
+  "training_cutoff_month": "2024-12",
+  "forecast_start_month": "2025-01",
+  "forecast_end_month": "2025-12",
+  "full_months": 84,
+  "training_months": 72,
+  "holdout_months": 12,
+  "case_values_full": 252,
+  "case_values_passed_to_fit": 216,
+  "holdout_case_values_excluded_from_fit": 36,
+  "genome_strata_full": 72,
+  "genome_strata_passed_to_fit": 60,
+  "genome_strata_excluded_from_fit": 12,
+  "genomes_passed_to_fit": 220,
+  "genomes_excluded_from_fit": 41,
+  "maximum_training_genome_month_index": 72,
+  "projects_full": 11,
+  "projects_passed_to_fit": 9,
+  "project_old_to_new_index": [
+    {
+      "old_project_index": 1,
+      "new_project_index": 1,
+      "project_id": "PRJDB20292"
+    },
+    {
+      "old_project_index": 2,
+      "new_project_index": 2,
+      "project_id": "PRJDB20413"
+    },
+    {
+      "old_project_index": 4,
+      "new_project_index": 3,
+      "project_id": "PRJDB35593"
+    },
+    {
+      "old_project_index": 6,
+      "new_project_index": 4,
+      "project_id": "PRJNA1133929"
+    },
+    {
+      "old_project_index": 7,
+      "new_project_index": 5,
+      "project_id": "PRJNA1143937"
+    },
+    {
+      "old_project_index": 8,
+      "new_project_index": 6,
+      "project_id": "PRJNA1178746"
+    },
+    {
+      "old_project_index": 9,
+      "new_project_index": 7,
+      "project_id": "PRJNA1182239"
+    },
+    {
+      "old_project_index": 10,
+      "new_project_index": 8,
+      "project_id": "PRJNA1199062"
+    },
+    {
+      "old_project_index": 11,
+      "new_project_index": 9,
+      "project_id": "PRJNA934177"
+    }
+  ],
+  "original_2025_exposure_weight_by_country": {
+    "AUS": 0,
+    "CHN": 0,
+    "JPN": 8.70484888362453
+  },
+  "prediction_2025_exposure_weight_by_country": {
+    "AUS": 0,
+    "CHN": 0,
+    "JPN": 0
+  },
+  "prediction_uses_import_scale": false,
+  "frozen_exposure_direct_future_tip_audit": {
+    "tip_attribution_source": "results/phylogeography/events_thr0_5/tip_persistence_reseeding_support.tsv",
+    "lineage_assignment_source": "results/lineages/primary_finalized/model_lineage_assignments.tsv",
+    "event_attributed_tips_full": 71,
+    "event_attributed_tips_in_2025": 43,
+    "events_with_both_pre2025_and_2025_attributed_tips": 4,
+    "future_tips_in_mixed_events": 30,
+    "maximum_absolute_difference_reconstructed_vs_frozen_exposure": 0,
+    "maximum_absolute_difference_in_training_exposure_after_excluding_2025_tips": 0,
+    "interpretation": "Within the frozen event labels and transition supports, excluding every 2025 attributed tip leaves all 2019-2024 exposure cells numerically unchanged."
+  },
+  "frozen_phylogeography_boundary": "Tree topology, event labels, and transition supports were not re-inferred after removing 2025 tips; this is a conditional temporal validation of the frozen feature map.",
+  "removed_unused_persistence_input_audit": {
+    "stan_model": "scripts/model/gtd_joint_transmission_sampling.stan",
+    "stan_model_sha256": "2ebba9d074ba4a305b18c58439d7b25e4dc89c24c6b4a5ab793b06c17646251f",
+    "references_in_stan_source": 0,
+    "interpretation": "The legacy persistence_support field was removed from the Stan data block and frozen JSON because it did not enter the state update, likelihood, or generated quantities."
+  },
+  "training_spline_columns": 14,
+  "training_spline_rank": 13,
+  "full_spline_rank": 14,
+  "future_only_spline_columns": [
+    14
+  ],
+  "future_only_spline_column_details": [
+    {
+      "column": 14,
+      "maximum_absolute_training_value": 0,
+      "maximum_absolute_forecast_value": 1
+    }
+  ],
+  "future_spline_inference_boundary": "Column 14 is exactly zero through 2024 and nonzero in 2025. Its coefficient is therefore not directly informed by the training likelihood; projection is regularised only by the coefficient priors, including the adjacent-coefficient random-walk prior. Widening forecast intervals reflect this pre-frozen design boundary.",
+  "projection_policy": "Use rows 73-84 of the pre-frozen 84-month spline design; do not rebuild the basis after truncation.",
+  "fit_input_policy": "Only the generated through-2024 JSON is passed to Stan. Full 2025 cases are read only after fitting for forecast scoring.",
+  "leakage_assertions": {
+    "training_cases_end_at_cutoff": true,
+    "training_genomes_end_at_cutoff": true,
+    "training_exposure_ends_at_cutoff": true,
+    "training_spline_is_exact_full_prefix": true,
+    "no_holdout_observation_row_is_retained": true,
+    "prediction_exposure_is_forced_to_zero": true,
+    "reconstructed_exposure_matches_frozen_input": true,
+    "excluding_2025_attributed_tips_leaves_training_exposure_unchanged": true,
+    "unused_persistence_input_removed": true
+  },
+  "postfit_prediction_audit": {
+    "posterior_cache": "excluded fitted object; see provenance/EXTERNAL_LARGE_OBJECTS.tsv",
+    "posterior_draws": 4000,
+    "fit_chains": 4,
+    "fit_iterations_per_chain": 2000,
+    "fit_seed": 20260821,
+    "full_outcome_data_loaded_only_after_fit_or_cache_validation": true,
+    "prediction_anchor_month": "2024-12",
+    "prediction_anchor_case_source": "Observed December 2024 cases contained in the training JSON",
+    "prediction_anchor_lineage_source": "Posterior q in December 2024 from the truncated training fit",
+    "full_prefrozen_spline_projection_rows": "73-84",
+    "spline_basis_rebuilt_after_truncation": false,
+    "forecast_exposure_forced_zero": true,
+    "forecast_exposure_weight_used": {
+      "AUS": 0,
+      "CHN": 0,
+      "JPN": 0
+    },
+    "import_scale_used_in_forecast": false,
+    "holdout_cases_used_only_for_scoring": true,
+    "holdout_genomes_used_for_fit": false,
+    "recursive_expected_forecast": "Each month uses the previous month's posterior expected case path",
+    "recursive_predictive_forecast": "Each month uses the previous simulated count and draws a new count from negative-binomial-2",
+    "seasonal_naive_definition": "Point forecast is the same calendar month of 2024; intervals bootstrap median-centred 12-month log1p differences from 2020-2024",
+    "wis_definition": "Weighted interval score using central 50%, 80%, 90%, and 95% intervals"
+  }
+}

@@ -1,0 +1,2 @@
+analysis_id	analysis_type	chains	iterations_per_chain	warmup_per_chain	post_warmup_draws	seed	elapsed_seconds	divergent_transitions	maximum_treedepth_hits	maximum_rhat	minimum_effective_sample_size	target_lineage_rhat	target_lineage_effective_sample_size	diagnostic_pass
+omit_country_JPN	country_omission	4	2000	1000	4000	20262200	266.372	0	0	5.92108409102428	2.05338401946845	12.1493507801525	2.01316858282151	FALSE

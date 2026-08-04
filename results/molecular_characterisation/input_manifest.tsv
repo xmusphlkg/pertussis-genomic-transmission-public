@@ -1,0 +1,5 @@
+input_id	path	sha256	role
+assignments		65efe15163cfadc61b94addcc4ecade4bdb5eb07c6a757c43d87c276457e8cbc	frozen phylogenetic lineage membership
+tree_metadata		fd68b99c0280f1d53798044538569cc6f771b002d67c105584ba57bb2b1addf0	stable tree-tip identifiers
+source_records		eed7e54b68b604b9cb565e9f52213705d30ef563f60b4df573372819048b60c7	focal source antigen and raw 23S annotations
+frozen_archive		b35e0e321937ec86f845173e57e4f49b497e5d47a4ce7003f5b7bf3f07961d56	frozen PRN structural and standardised 23S annotations

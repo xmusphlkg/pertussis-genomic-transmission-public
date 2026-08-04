@@ -1,0 +1,7 @@
+analysis_id	analysis_label	result_directory
+primary_lower_0_5	Primary: threshold 0.5, lower-bound time	model_main
+threshold_0_7	Transition threshold 0.7	model_input_sensitivity/threshold_0_7
+threshold_0_9	Transition threshold 0.9	model_input_sensitivity/threshold_0_9
+time_midpoint	Earliest-sample interval midpoint	model_input_sensitivity/time_midpoint
+time_interval_uniform	Earliest-sample interval-uniform	model_input_sensitivity/time_interval_uniform
+alternative_root	Alternative root	model_input_sensitivity/alternative_root

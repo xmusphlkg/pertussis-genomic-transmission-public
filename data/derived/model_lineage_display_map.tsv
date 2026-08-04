@@ -1,0 +1,6 @@
+internal_id	display_name	short_label	display_role	nomenclature_basis	scope_note
+L1_01.02	comparator genomic lineage A	Comparator A	comparator	Study-defined rhierBAPS population	Letter is a reader-facing display label only
+L1_02.05	comparator genomic lineage B	Comparator B	comparator	Study-defined rhierBAPS population	Letter is a reader-facing display label only
+L1_02.06	comparator genomic lineage C	Comparator C	comparator	Study-defined rhierBAPS population	Letter is a reader-facing display label only
+L1_02.07	MT28-associated genomic lineage	MT28-associated	focal	Source-published MT28 label and MRCA concordance with the study-defined rhierBAPS population	Does not impute per-tip MLVA type or macrolide resistance
+Other	other genomic lineages	Other lineages	pooled	Non-eligible rhierBAPS populations pooled for modelling	Not a single biological lineage

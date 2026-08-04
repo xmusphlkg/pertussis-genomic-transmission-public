@@ -57,4 +57,4 @@ Rscript "${analysis_root}/bin/gtd_16_identifiability_recovery.R" \
   "${model_root}/identifiability_recovery" \
   6 2 1200 20260801
 
-echo "Final joint-model fits, counterfactuals, and recovery audit completed."
+echo "Final joint-model fits, anchored conditional scenarios, and recovery audit completed."

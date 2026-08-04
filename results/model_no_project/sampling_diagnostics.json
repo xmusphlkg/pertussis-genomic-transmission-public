@@ -5,6 +5,6 @@
   "seed": 20260731,
   "divergent_transitions": 0,
   "maximum_treedepth_hits": 0,
-  "maximum_rhat": 1.0033,
-  "minimum_bulk_neff": 1093.4682
+  "maximum_rhat": 1.0017,
+  "minimum_bulk_neff": 1140.9505
 }

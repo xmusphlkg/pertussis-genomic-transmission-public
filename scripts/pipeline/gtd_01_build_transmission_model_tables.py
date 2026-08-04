@@ -40,6 +40,24 @@ DEVELOPMENT_COUNTRIES = ("CHN", "AUS", "JPN")
 DATA_FREEZE_DATE = "2026-07-24"
 PANDEMIC_START = pd.Timestamp("2020-01-01")
 POST_PANDEMIC_START = pd.Timestamp("2023-01-01")
+FONG_SOURCE_DATASET = "australia_fong_2026_direct_specimens"
+FONG_REDACTED_NOTE = "Third-party specimen metadata not redistributed"
+FONG_RESTRICTED_PUBLIC_COLUMNS = {
+    "sample_id",
+    "genome_qc_status",
+    "sampling_process_observed",
+    "sequencing_success",
+    "ct_value",
+    "specimen_type",
+    "preliminary_lineage_id",
+    "lineage_definition_status",
+    "published_branch",
+    "published_lineage",
+    "published_sublineage",
+    "ptxP_label",
+    "fim3_label",
+    "marker_23s_status",
+}
 
 COUNTRY_OVERRIDES = {
     "Australia": "AUS",
@@ -705,6 +723,18 @@ def merge_focal_duplicates(rows: list[dict[str, object]]) -> pd.DataFrame:
     return frame[GENOME_COLUMNS]
 
 
+def sanitise_fong_public_records(frame: pd.DataFrame) -> pd.DataFrame:
+    released = frame.copy()
+    if "source_dataset" not in released.columns:
+        return released
+    mask = released["source_dataset"].eq(FONG_SOURCE_DATASET)
+    for column in FONG_RESTRICTED_PUBLIC_COLUMNS.intersection(released.columns):
+        released.loc[mask, column] = ""
+    if "provenance_note" in released.columns:
+        released.loc[mask, "provenance_note"] = FONG_REDACTED_NOTE
+    return released
+
+
 def build_global_background_rows(
     global_frame: pd.DataFrame,
     focal: pd.DataFrame,
@@ -1152,9 +1182,9 @@ def main() -> None:
     lineage_screen = build_lineage_screen(focal)
     registry = build_source_registry(paths, root)
 
-    focal.to_csv(args.output_dir / "transmission_genome_records.tsv", sep="\t", index=False)
+    released_focal = sanitise_fong_public_records(focal)
+    released_focal.to_csv(args.output_dir / "transmission_genome_records.tsv", sep="\t", index=False)
     background.to_csv(args.output_dir / "global_tree_background_records.tsv", sep="\t", index=False)
-    sampling.to_csv(args.output_dir / "australia_sampling_process_records.tsv", sep="\t", index=False)
     cases.to_csv(args.output_dir / "country_month_cases.tsv", sep="\t", index=False)
     strata.to_csv(args.output_dir / "country_month_genome_strata.tsv", sep="\t", index=False)
     panel.to_csv(args.output_dir / "country_month_case_genome_panel.tsv", sep="\t", index=False)
