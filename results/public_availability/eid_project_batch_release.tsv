@@ -1,0 +1,14 @@
+country_iso3	country_label	project_id	n_focal_resurgence_genomes	n_target_lineage	n_with_public_date	public_date_completeness_pct	collection_lower_min	collection_upper_effective_max	public_date_min	public_date_max	public_batch_span_days	modal_public_date	modal_public_date_n	modal_public_date_pct	median_lag_min_days	median_lag_max_days	date_resolution_counts	public_route_counts	subnational_locations
+AUS	Australia	PRJNA1178746	2	2	2	100.0	2024-08-01	2024-08-31	2025-01-16	2025-01-22	6	2025-01-16	1	50.0	141	171	month=2	ncbi_assembly_only=2	New South Wales
+AUS	Australia	PRJNA1199062	35	1	35	100.0	2023-09-01	2024-10-31	2025-01-16	2025-01-16	0	2025-01-16	35	100.0	169	199	month=35	ena_read_only=35	Australian Capital Territory;New South Wales;Queensland;South Australia;Western Australia
+CHN	China	PRJNA1071282	4	3	4	100.0	2023-01-01	2024-09-29	2024-09-29	2024-09-29	0	2024-09-29	4	100.0	136.5	454.5	year=4	ena_read_only=4	Shanghai
+CHN	China	PRJNA1133929	18	18	18	100.0	2023-05-17	2023-12-29	2024-11-17	2024-11-17	0	2024-11-17	18	100.0	390	390	day=18	ena_read_first=18	Zhejiang
+CHN	China	PRJNA1143937	19	19	19	100.0	2024-04-20	2024-06-03	2024-10-04	2024-10-04	0	2024-10-04	19	100.0	155	155	day=17;month=2	ncbi_assembly_only=19	Xinjiang;Zhejiang
+CHN	China	PRJNA1182239	83	82	83	100.0	2023-02-04	2024-08-30	2025-06-17	2025-06-18	1	2025-06-18	69	83.1	453	453	day=83	ncbi_assembly_only=83	Shanghai
+CHN	China	PRJNA1193776	13	11	13	100.0	2023-01-01	2024-12-31	2025-03-23	2025-03-23	0	2025-03-23	13	100.0	448	812	year=13	ena_read_only=13	Guangzhou
+CHN	China	PRJNA1295129	16	15	16	100.0	2023-01-01	2024-12-31	2025-11-13	2025-11-13	0	2025-11-13	16	100.0	500	864.5	year=16	ncbi_assembly_only=16	Shanghai
+JPN	Japan	PRJDB20292	2	2	2	100.0	2024-12-09	2024-12-09	2025-05-20	2025-05-20	0	2025-05-20	2	100.0	162	162	day=2	ncbi_assembly_first=2	Okinawa
+JPN	Japan	PRJDB20413	15	14	15	100.0	2024-12-14	2025-02-07	2025-05-12	2025-05-12	0	2025-05-12	15	100.0	104	104	day=15	ncbi_assembly_first=15	Okinawa
+JPN	Japan	PRJDB34249	14	11	14	100.0	2024-01-01	2025-12-31	2026-01-25	2026-01-25	0	2026-01-25	14	100.0	390	755	month=4;year=10	ena_read_only=14	Tottori
+JPN	Japan	PRJDB35593	8	7	8	100.0	2024-09-12	2025-01-21	2025-12-10	2025-12-10	0	2025-12-10	8	100.0	363.5	363.5	day=8	ncbi_assembly_first=8	Osaka
+JPN	Japan	PRJDB37898	21	20	21	100.0	2025-02-25	2025-06-16	2026-01-27	2026-01-27	0	2026-01-27	21	100.0	280	280	day=21	ena_read_only=21	Okinawa

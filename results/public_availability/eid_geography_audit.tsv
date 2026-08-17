@@ -1,0 +1,28 @@
+audit_level	country_iso3	country_label	project_id	lineage	n_genomes	n_with_subnational_location	subnational_location_completeness_pct	subnational_locations	location_source_counts
+country_project_lineage	AUS	Australia	PRJNA1178746	L1_02.07	2	2	100.0	New South Wales	nas_focal_snapshot=2
+country_project_lineage	AUS	Australia	PRJNA1199062	L1_01.02	4	4	100.0	New South Wales;South Australia;Western Australia	ena_country=4
+country_project_lineage	AUS	Australia	PRJNA1199062	L1_02.05	17	17	100.0	New South Wales;Queensland;South Australia	ena_country=17
+country_project_lineage	AUS	Australia	PRJNA1199062	L1_02.06	13	13	100.0	Australian Capital Territory;New South Wales;Queensland;Western Australia	ena_country=13
+country_project_lineage	AUS	Australia	PRJNA1199062	L1_02.07	1	1	100.0	New South Wales	ena_country=1
+country_total	AUS	Australia	ALL	ALL	37	37	100.0	Australian Capital Territory;New South Wales;Queensland;South Australia;Western Australia	ena_country=35;nas_focal_snapshot=2
+country_project_lineage	CHN	China	PRJNA1071282	L1_02.07	3	3	100.0	Shanghai	ena_country=3
+country_project_lineage	CHN	China	PRJNA1071282	Other	1	1	100.0	Shanghai	ena_country=1
+country_project_lineage	CHN	China	PRJNA1133929	L1_02.07	18	18	100.0	Zhejiang	ena_country=18
+country_project_lineage	CHN	China	PRJNA1143937	L1_02.07	19	19	100.0	Xinjiang;Zhejiang	nas_focal_snapshot=19
+country_project_lineage	CHN	China	PRJNA1182239	L1_02.06	1	1	100.0	Shanghai	nas_focal_snapshot=1
+country_project_lineage	CHN	China	PRJNA1182239	L1_02.07	82	82	100.0	Shanghai	nas_focal_snapshot=82
+country_project_lineage	CHN	China	PRJNA1193776	L1_02.06	2	2	100.0	Guangzhou	ena_country=2
+country_project_lineage	CHN	China	PRJNA1193776	L1_02.07	11	11	100.0	Guangzhou	ena_country=11
+country_project_lineage	CHN	China	PRJNA1295129	L1_02.06	1	1	100.0	Shanghai	nas_focal_snapshot=1
+country_project_lineage	CHN	China	PRJNA1295129	L1_02.07	15	15	100.0	Shanghai	nas_focal_snapshot=15
+country_total	CHN	China	ALL	ALL	153	153	100.0	Guangzhou;Shanghai;Xinjiang;Zhejiang	ena_country=35;nas_focal_snapshot=118
+country_project_lineage	JPN	Japan	PRJDB20292	L1_02.07	2	2	100.0	Okinawa	ena_country=2
+country_project_lineage	JPN	Japan	PRJDB20413	L1_02.06	1	1	100.0	Okinawa	ena_country=1
+country_project_lineage	JPN	Japan	PRJDB20413	L1_02.07	14	14	100.0	Okinawa	ena_country=14
+country_project_lineage	JPN	Japan	PRJDB34249	L1_02.05	3	3	100.0	Tottori	ena_country=3
+country_project_lineage	JPN	Japan	PRJDB34249	L1_02.07	11	11	100.0	Tottori	ena_country=11
+country_project_lineage	JPN	Japan	PRJDB35593	L1_01.02	1	1	100.0	Osaka	ena_country=1
+country_project_lineage	JPN	Japan	PRJDB35593	L1_02.07	7	7	100.0	Osaka	ena_country=7
+country_project_lineage	JPN	Japan	PRJDB37898	L1_02.06	1	1	100.0	Okinawa	ena_country=1
+country_project_lineage	JPN	Japan	PRJDB37898	L1_02.07	20	20	100.0	Okinawa	ena_country=20
+country_total	JPN	Japan	ALL	ALL	60	60	100.0	Okinawa;Osaka;Tottori	ena_country=60

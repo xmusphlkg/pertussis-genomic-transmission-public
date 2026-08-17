@@ -1,0 +1,7 @@
+project_id	n_explicit_pertussis_runs	countries	collection_span	first_public_span	date_resolution_summary	n_frozen_tree_tips	n_frozen_target_lineage	n_frozen_resurgence_target	recommended_tier
+PRJNA1071282	734	China	2016-01-01 to 2024-01-01	2024-09-04 to 2024-09-29	day=0;month_or_interval=0;year_only=734;missing=0	16	6	3	boundary_dataset_pending_date_resolution
+PRJNA1193776	62	China	2020-04-30 to 2024-05-03	2025-03-07 to 2025-03-23	day=60;month_or_interval=0;year_only=2;missing=0	21	15	11	partial_current_project_extension
+PRJDB39872	16	Japan	2025-01-01 to 2025-04-01	2026-01-11 to 2026-01-11	day=0;month_or_interval=16;year_only=0;missing=0	0	0	0	supplement_sensitivity_then_lineage_place
+PRJNA1455114	48	China	2017-09-01 to 2024-08-01	2026-05-06 to 2026-05-07	day=0;month_or_interval=48;year_only=0;missing=0	0	0	0	supplement_sensitivity_then_lineage_place
+PRJEB88325	416	Belgium	2014-01-30 to 2023-12-31	2025-04-10 to 2025-04-10	day=416;month_or_interval=0;year_only=0;missing=0	119	7	3	partial_current_project_extension
+PRJNA870170	5	Australia	2024-03-04 to 2025-03-04	2026-08-05 to 2026-08-05	day=5;month_or_interval=0;year_only=0;missing=0	0	0	0	discussion_or_sensitivity_after_taxon_check

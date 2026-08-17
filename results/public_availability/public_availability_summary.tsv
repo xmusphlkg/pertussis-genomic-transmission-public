@@ -1,0 +1,12 @@
+country_iso3	primary_model_lineage_id	display_lineage	n_resurgence_focal_tips	n_with_public_date	first_collection_lower	first_public_date	median_lag_min_days	median_lag_max_days	min_lag_min_days	max_lag_max_days	median_lag_from_collection_lower_days	max_lag_from_collection_lower_days	first_public_lead_to_2019max_threshold_days	first_public_lead_to_post2022_peak_days
+AUS	L1_01.02	Comparator genomic lineage A	4	4	2024-05-01	2025-01-16	184.5	214.0	108	260	214.0	260	-321	-76
+AUS	L1_02.05	Comparator genomic lineage B	17	17	2024-01-01	2025-01-16	138	168	77	381	168	381	-321	-76
+AUS	L1_02.06	Comparator genomic lineage C	13	13	2023-09-01	2025-01-16	169	199	77	503	199	503	-321	-76
+AUS	L1_02.07	MT28-associated genomic lineage	3	3	2024-08-01	2025-01-16	138	168	138	174	168	174	-321	-76
+CHN	L1_02.06	Comparator genomic lineage C	4	4	2023-01-01	2025-03-23	448.0	776.5	317	812	776.5	812	-600	-326
+CHN	L1_02.07	MT28-associated genomic lineage	148	148	2023-01-01	2024-09-29	398.0	446.0	0	1047	446.0	1047	-425	-151
+CHN	Other	Other genomic lineages	1	1	2023-01-01	2024-09-29	273	637	273	637	637	637	-425	-151
+JPN	L1_01.02	Comparator genomic lineage A	1	1	2024-12-12	2025-12-10	363	363	363	363	363	363	-284	-192
+JPN	L1_02.05	Comparator genomic lineage B	3	3	2024-01-01	2026-01-25	300	389	25	755	389	755	-330	-238
+JPN	L1_02.06	Comparator genomic lineage C	2	2	2025-01-21	2025-05-12	220.5	220.5	111	330	220.5	330	-72	20
+JPN	L1_02.07	MT28-associated genomic lineage	54	54	2024-01-01	2025-05-12	249.5	261.0	25	755	261.0	755	-72	20

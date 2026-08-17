@@ -1,0 +1,94 @@
+country_iso3	primary_model_lineage_id	display_lineage	clock	minimum_cumulative_tips	detection_date	lead_to_2019max_threshold_days	lead_to_post2022_peak_days
+AUS	L1_01.02	Comparator genomic lineage A	collection_lower	1	2024-05-01	-61	184
+AUS	L1_01.02	Comparator genomic lineage A	collection_lower	3	2024-07-01	-122	123
+AUS	L1_01.02	Comparator genomic lineage A	collection_upper_effective	1	2024-05-31	-91	154
+AUS	L1_01.02	Comparator genomic lineage A	collection_upper_effective	3	2024-07-31	-152	93
+AUS	L1_01.02	Comparator genomic lineage A	public_date	1	2025-01-16	-321	-76
+AUS	L1_01.02	Comparator genomic lineage A	public_date	3	2025-01-16	-321	-76
+AUS	L1_02.05	Comparator genomic lineage B	collection_lower	1	2024-01-01	60	305
+AUS	L1_02.05	Comparator genomic lineage B	collection_lower	3	2024-02-01	29	274
+AUS	L1_02.05	Comparator genomic lineage B	collection_lower	5	2024-07-01	-122	123
+AUS	L1_02.05	Comparator genomic lineage B	collection_lower	10	2024-09-01	-184	61
+AUS	L1_02.05	Comparator genomic lineage B	collection_upper_effective	1	2024-01-31	30	275
+AUS	L1_02.05	Comparator genomic lineage B	collection_upper_effective	3	2024-02-29	1	246
+AUS	L1_02.05	Comparator genomic lineage B	collection_upper_effective	5	2024-07-31	-152	93
+AUS	L1_02.05	Comparator genomic lineage B	collection_upper_effective	10	2024-09-30	-213	32
+AUS	L1_02.05	Comparator genomic lineage B	public_date	1	2025-01-16	-321	-76
+AUS	L1_02.05	Comparator genomic lineage B	public_date	3	2025-01-16	-321	-76
+AUS	L1_02.05	Comparator genomic lineage B	public_date	5	2025-01-16	-321	-76
+AUS	L1_02.05	Comparator genomic lineage B	public_date	10	2025-01-16	-321	-76
+AUS	L1_02.06	Comparator genomic lineage C	collection_lower	1	2023-09-01	182	427
+AUS	L1_02.06	Comparator genomic lineage C	collection_lower	3	2024-05-01	-61	184
+AUS	L1_02.06	Comparator genomic lineage C	collection_lower	5	2024-06-01	-92	153
+AUS	L1_02.06	Comparator genomic lineage C	collection_lower	10	2024-09-01	-184	61
+AUS	L1_02.06	Comparator genomic lineage C	collection_upper_effective	1	2023-09-30	153	398
+AUS	L1_02.06	Comparator genomic lineage C	collection_upper_effective	3	2024-05-31	-91	154
+AUS	L1_02.06	Comparator genomic lineage C	collection_upper_effective	5	2024-06-30	-121	124
+AUS	L1_02.06	Comparator genomic lineage C	collection_upper_effective	10	2024-09-30	-213	32
+AUS	L1_02.06	Comparator genomic lineage C	public_date	1	2025-01-16	-321	-76
+AUS	L1_02.06	Comparator genomic lineage C	public_date	3	2025-01-16	-321	-76
+AUS	L1_02.06	Comparator genomic lineage C	public_date	5	2025-01-16	-321	-76
+AUS	L1_02.06	Comparator genomic lineage C	public_date	10	2025-01-16	-321	-76
+AUS	L1_02.07	MT28-associated genomic lineage	collection_lower	1	2024-08-01	-153	92
+AUS	L1_02.07	MT28-associated genomic lineage	collection_lower	3	2024-08-01	-153	92
+AUS	L1_02.07	MT28-associated genomic lineage	collection_upper_effective	1	2024-08-31	-183	62
+AUS	L1_02.07	MT28-associated genomic lineage	collection_upper_effective	3	2024-08-31	-183	62
+AUS	L1_02.07	MT28-associated genomic lineage	public_date	1	2025-01-16	-321	-76
+AUS	L1_02.07	MT28-associated genomic lineage	public_date	3	2025-01-22	-327	-82
+CHN	L1_02.06	Comparator genomic lineage C	collection_lower	1	2023-01-01	212	486
+CHN	L1_02.06	Comparator genomic lineage C	collection_lower	3	2023-06-08	54	328
+CHN	L1_02.06	Comparator genomic lineage C	collection_upper_effective	1	2023-06-08	54	328
+CHN	L1_02.06	Comparator genomic lineage C	collection_upper_effective	3	2023-12-31	-152	122
+CHN	L1_02.06	Comparator genomic lineage C	public_date	1	2025-03-23	-600	-326
+CHN	L1_02.06	Comparator genomic lineage C	public_date	3	2025-06-18	-687	-413
+CHN	L1_02.07	MT28-associated genomic lineage	collection_lower	1	2023-01-01	212	486
+CHN	L1_02.07	MT28-associated genomic lineage	collection_lower	3	2023-01-01	212	486
+CHN	L1_02.07	MT28-associated genomic lineage	collection_lower	5	2023-01-01	212	486
+CHN	L1_02.07	MT28-associated genomic lineage	collection_lower	10	2023-01-01	212	486
+CHN	L1_02.07	MT28-associated genomic lineage	collection_lower	20	2023-04-06	117	391
+CHN	L1_02.07	MT28-associated genomic lineage	collection_lower	50	2023-12-29	-150	124
+CHN	L1_02.07	MT28-associated genomic lineage	collection_upper_effective	1	2023-02-04	178	452
+CHN	L1_02.07	MT28-associated genomic lineage	collection_upper_effective	3	2023-03-27	127	401
+CHN	L1_02.07	MT28-associated genomic lineage	collection_upper_effective	5	2023-03-27	127	401
+CHN	L1_02.07	MT28-associated genomic lineage	collection_upper_effective	10	2023-06-12	50	324
+CHN	L1_02.07	MT28-associated genomic lineage	collection_upper_effective	20	2023-09-12	-42	232
+CHN	L1_02.07	MT28-associated genomic lineage	collection_upper_effective	50	2023-12-31	-152	122
+CHN	L1_02.07	MT28-associated genomic lineage	public_date	1	2024-09-29	-425	-151
+CHN	L1_02.07	MT28-associated genomic lineage	public_date	3	2024-09-29	-425	-151
+CHN	L1_02.07	MT28-associated genomic lineage	public_date	5	2024-10-04	-430	-156
+CHN	L1_02.07	MT28-associated genomic lineage	public_date	10	2024-10-04	-430	-156
+CHN	L1_02.07	MT28-associated genomic lineage	public_date	20	2024-10-04	-430	-156
+CHN	L1_02.07	MT28-associated genomic lineage	public_date	50	2025-03-23	-600	-326
+CHN	Other	Other genomic lineages	collection_lower	1	2023-01-01	212	486
+CHN	Other	Other genomic lineages	collection_upper_effective	1	2023-12-31	-152	122
+CHN	Other	Other genomic lineages	public_date	1	2024-09-29	-425	-151
+JPN	L1_01.02	Comparator genomic lineage A	collection_lower	1	2024-12-12	79	171
+JPN	L1_01.02	Comparator genomic lineage A	collection_upper_effective	1	2024-12-12	79	171
+JPN	L1_01.02	Comparator genomic lineage A	public_date	1	2025-12-10	-284	-192
+JPN	L1_02.05	Comparator genomic lineage B	collection_lower	1	2024-01-01	425	517
+JPN	L1_02.05	Comparator genomic lineage B	collection_lower	3	2025-03-01	0	92
+JPN	L1_02.05	Comparator genomic lineage B	collection_upper_effective	1	2024-12-31	60	152
+JPN	L1_02.05	Comparator genomic lineage B	collection_upper_effective	3	2025-12-31	-305	-213
+JPN	L1_02.05	Comparator genomic lineage B	public_date	1	2026-01-25	-330	-238
+JPN	L1_02.05	Comparator genomic lineage B	public_date	3	2026-01-25	-330	-238
+JPN	L1_02.06	Comparator genomic lineage C	collection_lower	1	2025-01-21	39	131
+JPN	L1_02.06	Comparator genomic lineage C	collection_upper_effective	1	2025-01-21	39	131
+JPN	L1_02.06	Comparator genomic lineage C	public_date	1	2025-05-12	-72	20
+JPN	L1_02.07	MT28-associated genomic lineage	collection_lower	1	2024-01-01	425	517
+JPN	L1_02.07	MT28-associated genomic lineage	collection_lower	3	2024-01-01	425	517
+JPN	L1_02.07	MT28-associated genomic lineage	collection_lower	5	2024-01-01	425	517
+JPN	L1_02.07	MT28-associated genomic lineage	collection_lower	10	2024-11-13	108	200
+JPN	L1_02.07	MT28-associated genomic lineage	collection_lower	20	2025-01-21	39	131
+JPN	L1_02.07	MT28-associated genomic lineage	collection_lower	50	2025-06-02	-93	-1
+JPN	L1_02.07	MT28-associated genomic lineage	collection_upper_effective	1	2024-09-12	170	262
+JPN	L1_02.07	MT28-associated genomic lineage	collection_upper_effective	3	2024-11-13	108	200
+JPN	L1_02.07	MT28-associated genomic lineage	collection_upper_effective	5	2024-12-09	82	174
+JPN	L1_02.07	MT28-associated genomic lineage	collection_upper_effective	10	2024-12-31	60	152
+JPN	L1_02.07	MT28-associated genomic lineage	collection_upper_effective	20	2025-01-22	38	130
+JPN	L1_02.07	MT28-associated genomic lineage	collection_upper_effective	50	2025-06-09	-100	-8
+JPN	L1_02.07	MT28-associated genomic lineage	public_date	1	2025-05-12	-72	20
+JPN	L1_02.07	MT28-associated genomic lineage	public_date	3	2025-05-12	-72	20
+JPN	L1_02.07	MT28-associated genomic lineage	public_date	5	2025-05-12	-72	20
+JPN	L1_02.07	MT28-associated genomic lineage	public_date	10	2025-05-12	-72	20
+JPN	L1_02.07	MT28-associated genomic lineage	public_date	20	2025-12-10	-284	-192
+JPN	L1_02.07	MT28-associated genomic lineage	public_date	50	2026-01-27	-332	-240

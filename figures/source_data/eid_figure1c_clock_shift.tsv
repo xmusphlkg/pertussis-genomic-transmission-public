@@ -1,0 +1,4 @@
+country_iso3	country_label	target_lineage	cumulative_genome_threshold	collection_detection_lower	collection_detection_upper	public_detection_date	clock_shift_min_days	clock_shift_max_days	collection_lead_to_case_threshold_min_days	collection_lead_to_case_threshold_max_days	public_lead_to_case_threshold_days	collection_timing_class	public_timing_class	collection_lead_min	collection_lead_max	public_lead
+AUS	Australia	L1_02.07	3	2024-08-01	2024-08-31	2025-01-22	144	174	-183	-153	-327	interval_after_case_threshold	on_or_after_case_threshold	-183	-153	-327
+CHN	China	L1_02.07	5	2023-01-01	2023-03-27	2024-10-04	557	642	127	212	-430	interval_before_case_threshold	on_or_after_case_threshold	127	212	-430
+JPN	Japan	L1_02.07	5	2024-01-01	2024-12-09	2025-05-12	154	497	82	425	-72	interval_before_case_threshold	on_or_after_case_threshold	82	425	-72

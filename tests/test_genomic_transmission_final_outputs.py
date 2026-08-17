@@ -341,6 +341,7 @@ def test_letter_figures_have_frozen_source_data() -> None:
     letter_source_files = {
         path.relative_to(ROOT).as_posix()
         for path in source.glob("*.tsv")
+        if not path.name.startswith("eid_")
     }
     assert letter_source_files == {
         name for name in expected if name.startswith("figures/source_data/")

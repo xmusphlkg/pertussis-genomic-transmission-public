@@ -1,0 +1,735 @@
+project_id	run_accession	sample_accession	collection_date	country	first_public	comparison_status	gapfill_success_n	gapfill_success_runs	qc_decision	qc_reason	checkm_completeness	checkm_contamination	nas_match_status
+PRJNA1071282	SRR27795980	SAMN39683291	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27795981	SAMN39683442	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27795982	SAMN39683290	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27795983	SAMN39683289	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27795984	SAMN39683288	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27795984					paper_comparison
+PRJNA1071282	SRR27795985	SAMN39683287	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27795986	SAMN39683286	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27795987	SAMN39683285	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27795988	SAMN39683284	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27795988					paper_comparison
+PRJNA1071282	SRR27795989	SAMN39683283	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27795990	SAMN39682896	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27795990					paper_comparison
+PRJNA1071282	SRR27795991	SAMN39683282	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27795992	SAMN39683281	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27795993	SAMN39683280	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27795994	SAMN39683279	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27795995	SAMN39683213	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27795996	SAMN39682889	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27795996					paper_comparison
+PRJNA1071282	SRR27795997	SAMN39683212	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27795997					paper_comparison
+PRJNA1071282	SRR27795998	SAMN39683211	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27795998					paper_comparison
+PRJNA1071282	SRR27795999	SAMN39683210	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796000	SAMN39683209	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796001	SAMN39683208	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796001					paper_comparison
+PRJNA1071282	SRR27796002	SAMN39683207	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796002					paper_comparison
+PRJNA1071282	SRR27796003	SAMN39683206	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796003					paper_comparison
+PRJNA1071282	SRR27796004	SAMN39683205	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796004					paper_comparison
+PRJNA1071282	SRR27796005	SAMN39683204	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796005					paper_comparison
+PRJNA1071282	SRR27796006	SAMN39683203	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796007	SAMN39682888	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796008	SAMN39683202	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796009	SAMN39683201	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796010	SAMN39683200	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796011	SAMN39683199	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796012	SAMN39683198	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796012					paper_comparison
+PRJNA1071282	SRR27796013	SAMN39683197	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796014	SAMN39683196	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796015	SAMN39683195	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796016	SAMN39683194	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796017	SAMN39683193	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796017					paper_comparison
+PRJNA1071282	SRR27796018	SAMN39682887	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796018					paper_comparison
+PRJNA1071282	SRR27796019	SAMN39683192	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796020	SAMN39683191	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796020					paper_comparison
+PRJNA1071282	SRR27796021	SAMN39683190	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796022	SAMN39683189	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796022					paper_comparison
+PRJNA1071282	SRR27796023	SAMN39683188	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796024	SAMN39683187	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796025	SAMN39683186	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796026	SAMN39683185	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796027	SAMN39683184	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796028	SAMN39683183	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796029	SAMN39682886	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796030	SAMN39683182	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796030					paper_comparison
+PRJNA1071282	SRR27796031	SAMN39683052	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796031					paper_comparison
+PRJNA1071282	SRR27796032	SAMN39683051	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796033	SAMN39683050	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796034	SAMN39683049	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796035	SAMN39683048	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796035					paper_comparison
+PRJNA1071282	SRR27796036	SAMN39683047	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796037	SAMN39683046	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796037					paper_comparison
+PRJNA1071282	SRR27796038	SAMN39683045	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796039	SAMN39683044	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796039					paper_comparison
+PRJNA1071282	SRR27796040	SAMN39683043	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796041	SAMN39682872	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796042	SAMN39683042	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796043	SAMN39683041	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796044	SAMN39683040	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796044					paper_comparison
+PRJNA1071282	SRR27796045	SAMN39683039	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796046	SAMN39683038	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796046					paper_comparison
+PRJNA1071282	SRR27796047	SAMN39683037	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796048	SAMN39683036	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796049	SAMN39683035	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796049					paper_comparison
+PRJNA1071282	SRR27796050	SAMN39683034	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796051	SAMN39683033	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796052	SAMN39682871	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796052					paper_comparison
+PRJNA1071282	SRR27796053	SAMN39683032	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796053					paper_comparison
+PRJNA1071282	SRR27796054	SAMN39683031	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796055	SAMN39683030	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796056	SAMN39683029	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796057	SAMN39683028	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796058	SAMN39683027	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796058					paper_comparison
+PRJNA1071282	SRR27796059	SAMN39683026	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796060	SAMN39683025	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796060					paper_comparison
+PRJNA1071282	SRR27796061	SAMN39683024	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796061					paper_comparison
+PRJNA1071282	SRR27796062	SAMN39683023	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796062					paper_comparison
+PRJNA1071282	SRR27796063	SAMN39682870	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796064	SAMN39683022	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796065	SAMN39683021	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796065					paper_comparison
+PRJNA1071282	SRR27796066	SAMN39683020	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796067	SAMN39683116	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796067					paper_comparison
+PRJNA1071282	SRR27796068	SAMN39683115	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796068					paper_comparison
+PRJNA1071282	SRR27796069	SAMN39683114	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796070	SAMN39683113	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796070					paper_comparison
+PRJNA1071282	SRR27796071	SAMN39682879	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796071					paper_comparison
+PRJNA1071282	SRR27796072	SAMN39683112	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796072					paper_comparison
+PRJNA1071282	SRR27796073	SAMN39683111	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796074	SAMN39683110	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796075	SAMN39683109	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796075					paper_comparison
+PRJNA1071282	SRR27796076	SAMN39683108	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796077	SAMN39683107	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796078	SAMN39683106	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796078					paper_comparison
+PRJNA1071282	SRR27796079	SAMN39683105	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796079					paper_comparison
+PRJNA1071282	SRR27796080	SAMN39683104	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796081	SAMN39683103	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796081					paper_comparison
+PRJNA1071282	SRR27796082	SAMN39682878	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0		pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR27796083	SAMN39683102	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796083					paper_comparison
+PRJNA1071282	SRR27796084	SAMN39683101	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796085	SAMN39683100	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796086	SAMN39683099	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796087	SAMN39683098	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796088	SAMN39683097	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796088					paper_comparison
+PRJNA1071282	SRR27796089	SAMN39683096	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796090	SAMN39683095	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796091	SAMN39683094	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796092	SAMN39683093	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796093	SAMN39682877	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0		pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR27796094	SAMN39683092	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796094					paper_comparison
+PRJNA1071282	SRR27796095	SAMN39683091	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796096	SAMN39683090	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796097	SAMN39683089	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796098	SAMN39683088	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796099	SAMN39683087	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796099					paper_comparison
+PRJNA1071282	SRR27796100	SAMN39683086	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796101	SAMN39683085	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796102	SAMN39683084	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796103	SAMN39682986	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796104	SAMN39682985	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796105	SAMN39682984	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796105					paper_comparison
+PRJNA1071282	SRR27796106	SAMN39682983	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796107	SAMN39682866	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796107					paper_comparison
+PRJNA1071282	SRR27796108	SAMN39682982	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796109	SAMN39682981	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796110	SAMN39682980	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796111	SAMN39682979	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796112	SAMN39682978	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796112					paper_comparison
+PRJNA1071282	SRR27796113	SAMN39682977	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796114	SAMN39682976	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796115	SAMN39682975	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796115					paper_comparison
+PRJNA1071282	SRR27796116	SAMN39682974	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796117	SAMN39682973	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796118	SAMN39682865	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796119	SAMN39682972	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796120	SAMN39682971	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0		pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR27796121	SAMN39682970	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796121					paper_comparison
+PRJNA1071282	SRR27796122	SAMN39682969	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796123	SAMN39682968	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796124	SAMN39682967	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796124					paper_comparison
+PRJNA1071282	SRR27796125	SAMN39682966	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796126	SAMN39682965	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796127	SAMN39682964	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796128	SAMN39682963	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796129	SAMN39682864	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796129					paper_comparison
+PRJNA1071282	SRR27796130	SAMN39682962	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796131	SAMN39682961	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796131					paper_comparison
+PRJNA1071282	SRR27796132	SAMN39682960	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796132					paper_comparison
+PRJNA1071282	SRR27796133	SAMN39682959	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796134	SAMN39682958	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796135	SAMN39682957	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796136	SAMN39682956	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796136					paper_comparison
+PRJNA1071282	SRR27796137	SAMN39682955	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796138	SAMN39682954	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796139	SAMN39683441	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796140	SAMN39683440	2023	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796140					paper_comparison
+PRJNA1071282	SRR27796141	SAMN39683439	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796142	SAMN39683438	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796143	SAMN39683437	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796144	SAMN39683436	2023	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796144					paper_comparison
+PRJNA1071282	SRR27796145	SAMN39683435	2023	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796145					paper_comparison
+PRJNA1071282	SRR27796146	SAMN39683434	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796146					paper_comparison
+PRJNA1071282	SRR27796147	SAMN39683433	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796147					paper_comparison
+PRJNA1071282	SRR27796148	SAMN39682911	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796148					paper_comparison
+PRJNA1071282	SRR27796149	SAMN39683432	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796150	SAMN39683431	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796150					paper_comparison
+PRJNA1071282	SRR27796151	SAMN39683430	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796152	SAMN39683429	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796153	SAMN39683428	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796154	SAMN39683427	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796155	SAMN39683426	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796156	SAMN39683425	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796157	SAMN39683424	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796157					paper_comparison
+PRJNA1071282	SRR27796158	SAMN39683423	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796159	SAMN39682910	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796160	SAMN39683422	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796161	SAMN39683421	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796162	SAMN39683420	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796163	SAMN39683419	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796164	SAMN39683418	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796164					paper_comparison
+PRJNA1071282	SRR27796165	SAMN39683417	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796166	SAMN39683416	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796166					paper_comparison
+PRJNA1071282	SRR27796167	SAMN39683415	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796168	SAMN39683414	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796169	SAMN39683413	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796170	SAMN39682909	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796171	SAMN39683412	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796171	pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR27796172	SAMN39683411	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796173	SAMN39683410	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796174	SAMN39683409	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796175	SAMN39683375	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796176	SAMN39683374	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796176					paper_comparison
+PRJNA1071282	SRR27796177	SAMN39683373	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796178	SAMN39682905	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796178					paper_comparison
+PRJNA1071282	SRR27796179	SAMN39683372	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796179					paper_comparison
+PRJNA1071282	SRR27796180	SAMN39683371	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796180					paper_comparison
+PRJNA1071282	SRR27796181	SAMN39683370	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796181					paper_comparison
+PRJNA1071282	SRR27796182	SAMN39683369	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0		pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR27796183	SAMN39683368	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796183					paper_comparison
+PRJNA1071282	SRR27796184	SAMN39683367	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796184					paper_comparison
+PRJNA1071282	SRR27796185	SAMN39683366	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796186	SAMN39683365	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796187	SAMN39683364	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796187					paper_comparison
+PRJNA1071282	SRR27796188	SAMN39683363	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796189	SAMN39682904	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796190	SAMN39683362	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796191	SAMN39683361	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796191					paper_comparison
+PRJNA1071282	SRR27796192	SAMN39683360	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	2	SRR29825615;SRR27796192					paper_comparison
+PRJNA1071282	SRR27796193	SAMN39683359	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796193					paper_comparison
+PRJNA1071282	SRR27796194	SAMN39683358	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796195	SAMN39683357	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796195					paper_comparison
+PRJNA1071282	SRR27796196	SAMN39683356	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796197	SAMN39683355	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796198	SAMN39683354	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796199	SAMN39683353	2021	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796199					paper_comparison
+PRJNA1071282	SRR27796200	SAMN39682903	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796201	SAMN39682858	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796202	SAMN39683352	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796203	SAMN39683351	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796204	SAMN39683350	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796205	SAMN39683349	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796206	SAMN39683348	2021	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796206					paper_comparison
+PRJNA1071282	SRR27796207	SAMN39683347	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796208	SAMN39683346	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796208					paper_comparison
+PRJNA1071282	SRR27796209	SAMN39683345	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796209					paper_comparison
+PRJNA1071282	SRR27796210	SAMN39683344	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR29825617					paper_comparison
+PRJNA1071282	SRR27796211	SAMN39683278	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796211					paper_comparison
+PRJNA1071282	SRR27796212	SAMN39683277	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796213	SAMN39683276	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796214	SAMN39683275	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796214					paper_comparison
+PRJNA1071282	SRR27796215	SAMN39683274	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796215					paper_comparison
+PRJNA1071282	SRR27796216	SAMN39683273	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796216					paper_comparison
+PRJNA1071282	SRR27796217	SAMN39682895	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796218	SAMN39683272	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796219	SAMN39683271	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796219					paper_comparison
+PRJNA1071282	SRR27796220	SAMN39683270	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796221	SAMN39683269	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796222	SAMN39683268	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796223	SAMN39683267	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796224	SAMN39683266	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796225	SAMN39683265	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796225					paper_comparison
+PRJNA1071282	SRR27796226	SAMN39683264	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796227	SAMN39683263	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796228	SAMN39682894	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796228					paper_comparison
+PRJNA1071282	SRR27796229	SAMN39683262	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796230	SAMN39683261	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796231	SAMN39683260	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796232	SAMN39683259	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796233	SAMN39683258	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796233					paper_comparison
+PRJNA1071282	SRR27796234	SAMN39683257	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796234					paper_comparison
+PRJNA1071282	SRR27796235	SAMN39683256	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796235					paper_comparison
+PRJNA1071282	SRR27796236	SAMN39683255	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796236					paper_comparison
+PRJNA1071282	SRR27796237	SAMN39683254	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796237					paper_comparison
+PRJNA1071282	SRR27796238	SAMN39683253	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796239	SAMN39682893	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796240	SAMN39682857	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796240					paper_comparison
+PRJNA1071282	SRR27796241	SAMN39683252	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796242	SAMN39683251	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796243	SAMN39683250	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796244	SAMN39683249	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796244					paper_comparison
+PRJNA1071282	SRR27796245	SAMN39683248	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796246	SAMN39683247	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796247	SAMN39683181	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796248	SAMN39683180	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796248					paper_comparison
+PRJNA1071282	SRR27796249	SAMN39683179	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796250	SAMN39683178	2016	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796251	SAMN39683177	2016	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796252	SAMN39683176	2016	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0		pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR27796253	SAMN39683175	2016	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796254	SAMN39683174	2016	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0		pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR27796255	SAMN39683173	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796255					paper_comparison
+PRJNA1071282	SRR27796256	SAMN39682885	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796257	SAMN39683172	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796257					paper_comparison
+PRJNA1071282	SRR27796258	SAMN39683171	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796259	SAMN39683170	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796260	SAMN39683169	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796261	SAMN39683168	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796262	SAMN39683167	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796262					paper_comparison
+PRJNA1071282	SRR27796263	SAMN39683166	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796264	SAMN39683165	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796265	SAMN39683164	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796266	SAMN39683163	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796267	SAMN39682884	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796268	SAMN39683162	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796268					paper_comparison
+PRJNA1071282	SRR27796269	SAMN39683161	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796269					paper_comparison
+PRJNA1071282	SRR27796270	SAMN39683160	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796271	SAMN39683159	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796271					paper_comparison
+PRJNA1071282	SRR27796272	SAMN39683158	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796272					paper_comparison
+PRJNA1071282	SRR27796273	SAMN39683157	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796274	SAMN39683156	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796274					paper_comparison
+PRJNA1071282	SRR27796275	SAMN39683155	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796276	SAMN39683154	2023	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796276	pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR27796277	SAMN39683153	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796278	SAMN39682883	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796279	SAMN39682856	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796280	SAMN39683152	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796281	SAMN39683151	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796281					paper_comparison
+PRJNA1071282	SRR27796282	SAMN39683150	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796283	SAMN39683019	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796284	SAMN39683018	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796285	SAMN39683017	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796285					paper_comparison
+PRJNA1071282	SRR27796286	SAMN39683016	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796287	SAMN39683015	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796288	SAMN39683014	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796289	SAMN39683013	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796289					paper_comparison
+PRJNA1071282	SRR27796290	SAMN39682869	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796290					paper_comparison
+PRJNA1071282	SRR27796291	SAMN39683012	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796292	SAMN39683011	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796292					paper_comparison
+PRJNA1071282	SRR27796293	SAMN39683010	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796293					paper_comparison
+PRJNA1071282	SRR27796294	SAMN39683009	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796294					paper_comparison
+PRJNA1071282	SRR27796295	SAMN39683008	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796296	SAMN39683007	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796297	SAMN39683006	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796298	SAMN39683005	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796298					paper_comparison
+PRJNA1071282	SRR27796299	SAMN39683004	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796300	SAMN39683003	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796300					paper_comparison
+PRJNA1071282	SRR27796301	SAMN39682868	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796302	SAMN39683002	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796303	SAMN39683001	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796304	SAMN39683000	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796304					paper_comparison
+PRJNA1071282	SRR27796305	SAMN39682999	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796306	SAMN39682998	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796306					paper_comparison
+PRJNA1071282	SRR27796307	SAMN39682997	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796308	SAMN39682996	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796309	SAMN39682995	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796309					paper_comparison
+PRJNA1071282	SRR27796310	SAMN39682994	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796311	SAMN39682993	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796311					paper_comparison
+PRJNA1071282	SRR27796312	SAMN39682867	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796313	SAMN39682992	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796313					paper_comparison
+PRJNA1071282	SRR27796314	SAMN39682991	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796315	SAMN39682990	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796316	SAMN39682989	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796317	SAMN39682988	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796318	SAMN39682987	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796318					paper_comparison
+PRJNA1071282	SRR27796319	SAMN39682953	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796320	SAMN39682863	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796321	SAMN39682854	2016	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796322	SAMN39682853	2016	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796322					paper_comparison
+PRJNA1071282	SRR27796323	SAMN39682915	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796324	SAMN39683472	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796325	SAMN39683471	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796325					paper_comparison
+PRJNA1071282	SRR27796326	SAMN39683470	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796327	SAMN39683469	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796327					paper_comparison
+PRJNA1071282	SRR27796328	SAMN39683468	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796328					paper_comparison
+PRJNA1071282	SRR27796329	SAMN39683467	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796330	SAMN39683466	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796330					paper_comparison
+PRJNA1071282	SRR27796331	SAMN39683465	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796332	SAMN39683464	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796333	SAMN39683463	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796333					paper_comparison
+PRJNA1071282	SRR27796334	SAMN39682914	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796335	SAMN39683462	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796336	SAMN39683461	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796337	SAMN39683460	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796337					paper_comparison
+PRJNA1071282	SRR27796338	SAMN39683459	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796338					paper_comparison
+PRJNA1071282	SRR27796339	SAMN39683458	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796339					paper_comparison
+PRJNA1071282	SRR27796340	SAMN39683457	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796341	SAMN39683456	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796342	SAMN39683455	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796343	SAMN39683454	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796344	SAMN39683453	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796345	SAMN39682913	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796346	SAMN39682859	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796347	SAMN39683452	2023	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796347					paper_comparison
+PRJNA1071282	SRR27796348	SAMN39683451	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796349	SAMN39683450	2023	China: Shanghai	2024-09-29								no_nas_recovery_record
+PRJNA1071282	SRR27796350	SAMN39683449	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796351	SAMN39683448	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796352	SAMN39683447	2023	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796352	pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR27796353	SAMN39683446	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796354	SAMN39683445	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796355	SAMN39683444	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796356	SAMN39683443	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796357	SAMN39682912	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796358	SAMN39682952	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796358					paper_comparison
+PRJNA1071282	SRR27796359	SAMN39682951	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796360	SAMN39682950	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796361	SAMN39682949	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796362	SAMN39682948	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796363	SAMN39682947	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796363					paper_comparison
+PRJNA1071282	SRR27796364	SAMN39682946	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796364					paper_comparison
+PRJNA1071282	SRR27796365	SAMN39682945	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796365					paper_comparison
+PRJNA1071282	SRR27796366	SAMN39682944	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796367	SAMN39682943	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796367					paper_comparison
+PRJNA1071282	SRR27796368	SAMN39682862	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796369	SAMN39682942	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796370	SAMN39682941	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796371	SAMN39682940	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796371					paper_comparison
+PRJNA1071282	SRR27796372	SAMN39682939	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796373	SAMN39682938	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796374	SAMN39682937	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796374					paper_comparison
+PRJNA1071282	SRR27796375	SAMN39682936	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796375					paper_comparison
+PRJNA1071282	SRR27796376	SAMN39682935	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796377	SAMN39682934	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796377					paper_comparison
+PRJNA1071282	SRR27796378	SAMN39682933	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796379	SAMN39682861	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796379					paper_comparison
+PRJNA1071282	SRR27796380	SAMN39682932	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796381	SAMN39683408	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796382	SAMN39683407	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796383	SAMN39683406	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796384	SAMN39683405	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796385	SAMN39683404	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796386	SAMN39683403	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796387	SAMN39682908	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796388	SAMN39683402	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796389	SAMN39683401	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796390	SAMN39683400	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796390					paper_comparison
+PRJNA1071282	SRR27796391	SAMN39683399	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796392	SAMN39683398	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796393	SAMN39683397	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796394	SAMN39683396	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796395	SAMN39683395	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796396	SAMN39683394	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796396					paper_comparison
+PRJNA1071282	SRR27796397	SAMN39683393	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796398	SAMN39682907	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796399	SAMN39683392	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796400	SAMN39683391	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796401	SAMN39683390	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796402	SAMN39683389	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796403	SAMN39683388	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796404	SAMN39683387	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796404					paper_comparison
+PRJNA1071282	SRR27796405	SAMN39683386	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796406	SAMN39683385	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796407	SAMN39683384	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796408	SAMN39683383	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796408					paper_comparison
+PRJNA1071282	SRR27796409	SAMN39682906	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796409					paper_comparison
+PRJNA1071282	SRR27796410	SAMN39683382	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796411	SAMN39683381	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796411					paper_comparison
+PRJNA1071282	SRR27796412	SAMN39683380	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796413	SAMN39683379	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796414	SAMN39683378	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796415	SAMN39683377	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796416	SAMN39683376	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796417	SAMN39683343	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796417					paper_comparison
+PRJNA1071282	SRR27796418	SAMN39682902	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796419	SAMN39683342	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796420	SAMN39683341	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796421	SAMN39683340	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796421					paper_comparison
+PRJNA1071282	SRR27796422	SAMN39683339	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796422					paper_comparison
+PRJNA1071282	SRR27796423	SAMN39683338	2023	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796423					paper_comparison
+PRJNA1071282	SRR27796424	SAMN39683337	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796424					paper_comparison
+PRJNA1071282	SRR27796425	SAMN39683336	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796425					paper_comparison
+PRJNA1071282	SRR27796426	SAMN39683335	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796427	SAMN39683334	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796427					paper_comparison
+PRJNA1071282	SRR27796428	SAMN39683333	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796429	SAMN39682901	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796430	SAMN39683332	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796430					paper_comparison
+PRJNA1071282	SRR27796431	SAMN39683331	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796431					paper_comparison
+PRJNA1071282	SRR27796432	SAMN39683330	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796432					paper_comparison
+PRJNA1071282	SRR27796433	SAMN39683329	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796434	SAMN39683328	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796435	SAMN39683327	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796435					paper_comparison
+PRJNA1071282	SRR27796436	SAMN39683326	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796436					paper_comparison
+PRJNA1071282	SRR27796437	SAMN39683325	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796437					paper_comparison
+PRJNA1071282	SRR27796438	SAMN39683324	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796438					paper_comparison
+PRJNA1071282	SRR27796439	SAMN39683323	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796440	SAMN39682900	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796441	SAMN39683322	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796441					paper_comparison
+PRJNA1071282	SRR27796442	SAMN39683321	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796442					paper_comparison
+PRJNA1071282	SRR27796443	SAMN39683320	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796443					paper_comparison
+PRJNA1071282	SRR27796444	SAMN39683319	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796444					paper_comparison
+PRJNA1071282	SRR27796445	SAMN39683318	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796446	SAMN39683317	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796446					paper_comparison
+PRJNA1071282	SRR27796447	SAMN39683316	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796448	SAMN39683315	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796449	SAMN39683314	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796450	SAMN39683313	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796450					paper_comparison
+PRJNA1071282	SRR27796451	SAMN39682899	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796452	SAMN39683312	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796452					paper_comparison
+PRJNA1071282	SRR27796453	SAMN39683246	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796454	SAMN39683245	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796455	SAMN39683244	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796455					paper_comparison
+PRJNA1071282	SRR27796456	SAMN39683243	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796456					paper_comparison
+PRJNA1071282	SRR27796457	SAMN39682892	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796457					paper_comparison
+PRJNA1071282	SRR27796458	SAMN39683242	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796458					paper_comparison
+PRJNA1071282	SRR27796459	SAMN39683241	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796460	SAMN39683240	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796461	SAMN39683239	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796462	SAMN39683238	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796463	SAMN39683237	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796464	SAMN39683236	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796465	SAMN39683235	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796466	SAMN39683234	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796467	SAMN39683233	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796468	SAMN39682891	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796468					paper_comparison
+PRJNA1071282	SRR27796469	SAMN39683232	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796470	SAMN39683231	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796470					paper_comparison
+PRJNA1071282	SRR27796471	SAMN39683230	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796472	SAMN39683229	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796473	SAMN39683228	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796474	SAMN39683227	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0		pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR27796475	SAMN39683226	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796475					paper_comparison
+PRJNA1071282	SRR27796476	SAMN39683225	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796476					paper_comparison
+PRJNA1071282	SRR27796477	SAMN39683224	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796477					paper_comparison
+PRJNA1071282	SRR27796478	SAMN39683223	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796479	SAMN39682890	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796480	SAMN39683222	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796481	SAMN39683221	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796482	SAMN39683220	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796483	SAMN39683219	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796483					paper_comparison
+PRJNA1071282	SRR27796484	SAMN39683218	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796484					paper_comparison
+PRJNA1071282	SRR27796485	SAMN39683217	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796486	SAMN39683216	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796486					paper_comparison
+PRJNA1071282	SRR27796487	SAMN39683215	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796488	SAMN39683214	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796489	SAMN39683149	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796489					paper_comparison
+PRJNA1071282	SRR27796490	SAMN39683148	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796491	SAMN39683147	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796492	SAMN39683146	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796492					paper_comparison
+PRJNA1071282	SRR27796493	SAMN39683145	2016	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796493					paper_comparison
+PRJNA1071282	SRR27796494	SAMN39683144	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796494					paper_comparison
+PRJNA1071282	SRR27796495	SAMN39683143	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796496	SAMN39682882	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796497	SAMN39683142	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796498	SAMN39683141	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796498					paper_comparison
+PRJNA1071282	SRR27796499	SAMN39683140	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796500	SAMN39683139	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796500					paper_comparison
+PRJNA1071282	SRR27796501	SAMN39683138	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796501					paper_comparison
+PRJNA1071282	SRR27796502	SAMN39683137	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796503	SAMN39683136	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796503					paper_comparison
+PRJNA1071282	SRR27796504	SAMN39683135	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796505	SAMN39683134	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796505					paper_comparison
+PRJNA1071282	SRR27796506	SAMN39683133	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796507	SAMN39682881	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796508	SAMN39683132	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796508					paper_comparison
+PRJNA1071282	SRR27796509	SAMN39683131	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796509					paper_comparison
+PRJNA1071282	SRR27796510	SAMN39683130	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796510					paper_comparison
+PRJNA1071282	SRR27796511	SAMN39683129	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796512	SAMN39683128	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796513	SAMN39683127	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796513					paper_comparison
+PRJNA1071282	SRR27796514	SAMN39683126	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796514					paper_comparison
+PRJNA1071282	SRR27796515	SAMN39683125	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796516	SAMN39683124	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796517	SAMN39683123	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796518	SAMN39682880	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796519	SAMN39683122	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796519					paper_comparison
+PRJNA1071282	SRR27796520	SAMN39683121	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796520					paper_comparison
+PRJNA1071282	SRR27796521	SAMN39683120	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796521					paper_comparison
+PRJNA1071282	SRR27796522	SAMN39683119	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796523	SAMN39683118	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796523					paper_comparison
+PRJNA1071282	SRR27796524	SAMN39683117	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796524					paper_comparison
+PRJNA1071282	SRR27796525	SAMN39683083	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796525					paper_comparison
+PRJNA1071282	SRR27796526	SAMN39682876	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796527	SAMN39683082	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796527					paper_comparison
+PRJNA1071282	SRR27796528	SAMN39683081	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796529	SAMN39683080	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796530	SAMN39683079	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796531	SAMN39683078	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796532	SAMN39683077	2021	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796532					paper_comparison
+PRJNA1071282	SRR27796533	SAMN39683076	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796534	SAMN39683075	2021	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796534					paper_comparison
+PRJNA1071282	SRR27796535	SAMN39683074	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796536	SAMN39683073	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796537	SAMN39682875	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796538	SAMN39683072	2021	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796538					paper_comparison
+PRJNA1071282	SRR27796539	SAMN39683071	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796540	SAMN39683070	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796541	SAMN39683069	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796541					paper_comparison
+PRJNA1071282	SRR27796542	SAMN39683068	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796543	SAMN39683067	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796544	SAMN39683066	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796544					paper_comparison
+PRJNA1071282	SRR27796545	SAMN39683065	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796546	SAMN39683064	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796546					paper_comparison
+PRJNA1071282	SRR27796547	SAMN39683063	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796547					paper_comparison
+PRJNA1071282	SRR27796548	SAMN39682874	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796548					paper_comparison
+PRJNA1071282	SRR27796549	SAMN39683062	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796550	SAMN39683061	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796550					paper_comparison
+PRJNA1071282	SRR27796551	SAMN39683060	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796551					paper_comparison
+PRJNA1071282	SRR27796552	SAMN39683059	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796552					paper_comparison
+PRJNA1071282	SRR27796553	SAMN39683058	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796554	SAMN39683057	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796554					paper_comparison
+PRJNA1071282	SRR27796555	SAMN39683056	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796556	SAMN39683055	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796556					paper_comparison
+PRJNA1071282	SRR27796557	SAMN39683054	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796558	SAMN39683053	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796558					paper_comparison
+PRJNA1071282	SRR27796559	SAMN39682873	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796560	SAMN39682855	2016	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796560					paper_comparison
+PRJNA1071282	SRR27796561	SAMN39682931	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796562	SAMN39682930	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796563	SAMN39682929	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796563					paper_comparison
+PRJNA1071282	SRR27796564	SAMN39682928	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796565	SAMN39682927	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796565					paper_comparison
+PRJNA1071282	SRR27796566	SAMN39682926	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796567	SAMN39682925	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796567					paper_comparison
+PRJNA1071282	SRR27796568	SAMN39682924	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796569	SAMN39682923	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796570	SAMN39682860	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796571	SAMN39682922	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796572	SAMN39682921	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796573	SAMN39682920	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796573					paper_comparison
+PRJNA1071282	SRR27796574	SAMN39682919	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796575	SAMN39682918	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796576	SAMN39682917	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796577	SAMN39683491	2023	China: Guangdong, Shenzhen	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796578	SAMN39683490	2023	China: Guangdong, Shenzhen	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796579	SAMN39683489	2023	China: Guangdong, Shenzhen	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796580	SAMN39683488	2020	China: Beijing	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796581	SAMN39683487	2019	China: Beijing	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796582	SAMN39683486	2019	China: Beijing	2024-09-29	matched_external_gapfill_planned_only	0		pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR27796583	SAMN39683485	2022	China: Beijing	2024-09-29	matched_external_gapfill_success	1	SRR27796583					paper_comparison
+PRJNA1071282	SRR27796584	SAMN39683484	2022	China: Beijing	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796585	SAMN39683483	2019	China: Beijing	2024-09-29	matched_external_gapfill_success	1	SRR27796585					paper_comparison
+PRJNA1071282	SRR27796586	SAMN39682916	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796587	SAMN39683482	2019	China: Beijing	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796588	SAMN39683481	2019	China: Beijing	2024-09-29	matched_external_gapfill_planned_only	0		pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR27796589	SAMN39683480	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796589					paper_comparison
+PRJNA1071282	SRR27796590	SAMN39683479	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796590					paper_comparison
+PRJNA1071282	SRR27796591	SAMN39683478	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796591					paper_comparison
+PRJNA1071282	SRR27796592	SAMN39683477	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796593	SAMN39683476	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796594	SAMN39683475	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796594					paper_comparison
+PRJNA1071282	SRR27796595	SAMN39683474	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796596	SAMN39683473	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796597	SAMN39683311	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796597					paper_comparison
+PRJNA1071282	SRR27796598	SAMN39683310	2018	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796598					paper_comparison
+PRJNA1071282	SRR27796599	SAMN39683309	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796600	SAMN39683308	2018	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796601	SAMN39683307	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796602	SAMN39683306	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796602					paper_comparison
+PRJNA1071282	SRR27796603	SAMN39683305	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796603					paper_comparison
+PRJNA1071282	SRR27796604	SAMN39683304	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796605	SAMN39683303	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796605					paper_comparison
+PRJNA1071282	SRR27796606	SAMN39682898	2017	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796607	SAMN39683302	2022	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796607					paper_comparison
+PRJNA1071282	SRR27796608	SAMN39683301	2022	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796609	SAMN39683300	2021	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796609					paper_comparison
+PRJNA1071282	SRR27796610	SAMN39683299	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0		pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR27796611	SAMN39683298	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796612	SAMN39683297	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796613	SAMN39683296	2021	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0		pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR27796614	SAMN39683295	2020	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796614					paper_comparison
+PRJNA1071282	SRR27796615	SAMN39683294	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796615					paper_comparison
+PRJNA1071282	SRR27796616	SAMN39683293	2019	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR27796617	SAMN39682897	2017	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796617					paper_comparison
+PRJNA1071282	SRR27796618	SAMN39683292	2019	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR27796618					paper_comparison
+PRJNA1071282	SRR28622156	SAMN40924094	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622157	SAMN40924168	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622157					paper_comparison
+PRJNA1071282	SRR28622158	SAMN40924167	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622159	SAMN40924166	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622159					paper_comparison
+PRJNA1071282	SRR28622160	SAMN40924165	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622161	SAMN40924093	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622161					paper_comparison
+PRJNA1071282	SRR28622162	SAMN40924164	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622162					paper_comparison
+PRJNA1071282	SRR28622163	SAMN40924163	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622163					paper_comparison
+PRJNA1071282	SRR28622164	SAMN40924129	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622165	SAMN40924128	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622166	SAMN40924127	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622167	SAMN40924126	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622168	SAMN40924125	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622168					paper_comparison
+PRJNA1071282	SRR28622169	SAMN40924089	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622169					paper_comparison
+PRJNA1071282	SRR28622170	SAMN40924124	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622170					paper_comparison
+PRJNA1071282	SRR28622171	SAMN40924123	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622171					paper_comparison
+PRJNA1071282	SRR28622172	SAMN40924122	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622173	SAMN40924121	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622174	SAMN40924120	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622175	SAMN40924119	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622176	SAMN40924118	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622177	SAMN40924117	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622178	SAMN40924116	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622179	SAMN40924115	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622180	SAMN40924088	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622180					paper_comparison
+PRJNA1071282	SRR28622181	SAMN40924114	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622181					paper_comparison
+PRJNA1071282	SRR28622182	SAMN40924113	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622183	SAMN40924112	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622183					paper_comparison
+PRJNA1071282	SRR28622184	SAMN40924111	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622185	SAMN40924110	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622185					paper_comparison
+PRJNA1071282	SRR28622186	SAMN40924109	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622186					paper_comparison
+PRJNA1071282	SRR28622187	SAMN40924108	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622188	SAMN40924107	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622188					paper_comparison
+PRJNA1071282	SRR28622189	SAMN40924106	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622189					paper_comparison
+PRJNA1071282	SRR28622190	SAMN40924105	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622190					paper_comparison
+PRJNA1071282	SRR28622191	SAMN40924087	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622191					paper_comparison
+PRJNA1071282	SRR28622192	SAMN40924104	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622193	SAMN40924103	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622194	SAMN40924102	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622195	SAMN40924101	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622196	SAMN40924100	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622197	SAMN40924099	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622197					paper_comparison
+PRJNA1071282	SRR28622198	SAMN40924098	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622199	SAMN40924097	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622199					paper_comparison
+PRJNA1071282	SRR28622200	SAMN40924162	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622200					paper_comparison
+PRJNA1071282	SRR28622201	SAMN40924161	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622201					paper_comparison
+PRJNA1071282	SRR28622202	SAMN40924160	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622202					paper_comparison
+PRJNA1071282	SRR28622203	SAMN40924159	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622203					paper_comparison
+PRJNA1071282	SRR28622204	SAMN40924158	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622205	SAMN40924157	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622205					paper_comparison
+PRJNA1071282	SRR28622206	SAMN40924156	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622207	SAMN40924155	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622208	SAMN40924092	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622208					paper_comparison
+PRJNA1071282	SRR28622209	SAMN40924154	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0		pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR28622210	SAMN40924153	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622211	SAMN40924152	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622212	SAMN40924151	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622212					paper_comparison
+PRJNA1071282	SRR28622213	SAMN40924150	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622214	SAMN40924149	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622215	SAMN40924148	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622216	SAMN40924147	2023	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622216					paper_comparison
+PRJNA1071282	SRR28622217	SAMN40924146	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622218	SAMN40924145	2023	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622218					paper_comparison
+PRJNA1071282	SRR28622219	SAMN40924091	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622220	SAMN40924144	2023	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622220					paper_comparison
+PRJNA1071282	SRR28622221	SAMN40924143	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622222	SAMN40924142	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622223	SAMN40924141	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622224	SAMN40924140	2023	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622224					paper_comparison
+PRJNA1071282	SRR28622225	SAMN40924139	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622226	SAMN40924138	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622227	SAMN40924137	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622228	SAMN40924136	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622229	SAMN40924135	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622230	SAMN40924090	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622231	SAMN40924134	2023	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622232	SAMN40924133	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0		pass	checkm_thresholds_passed	100.00	0.00	paper_comparison;raw_read_qc
+PRJNA1071282	SRR28622233	SAMN40924132	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622234	SAMN40924131	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622235	SAMN40924130	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622236	SAMN40924096	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622237	SAMN40924095	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622238	SAMN40924086	2024	China: Shanghai	2024-09-29	matched_external_gapfill_planned_only	0						paper_comparison
+PRJNA1071282	SRR28622239	SAMN40924085	2024	China: Shanghai	2024-09-29	matched_external_gapfill_success	1	SRR28622239					paper_comparison
+PRJNA1071282	SRR29825611	SAMN39683477	2019	China: Shanghai	2024-09-29								no_nas_recovery_record
+PRJNA1071282	SRR29825612	SAMN39683178	2016	China: Shanghai	2024-09-29								no_nas_recovery_record
+PRJNA1071282	SRR29825613	SAMN39683456	2022	China: Shanghai	2024-09-29								no_nas_recovery_record
+PRJNA1071282	SRR29825614	SAMN39683363	2022	China: Shanghai	2024-09-29								no_nas_recovery_record
+PRJNA1071282	SRR29825615	SAMN39683360	2022	China: Shanghai	2024-09-29								no_nas_recovery_record
+PRJNA1071282	SRR29825616	SAMN39683458	2017	China: Shanghai	2024-09-29								no_nas_recovery_record
+PRJNA1071282	SRR29825617	SAMN39683344	2017	China: Shanghai	2024-09-29								no_nas_recovery_record
+PRJNA1071282	SRR29825618	SAMN39683478	2017	China: Shanghai	2024-09-29								no_nas_recovery_record
+PRJNA1071282	SRR29908476	SAMN40924156	2024	China: Shanghai	2024-09-04								no_nas_recovery_record
+PRJNA1071282	SRR29908477	SAMN40924106	2024	China: Shanghai	2024-09-04								no_nas_recovery_record
+PRJNA1071282	SRR29908478	SAMN40924089	2024	China: Shanghai	2024-09-04								no_nas_recovery_record

@@ -88,7 +88,7 @@ class Validation:
             for failure in self.failures:
                 print(f"  - {failure}")
             raise SystemExit(1)
-        print("PASS: Letter-first public package is structurally and numerically valid")
+        print("PASS: public package is structurally and numerically valid")
 
 
 def read_tsv(relative_path: str) -> list[dict[str, str]]:
@@ -142,6 +142,27 @@ def validate_structure(check: Validation) -> set[str]:
         "figures/letter/SUPPLEMENTARY_RENDER_MANIFEST.tsv",
         "scripts/figures/render_letter_figures.R",
         "scripts/figures/render_letter_supplementary_figures.R",
+        "EID_README.md",
+        "EID_DATA_DICTIONARY.md",
+        "data/derived/public_genome_availability.tsv",
+        "data/derived/public_availability_ena_runs.tsv",
+        "data/derived/public_availability_ena_project_audit.tsv",
+        "results/public_availability/eid_detection_clock_shift.tsv",
+        "results/public_availability/eid_milestone_visibility.tsv",
+        "results/public_availability/eid_threshold_sensitivity.tsv",
+        "results/public_availability/eid_case_clock_sensitivity.tsv",
+        "results/public_availability/eid_project_batch_release.tsv",
+        "results/public_availability/eid_geography_audit.tsv",
+        "results/public_availability/eid_external_candidate_summary.tsv",
+        "figures/eid/Figure_1_release_clock_pertussis_eid.png",
+        "figures/eid/Figure_1_release_clock_pertussis_eid.pdf",
+        "figures/eid/Figure_1_release_clock_pertussis_eid.svg",
+        "figures/eid/Figure_1_release_clock_pertussis_eid.tiff",
+        "manuscript/eid_dispatch_appendix.md",
+        "provenance/EID_NAS_SNAPSHOT_MANIFEST.tsv",
+        "scripts/pipeline/gtd_40_build_public_availability.py",
+        "scripts/pipeline/gtd_43_build_eid_dispatch_tables.py",
+        "scripts/figures/render_eid_dispatch_release_clock_figure.R",
     }
     for relative_path in sorted(required):
         check.require((ROOT / relative_path).is_file(), f"missing {relative_path}")
@@ -195,6 +216,10 @@ def validate_structure(check: Validation) -> set[str]:
         "figures/source_data/figure4d_counterfactual_summary.tsv",
         "figures/source_data/figure4e_australia_ct_curve.tsv",
         "figures/source_data/figure4f_identifiability_recovery.tsv",
+        "figures/source_data/eid_figure1a_cases.tsv",
+        "figures/source_data/eid_figure1a_selected_detection.tsv",
+        "figures/source_data/eid_figure1b_release_lags.tsv",
+        "figures/source_data/eid_figure1c_clock_shift.tsv",
     }
     observed_panel_sources = {
         path.relative_to(ROOT).as_posix()
@@ -202,10 +227,17 @@ def validate_structure(check: Validation) -> set[str]:
     }
     check.require(
         observed_panel_sources == expected_panel_sources,
-        "figures/source_data does not exactly match the compact Letter panel set",
+        "figures/source_data does not exactly match the released panel set",
     )
     check.require(
-        expected_panel_sources.issubset(mapped_sources),
+        expected_panel_sources.difference(
+            {
+                "figures/source_data/eid_figure1a_cases.tsv",
+                "figures/source_data/eid_figure1a_selected_detection.tsv",
+                "figures/source_data/eid_figure1b_release_lags.tsv",
+                "figures/source_data/eid_figure1c_clock_shift.tsv",
+            }
+        ).issubset(mapped_sources),
         "one or more Letter panel sources are absent from the mapping manifests",
     )
     return mapped_sources
@@ -215,8 +247,13 @@ def validate_links(check: Validation) -> None:
     link_pattern = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
     for document in (
         "README.md",
+        "EID_README.md",
+        "EID_DATA_DICTIONARY.md",
         "DATA_DICTIONARY.md",
         "LETTER_EVIDENCE_MAP.md",
+        "docs/EID_DISPATCH_CLAIM_EVIDENCE_MAP.md",
+        "docs/EID_FIGURE_CONTRACT.md",
+        "docs/PRJNA1071282_BOUNDARY_AUDIT.md",
         "figures/source_data/README.md",
     ):
         path = ROOT / document
@@ -349,6 +386,97 @@ def validate_core_numbers(check: Validation) -> None:
         check.require(total == 774, "annual focal-genome table does not sum to 774")
 
 
+def validate_eid_archive_clock(check: Validation) -> None:
+    public_rows = read_tsv("data/derived/public_genome_availability.tsv")
+    required_fields = {
+        "collection_upper_effective",
+        "ena_first_public_date",
+        "assembly_release_date",
+        "public_route",
+        "subnational_location",
+        "location_source",
+        "location_resolution",
+        "nas_snapshot_record_id",
+        "lag_min_days",
+        "lag_max_days",
+    }
+    check.require(
+        bool(public_rows) and required_fields.issubset(public_rows[0]),
+        "EID accession-level availability schema is incomplete",
+    )
+    check.require(
+        len(public_rows) == 774
+        and len({row["tree_sample_id"] for row in public_rows}) == 774,
+        "EID accession-level table is not the unique frozen 774-record focal cohort",
+    )
+
+    expected_shifts = {
+        "AUS": ("3", "2024-08-01", "2024-08-31", "2025-01-22", "144", "174"),
+        "CHN": ("5", "2023-01-01", "2023-03-27", "2024-10-04", "557", "642"),
+        "JPN": ("5", "2024-01-01", "2024-12-09", "2025-05-12", "154", "497"),
+    }
+    shift_rows = {
+        row["country_iso3"]: row
+        for row in read_tsv("results/public_availability/eid_detection_clock_shift.tsv")
+    }
+    shift_fields = (
+        "cumulative_genome_threshold",
+        "collection_detection_lower",
+        "collection_detection_upper",
+        "public_detection_date",
+        "clock_shift_min_days",
+        "clock_shift_max_days",
+    )
+    for country, expected in expected_shifts.items():
+        row = shift_rows.get(country, {})
+        observed = tuple(row.get(field, "") for field in shift_fields)
+        check.require(observed == expected, f"EID {country} clock displacement changed")
+
+    expected_lags = {
+        "AUS": ("138", "168"),
+        "CHN": ("398.0", "446.0"),
+        "JPN": ("249.5", "261.0"),
+    }
+    lag_rows = {
+        row["country_iso3"]: row
+        for row in read_tsv("results/public_availability/eid_country_lineage_lag_summary.tsv")
+        if row.get("lineage") == "L1_02.07"
+    }
+    for country, expected in expected_lags.items():
+        row = lag_rows.get(country, {})
+        observed = (
+            row.get("median_lag_min_days", ""),
+            row.get("median_lag_max_days", ""),
+        )
+        check.require(observed == expected, f"EID {country} median lag interval changed")
+
+    candidates = {
+        row["project_id"]: row
+        for row in read_tsv("results/public_availability/eid_external_candidate_summary.tsv")
+    }
+    prj = candidates.get("PRJNA1071282", {})
+    observed_boundary = tuple(
+        prj.get(field, "")
+        for field in (
+            "n_explicit_pertussis_runs",
+            "n_frozen_tree_tips",
+            "n_frozen_target_lineage",
+            "n_frozen_resurgence_target",
+        )
+    )
+    check.require(
+        observed_boundary == ("734", "16", "6", "3"),
+        "PRJNA1071282 public boundary changed from 734/16/6/3",
+    )
+
+    snapshot_rows = read_tsv("provenance/EID_NAS_SNAPSHOT_MANIFEST.tsv")
+    check.require(
+        len(snapshot_rows) == 5
+        and all(row["record_type"] == "repository_snapshot" for row in snapshot_rows),
+        "public EID snapshot manifest must contain only five released snapshots",
+    )
+
+
 def is_blank(value: str) -> bool:
     return value.strip() in {"", "NA", "N/A", "na", "null", "None"}
 
@@ -461,6 +589,7 @@ def main() -> None:
     validate_links(check)
     validate_citation(check)
     validate_core_numbers(check)
+    validate_eid_archive_clock(check)
     validate_redistribution_boundary(check)
     validate_private_paths(check)
     validate_manifest(check)

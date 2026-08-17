@@ -1,5 +1,17 @@
 # Changelog
 
+## Unreleased — EID public-archive timing package
+
+- Added interval-censored collection dates and separate ENA/assembly public
+  availability routes for the frozen 989-genome analysis.
+- Added selected-threshold, milestone, threshold-sensitivity, case-clock,
+  release-batch, geography, and candidate-project audit tables.
+- Added metadata-only source snapshots and a public-safe checksum manifest; no
+  FASTQ files, genome assemblies, restricted clinical data, or private storage
+  locations are included.
+- Added the EID figure in PNG, SVG, PDF, and 600-dpi TIFF formats, its panel
+  source data, an academic Appendix, and offline rebuild code.
+
 ## 2.0.0 — 2026-08-04
 
 - Redesigned the repository around the *Journal of Infection* Letter.
