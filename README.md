@@ -10,7 +10,7 @@ post-pandemic *Bordetella pertussis* resurgence:
 
 The old long-form package is preserved at
 [`v1.0.0`](https://github.com/xmusphlkg/pertussis-genomic-transmission-public/tree/v1.0.0).
-The EID package is present in the current development branch; an immutable EID
+The EID package is present in the current repository state; an immutable EID
 release tag has not yet been assigned.
 
 ## Quick Links
