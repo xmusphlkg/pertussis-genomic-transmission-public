@@ -148,7 +148,9 @@ def validate_structure(check: Validation) -> set[str]:
         "data/derived/public_availability_ena_runs.tsv",
         "data/derived/public_availability_ena_project_audit.tsv",
         "results/public_availability/eid_detection_clock_shift.tsv",
+        "results/public_availability/eid_cumulative_visibility.tsv",
         "results/public_availability/eid_milestone_visibility.tsv",
+        "results/public_availability/eid_project_lineage_comparison.tsv",
         "results/public_availability/eid_threshold_sensitivity.tsv",
         "results/public_availability/eid_case_clock_sensitivity.tsv",
         "results/public_availability/eid_project_batch_release.tsv",
@@ -217,9 +219,10 @@ def validate_structure(check: Validation) -> set[str]:
         "figures/source_data/figure4e_australia_ct_curve.tsv",
         "figures/source_data/figure4f_identifiability_recovery.tsv",
         "figures/source_data/eid_figure1a_cases.tsv",
-        "figures/source_data/eid_figure1a_selected_detection.tsv",
-        "figures/source_data/eid_figure1b_release_lags.tsv",
-        "figures/source_data/eid_figure1c_clock_shift.tsv",
+        "figures/source_data/eid_figure1a_cumulative_visibility.tsv",
+        "figures/source_data/eid_figure1b_relative_timing.tsv",
+        "figures/source_data/eid_figure1c_milestone_visibility.tsv",
+        "figures/source_data/eid_figure1c_project_lineage_comparison.tsv",
     }
     observed_panel_sources = {
         path.relative_to(ROOT).as_posix()
@@ -233,9 +236,10 @@ def validate_structure(check: Validation) -> set[str]:
         expected_panel_sources.difference(
             {
                 "figures/source_data/eid_figure1a_cases.tsv",
-                "figures/source_data/eid_figure1a_selected_detection.tsv",
-                "figures/source_data/eid_figure1b_release_lags.tsv",
-                "figures/source_data/eid_figure1c_clock_shift.tsv",
+                "figures/source_data/eid_figure1a_cumulative_visibility.tsv",
+                "figures/source_data/eid_figure1b_relative_timing.tsv",
+                "figures/source_data/eid_figure1c_milestone_visibility.tsv",
+                "figures/source_data/eid_figure1c_project_lineage_comparison.tsv",
             }
         ).issubset(mapped_sources),
         "one or more Letter panel sources are absent from the mapping manifests",

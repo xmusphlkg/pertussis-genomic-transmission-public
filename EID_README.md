@@ -1,8 +1,8 @@
 # Collection and public-archive timing during pertussis resurgence
 
-This package supports the EID Dispatch revision, **“Collection and Public
-Archive Timing of Pertussis Genomes during Resurgence, Australia, China, and
-Japan, 2023–2025.”** It adds a public-availability layer to the frozen
+This package supports the EID Dispatch, **“Public-Archive Timing for
+MT28-Associated Pertussis Genomes, Australia, China, and Japan, 2023–2025.”**
+It adds a public-availability layer to the frozen
 989-genome tree and the fixed `L1_02.07` MT28-associated genomic-lineage
 assignment. It does not rebuild the tree, redefine lineages, or refit the
 transmission model.
@@ -44,8 +44,7 @@ dates were unavailable at accession level.
 | `data/source_snapshots/` | Minimal metadata-only inputs for offline rebuilding |
 | `results/public_availability/` | Primary clock estimates and all prespecified sensitivity/audit tables |
 | `figures/eid/` | EID Figure 1 in PDF, PNG, SVG, and 600-dpi TIFF formats |
-| `figures/source_data/eid_figure1*.tsv` | Panel-level figure inputs retaining ISO3 codes and display labels |
-| `manuscript/eid_dispatch_appendix.md` | Academic supplementary methods, results, tables, and definitions |
+| `figures/source_data/eid_figure1*.tsv` | Panel-level figure inputs for cumulative visibility, resurgence-relative timing, and milestone visibility |
 | `scripts/pipeline/gtd_40*` and `gtd_43*` | Offline derivation of accession-level and summary results |
 | `scripts/figures/render_eid_dispatch_release_clock_figure.R` | Single-source figure renderer |
 
@@ -85,6 +84,4 @@ from the month-scale primary analysis.
 
 No FASTQ files, genome assemblies, individual clinical records, credentials,
 or private storage locations are included. Public ENA, NCBI, and surveillance
-records retain their source terms. No repository-level licence has yet been
-assigned, and the immutable EID release version remains pending author and
-institutional approval.
+records retain their source terms.

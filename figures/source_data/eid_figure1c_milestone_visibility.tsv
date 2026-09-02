@@ -1,0 +1,7 @@
+country_iso3	country_label	target_lineage	milestone	milestone_date	milestone_period_start	milestone_period_end	milestone_period	total_resurgence_target_genomes	definitely_collected_by_milestone	possibly_collected_by_milestone	public_by_milestone	definitely_collected_not_public	possibly_collected_not_public	public_among_possible_collected_pct	milestone_label	row_label	collected_mid	collected_label	public_label	collected_label_x
+AUS	Australia	L1_02.07	first_post2022_month_above_2019_max	2024-03-01	2024-03-01	2024-03-31	2024-03-01 to 2024-03-31	3	0	0	0	0	0	NA	Resurgence	Australia Resurgence	0	0	0	3
+AUS	Australia	L1_02.07	post2022_peak_month	2024-11-01	2024-11-01	2024-11-30	2024-11-01 to 2024-11-30	3	3	3	0	3	3	0	Peak	Australia Peak	3	3	0	3
+CHN	China	L1_02.07	first_post2022_month_above_2019_max	2023-08-01	2023-08-01	2023-08-31	2023-08-01 to 2023-08-31	148	15	29	0	15	29	0	Resurgence	China Resurgence	22	15-29	0	22
+CHN	China	L1_02.07	post2022_peak_month	2024-05-01	2024-05-01	2024-05-31	2024-05-01 to 2024-05-31	148	89	106	0	89	106	0	Peak	China Peak	97.5	89-106	0	97.5
+JPN	Japan	L1_02.07	first_post2022_month_above_2019_max	2025-03-01	2025-03-01	2025-03-31	2025-03-01 to 2025-03-31	54	38	39	0	38	39	0	Resurgence	Japan Resurgence	38.5	38-39	0	38.5
+JPN	Japan	L1_02.07	post2022_peak_month	2025-06-01	2025-06-01	2025-06-30	2025-06-01 to 2025-06-30	54	48	49	16	32	33	32.7	Peak	Japan Peak	48.5	48-49	16	48.5

@@ -2,9 +2,9 @@
 """Build interval-aware genome availability tables for the EID Dispatch.
 
 This script is intentionally downstream of the frozen JOI analysis. It does not
-change lineage definitions, trees, model inputs, or fitted quantities. It only
-adds a surveillance-utility layer: when each already-included genome became
-publicly visible through ENA read metadata or NCBI assembly release metadata.
+change lineage definitions, trees, model inputs, or fitted quantities. It adds
+an external-visibility layer: the earliest date on which an ENA read record or
+an NCBI assembly could be reproducibly retrieved for each included genome.
 """
 
 from __future__ import annotations
@@ -369,12 +369,12 @@ def public_availability_rows() -> list[dict[str, object]]:
         run = (row.get("run_accession") or "").strip()
         ena_metadata = ena_row_by_run.get(run, {})
         if run and run in first_by_run:
-            candidates.append(("ena_first_public_run", first_by_run[run]))
+            candidates.append(("ena_read_first_public_run", first_by_run[run]))
 
         for sample_column in ("sample_accession", "biosample_accession"):
             sample = (row.get(sample_column) or "").strip()
             if sample and sample in first_by_sample:
-                candidates.append((f"ena_first_public_{sample_column}", first_by_sample[sample]))
+                candidates.append((f"ena_read_first_public_via_{sample_column}", first_by_sample[sample]))
                 if not ena_metadata:
                     ena_metadata = ena_row_by_sample.get(sample, {})
 
@@ -383,7 +383,10 @@ def public_availability_rows() -> list[dict[str, object]]:
             if accession and accession in assembly_release:
                 candidates.append(("ncbi_assembly_release", assembly_release[accession]))
 
-        ena_first_public = min((date for source, date in candidates if source.startswith("ena_")), default=None)
+        ena_first_public = min(
+            (date for source, date in candidates if source.startswith("ena_read_")),
+            default=None,
+        )
         assembly_release_date = min(
             (date for source, date in candidates if source == "ncbi_assembly_release"),
             default=None,
@@ -439,6 +442,8 @@ def public_availability_rows() -> list[dict[str, object]]:
                 "epidemic_period": row.get("epidemic_period", ""),
                 "public_date": date_text(public_date),
                 "public_date_source": ";".join(public_sources),
+                "sequence_public_date": date_text(public_date),
+                "sequence_public_date_source": ";".join(public_sources),
                 "ena_first_public_date": date_text(ena_first_public),
                 "assembly_release_date": date_text(assembly_release_date),
                 "public_route": public_route(ena_first_public, assembly_release_date),
@@ -612,6 +617,8 @@ def main() -> None:
             "epidemic_period",
             "public_date",
             "public_date_source",
+            "sequence_public_date",
+            "sequence_public_date_source",
             "ena_first_public_date",
             "assembly_release_date",
             "public_route",

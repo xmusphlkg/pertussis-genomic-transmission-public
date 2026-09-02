@@ -8,10 +8,9 @@ post-pandemic *Bordetella pertussis* resurgence:
 - the EID Dispatch revision on collection-date intervals and public-archive
   availability in Australia, China, and Japan.
 
-The old long-form package is preserved at
+The earlier long-form package is preserved at
 [`v1.0.0`](https://github.com/xmusphlkg/pertussis-genomic-transmission-public/tree/v1.0.0).
-The EID package is present in the current repository state; an immutable EID
-release tag has not yet been assigned.
+The current repository state contains the EID public-archive timing package.
 
 ## Quick Links
 
@@ -80,6 +79,6 @@ original third-party source terms.
 
 ## Citation
 
-Use [CITATION.cff](CITATION.cff) for the released Letter package. The EID
-dataset/software citation will be finalized only when its immutable release is
-created. See [CHANGELOG.md](CHANGELOG.md) for package history.
+Use [CITATION.cff](CITATION.cff) for the released Letter package and cite this
+repository URL for the EID data and code package. See [CHANGELOG.md](CHANGELOG.md)
+for package history.

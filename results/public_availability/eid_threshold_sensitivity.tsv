@@ -1,15 +1,15 @@
-country_iso3	country_label	target_lineage	cumulative_genome_threshold	collection_detection_lower	collection_detection_upper	public_detection_date	clock_shift_min_days	clock_shift_max_days	collection_lead_to_case_threshold_min_days	collection_lead_to_case_threshold_max_days	public_lead_to_case_threshold_days	collection_timing_class	public_timing_class
-AUS	Australia	L1_02.07	1	2024-08-01	2024-08-31	2025-01-16	138	168	-183	-153	-321	interval_after_case_threshold	on_or_after_case_threshold
-AUS	Australia	L1_02.07	3	2024-08-01	2024-08-31	2025-01-22	144	174	-183	-153	-327	interval_after_case_threshold	on_or_after_case_threshold
-CHN	China	L1_02.07	1	2023-01-01	2023-02-04	2024-09-29	603	637	178	212	-425	interval_before_case_threshold	on_or_after_case_threshold
-CHN	China	L1_02.07	3	2023-01-01	2023-03-27	2024-09-29	552	637	127	212	-425	interval_before_case_threshold	on_or_after_case_threshold
-CHN	China	L1_02.07	5	2023-01-01	2023-03-27	2024-10-04	557	642	127	212	-430	interval_before_case_threshold	on_or_after_case_threshold
-CHN	China	L1_02.07	10	2023-01-01	2023-06-12	2024-10-04	480	642	50	212	-430	interval_before_case_threshold	on_or_after_case_threshold
-CHN	China	L1_02.07	20	2023-04-06	2023-09-12	2024-10-04	388	547	-42	117	-430	interval_spans_case_threshold	on_or_after_case_threshold
-CHN	China	L1_02.07	50	2023-12-29	2023-12-31	2025-03-23	448	450	-152	-150	-600	interval_after_case_threshold	on_or_after_case_threshold
-JPN	Japan	L1_02.07	1	2024-01-01	2024-09-12	2025-05-12	242	497	170	425	-72	interval_before_case_threshold	on_or_after_case_threshold
-JPN	Japan	L1_02.07	3	2024-01-01	2024-11-13	2025-05-12	180	497	108	425	-72	interval_before_case_threshold	on_or_after_case_threshold
-JPN	Japan	L1_02.07	5	2024-01-01	2024-12-09	2025-05-12	154	497	82	425	-72	interval_before_case_threshold	on_or_after_case_threshold
-JPN	Japan	L1_02.07	10	2024-11-13	2024-12-31	2025-05-12	132	180	60	108	-72	interval_before_case_threshold	on_or_after_case_threshold
-JPN	Japan	L1_02.07	20	2025-01-21	2025-01-22	2025-12-10	322	323	38	39	-284	interval_before_case_threshold	on_or_after_case_threshold
-JPN	Japan	L1_02.07	50	2025-06-02	2025-06-09	2026-01-27	232	239	-100	-93	-332	interval_after_case_threshold	on_or_after_case_threshold
+country_iso3	country_label	target_lineage	cumulative_genome_threshold	collection_detection_lower	collection_detection_upper	public_detection_date	resurgence_milestone_start	resurgence_milestone_end	clock_shift_min_days	clock_shift_max_days	collection_lead_to_case_threshold_min_days	collection_lead_to_case_threshold_max_days	public_lead_to_case_threshold_min_days	public_lead_to_case_threshold_max_days	public_lead_to_case_threshold_days	collection_relative_to_resurgence_min_days	collection_relative_to_resurgence_max_days	public_relative_to_resurgence_min_days	public_relative_to_resurgence_max_days	public_relative_to_resurgence_days	collection_timing_class	public_timing_class
+AUS	Australia	L1_02.07	1	2024-08-01	2024-08-31	2025-01-16	2024-03-01	2024-03-31	138	168	-183	-123	-321	-291	-291	123	183	291	321	321	interval_after_case_threshold	on_or_after_case_threshold
+AUS	Australia	L1_02.07	3	2024-08-01	2024-08-31	2025-01-22	2024-03-01	2024-03-31	144	174	-183	-123	-327	-297	-297	123	183	297	327	327	interval_after_case_threshold	on_or_after_case_threshold
+CHN	China	L1_02.07	1	2023-01-01	2023-02-04	2024-09-29	2023-08-01	2023-08-31	603	637	178	242	-425	-395	-395	-242	-178	395	425	425	interval_before_case_threshold	on_or_after_case_threshold
+CHN	China	L1_02.07	3	2023-01-01	2023-03-27	2024-09-29	2023-08-01	2023-08-31	552	637	127	242	-425	-395	-395	-242	-127	395	425	425	interval_before_case_threshold	on_or_after_case_threshold
+CHN	China	L1_02.07	5	2023-01-01	2023-03-27	2024-10-04	2023-08-01	2023-08-31	557	642	127	242	-430	-400	-400	-242	-127	400	430	430	interval_before_case_threshold	on_or_after_case_threshold
+CHN	China	L1_02.07	10	2023-01-01	2023-06-12	2024-10-04	2023-08-01	2023-08-31	480	642	50	242	-430	-400	-400	-242	-50	400	430	430	interval_before_case_threshold	on_or_after_case_threshold
+CHN	China	L1_02.07	20	2023-04-06	2023-09-12	2024-10-04	2023-08-01	2023-08-31	388	547	-42	147	-430	-400	-400	-147	42	400	430	430	interval_spans_case_threshold	on_or_after_case_threshold
+CHN	China	L1_02.07	50	2023-12-29	2023-12-31	2025-03-23	2023-08-01	2023-08-31	448	450	-152	-120	-600	-570	-570	120	152	570	600	600	interval_after_case_threshold	on_or_after_case_threshold
+JPN	Japan	L1_02.07	1	2024-01-01	2024-09-12	2025-05-12	2025-03-01	2025-03-31	242	497	170	455	-72	-42	-42	-455	-170	42	72	72	interval_before_case_threshold	on_or_after_case_threshold
+JPN	Japan	L1_02.07	3	2024-01-01	2024-11-13	2025-05-12	2025-03-01	2025-03-31	180	497	108	455	-72	-42	-42	-455	-108	42	72	72	interval_before_case_threshold	on_or_after_case_threshold
+JPN	Japan	L1_02.07	5	2024-01-01	2024-12-09	2025-05-12	2025-03-01	2025-03-31	154	497	82	455	-72	-42	-42	-455	-82	42	72	72	interval_before_case_threshold	on_or_after_case_threshold
+JPN	Japan	L1_02.07	10	2024-11-13	2024-12-31	2025-05-12	2025-03-01	2025-03-31	132	180	60	138	-72	-42	-42	-138	-60	42	72	72	interval_before_case_threshold	on_or_after_case_threshold
+JPN	Japan	L1_02.07	20	2025-01-21	2025-01-22	2025-12-10	2025-03-01	2025-03-31	322	323	38	69	-284	-254	-254	-69	-38	254	284	284	interval_before_case_threshold	on_or_after_case_threshold
+JPN	Japan	L1_02.07	50	2025-06-02	2025-06-09	2026-01-27	2025-03-01	2025-03-31	232	239	-100	-63	-332	-302	-302	63	100	302	332	332	interval_after_case_threshold	on_or_after_case_threshold

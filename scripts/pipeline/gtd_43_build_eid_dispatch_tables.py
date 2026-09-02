@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
-"""Build interval-aware EID Dispatch tables and Appendix.
+"""Build EID Dispatch tables for the lineage-specific visibility audit.
 
 The script is downstream of the frozen 989-genome tree and lineage assignment.
-It defines detection as the kth order statistic among any target-lineage
-genomes available on a collection or public-archive clock. Collection dates
-are interval-censored; no lower bound is presented as an exact date.
+It reconstructs cumulative specimen accumulation and public sequence
+availability, uses selected k values as interpretive anchors, and compares the
+target lineage with other lineages within country, BioProject, and collection
+year. Collection dates remain interval-censored.
 """
 
 from __future__ import annotations
 
 import csv
 import datetime as dt
+import calendar
 import statistics
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -35,6 +37,8 @@ THRESHOLD_SENSITIVITY_OUTPUT = RESULTS / "eid_threshold_sensitivity.tsv"
 PROJECT_BATCH_OUTPUT = RESULTS / "eid_project_batch_release.tsv"
 GEOGRAPHY_OUTPUT = RESULTS / "eid_geography_audit.tsv"
 CASE_SENSITIVITY_OUTPUT = RESULTS / "eid_case_clock_sensitivity.tsv"
+CUMULATIVE_VISIBILITY_OUTPUT = RESULTS / "eid_cumulative_visibility.tsv"
+PROJECT_LINEAGE_COMPARISON_OUTPUT = RESULTS / "eid_project_lineage_comparison.tsv"
 APPENDIX_MD = REPO / "manuscript" / "eid_dispatch_appendix.md"
 
 TARGET_COUNTRIES = ("AUS", "CHN", "JPN")
@@ -68,6 +72,20 @@ def date_text(value: dt.date | None) -> str:
     return value.isoformat() if value else ""
 
 
+def month_end(value: dt.date | None) -> dt.date | None:
+    if not value:
+        return None
+    return dt.date(value.year, value.month, calendar.monthrange(value.year, value.month)[1])
+
+
+def date_range_text(start: dt.date | None, end: dt.date | None) -> str:
+    if not start:
+        return ""
+    if not end or start == end:
+        return date_text(start)
+    return f"{date_text(start)} to {date_text(end)}"
+
+
 def number_text(value: int | float | None) -> str:
     if value is None:
         return ""
@@ -77,12 +95,20 @@ def number_text(value: int | float | None) -> str:
 
 
 def pct_text(numerator: int, denominator: int) -> str:
-    return "" if denominator == 0 else f"{100 * numerator / denominator:.1f}"
+    return "NA" if denominator == 0 else f"{100 * numerator / denominator:.1f}"
 
 
 def counter_text(values: list[str]) -> str:
     counts = Counter(value for value in values if value)
     return ";".join(f"{key}={counts[key]}" for key in sorted(counts))
+
+
+def relative_range_text(min_value: object, max_value: object) -> str:
+    if min_value in {None, ""} or max_value in {None, ""}:
+        return ""
+    if min_value == max_value:
+        return str(min_value)
+    return f"{min_value}–{max_value}"
 
 
 def target_resurgence_rows() -> list[dict[str, str]]:
@@ -95,6 +121,10 @@ def target_resurgence_rows() -> list[dict[str, str]]:
     ]
 
 
+def sequence_public_date(row: dict[str, str]) -> dt.date | None:
+    return parse_date(row.get("sequence_public_date") or row.get("public_date"))
+
+
 def build_threshold_sensitivity() -> list[dict[str, object]]:
     rows = [
         row
@@ -102,6 +132,11 @@ def build_threshold_sensitivity() -> list[dict[str, object]]:
         if row.get("country_iso3") in TARGET_COUNTRIES
         and row.get("primary_model_lineage_id") == TARGET_LINEAGE
     ]
+    milestone_starts = {
+        row["country_iso3"]: parse_date(row.get("first_post2022_month_above_2019_max"))
+        for row in read_tsv(CASE_THRESHOLDS)
+        if row.get("country_iso3") in TARGET_COUNTRIES
+    }
     lookup = {
         (row["country_iso3"], row["clock"], int(row["minimum_cumulative_tips"])): row
         for row in rows
@@ -117,18 +152,42 @@ def build_threshold_sensitivity() -> list[dict[str, object]]:
             lower_date = parse_date(lower["detection_date"])
             upper_date = parse_date(upper["detection_date"])
             public_date = parse_date(public["detection_date"])
+            milestone_start = milestone_starts.get(country)
+            milestone_end = month_end(milestone_start)
             shift_min = (public_date - upper_date).days if public_date and upper_date else None
             shift_max = (public_date - lower_date).days if public_date and lower_date else None
-            lead_min = int(upper["lead_to_2019max_threshold_days"])
-            lead_max = int(lower["lead_to_2019max_threshold_days"])
-            public_lead = int(public["lead_to_2019max_threshold_days"])
+            if milestone_start and milestone_end and lower_date and upper_date:
+                collection_relative_min = (lower_date - milestone_end).days
+                collection_relative_max = (upper_date - milestone_start).days
+                lead_min = -collection_relative_max
+                lead_max = -collection_relative_min
+            else:
+                lead_min = int(upper["lead_to_2019max_threshold_days"])
+                lead_max = int(lower["lead_to_2019max_threshold_days"])
+                collection_relative_min = -lead_max
+                collection_relative_max = -lead_min
+            if milestone_start and milestone_end and public_date:
+                public_relative_min = (public_date - milestone_end).days
+                public_relative_max = (public_date - milestone_start).days
+                public_lead_min = -public_relative_max
+                public_lead_max = -public_relative_min
+            else:
+                public_lead = int(public["lead_to_2019max_threshold_days"])
+                public_relative_min = -public_lead
+                public_relative_max = -public_lead
+                public_lead_min = public_lead
+                public_lead_max = public_lead
             if lead_min > 0:
                 collection_class = "interval_before_case_threshold"
             elif lead_max < 0:
                 collection_class = "interval_after_case_threshold"
             else:
                 collection_class = "interval_spans_case_threshold"
-            public_class = "before_case_threshold" if public_lead > 0 else "on_or_after_case_threshold"
+            public_class = (
+                "before_case_threshold"
+                if public_relative_max < 0
+                else "on_or_after_case_threshold"
+            )
             output_rows.append(
                 {
                     "country_iso3": country,
@@ -138,11 +197,20 @@ def build_threshold_sensitivity() -> list[dict[str, object]]:
                     "collection_detection_lower": date_text(lower_date),
                     "collection_detection_upper": date_text(upper_date),
                     "public_detection_date": date_text(public_date),
+                    "resurgence_milestone_start": date_text(milestone_start),
+                    "resurgence_milestone_end": date_text(milestone_end),
                     "clock_shift_min_days": number_text(shift_min),
                     "clock_shift_max_days": number_text(shift_max),
                     "collection_lead_to_case_threshold_min_days": lead_min,
                     "collection_lead_to_case_threshold_max_days": lead_max,
-                    "public_lead_to_case_threshold_days": public_lead,
+                    "public_lead_to_case_threshold_min_days": public_lead_min,
+                    "public_lead_to_case_threshold_max_days": public_lead_max,
+                    "public_lead_to_case_threshold_days": public_lead_max,
+                    "collection_relative_to_resurgence_min_days": collection_relative_min,
+                    "collection_relative_to_resurgence_max_days": collection_relative_max,
+                    "public_relative_to_resurgence_min_days": public_relative_min,
+                    "public_relative_to_resurgence_max_days": public_relative_max,
+                    "public_relative_to_resurgence_days": public_relative_max,
                     "collection_timing_class": collection_class,
                     "public_timing_class": public_class,
                 }
@@ -174,6 +242,7 @@ def build_milestone_visibility() -> list[dict[str, object]]:
         for milestone, milestone_date in milestones.items():
             if not milestone_date:
                 continue
+            milestone_period_end = month_end(milestone_date)
             possible = sum(
                 (parse_date(row.get("collection_lower")) or dt.date.max) <= milestone_date
                 for row in country_rows
@@ -194,6 +263,9 @@ def build_milestone_visibility() -> list[dict[str, object]]:
                     "target_lineage": TARGET_LINEAGE,
                     "milestone": milestone,
                     "milestone_date": date_text(milestone_date),
+                    "milestone_period_start": date_text(milestone_date),
+                    "milestone_period_end": date_text(milestone_period_end),
+                    "milestone_period": date_range_text(milestone_date, milestone_period_end),
                     "total_resurgence_target_genomes": len(country_rows),
                     "definitely_collected_by_milestone": definite,
                     "possibly_collected_by_milestone": possible,
@@ -203,6 +275,140 @@ def build_milestone_visibility() -> list[dict[str, object]]:
                     "public_among_possible_collected_pct": pct_text(public, possible),
                 }
             )
+    return output_rows
+
+
+def build_cumulative_visibility() -> list[dict[str, object]]:
+    rows = target_resurgence_rows()
+    output_rows: list[dict[str, object]] = []
+    for country in TARGET_COUNTRIES:
+        country_rows = [row for row in rows if row["country_iso3"] == country]
+        if not country_rows:
+            continue
+        milestone_date = parse_date(country_rows[0].get("first_post2022_month_above_2019_max"))
+        peak_date = parse_date(country_rows[0].get("post2022_peak_month"))
+        milestone_end = month_end(milestone_date)
+        peak_end = month_end(peak_date)
+        event_dates: set[dt.date] = {dt.date(2023, 1, 1)}
+        for row in country_rows:
+            for value in (
+                parse_date(row.get("collection_lower")),
+                parse_date(row.get("collection_upper_effective")),
+                sequence_public_date(row),
+            ):
+                if value:
+                    event_dates.add(value)
+        for value in (milestone_date, peak_date):
+            if value:
+                event_dates.add(value)
+        for event_date in sorted(event_dates):
+            output_rows.append(
+                {
+                    "country_iso3": country,
+                    "country_label": COUNTRY_LABELS[country],
+                    "target_lineage": TARGET_LINEAGE,
+                    "event_date": date_text(event_date),
+                    "n_possibly_collected": sum(
+                        (parse_date(row.get("collection_lower")) or dt.date.max) <= event_date
+                        for row in country_rows
+                    ),
+                    "n_definitely_collected": sum(
+                        (parse_date(row.get("collection_upper_effective")) or dt.date.max) <= event_date
+                        for row in country_rows
+                    ),
+                    "n_publicly_available": sum(
+                        bool(sequence_public_date(row))
+                        and (sequence_public_date(row) or dt.date.max) <= event_date
+                        for row in country_rows
+                    ),
+                    "total_target_lineage_records": len(country_rows),
+                    "resurgence_milestone_date": date_text(milestone_date),
+                    "resurgence_milestone_end": date_text(milestone_end),
+                    "post2022_peak_date": date_text(peak_date),
+                    "post2022_peak_end": date_text(peak_end),
+                }
+            )
+    return output_rows
+
+
+def build_project_lineage_comparison() -> list[dict[str, object]]:
+    rows = [
+        row
+        for row in read_tsv(PUBLIC_TABLE)
+        if row.get("country_iso3") in TARGET_COUNTRIES
+        and row.get("epidemic_period") == "resurgence"
+        and row.get("project_id")
+        and row.get("year")
+    ]
+    grouped: dict[tuple[str, str, str], list[dict[str, str]]] = defaultdict(list)
+    for row in rows:
+        grouped[(row["country_iso3"], row["project_id"], row["year"])].append(row)
+
+    def lag_values(group: list[dict[str, str]], field: str) -> list[int]:
+        return [int(row[field]) for row in group if row.get(field) not in {None, ""}]
+
+    def modal_public(group: list[dict[str, str]]) -> tuple[str, int]:
+        counts = Counter(
+            date_text(sequence_public_date(row))
+            for row in group
+            if sequence_public_date(row)
+        )
+        if not counts:
+            return "", 0
+        modal_n = max(counts.values())
+        return min(date for date, count in counts.items() if count == modal_n), modal_n
+
+    output_rows: list[dict[str, object]] = []
+    for (country, project, year), group in sorted(grouped.items()):
+        target = [row for row in group if row.get("primary_model_lineage_id") == TARGET_LINEAGE]
+        comparator = [row for row in group if row.get("primary_model_lineage_id") != TARGET_LINEAGE]
+        if not target or not comparator:
+            continue
+        target_min = lag_values(target, "lag_min_days")
+        target_max = lag_values(target, "lag_max_days")
+        comparator_min = lag_values(comparator, "lag_min_days")
+        comparator_max = lag_values(comparator, "lag_max_days")
+        if not all((target_min, target_max, comparator_min, comparator_max)):
+            continue
+        target_median_min = statistics.median(target_min)
+        target_median_max = statistics.median(target_max)
+        comparator_median_min = statistics.median(comparator_min)
+        comparator_median_max = statistics.median(comparator_max)
+        if target_median_max < comparator_median_min:
+            direction = "target_shorter"
+        elif target_median_min > comparator_median_max:
+            direction = "target_longer"
+        else:
+            direction = "intervals_overlap"
+        project_modal_date, project_modal_n = modal_public(group)
+        target_modal_date, _ = modal_public(target)
+        comparator_modal_date, _ = modal_public(comparator)
+        output_rows.append(
+            {
+                "country_iso3": country,
+                "country_label": COUNTRY_LABELS[country],
+                "project_id": project,
+                "collection_year": year,
+                "n_target_lineage": len(target),
+                "n_comparator_lineages": len(comparator),
+                "target_median_lag_min_days": number_text(target_median_min),
+                "target_median_lag_max_days": number_text(target_median_max),
+                "comparator_median_lag_min_days": number_text(comparator_median_min),
+                "comparator_median_lag_max_days": number_text(comparator_median_max),
+                "target_minus_comparator_min_days": number_text(
+                    target_median_min - comparator_median_max
+                ),
+                "target_minus_comparator_max_days": number_text(
+                    target_median_max - comparator_median_min
+                ),
+                "comparison_direction": direction,
+                "project_modal_public_date": project_modal_date,
+                "project_modal_public_date_pct": pct_text(project_modal_n, len(group)),
+                "target_modal_public_date": target_modal_date,
+                "comparator_modal_public_date": comparator_modal_date,
+                "groups_share_modal_public_date": target_modal_date == comparator_modal_date,
+            }
+        )
     return output_rows
 
 
@@ -457,6 +663,7 @@ def write_appendix(
     candidate_rows: list[dict[str, object]],
     threshold_rows: list[dict[str, object]],
     project_rows: list[dict[str, object]],
+    project_lineage_rows: list[dict[str, object]],
     geography_rows: list[dict[str, object]],
     case_rows: list[dict[str, object]],
 ) -> None:
@@ -523,8 +730,12 @@ def write_appendix(
             "Country": country_name[str(row["country_iso3"])],
             "Threshold, k": row["cumulative_genome_threshold"],
             "Collection interval": f"{row['collection_detection_lower']} to {row['collection_detection_upper']}",
-            "Public date": row["public_detection_date"],
+            "Sequence-public date": row["public_detection_date"],
             "Clock displacement, d": f"{row['clock_shift_min_days']}–{row['clock_shift_max_days']}",
+            "Public timing after milestone month, d": relative_range_text(
+                row.get("public_relative_to_resurgence_min_days"),
+                row.get("public_relative_to_resurgence_max_days"),
+            ),
         }
         for row in shift_rows
     ]
@@ -532,10 +743,10 @@ def write_appendix(
         {
             "Country": country_name[str(row["country_iso3"])],
             "Milestone": milestone_labels[str(row["milestone"])],
-            "Date": row["milestone_date"],
+            "Milestone month": row["milestone_period"],
             "Definitely collected": row["definitely_collected_by_milestone"],
             "Possibly collected": row["possibly_collected_by_milestone"],
-            "Publicly available": row["public_by_milestone"],
+            "Public sequence available": row["public_by_milestone"],
         }
         for row in milestone_rows
     ]
@@ -544,8 +755,16 @@ def write_appendix(
             "Country": country_name[str(row["country_iso3"])],
             "k": row["cumulative_genome_threshold"],
             "Collection interval": f"{row['collection_detection_lower']} to {row['collection_detection_upper']}",
-            "Public date": row["public_detection_date"],
+            "Sequence-public date": row["public_detection_date"],
             "Displacement, d": f"{row['clock_shift_min_days']}–{row['clock_shift_max_days']}",
+            "Collection timing relative to milestone month, d": relative_range_text(
+                row.get("collection_relative_to_resurgence_min_days"),
+                row.get("collection_relative_to_resurgence_max_days"),
+            ),
+            "Public timing after milestone month, d": relative_range_text(
+                row.get("public_relative_to_resurgence_min_days"),
+                row.get("public_relative_to_resurgence_max_days"),
+            ),
             "Collection timing": timing_labels[str(row["collection_timing_class"])],
             "Public timing": timing_labels[str(row["public_timing_class"])],
         }
@@ -555,7 +774,7 @@ def write_appendix(
         {
             "Country": country_name[str(row["country_iso3"])],
             "Target-lineage genomes": row["n_resurgence_focal_tips"],
-            "Public date available": row["n_with_public_date"],
+            "Sequence-public date available": row["n_with_public_date"],
             "Median minimum lag, d": row["median_lag_min_days"],
             "Median maximum lag, d": row["median_lag_max_days"],
             "Observed lag range, d": f"{row['min_lag_min_days']}–{row['max_lag_max_days']}",
@@ -568,12 +787,30 @@ def write_appendix(
             "BioProject": row["project_id"],
             "Resurgence genomes": row["n_focal_resurgence_genomes"],
             "Target lineage": row["n_target_lineage"],
-            "Public-date span": f"{row['public_date_min']} to {row['public_date_max']}",
+            "Sequence-public date span": f"{row['public_date_min']} to {row['public_date_max']}",
             "Batch span, d": row["public_batch_span_days"],
-            "Modal-date proportion, %": row["modal_public_date_pct"],
-            "First observable route": display_counts(row["public_route_counts"]),
+            "Modal sequence-public date proportion, %": row["modal_public_date_pct"],
+            "First observable sequence-data route": display_counts(row["public_route_counts"]),
         }
         for row in project_rows
+    ]
+    project_lineage_display = [
+        {
+            "Country": country_name[str(row["country_iso3"])],
+            "BioProject": row["project_id"],
+            "Collection year": row["collection_year"],
+            "Target n": row["n_target_lineage"],
+            "Comparator n": row["n_comparator_lineages"],
+            "Target median interval, d": (
+                f"{row['target_median_lag_min_days']}–{row['target_median_lag_max_days']}"
+            ),
+            "Comparator median interval, d": (
+                f"{row['comparator_median_lag_min_days']}–{row['comparator_median_lag_max_days']}"
+            ),
+            "Direction": str(row["comparison_direction"]).replace("_", " "),
+            "Shared modal public date": row["groups_share_modal_public_date"],
+        }
+        for row in project_lineage_rows
     ]
     geography_display = [
         {
@@ -673,41 +910,41 @@ def write_appendix(
             }
         )
 
-    appendix = f"""# Appendix. Collection and Public Archive Timing of Pertussis Genomes
+    appendix = f"""# Appendix. Public-Archive Timing for MT28-Associated Pertussis Genomes
 
 ## Supplementary Methods
 
 ### Study design and frozen analysis boundary
 
-This retrospective analysis compared specimen collection timing, public archive availability, and national pertussis case milestones. It retained the previously frozen 989-genome core-SNP phylogeny, including 774 focal genomes and 215 stratified global-background genomes, and used the existing L1_02.07 target-lineage assignments without re-estimating the tree, lineage definitions, or transmission models. Lineage membership was therefore retrospective. A specimen's collection date does not indicate when its lineage identity was known.
+This retrospective audit compared specimen accumulation, public sequence availability, and national pertussis resurgence milestones. It retained the previously frozen 989-genome core-SNP phylogeny, including 774 focal genomes and 215 stratified global-background genomes. Existing L1_02.07 assignments supplied retrospective lineage labels; the phylogeny was not rebuilt, lineage definitions were not re-estimated, and fitted transmission models were outside this audit.
 
-The timing analysis focused on frozen focal genomes from Australia, China, and Japan because these countries had compatible national case series and target-lineage genomes collected during the resurgence period. Projects identified after the phylogenetic freeze were evaluated separately. They were not added to the primary analysis without accession-level de-duplication, date-resolution review, sequence quality control, and placement within the frozen lineage framework.
+The timing analysis focused on frozen focal genomes from Australia, China, and Japan because these countries had compatible national case series and target-lineage genomes collected during the resurgence period. Projects identified after the phylogenetic freeze entered a separate accession, date-resolution, sequence-quality, and lineage-placement audit.
 
-### Collection intervals and public availability
+### Collection intervals and public sequence availability
 
-Reported collection dates were represented by lower and upper bounds. Exact dates had identical bounds; month-level dates spanned the reported calendar month; year-level dates spanned the reported calendar year. The effective collection upper bound was the earlier of the reported upper bound and the first reproducible public date. A public date earlier than the collection lower bound was treated as a temporal conflict and was not silently corrected.
+Reported collection dates were represented by lower and upper bounds. Exact dates had identical bounds; month-level dates spanned the reported calendar month; year-level dates spanned the reported calendar year. The effective collection upper bound was the earlier of the reported upper bound and the first reproducible public date. A public date earlier than the collection lower bound retained an explicit temporal-conflict flag.
 
-Public availability was defined as the earliest reproducible date from an ENA run or BioSample first-public record or an NCBI Assembly release record. ENA and NCBI dates were retained separately before selecting the earliest route. This endpoint estimates the earliest opportunity for an external archive user to retrieve the record. It does not measure local sequencing completion, bioinformatic analysis, lineage assignment, reporting, or public-health action.
+Public sequence availability was the earliest archive-recorded first-public or release date for an ENA read record or NCBI Assembly record. ENA and NCBI dates were retained separately before selecting the earliest sequence-data route. Metadata-only BioSample first-public dates were excluded from the primary endpoint and interpreted, when reviewed, only as metadata visibility rather than sequence-data availability. This endpoint measures archive-recorded external sequence visibility, not a historical replay of database search results.
 
-### Detection thresholds and clock displacement
+### Cumulative visibility curves and interpretive anchors
 
-For a cumulative threshold of *k* target-lineage genomes, the collection-detection interval was defined by the *k*th order statistic of collection lower bounds and the *k*th order statistic of effective upper bounds. Public detection was the *k*th order statistic of public dates. Clock displacement ranged from the public date minus the collection-detection upper bound to the public date minus the collection-detection lower bound. The primary thresholds were *k*=5 for China and Japan and *k*=3 for Australia, where only 3 target-lineage genomes were available.
+Cumulative curves reported possibly collected, definitely collected, and publicly retrievable target-lineage records at every observed event date. Milestone-month counts are reported as counts at the first day of the milestone month, whereas relative day offsets use the full milestone-month interval to avoid assigning day-level precision to monthly surveillance data. The *k*=5 sequence count summarized the China and Japan curves as a descriptive secondary anchor. Australia used its 3 available target-lineage genomes as a descriptive contrast. The collection-to-public availability interval ranged from the public sequence date minus the accumulation upper bound to the public sequence date minus the accumulation lower bound.
 
-At each epidemiologic milestone, genomes were classified as definitely collected when the effective collection upper bound had passed and possibly collected when the collection lower bound had passed. Publicly available genomes were counted independently from their reproducible public dates. These counts describe the frozen genomic sample and are not estimates of national lineage prevalence.
+At each epidemiologic milestone, genomes were classified as definitely collected when the effective collection upper bound had passed and possibly collected when the collection lower bound had passed. Publicly available genomes were counted independently from their reproducible public dates. These counts characterize accumulation and external visibility within the frozen genomic sample.
 
 ### Epidemiologic milestones and sensitivity analyses
 
-The primary case milestone was the first post-2022 month in which national reported cases exceeded the country-specific maximum monthly count observed in 2019. The post-2022 peak month was evaluated as a second milestone. Weekly Japanese reports were aggregated to calendar months for the primary comparison. Sensitivity analyses evaluated native reporting resolution, the first 2 consecutive periods above the 2019 maximum, the first month above the 2019 median, and genome thresholds of *k*=1, 3, 5, 10, 20, and 50 when sufficient genomes were available.
+The primary case milestone was the first post-2022 calendar month in which national reported cases exceeded the country-specific maximum monthly count observed in 2019. The highest observed post-2022 monthly count through the case-data cutoff was evaluated as a second marker. Monthly milestones were treated as calendar-month intervals for day-offset calculations. Weekly Japanese reports were aggregated to calendar months for the primary comparison and retained at native weekly resolution in sensitivity analyses. National case milestones supplied contextual epidemiologic clocks only and should not be interpreted as evidence that the included lineage caused, represented, or predicted national resurgence. Sensitivity analyses evaluated native reporting resolution, the first 2 consecutive periods above the 2019 maximum, the first month above the 2019 median, and genome thresholds of *k*=1, 3, 5, 10, 20, and 50 when sufficient genomes were available.
 
-Project-level analyses summarized public-date completeness, the concentration of records on the modal release date, the span of release dates, and the first observable public route. Geographic metadata were standardized to subnational units when reported. These data were used to characterize sample composition and metadata completeness, not to calculate subnational or national lineage prevalence.
+Project-level analyses summarized sequence-public date completeness, modal release concentration, release-date span, and first observable sequence-data route. Target and comparator lineages were additionally compared within country, BioProject, and collection year. We reported interval medians and their direction without genome-level significance tests because records within release batches were dependent. Geographic metadata were standardized to subnational units and characterized sample composition.
 
 ### Candidate-project and metadata audits
 
-PRJNA1071282 contained 734 runs explicitly annotated as *B. pertussis*. Sixteen were already represented in the frozen tree, including 6 target-lineage genomes and 3 resurgence-period target-lineage genomes. All 734 runs had year-level collection dates; therefore, the full project extension was not eligible for the month-scale primary analysis. The appropriate boundary is that the 16 frozen genomes were included, whereas the complete project extension was not.
+PRJNA1071282 contained 734 runs explicitly annotated as *B. pertussis*. Sixteen were represented in the frozen tree, including 6 target-lineage genomes and 3 resurgence-period target-lineage genomes. All 734 runs had year-level collection dates. The month-scale analysis used the 16 frozen genomes, and the complete extension entered the candidate-project audit.
 
-The analytic metadata extract retained accession identifiers, BioSample and BioProject identifiers, collection intervals, geography, sequencing technology, separate ENA and NCBI public dates, and record-matching status. It did not contain raw sequence reads, genome assemblies, or identifiable clinical information. Validation included accession uniqueness, cross-source matching, temporal-order checks, monotonicity of detection dates as *k* increased, and regeneration of derived results from the frozen metadata.
+The analytic metadata extract retained accession identifiers, BioSample and BioProject identifiers, collection intervals, geography, sequencing technology, separate ENA read and NCBI Assembly public dates, and record-matching status. Its analytic scope was accession-level metadata for records already represented in the frozen tree. Validation included accession uniqueness, cross-source matching, temporal-order checks, monotonicity of availability dates as *k* increased, and regeneration of derived results from the frozen metadata.
 
-## Appendix Table 1. Primary interval-aware detection clock
+## Appendix Table 1. Primary interval-aware sequence-availability clock
 
 {markdown_table(primary_display, list(primary_display[0]))}
 
@@ -727,31 +964,35 @@ The analytic metadata extract retained accession identifiers, BioSample and BioP
 
 {markdown_table(project_display, list(project_display[0]))}
 
-## Appendix Table 6. Completeness and composition of subnational geographic metadata
+## Appendix Table 6. Project- and year-matched target versus comparator lineages
+
+{markdown_table(project_lineage_display, list(project_lineage_display[0]))}
+
+## Appendix Table 7. Completeness and composition of subnational geographic metadata
 
 {markdown_table(geography_display, list(geography_display[0]))}
 
-## Appendix Table 7. Sensitivity to the national case-clock definition
+## Appendix Table 8. Sensitivity to the national resurgence-milestone definition
 
 {markdown_table(case_display, list(case_display[0]))}
 
-## Appendix Table 8. Projects identified after the phylogenetic freeze
+## Appendix Table 9. Projects identified after the phylogenetic freeze
 
 {markdown_table(candidate_display, list(candidate_display[0]))}
 
-## Appendix Table 9. Metadata components and validation roles
+## Appendix Table 10. Metadata components and validation roles
 
 {markdown_table(metadata_display, list(metadata_display[0]))}
 
-## Appendix Table 10. National pertussis surveillance series
+## Appendix Table 11. National pertussis surveillance series
 
 {markdown_table(case_source_display, list(case_source_display[0]))}
 
 ## Definitions and interpretation
 
-The reported collection interval preserves the precision of the source metadata. The effective upper bound enforces temporal coherence with public availability while retaining explicit conflict flags. Minimum and maximum release lags are calculated from the effective upper and lower collection bounds, respectively. Public route identifies whether an ENA read record, an NCBI Assembly record, or both supplied the earliest reproducible date. Subnational metadata describe the locations represented in the genomic sample and should not be interpreted as a population sampling frame.
+The reported collection interval preserves source precision. The effective upper bound enforces temporal coherence with public sequence availability while retaining explicit conflict flags. Minimum and maximum availability lags are calculated from the effective upper and lower collection bounds. Public route identifies whether an ENA read record, an NCBI Assembly record, or both supplied the earliest reproducible date. Subnational metadata describe locations represented in the genomic sample.
 
-No newly identified candidate record was assigned to the target lineage unless it was already represented by a frozen-tree identifier. Consequently, all lineage-specific timing estimates preserve the original phylogenetic analysis boundary.
+Lineage-specific analyses assigned target status to frozen-tree identifiers and thereby preserved the original phylogenetic analysis boundary.
 """
     APPENDIX_MD.write_text(appendix)
 
@@ -760,6 +1001,8 @@ def main() -> None:
     threshold_rows = build_threshold_sensitivity()
     shift_rows = build_detection_shift(threshold_rows)
     milestone_rows = build_milestone_visibility()
+    cumulative_visibility_rows = build_cumulative_visibility()
+    project_lineage_rows = build_project_lineage_comparison()
     lag_rows = build_lag_summary()
     project_rows = build_project_batch_release()
     geography_rows = build_geography_audit()
@@ -770,12 +1013,18 @@ def main() -> None:
         (SHIFT_OUTPUT, shift_rows, [
             "country_iso3", "country_label", "target_lineage", "cumulative_genome_threshold",
             "collection_detection_lower", "collection_detection_upper", "public_detection_date",
+            "resurgence_milestone_start", "resurgence_milestone_end",
             "clock_shift_min_days", "clock_shift_max_days",
             "collection_lead_to_case_threshold_min_days", "collection_lead_to_case_threshold_max_days",
-            "public_lead_to_case_threshold_days", "collection_timing_class", "public_timing_class",
+            "public_lead_to_case_threshold_min_days", "public_lead_to_case_threshold_max_days",
+            "public_lead_to_case_threshold_days",
+            "collection_relative_to_resurgence_min_days", "collection_relative_to_resurgence_max_days",
+            "public_relative_to_resurgence_min_days", "public_relative_to_resurgence_max_days",
+            "public_relative_to_resurgence_days", "collection_timing_class", "public_timing_class",
         ]),
         (MILESTONE_OUTPUT, milestone_rows, [
             "country_iso3", "country_label", "target_lineage", "milestone", "milestone_date",
+            "milestone_period_start", "milestone_period_end", "milestone_period",
             "total_resurgence_target_genomes", "definitely_collected_by_milestone",
             "possibly_collected_by_milestone", "public_by_milestone",
             "definitely_collected_not_public", "possibly_collected_not_public",
@@ -794,9 +1043,14 @@ def main() -> None:
         (THRESHOLD_SENSITIVITY_OUTPUT, threshold_rows, [
             "country_iso3", "country_label", "target_lineage", "cumulative_genome_threshold",
             "collection_detection_lower", "collection_detection_upper", "public_detection_date",
+            "resurgence_milestone_start", "resurgence_milestone_end",
             "clock_shift_min_days", "clock_shift_max_days",
             "collection_lead_to_case_threshold_min_days", "collection_lead_to_case_threshold_max_days",
-            "public_lead_to_case_threshold_days", "collection_timing_class", "public_timing_class",
+            "public_lead_to_case_threshold_min_days", "public_lead_to_case_threshold_max_days",
+            "public_lead_to_case_threshold_days",
+            "collection_relative_to_resurgence_min_days", "collection_relative_to_resurgence_max_days",
+            "public_relative_to_resurgence_min_days", "public_relative_to_resurgence_max_days",
+            "public_relative_to_resurgence_days", "collection_timing_class", "public_timing_class",
         ]),
         (PROJECT_BATCH_OUTPUT, project_rows, [
             "country_iso3", "country_label", "project_id", "n_focal_resurgence_genomes", "n_target_lineage",
@@ -814,6 +1068,22 @@ def main() -> None:
             "country_iso3", "country_label", "analysis_scale", "source_resolution",
             "milestone_definition", "milestone_date", "reference_value",
         ]),
+        (CUMULATIVE_VISIBILITY_OUTPUT, cumulative_visibility_rows, [
+            "country_iso3", "country_label", "target_lineage", "event_date",
+            "n_possibly_collected", "n_definitely_collected", "n_publicly_available",
+            "total_target_lineage_records", "resurgence_milestone_date", "resurgence_milestone_end",
+            "post2022_peak_date", "post2022_peak_end",
+        ]),
+        (PROJECT_LINEAGE_COMPARISON_OUTPUT, project_lineage_rows, [
+            "country_iso3", "country_label", "project_id", "collection_year",
+            "n_target_lineage", "n_comparator_lineages",
+            "target_median_lag_min_days", "target_median_lag_max_days",
+            "comparator_median_lag_min_days", "comparator_median_lag_max_days",
+            "target_minus_comparator_min_days", "target_minus_comparator_max_days",
+            "comparison_direction", "project_modal_public_date", "project_modal_public_date_pct",
+            "target_modal_public_date", "comparator_modal_public_date",
+            "groups_share_modal_public_date",
+        ]),
     ]
     for path, rows, fields in outputs:
         write_tsv(path, rows, fields)
@@ -824,6 +1094,7 @@ def main() -> None:
         candidate_rows,
         threshold_rows,
         project_rows,
+        project_lineage_rows,
         geography_rows,
         case_rows,
     )

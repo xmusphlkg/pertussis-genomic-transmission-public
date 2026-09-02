@@ -1,0 +1,11 @@
+country_iso3	country_label	project_id	collection_year	n_target_lineage	n_comparator_lineages	target_median_lag_min_days	target_median_lag_max_days	comparator_median_lag_min_days	comparator_median_lag_max_days	target_minus_comparator_min_days	target_minus_comparator_max_days	comparison_direction	project_modal_public_date	project_modal_public_date_pct	target_modal_public_date	comparator_modal_public_date	groups_share_modal_public_date	stratum
+AUS	Australia	PRJNA1199062	2024	1	33	138	168	169	199	-61	-1	target_shorter	2025-01-16	100	2025-01-16	2025-01-16	TRUE	AUS · PRJNA1199062, 2024
+CHN	China	PRJNA1071282	2023	1	1	273	637	273	637	-364	364	intervals_overlap	2024-09-29	100	2024-09-29	2024-09-29	TRUE	CHN · PRJNA1071282, 2023
+CHN	China	PRJNA1182239	2023	18	1	737	737	741	741	-4	-4	target_shorter	2025-06-18	100	2025-06-18	2025-06-18	TRUE	CHN · PRJNA1182239, 2023
+CHN	China	PRJNA1193776	2023	5	2	448	812	448	812	-364	364	intervals_overlap	2025-03-23	100	2025-03-23	2025-03-23	TRUE	CHN · PRJNA1193776, 2023
+CHN	China	PRJNA1295129	2024	7	1	317	682	317	682	-365	365	intervals_overlap	2025-11-13	100	2025-11-13	2025-11-13	TRUE	CHN · PRJNA1295129, 2024
+JPN	Japan	PRJDB20413	2025	13	1	102	102	111	111	-9	-9	target_shorter	2025-05-12	100	2025-05-12	2025-05-12	TRUE	JPN · PRJDB20413, 2025
+JPN	Japan	PRJDB34249	2024	7	1	390	755	390	755	-365	365	intervals_overlap	2026-01-25	100	2026-01-25	2026-01-25	TRUE	JPN · PRJDB34249, 2024
+JPN	Japan	PRJDB34249	2025	4	2	132	238.5	162.5	359.5	-227.5	76	intervals_overlap	2026-01-25	100	2026-01-25	2026-01-25	TRUE	JPN · PRJDB34249, 2025
+JPN	Japan	PRJDB35593	2024	5	1	392	392	363	363	29	29	target_longer	2025-12-10	100	2025-12-10	2025-12-10	TRUE	JPN · PRJDB35593, 2024
+JPN	Japan	PRJDB37898	2025	20	1	275.5	275.5	330	330	-54.5	-54.5	target_shorter	2026-01-27	100	2026-01-27	2026-01-27	TRUE	JPN · PRJDB37898, 2025

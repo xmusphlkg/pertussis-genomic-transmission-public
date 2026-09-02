@@ -1,109 +1,109 @@
-country_iso3	country_name	model_month	year	month	period	cases	case_data_available	n_source_intervals	source_time_resolution	source_url	source_file	reporting_era_record_iso3	reporting_era_scope_type	reporting_era_match_type	reporting_era_confidence	pcr_lab_guideline_year	reporting_case_definition_change_year	surveillance_platform_change_year	data_freeze_date	country_label
-AUS	Australia	2023-01-01	2023	1	post_pandemic_resurgence	46	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2023-02-01	2023	2	post_pandemic_resurgence	34	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2023-03-01	2023	3	post_pandemic_resurgence	44	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2023-04-01	2023	4	post_pandemic_resurgence	43	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2023-05-01	2023	5	post_pandemic_resurgence	77	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2023-06-01	2023	6	post_pandemic_resurgence	92	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2023-07-01	2023	7	post_pandemic_resurgence	95	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2023-08-01	2023	8	post_pandemic_resurgence	156	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2023-09-01	2023	9	post_pandemic_resurgence	270	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2023-10-01	2023	10	post_pandemic_resurgence	367	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2023-11-01	2023	11	post_pandemic_resurgence	633	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2023-12-01	2023	12	post_pandemic_resurgence	585	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2024-01-01	2024	1	post_pandemic_resurgence	827	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2024-02-01	2024	2	post_pandemic_resurgence	846	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2024-03-01	2024	3	post_pandemic_resurgence	1375	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2024-04-01	2024	4	post_pandemic_resurgence	2038	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2024-05-01	2024	5	post_pandemic_resurgence	2578	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2024-06-01	2024	6	post_pandemic_resurgence	4465	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2024-07-01	2024	7	post_pandemic_resurgence	5233	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2024-08-01	2024	8	post_pandemic_resurgence	6661	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2024-09-01	2024	9	post_pandemic_resurgence	8312	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2024-10-01	2024	10	post_pandemic_resurgence	7940	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2024-11-01	2024	11	post_pandemic_resurgence	9308	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2024-12-01	2024	12	post_pandemic_resurgence	6843	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2025-01-01	2025	1	post_pandemic_resurgence	5010	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2025-02-01	2025	2	post_pandemic_resurgence	2881	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2025-03-01	2025	3	post_pandemic_resurgence	2362	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2025-04-01	2025	4	post_pandemic_resurgence	1929	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2025-05-01	2025	5	post_pandemic_resurgence	2008	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2025-06-01	2025	6	post_pandemic_resurgence	1756	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2025-07-01	2025	7	post_pandemic_resurgence	1572	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2025-08-01	2025	8	post_pandemic_resurgence	1704	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2025-09-01	2025	9	post_pandemic_resurgence	1748	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2025-10-01	2025	10	post_pandemic_resurgence	1587	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2025-11-01	2025	11	post_pandemic_resurgence	1496	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-AUS	Australia	2025-12-01	2025	12	post_pandemic_resurgence	919	TRUE	1	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24	Australia
-CHN	China	2023-01-01	2023	1	post_pandemic_resurgence	883	TRUE	1	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.060	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2023-02-01	2023	2	post_pandemic_resurgence	538	TRUE	1	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.061	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2023-03-01	2023	3	post_pandemic_resurgence	821	TRUE	1	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.082	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2023-04-01	2023	4	post_pandemic_resurgence	1074	TRUE	1	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.099	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2023-05-01	2023	5	post_pandemic_resurgence	1334	TRUE	1	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.127	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2023-06-01	2023	6	post_pandemic_resurgence	1512	TRUE	1	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.130	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2023-07-01	2023	7	post_pandemic_resurgence	2767	TRUE	1	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.150	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2023-08-01	2023	8	post_pandemic_resurgence	4793	TRUE	1	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.179	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2023-09-01	2023	9	post_pandemic_resurgence	4517	TRUE	1	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.192	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2023-10-01	2023	10	post_pandemic_resurgence	4430	TRUE	1	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.213	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2023-11-01	2023	11	post_pandemic_resurgence	6410	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1739453479981600768.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2023-12-01	2023	12	post_pandemic_resurgence	9126	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1746766719346462720.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2024-01-01	2024	1	post_pandemic_resurgence	15275	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1770302255702646784.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2024-02-01	2024	2	post_pandemic_resurgence	17105	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1769982157846650880.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2024-03-01	2024	3	post_pandemic_resurgence	27078	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1782571426407886848.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2024-04-01	2024	4	post_pandemic_resurgence	91272	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1792834031219224576.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2024-05-01	2024	5	post_pandemic_resurgence	97669	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2024-06-01	2024	6	post_pandemic_resurgence	85817	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1817735919697768448.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2024-07-01	2024	7	post_pandemic_resurgence	74964	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1828699266119217152.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2024-08-01	2024	8	post_pandemic_resurgence	43216	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1834433420274282496.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2024-09-01	2024	9	post_pandemic_resurgence	17316	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1848255166500679680.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2024-10-01	2024	10	post_pandemic_resurgence	10118	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1859039988831596544.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2024-11-01	2024	11	post_pandemic_resurgence	7829	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1868944491533684736.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2024-12-01	2024	12	post_pandemic_resurgence	6662	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1879707944644890624.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2025-01-01	2025	1	post_pandemic_resurgence	5611	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1890318316888248320.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2025-02-01	2025	2	post_pandemic_resurgence	4298	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1904362252617027584.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2025-03-01	2025	3	post_pandemic_resurgence	4186	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1914222311882788864.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2025-04-01	2025	4	post_pandemic_resurgence	4506	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1925457919569465344.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2025-05-01	2025	5	post_pandemic_resurgence	4260	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1930458943493410816.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2025-06-01	2025	6	post_pandemic_resurgence	3590	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1941024811541499904.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2025-07-01	2025	7	post_pandemic_resurgence	2974	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1952913634768621568.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2025-08-01	2025	8	post_pandemic_resurgence	1774	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1963855822880935936.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2025-09-01	2025	9	post_pandemic_resurgence	1028	TRUE	1	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1976561324014342144.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2025-10-01	2025	10	post_pandemic_resurgence	893	TRUE	1	monthly	https://globalinfectiousdisease.com/diseases/pertussis/	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2025-11-01	2025	11	post_pandemic_resurgence	1246	TRUE	1	monthly	https://globalinfectiousdisease.com/diseases/pertussis/	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-CHN	China	2025-12-01	2025	12	post_pandemic_resurgence	1313	TRUE	1	monthly	https://globalinfectiousdisease.com/diseases/pertussis/	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24	China
-JPN	Japan	2023-01-01	2023	1	post_pandemic_resurgence	35	TRUE	5	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2023-02-01	2023	2	post_pandemic_resurgence	43	TRUE	4	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2023-03-01	2023	3	post_pandemic_resurgence	34	TRUE	4	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2023-04-01	2023	4	post_pandemic_resurgence	46	TRUE	4	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2023-05-01	2023	5	post_pandemic_resurgence	85	TRUE	5	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2023-06-01	2023	6	post_pandemic_resurgence	84	TRUE	4	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2023-07-01	2023	7	post_pandemic_resurgence	116	TRUE	5	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2023-08-01	2023	8	post_pandemic_resurgence	55	TRUE	4	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2023-09-01	2023	9	post_pandemic_resurgence	50	TRUE	4	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2023-10-01	2023	10	post_pandemic_resurgence	110	TRUE	5	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2023-11-01	2023	11	post_pandemic_resurgence	80	TRUE	4	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2023-12-01	2023	12	post_pandemic_resurgence	77	TRUE	4	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2024-01-01	2024	1	post_pandemic_resurgence	37	TRUE	5	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2024-02-01	2024	2	post_pandemic_resurgence	35	TRUE	4	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2024-03-01	2024	3	post_pandemic_resurgence	34	TRUE	4	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2024-04-01	2024	4	post_pandemic_resurgence	100	TRUE	5	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2024-05-01	2024	5	post_pandemic_resurgence	93	TRUE	4	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2024-06-01	2024	6	post_pandemic_resurgence	150	TRUE	4	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2024-07-01	2024	7	post_pandemic_resurgence	283	TRUE	5	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2024-08-01	2024	8	post_pandemic_resurgence	322	TRUE	4	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2024-09-01	2024	9	post_pandemic_resurgence	523	TRUE	5	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2024-10-01	2024	10	post_pandemic_resurgence	528	TRUE	4	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2024/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2024-11-01	2024	11	post_pandemic_resurgence	519	TRUE	4	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2024/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2024-12-01	2024	12	post_pandemic_resurgence	593	TRUE	5	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2024/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2025-01-01	2025	1	post_pandemic_resurgence	716	TRUE	4	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2025-02-01	2025	2	post_pandemic_resurgence	1253	TRUE	4	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2025-03-01	2025	3	post_pandemic_resurgence	2801	TRUE	5	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2025-04-01	2025	4	post_pandemic_resurgence	7028	TRUE	4	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2025-05-01	2025	5	post_pandemic_resurgence	9080	TRUE	4	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2025-06-01	2025	6	post_pandemic_resurgence	16156	TRUE	5	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2025-07-01	2025	7	post_pandemic_resurgence	14588	TRUE	4	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2025-08-01	2025	8	post_pandemic_resurgence	9737	TRUE	4	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2025-09-01	2025	9	post_pandemic_resurgence	6835	TRUE	5	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2025-10-01	2025	10	post_pandemic_resurgence	3319	TRUE	4	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2025-11-01	2025	11	post_pandemic_resurgence	2099	TRUE	4	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
-JPN	Japan	2025-12-01	2025	12	post_pandemic_resurgence	1658	TRUE	4	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24	Japan
+country_iso3	country_label	model_month	cases	source_url	source_file	data_freeze_date
+AUS	Australia	2023-01-01	46	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2023-02-01	34	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2023-03-01	44	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2023-04-01	43	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2023-05-01	77	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2023-06-01	92	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2023-07-01	95	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2023-08-01	156	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2023-09-01	270	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2023-10-01	367	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2023-11-01	633	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2023-12-01	585	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2024-01-01	827	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2024-02-01	846	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2024-03-01	1375	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2024-04-01	2038	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2024-05-01	2578	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2024-06-01	4465	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2024-07-01	5233	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2024-08-01	6661	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2024-09-01	8312	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2024-10-01	7940	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2024-11-01	9308	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2024-12-01	6843	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2025-01-01	5010	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2025-02-01	2881	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2025-03-01	2362	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2025-04-01	1929	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2025-05-01	2008	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2025-06-01	1756	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2025-07-01	1572	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2025-08-01	1704	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2025-09-01	1748	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2025-10-01	1587	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2025-11-01	1496	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+AUS	Australia	2025-12-01	919	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2023-01-01	883	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.060	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2023-02-01	538	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.061	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2023-03-01	821	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.082	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2023-04-01	1074	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.099	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2023-05-01	1334	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.127	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2023-06-01	1512	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.130	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2023-07-01	2767	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.150	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2023-08-01	4793	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.179	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2023-09-01	4517	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.192	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2023-10-01	4430	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.213	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2023-11-01	6410	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1739453479981600768.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2023-12-01	9126	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1746766719346462720.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2024-01-01	15275	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1770302255702646784.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2024-02-01	17105	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1769982157846650880.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2024-03-01	27078	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1782571426407886848.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2024-04-01	91272	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1792834031219224576.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2024-05-01	97669	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2024-06-01	85817	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1817735919697768448.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2024-07-01	74964	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1828699266119217152.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2024-08-01	43216	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1834433420274282496.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2024-09-01	17316	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1848255166500679680.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2024-10-01	10118	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1859039988831596544.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2024-11-01	7829	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1868944491533684736.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2024-12-01	6662	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1879707944644890624.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2025-01-01	5611	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1890318316888248320.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2025-02-01	4298	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1904362252617027584.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2025-03-01	4186	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1914222311882788864.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2025-04-01	4506	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1925457919569465344.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2025-05-01	4260	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1930458943493410816.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2025-06-01	3590	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1941024811541499904.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2025-07-01	2974	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1952913634768621568.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2025-08-01	1774	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1963855822880935936.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2025-09-01	1028	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1976561324014342144.html	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2025-10-01	893	https://globalinfectiousdisease.com/diseases/pertussis/	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2025-11-01	1246	https://globalinfectiousdisease.com/diseases/pertussis/	Pertussis incidence.xlsx	2026-07-24
+CHN	China	2025-12-01	1313	https://globalinfectiousdisease.com/diseases/pertussis/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2023-01-01	35	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2023-02-01	43	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2023-03-01	34	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2023-04-01	46	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2023-05-01	85	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2023-06-01	84	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2023-07-01	116	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2023-08-01	55	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2023-09-01	50	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2023-10-01	110	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2023-11-01	80	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2023-12-01	77	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2024-01-01	37	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2024-02-01	35	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2024-03-01	34	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2024-04-01	100	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2024-05-01	93	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2024-06-01	150	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2024-07-01	283	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2024-08-01	322	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2024-09-01	523	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2024-10-01	528	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2024/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2024-11-01	519	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2024/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2024-12-01	593	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2024/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2025-01-01	716	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2025-02-01	1253	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2025-03-01	2801	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2025-04-01	7028	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2025-05-01	9080	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2025-06-01	16156	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2025-07-01	14588	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2025-08-01	9737	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2025-09-01	6835	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2025-10-01	3319	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2025-11-01	2099	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	2026-07-24
+JPN	Japan	2025-12-01	1658	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	2026-07-24
