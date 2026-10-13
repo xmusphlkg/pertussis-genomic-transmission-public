@@ -1,0 +1,11 @@
+country_iso3	project_id	year	n_target	n_comparator	target_min	target_max	comparator_min	comparator_max	shared_modal	direction
+AUS	PRJNA1199062	2024	1	33	138.0	168.0	169.0	199.0	True	target_shorter
+CHN	PRJNA1071282	2023	1	1	273.0	637.0	273.0	637.0	True	intervals_overlap
+CHN	PRJNA1182239	2023	18	1	737.0	737.0	741.0	741.0	True	target_shorter
+CHN	PRJNA1193776	2023	5	2	448.0	812.0	448.0	812.0	True	intervals_overlap
+CHN	PRJNA1295129	2024	7	1	317.0	682.0	317.0	682.0	True	intervals_overlap
+JPN	PRJDB20413	2025	13	1	102.0	102.0	111.0	111.0	True	target_shorter
+JPN	PRJDB34249	2024	7	1	390.0	755.0	390.0	755.0	True	intervals_overlap
+JPN	PRJDB34249	2025	4	2	132.0	238.5	162.5	359.5	True	intervals_overlap
+JPN	PRJDB35593	2024	5	1	392.0	392.0	363.0	363.0	True	target_longer
+JPN	PRJDB37898	2025	20	1	275.5	275.5	330.0	330.0	True	target_shorter

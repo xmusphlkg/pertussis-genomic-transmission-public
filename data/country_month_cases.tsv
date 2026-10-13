@@ -1,0 +1,661 @@
+country_iso3	country_name	model_month	year	month	period	cases	case_data_available	n_source_intervals	source_time_resolution	source_url	source_file	reporting_era_record_iso3	reporting_era_scope_type	reporting_era_match_type	reporting_era_confidence	pcr_lab_guideline_year	reporting_case_definition_change_year	surveillance_platform_change_year	data_freeze_date
+AUS	Australia	2015-01-01	2015	1	pre_pandemic	1487.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2015-02-01	2015	2	pre_pandemic	1240.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2015-03-01	2015	3	pre_pandemic	1360.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2015-04-01	2015	4	pre_pandemic	1199.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2015-05-01	2015	5	pre_pandemic	1399.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2015-06-01	2015	6	pre_pandemic	1589.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2015-07-01	2015	7	pre_pandemic	1660.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2015-08-01	2015	8	pre_pandemic	2054.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2015-09-01	2015	9	pre_pandemic	1940.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2015-10-01	2015	10	pre_pandemic	2548.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2015-11-01	2015	11	pre_pandemic	3259.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2015-12-01	2015	12	pre_pandemic	2835.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2016-01-01	2016	1	pre_pandemic	2317.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2016-02-01	2016	2	pre_pandemic	1940.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2016-03-01	2016	3	pre_pandemic	1635.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2016-04-01	2016	4	pre_pandemic	1338.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2016-05-01	2016	5	pre_pandemic	1325.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2016-06-01	2016	6	pre_pandemic	1213.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2016-07-01	2016	7	pre_pandemic	1250.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2016-08-01	2016	8	pre_pandemic	1600.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2016-09-01	2016	9	pre_pandemic	1921.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2016-10-01	2016	10	pre_pandemic	1903.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2016-11-01	2016	11	pre_pandemic	2039.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2016-12-01	2016	12	pre_pandemic	1636.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2017-01-01	2017	1	pre_pandemic	1364.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2017-02-01	2017	2	pre_pandemic	1012.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2017-03-01	2017	3	pre_pandemic	1053.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2017-04-01	2017	4	pre_pandemic	843.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2017-05-01	2017	5	pre_pandemic	1043.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2017-06-01	2017	6	pre_pandemic	950.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2017-07-01	2017	7	pre_pandemic	1055.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2017-08-01	2017	8	pre_pandemic	1097.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2017-09-01	2017	9	pre_pandemic	977.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2017-10-01	2017	10	pre_pandemic	1020.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2017-11-01	2017	11	pre_pandemic	1002.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2017-12-01	2017	12	pre_pandemic	819.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2018-01-01	2018	1	pre_pandemic	877.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2018-02-01	2018	2	pre_pandemic	817.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2018-03-01	2018	3	pre_pandemic	772.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2018-04-01	2018	4	pre_pandemic	742.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2018-05-01	2018	5	pre_pandemic	780.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2018-06-01	2018	6	pre_pandemic	695.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2018-07-01	2018	7	pre_pandemic	729.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2018-08-01	2018	8	pre_pandemic	1171.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2018-09-01	2018	9	pre_pandemic	1207.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2018-10-01	2018	10	pre_pandemic	1429.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2018-11-01	2018	11	pre_pandemic	1827.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2018-12-01	2018	12	pre_pandemic	1535.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2019-01-01	2019	1	pre_pandemic	1315.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2019-02-01	2019	2	pre_pandemic	835.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2019-03-01	2019	3	pre_pandemic	935.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2019-04-01	2019	4	pre_pandemic	793.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2019-05-01	2019	5	pre_pandemic	985.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2019-06-01	2019	6	pre_pandemic	841.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2019-07-01	2019	7	pre_pandemic	959.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2019-08-01	2019	8	pre_pandemic	1057.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2019-09-01	2019	9	pre_pandemic	1034.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2019-10-01	2019	10	pre_pandemic	1020.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2019-11-01	2019	11	pre_pandemic	1177.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2019-12-01	2019	12	pre_pandemic	1074.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2020-01-01	2020	1	pandemic_interruption	871.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2020-02-01	2020	2	pandemic_interruption	762.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2020-03-01	2020	3	pandemic_interruption	682.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2020-04-01	2020	4	pandemic_interruption	371.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2020-05-01	2020	5	pandemic_interruption	213.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2020-06-01	2020	6	pandemic_interruption	194.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2020-07-01	2020	7	pandemic_interruption	127.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2020-08-01	2020	8	pandemic_interruption	70.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2020-09-01	2020	9	pandemic_interruption	51.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2020-10-01	2020	10	pandemic_interruption	24.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2020-11-01	2020	11	pandemic_interruption	44.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2020-12-01	2020	12	pandemic_interruption	48.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2021-01-01	2021	1	pandemic_interruption	40.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2021-02-01	2021	2	pandemic_interruption	54.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2021-03-01	2021	3	pandemic_interruption	53.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2021-04-01	2021	4	pandemic_interruption	48.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2021-05-01	2021	5	pandemic_interruption	52.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2021-06-01	2021	6	pandemic_interruption	57.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2021-07-01	2021	7	pandemic_interruption	38.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2021-08-01	2021	8	pandemic_interruption	51.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2021-09-01	2021	9	pandemic_interruption	38.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2021-10-01	2021	10	pandemic_interruption	41.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2021-11-01	2021	11	pandemic_interruption	48.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2021-12-01	2021	12	pandemic_interruption	30.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2022-01-01	2022	1	pandemic_interruption	41.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2022-02-01	2022	2	pandemic_interruption	43.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2022-03-01	2022	3	pandemic_interruption	47.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2022-04-01	2022	4	pandemic_interruption	22.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2022-05-01	2022	5	pandemic_interruption	39.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2022-06-01	2022	6	pandemic_interruption	35.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2022-07-01	2022	7	pandemic_interruption	42.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2022-08-01	2022	8	pandemic_interruption	64.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2022-09-01	2022	9	pandemic_interruption	38.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2022-10-01	2022	10	pandemic_interruption	40.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2022-11-01	2022	11	pandemic_interruption	35.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2022-12-01	2022	12	pandemic_interruption	36.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2023-01-01	2023	1	post_pandemic_resurgence	46.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2023-02-01	2023	2	post_pandemic_resurgence	34.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2023-03-01	2023	3	post_pandemic_resurgence	44.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2023-04-01	2023	4	post_pandemic_resurgence	43.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2023-05-01	2023	5	post_pandemic_resurgence	77.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2023-06-01	2023	6	post_pandemic_resurgence	92.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2023-07-01	2023	7	post_pandemic_resurgence	95.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2023-08-01	2023	8	post_pandemic_resurgence	156.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2023-09-01	2023	9	post_pandemic_resurgence	270.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2023-10-01	2023	10	post_pandemic_resurgence	367.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2023-11-01	2023	11	post_pandemic_resurgence	633.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2023-12-01	2023	12	post_pandemic_resurgence	585.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2024-01-01	2024	1	post_pandemic_resurgence	827.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2024-02-01	2024	2	post_pandemic_resurgence	846.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2024-03-01	2024	3	post_pandemic_resurgence	1375.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2024-04-01	2024	4	post_pandemic_resurgence	2038.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2024-05-01	2024	5	post_pandemic_resurgence	2578.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2024-06-01	2024	6	post_pandemic_resurgence	4465.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2024-07-01	2024	7	post_pandemic_resurgence	5233.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2024-08-01	2024	8	post_pandemic_resurgence	6661.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2024-09-01	2024	9	post_pandemic_resurgence	8312.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2024-10-01	2024	10	post_pandemic_resurgence	7940.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2024-11-01	2024	11	post_pandemic_resurgence	9308.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2024-12-01	2024	12	post_pandemic_resurgence	6843.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2025-01-01	2025	1	post_pandemic_resurgence	5010.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2025-02-01	2025	2	post_pandemic_resurgence	2881.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2025-03-01	2025	3	post_pandemic_resurgence	2362.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2025-04-01	2025	4	post_pandemic_resurgence	1929.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2025-05-01	2025	5	post_pandemic_resurgence	2008.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2025-06-01	2025	6	post_pandemic_resurgence	1756.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2025-07-01	2025	7	post_pandemic_resurgence	1572.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2025-08-01	2025	8	post_pandemic_resurgence	1704.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2025-09-01	2025	9	post_pandemic_resurgence	1748.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2025-10-01	2025	10	post_pandemic_resurgence	1587.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2025-11-01	2025	11	post_pandemic_resurgence	1496.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+AUS	Australia	2025-12-01	2025	12	post_pandemic_resurgence	919.0	True	1.0	monthly	https://nindss.health.gov.au/pbi-dashboard/	Pertussis incidence.xlsx	AUS	country	country_direct	high	2004	2013	2004	2026-07-24
+BEL	Belgium	2015-01-01	2015	1	pre_pandemic		False												2026-07-24
+BEL	Belgium	2015-02-01	2015	2	pre_pandemic		False												2026-07-24
+BEL	Belgium	2015-03-01	2015	3	pre_pandemic		False												2026-07-24
+BEL	Belgium	2015-04-01	2015	4	pre_pandemic		False												2026-07-24
+BEL	Belgium	2015-05-01	2015	5	pre_pandemic		False												2026-07-24
+BEL	Belgium	2015-06-01	2015	6	pre_pandemic		False												2026-07-24
+BEL	Belgium	2015-07-01	2015	7	pre_pandemic		False												2026-07-24
+BEL	Belgium	2015-08-01	2015	8	pre_pandemic		False												2026-07-24
+BEL	Belgium	2015-09-01	2015	9	pre_pandemic		False												2026-07-24
+BEL	Belgium	2015-10-01	2015	10	pre_pandemic		False												2026-07-24
+BEL	Belgium	2015-11-01	2015	11	pre_pandemic		False												2026-07-24
+BEL	Belgium	2015-12-01	2015	12	pre_pandemic		False												2026-07-24
+BEL	Belgium	2016-01-01	2016	1	pre_pandemic		False												2026-07-24
+BEL	Belgium	2016-02-01	2016	2	pre_pandemic		False												2026-07-24
+BEL	Belgium	2016-03-01	2016	3	pre_pandemic		False												2026-07-24
+BEL	Belgium	2016-04-01	2016	4	pre_pandemic		False												2026-07-24
+BEL	Belgium	2016-05-01	2016	5	pre_pandemic		False												2026-07-24
+BEL	Belgium	2016-06-01	2016	6	pre_pandemic		False												2026-07-24
+BEL	Belgium	2016-07-01	2016	7	pre_pandemic		False												2026-07-24
+BEL	Belgium	2016-08-01	2016	8	pre_pandemic		False												2026-07-24
+BEL	Belgium	2016-09-01	2016	9	pre_pandemic		False												2026-07-24
+BEL	Belgium	2016-10-01	2016	10	pre_pandemic		False												2026-07-24
+BEL	Belgium	2016-11-01	2016	11	pre_pandemic		False												2026-07-24
+BEL	Belgium	2016-12-01	2016	12	pre_pandemic		False												2026-07-24
+BEL	Belgium	2017-01-01	2017	1	pre_pandemic		False												2026-07-24
+BEL	Belgium	2017-02-01	2017	2	pre_pandemic		False												2026-07-24
+BEL	Belgium	2017-03-01	2017	3	pre_pandemic		False												2026-07-24
+BEL	Belgium	2017-04-01	2017	4	pre_pandemic		False												2026-07-24
+BEL	Belgium	2017-05-01	2017	5	pre_pandemic		False												2026-07-24
+BEL	Belgium	2017-06-01	2017	6	pre_pandemic		False												2026-07-24
+BEL	Belgium	2017-07-01	2017	7	pre_pandemic		False												2026-07-24
+BEL	Belgium	2017-08-01	2017	8	pre_pandemic		False												2026-07-24
+BEL	Belgium	2017-09-01	2017	9	pre_pandemic		False												2026-07-24
+BEL	Belgium	2017-10-01	2017	10	pre_pandemic		False												2026-07-24
+BEL	Belgium	2017-11-01	2017	11	pre_pandemic		False												2026-07-24
+BEL	Belgium	2017-12-01	2017	12	pre_pandemic		False												2026-07-24
+BEL	Belgium	2018-01-01	2018	1	pre_pandemic		False												2026-07-24
+BEL	Belgium	2018-02-01	2018	2	pre_pandemic		False												2026-07-24
+BEL	Belgium	2018-03-01	2018	3	pre_pandemic		False												2026-07-24
+BEL	Belgium	2018-04-01	2018	4	pre_pandemic		False												2026-07-24
+BEL	Belgium	2018-05-01	2018	5	pre_pandemic		False												2026-07-24
+BEL	Belgium	2018-06-01	2018	6	pre_pandemic		False												2026-07-24
+BEL	Belgium	2018-07-01	2018	7	pre_pandemic		False												2026-07-24
+BEL	Belgium	2018-08-01	2018	8	pre_pandemic		False												2026-07-24
+BEL	Belgium	2018-09-01	2018	9	pre_pandemic		False												2026-07-24
+BEL	Belgium	2018-10-01	2018	10	pre_pandemic		False												2026-07-24
+BEL	Belgium	2018-11-01	2018	11	pre_pandemic		False												2026-07-24
+BEL	Belgium	2018-12-01	2018	12	pre_pandemic		False												2026-07-24
+BEL	Belgium	2019-01-01	2019	1	pre_pandemic		False												2026-07-24
+BEL	Belgium	2019-02-01	2019	2	pre_pandemic		False												2026-07-24
+BEL	Belgium	2019-03-01	2019	3	pre_pandemic		False												2026-07-24
+BEL	Belgium	2019-04-01	2019	4	pre_pandemic		False												2026-07-24
+BEL	Belgium	2019-05-01	2019	5	pre_pandemic		False												2026-07-24
+BEL	Belgium	2019-06-01	2019	6	pre_pandemic		False												2026-07-24
+BEL	Belgium	2019-07-01	2019	7	pre_pandemic		False												2026-07-24
+BEL	Belgium	2019-08-01	2019	8	pre_pandemic		False												2026-07-24
+BEL	Belgium	2019-09-01	2019	9	pre_pandemic		False												2026-07-24
+BEL	Belgium	2019-10-01	2019	10	pre_pandemic		False												2026-07-24
+BEL	Belgium	2019-11-01	2019	11	pre_pandemic		False												2026-07-24
+BEL	Belgium	2019-12-01	2019	12	pre_pandemic		False												2026-07-24
+BEL	Belgium	2020-01-01	2020	1	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2020-02-01	2020	2	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2020-03-01	2020	3	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2020-04-01	2020	4	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2020-05-01	2020	5	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2020-06-01	2020	6	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2020-07-01	2020	7	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2020-08-01	2020	8	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2020-09-01	2020	9	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2020-10-01	2020	10	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2020-11-01	2020	11	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2020-12-01	2020	12	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2021-01-01	2021	1	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2021-02-01	2021	2	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2021-03-01	2021	3	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2021-04-01	2021	4	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2021-05-01	2021	5	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2021-06-01	2021	6	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2021-07-01	2021	7	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2021-08-01	2021	8	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2021-09-01	2021	9	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2021-10-01	2021	10	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2021-11-01	2021	11	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2021-12-01	2021	12	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2022-01-01	2022	1	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2022-02-01	2022	2	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2022-03-01	2022	3	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2022-04-01	2022	4	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2022-05-01	2022	5	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2022-06-01	2022	6	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2022-07-01	2022	7	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2022-08-01	2022	8	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2022-09-01	2022	9	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2022-10-01	2022	10	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2022-11-01	2022	11	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2022-12-01	2022	12	pandemic_interruption		False												2026-07-24
+BEL	Belgium	2023-01-01	2023	1	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2023-02-01	2023	2	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2023-03-01	2023	3	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2023-04-01	2023	4	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2023-05-01	2023	5	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2023-06-01	2023	6	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2023-07-01	2023	7	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2023-08-01	2023	8	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2023-09-01	2023	9	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2023-10-01	2023	10	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2023-11-01	2023	11	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2023-12-01	2023	12	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2024-01-01	2024	1	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2024-02-01	2024	2	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2024-03-01	2024	3	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2024-04-01	2024	4	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2024-05-01	2024	5	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2024-06-01	2024	6	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2024-07-01	2024	7	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2024-08-01	2024	8	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2024-09-01	2024	9	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2024-10-01	2024	10	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2024-11-01	2024	11	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2024-12-01	2024	12	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2025-01-01	2025	1	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2025-02-01	2025	2	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2025-03-01	2025	3	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2025-04-01	2025	4	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2025-05-01	2025	5	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2025-06-01	2025	6	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2025-07-01	2025	7	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2025-08-01	2025	8	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2025-09-01	2025	9	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2025-10-01	2025	10	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2025-11-01	2025	11	post_pandemic_resurgence		False												2026-07-24
+BEL	Belgium	2025-12-01	2025	12	post_pandemic_resurgence		False												2026-07-24
+CHN	China	2015-01-01	2015	1	pre_pandemic	275.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2015/02/12/013081051.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2015-02-01	2015	2	pre_pandemic	315.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2015/03/12/013081196.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2015-03-01	2015	3	pre_pandemic	498.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2015/04/14/013081323.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2015-04-01	2015	4	pre_pandemic	507.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2015/05/25/013081484.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2015-05-01	2015	5	pre_pandemic	573.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2015/06/15/013081604.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2015-06-01	2015	6	pre_pandemic	723.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2015/07/17/013081743.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2015-07-01	2015	7	pre_pandemic	877.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2015/08/13/013081861.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2015-08-01	2015	8	pre_pandemic	999.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2015/09/22/013082001.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2015-09-01	2015	9	pre_pandemic	763.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2015/11/03/013082122.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2015-10-01	2015	10	pre_pandemic	466.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2015/11/11/013082155.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2015-11-01	2015	11	pre_pandemic	377.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2015/12/11/013082233.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2015-12-01	2015	12	pre_pandemic	446.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2016/01/12/013082310.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2016-01-01	2016	1	pre_pandemic	332.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2016/02/04/013082403.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2016-02-01	2016	2	pre_pandemic	384.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2016/03/17/013082581.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2016-03-01	2016	3	pre_pandemic	527.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2016/04/14/013082695.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2016-04-01	2016	4	pre_pandemic	433.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2016/05/12/013082811.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2016-05-01	2016	5	pre_pandemic	444.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2016/06/16/013082953.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2016-06-01	2016	6	pre_pandemic	476.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2016/07/14/013083005.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2016-07-01	2016	7	pre_pandemic	581.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2016/08/12/013083102.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2016-08-01	2016	8	pre_pandemic	711.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2016/09/18/013083164.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2016-09-01	2016	9	pre_pandemic	545.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2016/10/13/013083220.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2016-10-01	2016	10	pre_pandemic	374.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2017/03/22/014002640.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2016-11-01	2016	11	pre_pandemic	410.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2017/03/22/014002644.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2016-12-01	2016	12	pre_pandemic	466.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2017/03/22/014002657.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2017-01-01	2017	1	pre_pandemic	413.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2017/03/22/014002659.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2017-02-01	2017	2	pre_pandemic	488.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2017/03/22/014002662.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2017-03-01	2017	3	pre_pandemic	748.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2017/04/18/014003612.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2017-04-01	2017	4	pre_pandemic	608.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2017/05/15/014004715.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2017-05-01	2017	5	pre_pandemic	861.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2017/06/13/014005769.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2017-06-01	2017	6	pre_pandemic	1051.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2017/07/13/014007041.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2017-07-01	2017	7	pre_pandemic	1224.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2017/08/17/014008874.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2017-08-01	2017	8	pre_pandemic	1605.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2017/09/15/014010015.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2017-09-01	2017	9	pre_pandemic	1257.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2017/10/13/014010717.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2017-10-01	2017	10	pre_pandemic	869.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2017/11/17/014300899.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2017-11-01	2017	11	pre_pandemic	791.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2017/12/14/014301710.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2017-12-01	2017	12	pre_pandemic	627.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2018/01/12/014302831.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2018-01-01	2018	1	pre_pandemic	649.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2018/02/22/014305563.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2018-02-01	2018	2	pre_pandemic	743.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2018/03/22/014307072.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2018-03-01	2018	3	pre_pandemic	1602.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2018/04/24/014309030.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2018-04-01	2018	4	pre_pandemic	1758.0	True	1.0	monthly	http://www.nhc.gov.cn/jkj/s3578/201805/e3e32b477f3b46948af98bce6b89dc0a.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2018-05-01	2018	5	pre_pandemic	1764.0	True	1.0	monthly	http://www.nhc.gov.cn/jkj/s3578/201806/8e37d0ab57fb43fb8300ac51e44ee7be.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2018-06-01	2018	6	pre_pandemic	1973.0	True	1.0	monthly	http://www.nhc.gov.cn/jkj/s3578/201807/2e222f8000be4f61b9f4e717af7a25d3.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2018-07-01	2018	7	pre_pandemic	2850.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2018/08/24/014316473.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2018-08-01	2018	8	pre_pandemic	4134.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2018/09/14/014318196.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2018-09-01	2018	9	pre_pandemic	2657.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2018/10/19/014319865.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2018-10-01	2018	10	pre_pandemic	1572.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2018/11/30/014322609.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2018-11-01	2018	11	pre_pandemic	1365.0	True	1.0	monthly	http://www.nhc.gov.cn/jkj/s3578/201812/767678cf92774424829163ad981e36ad.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2018-12-01	2018	12	pre_pandemic	1399.0	True	1.0	monthly	http://www.nhc.gov.cn/jkj/s3578/201901/7ba54ed285484474a881584606aa8c94.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2019-01-01	2019	1	pre_pandemic	1260.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2019/02/21/014326808.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2019-02-01	2019	2	pre_pandemic	1444.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2019/03/28/014328451.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2019-03-01	2019	3	pre_pandemic	2735.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2019/04/26/014329671.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2019-04-01	2019	4	pre_pandemic	2689.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2019/05/23/014330869.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2019-05-01	2019	5	pre_pandemic	3129.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2019/06/26/014332831.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2019-06-01	2019	6	pre_pandemic	3128.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2019/08/02/014334748.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2019-07-01	2019	7	pre_pandemic	3635.0	True	1.0	monthly	http://www.nhc.gov.cn/jkj/s7929/201908/5e4ff33f01994b9d99adc0b41b1975cc.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2019-08-01	2019	8	pre_pandemic	4388.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2019/09/27/014338944.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2019-09-01	2019	9	pre_pandemic	3319.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2019/11/21/030001494.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2019-10-01	2019	10	pre_pandemic	1933.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2019/11/21/030001497.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2019-11-01	2019	11	pre_pandemic	1653.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2020/01/09/030006478.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2019-12-01	2019	12	pre_pandemic	1414.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2020/02/17/030010193.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2020-01-01	2020	1	pandemic_interruption	1141.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2020/03/03/030012762.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2020-02-01	2020	2	pandemic_interruption	738.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2020/04/05/030017114.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2020-03-01	2020	3	pandemic_interruption	874.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2020/04/29/030020056.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2020-04-01	2020	4	pandemic_interruption	479.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2020/07/01/030025879.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2020-05-01	2020	5	pandemic_interruption	277.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2020/07/01/030025899.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2020-06-01	2020	6	pandemic_interruption	159.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2020/07/31/030028318.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2020-07-01	2020	7	pandemic_interruption	142.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2020/09/03/030030950.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2020-08-01	2020	8	pandemic_interruption	142.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2020.208	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2020-09-01	2020	9	pandemic_interruption	201.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2020/10/27/030035514.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2020-10-01	2020	10	pandemic_interruption	267.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2020/12/01/030039806.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2020-11-01	2020	11	pandemic_interruption	291.0	True	1.0	monthly	https://www.cdctj.com.cn/system/2021/01/07/030042673.shtml	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2020-12-01	2020	12	pandemic_interruption	294.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2021.025	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2021-01-01	2021	1	pandemic_interruption	205.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2021.059	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2021-02-01	2021	2	pandemic_interruption	115.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2021.082	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2021-03-01	2021	3	pandemic_interruption	220.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2021.108	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2021-04-01	2021	4	pandemic_interruption	308.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2021.119	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2021-05-01	2021	5	pandemic_interruption	427.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2021.141	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2021-06-01	2021	6	pandemic_interruption	519.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2021.162	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2021-07-01	2021	7	pandemic_interruption	820.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2021.186	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2021-08-01	2021	8	pandemic_interruption	1227.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2021.211	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2021-09-01	2021	9	pandemic_interruption	1094.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2021.240	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2021-10-01	2021	10	pandemic_interruption	825.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2021.257	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2021-11-01	2021	11	pandemic_interruption	1148.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2022.002	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2021-12-01	2021	12	pandemic_interruption	2254.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2022.016	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2022-01-01	2022	1	pandemic_interruption	2354.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2022.025	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2022-02-01	2022	2	pandemic_interruption	2576.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2022.073	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2022-03-01	2022	3	pandemic_interruption	3747.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2022.082	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2022-04-01	2022	4	pandemic_interruption	3415.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2022.103	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2022-05-01	2022	5	pandemic_interruption	3991.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2022.127	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2022-06-01	2022	6	pandemic_interruption	4213.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2022.157	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2022-07-01	2022	7	pandemic_interruption	4234.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2022.158	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2022-08-01	2022	8	pandemic_interruption	5355.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2022.183	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2022-09-01	2022	9	pandemic_interruption	3849.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2022.214	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2022-10-01	2022	10	pandemic_interruption	2594.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2022.220	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2022-11-01	2022	11	pandemic_interruption	2160.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2022.234	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2022-12-01	2022	12	pandemic_interruption	1293.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.059	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2023-01-01	2023	1	post_pandemic_resurgence	883.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.060	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2023-02-01	2023	2	post_pandemic_resurgence	538.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.061	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2023-03-01	2023	3	post_pandemic_resurgence	821.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.082	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2023-04-01	2023	4	post_pandemic_resurgence	1074.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.099	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2023-05-01	2023	5	post_pandemic_resurgence	1334.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.127	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2023-06-01	2023	6	post_pandemic_resurgence	1512.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.130	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2023-07-01	2023	7	post_pandemic_resurgence	2767.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.150	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2023-08-01	2023	8	post_pandemic_resurgence	4793.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.179	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2023-09-01	2023	9	post_pandemic_resurgence	4517.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.192	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2023-10-01	2023	10	post_pandemic_resurgence	4430.0	True	1.0	monthly	https://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2023.213	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2023-11-01	2023	11	post_pandemic_resurgence	6410.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1739453479981600768.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2023-12-01	2023	12	post_pandemic_resurgence	9126.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1746766719346462720.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2024-01-01	2024	1	post_pandemic_resurgence	15275.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1770302255702646784.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2024-02-01	2024	2	post_pandemic_resurgence	17105.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1769982157846650880.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2024-03-01	2024	3	post_pandemic_resurgence	27078.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1782571426407886848.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2024-04-01	2024	4	post_pandemic_resurgence	91272.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1792834031219224576.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2024-05-01	2024	5	post_pandemic_resurgence	97669.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1806581689096187904.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2024-06-01	2024	6	post_pandemic_resurgence	85817.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1817735919697768448.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2024-07-01	2024	7	post_pandemic_resurgence	74964.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1828699266119217152.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2024-08-01	2024	8	post_pandemic_resurgence	43216.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1834433420274282496.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2024-09-01	2024	9	post_pandemic_resurgence	17316.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1848255166500679680.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2024-10-01	2024	10	post_pandemic_resurgence	10118.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1859039988831596544.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2024-11-01	2024	11	post_pandemic_resurgence	7829.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1868944491533684736.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2024-12-01	2024	12	post_pandemic_resurgence	6662.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1879707944644890624.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2025-01-01	2025	1	post_pandemic_resurgence	5611.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1890318316888248320.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2025-02-01	2025	2	post_pandemic_resurgence	4298.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1904362252617027584.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2025-03-01	2025	3	post_pandemic_resurgence	4186.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1914222311882788864.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2025-04-01	2025	4	post_pandemic_resurgence	4506.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1925457919569465344.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2025-05-01	2025	5	post_pandemic_resurgence	4260.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1930458943493410816.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2025-06-01	2025	6	post_pandemic_resurgence	3590.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1941024811541499904.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2025-07-01	2025	7	post_pandemic_resurgence	2974.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1952913634768621568.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2025-08-01	2025	8	post_pandemic_resurgence	1774.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1963855822880935936.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2025-09-01	2025	9	post_pandemic_resurgence	1028.0	True	1.0	monthly	https://www.ndcpa.gov.cn/jbkzzx/c100016/common/content/content_1976561324014342144.html	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2025-10-01	2025	10	post_pandemic_resurgence	893.0	True	1.0	monthly	https://globalinfectiousdisease.com/diseases/pertussis/	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2025-11-01	2025	11	post_pandemic_resurgence	1246.0	True	1.0	monthly	https://globalinfectiousdisease.com/diseases/pertussis/	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+CHN	China	2025-12-01	2025	12	post_pandemic_resurgence	1313.0	True	1.0	monthly	https://globalinfectiousdisease.com/diseases/pertussis/	Pertussis incidence.xlsx	CHN	country	country_direct	high	2023	2004	2024	2026-07-24
+FRA	France	2015-01-01	2015	1	pre_pandemic		False												2026-07-24
+FRA	France	2015-02-01	2015	2	pre_pandemic		False												2026-07-24
+FRA	France	2015-03-01	2015	3	pre_pandemic		False												2026-07-24
+FRA	France	2015-04-01	2015	4	pre_pandemic		False												2026-07-24
+FRA	France	2015-05-01	2015	5	pre_pandemic		False												2026-07-24
+FRA	France	2015-06-01	2015	6	pre_pandemic		False												2026-07-24
+FRA	France	2015-07-01	2015	7	pre_pandemic		False												2026-07-24
+FRA	France	2015-08-01	2015	8	pre_pandemic		False												2026-07-24
+FRA	France	2015-09-01	2015	9	pre_pandemic		False												2026-07-24
+FRA	France	2015-10-01	2015	10	pre_pandemic		False												2026-07-24
+FRA	France	2015-11-01	2015	11	pre_pandemic		False												2026-07-24
+FRA	France	2015-12-01	2015	12	pre_pandemic		False												2026-07-24
+FRA	France	2016-01-01	2016	1	pre_pandemic		False												2026-07-24
+FRA	France	2016-02-01	2016	2	pre_pandemic		False												2026-07-24
+FRA	France	2016-03-01	2016	3	pre_pandemic		False												2026-07-24
+FRA	France	2016-04-01	2016	4	pre_pandemic		False												2026-07-24
+FRA	France	2016-05-01	2016	5	pre_pandemic		False												2026-07-24
+FRA	France	2016-06-01	2016	6	pre_pandemic		False												2026-07-24
+FRA	France	2016-07-01	2016	7	pre_pandemic		False												2026-07-24
+FRA	France	2016-08-01	2016	8	pre_pandemic		False												2026-07-24
+FRA	France	2016-09-01	2016	9	pre_pandemic		False												2026-07-24
+FRA	France	2016-10-01	2016	10	pre_pandemic		False												2026-07-24
+FRA	France	2016-11-01	2016	11	pre_pandemic		False												2026-07-24
+FRA	France	2016-12-01	2016	12	pre_pandemic		False												2026-07-24
+FRA	France	2017-01-01	2017	1	pre_pandemic		False												2026-07-24
+FRA	France	2017-02-01	2017	2	pre_pandemic		False												2026-07-24
+FRA	France	2017-03-01	2017	3	pre_pandemic		False												2026-07-24
+FRA	France	2017-04-01	2017	4	pre_pandemic		False												2026-07-24
+FRA	France	2017-05-01	2017	5	pre_pandemic		False												2026-07-24
+FRA	France	2017-06-01	2017	6	pre_pandemic		False												2026-07-24
+FRA	France	2017-07-01	2017	7	pre_pandemic		False												2026-07-24
+FRA	France	2017-08-01	2017	8	pre_pandemic		False												2026-07-24
+FRA	France	2017-09-01	2017	9	pre_pandemic		False												2026-07-24
+FRA	France	2017-10-01	2017	10	pre_pandemic		False												2026-07-24
+FRA	France	2017-11-01	2017	11	pre_pandemic		False												2026-07-24
+FRA	France	2017-12-01	2017	12	pre_pandemic		False												2026-07-24
+FRA	France	2018-01-01	2018	1	pre_pandemic		False												2026-07-24
+FRA	France	2018-02-01	2018	2	pre_pandemic		False												2026-07-24
+FRA	France	2018-03-01	2018	3	pre_pandemic		False												2026-07-24
+FRA	France	2018-04-01	2018	4	pre_pandemic		False												2026-07-24
+FRA	France	2018-05-01	2018	5	pre_pandemic		False												2026-07-24
+FRA	France	2018-06-01	2018	6	pre_pandemic		False												2026-07-24
+FRA	France	2018-07-01	2018	7	pre_pandemic		False												2026-07-24
+FRA	France	2018-08-01	2018	8	pre_pandemic		False												2026-07-24
+FRA	France	2018-09-01	2018	9	pre_pandemic		False												2026-07-24
+FRA	France	2018-10-01	2018	10	pre_pandemic		False												2026-07-24
+FRA	France	2018-11-01	2018	11	pre_pandemic		False												2026-07-24
+FRA	France	2018-12-01	2018	12	pre_pandemic		False												2026-07-24
+FRA	France	2019-01-01	2019	1	pre_pandemic		False												2026-07-24
+FRA	France	2019-02-01	2019	2	pre_pandemic		False												2026-07-24
+FRA	France	2019-03-01	2019	3	pre_pandemic		False												2026-07-24
+FRA	France	2019-04-01	2019	4	pre_pandemic		False												2026-07-24
+FRA	France	2019-05-01	2019	5	pre_pandemic		False												2026-07-24
+FRA	France	2019-06-01	2019	6	pre_pandemic		False												2026-07-24
+FRA	France	2019-07-01	2019	7	pre_pandemic		False												2026-07-24
+FRA	France	2019-08-01	2019	8	pre_pandemic		False												2026-07-24
+FRA	France	2019-09-01	2019	9	pre_pandemic		False												2026-07-24
+FRA	France	2019-10-01	2019	10	pre_pandemic		False												2026-07-24
+FRA	France	2019-11-01	2019	11	pre_pandemic		False												2026-07-24
+FRA	France	2019-12-01	2019	12	pre_pandemic		False												2026-07-24
+FRA	France	2020-01-01	2020	1	pandemic_interruption		False												2026-07-24
+FRA	France	2020-02-01	2020	2	pandemic_interruption		False												2026-07-24
+FRA	France	2020-03-01	2020	3	pandemic_interruption		False												2026-07-24
+FRA	France	2020-04-01	2020	4	pandemic_interruption		False												2026-07-24
+FRA	France	2020-05-01	2020	5	pandemic_interruption		False												2026-07-24
+FRA	France	2020-06-01	2020	6	pandemic_interruption		False												2026-07-24
+FRA	France	2020-07-01	2020	7	pandemic_interruption		False												2026-07-24
+FRA	France	2020-08-01	2020	8	pandemic_interruption		False												2026-07-24
+FRA	France	2020-09-01	2020	9	pandemic_interruption		False												2026-07-24
+FRA	France	2020-10-01	2020	10	pandemic_interruption		False												2026-07-24
+FRA	France	2020-11-01	2020	11	pandemic_interruption		False												2026-07-24
+FRA	France	2020-12-01	2020	12	pandemic_interruption		False												2026-07-24
+FRA	France	2021-01-01	2021	1	pandemic_interruption		False												2026-07-24
+FRA	France	2021-02-01	2021	2	pandemic_interruption		False												2026-07-24
+FRA	France	2021-03-01	2021	3	pandemic_interruption		False												2026-07-24
+FRA	France	2021-04-01	2021	4	pandemic_interruption		False												2026-07-24
+FRA	France	2021-05-01	2021	5	pandemic_interruption		False												2026-07-24
+FRA	France	2021-06-01	2021	6	pandemic_interruption		False												2026-07-24
+FRA	France	2021-07-01	2021	7	pandemic_interruption		False												2026-07-24
+FRA	France	2021-08-01	2021	8	pandemic_interruption		False												2026-07-24
+FRA	France	2021-09-01	2021	9	pandemic_interruption		False												2026-07-24
+FRA	France	2021-10-01	2021	10	pandemic_interruption		False												2026-07-24
+FRA	France	2021-11-01	2021	11	pandemic_interruption		False												2026-07-24
+FRA	France	2021-12-01	2021	12	pandemic_interruption		False												2026-07-24
+FRA	France	2022-01-01	2022	1	pandemic_interruption		False												2026-07-24
+FRA	France	2022-02-01	2022	2	pandemic_interruption		False												2026-07-24
+FRA	France	2022-03-01	2022	3	pandemic_interruption		False												2026-07-24
+FRA	France	2022-04-01	2022	4	pandemic_interruption		False												2026-07-24
+FRA	France	2022-05-01	2022	5	pandemic_interruption		False												2026-07-24
+FRA	France	2022-06-01	2022	6	pandemic_interruption		False												2026-07-24
+FRA	France	2022-07-01	2022	7	pandemic_interruption		False												2026-07-24
+FRA	France	2022-08-01	2022	8	pandemic_interruption		False												2026-07-24
+FRA	France	2022-09-01	2022	9	pandemic_interruption		False												2026-07-24
+FRA	France	2022-10-01	2022	10	pandemic_interruption		False												2026-07-24
+FRA	France	2022-11-01	2022	11	pandemic_interruption		False												2026-07-24
+FRA	France	2022-12-01	2022	12	pandemic_interruption		False												2026-07-24
+FRA	France	2023-01-01	2023	1	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2023-02-01	2023	2	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2023-03-01	2023	3	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2023-04-01	2023	4	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2023-05-01	2023	5	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2023-06-01	2023	6	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2023-07-01	2023	7	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2023-08-01	2023	8	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2023-09-01	2023	9	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2023-10-01	2023	10	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2023-11-01	2023	11	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2023-12-01	2023	12	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2024-01-01	2024	1	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2024-02-01	2024	2	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2024-03-01	2024	3	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2024-04-01	2024	4	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2024-05-01	2024	5	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2024-06-01	2024	6	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2024-07-01	2024	7	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2024-08-01	2024	8	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2024-09-01	2024	9	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2024-10-01	2024	10	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2024-11-01	2024	11	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2024-12-01	2024	12	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2025-01-01	2025	1	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2025-02-01	2025	2	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2025-03-01	2025	3	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2025-04-01	2025	4	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2025-05-01	2025	5	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2025-06-01	2025	6	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2025-07-01	2025	7	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2025-08-01	2025	8	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2025-09-01	2025	9	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2025-10-01	2025	10	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2025-11-01	2025	11	post_pandemic_resurgence		False												2026-07-24
+FRA	France	2025-12-01	2025	12	post_pandemic_resurgence		False												2026-07-24
+JPN	Japan	2015-01-01	2015	1	pre_pandemic	110.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2015-02-01	2015	2	pre_pandemic	110.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2015-03-01	2015	3	pre_pandemic	180.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2015-04-01	2015	4	pre_pandemic	206.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2015-05-01	2015	5	pre_pandemic	210.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2015-06-01	2015	6	pre_pandemic	387.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2015-07-01	2015	7	pre_pandemic	269.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2015-08-01	2015	8	pre_pandemic	292.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2015-09-01	2015	9	pre_pandemic	216.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2015-10-01	2015	10	pre_pandemic	240.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2015-11-01	2015	11	pre_pandemic	307.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2015-12-01	2015	12	pre_pandemic	137.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2016-01-01	2016	1	pre_pandemic	167.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2016-02-01	2016	2	pre_pandemic	180.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2016-03-01	2016	3	pre_pandemic	141.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2016-04-01	2016	4	pre_pandemic	205.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2016-05-01	2016	5	pre_pandemic	319.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2016-06-01	2016	6	pre_pandemic	376.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2016-07-01	2016	7	pre_pandemic	332.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2016-08-01	2016	8	pre_pandemic	313.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2016-09-01	2016	9	pre_pandemic	285.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2016-10-01	2016	10	pre_pandemic	308.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2016-11-01	2016	11	pre_pandemic	173.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2016-12-01	2016	12	pre_pandemic	152.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2017-01-01	2017	1	pre_pandemic	124.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2017-02-01	2017	2	pre_pandemic	72.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2017-03-01	2017	3	pre_pandemic	96.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2017-04-01	2017	4	pre_pandemic	113.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2017-05-01	2017	5	pre_pandemic	145.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2017-06-01	2017	6	pre_pandemic	178.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2017-07-01	2017	7	pre_pandemic	211.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2017-08-01	2017	8	pre_pandemic	133.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2017-09-01	2017	9	pre_pandemic	117.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2017-10-01	2017	10	pre_pandemic	194.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2017-11-01	2017	11	pre_pandemic	145.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2017-12-01	2017	12	pre_pandemic	126.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2018-01-01	2018	1	pre_pandemic	149.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2018-02-01	2018	2	pre_pandemic	166.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2018-03-01	2018	3	pre_pandemic	189.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2018-04-01	2018	4	pre_pandemic	304.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2018-05-01	2018	5	pre_pandemic	490.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2018-06-01	2018	6	pre_pandemic	622.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2018-07-01	2018	7	pre_pandemic	829.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2018-08-01	2018	8	pre_pandemic	898.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2018-09-01	2018	9	pre_pandemic	858.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2018-10-01	2018	10	pre_pandemic	1217.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2018-11-01	2018	11	pre_pandemic	1111.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2018-12-01	2018	12	pre_pandemic	1152.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2019-01-01	2019	1	pre_pandemic	934.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2019-02-01	2019	2	pre_pandemic	922.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2019-03-01	2019	3	pre_pandemic	957.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2019-04-01	2019	4	pre_pandemic	876.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2019-05-01	2019	5	pre_pandemic	862.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2019-06-01	2019	6	pre_pandemic	1083.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2019-07-01	2019	7	pre_pandemic	1389.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2019-08-01	2019	8	pre_pandemic	1038.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2019-09-01	2019	9	pre_pandemic	1243.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2019-10-01	2019	10	pre_pandemic	930.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2019-11-01	2019	11	pre_pandemic	833.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2019-12-01	2019	12	pre_pandemic	719.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2020-01-01	2020	1	pandemic_interruption	535.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2020-02-01	2020	2	pandemic_interruption	453.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2020-03-01	2020	3	pandemic_interruption	503.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2020-04-01	2020	4	pandemic_interruption	130.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2020-05-01	2020	5	pandemic_interruption	65.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2020-06-01	2020	6	pandemic_interruption	71.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2020-07-01	2020	7	pandemic_interruption	38.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2020-08-01	2020	8	pandemic_interruption	52.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2020-09-01	2020	9	pandemic_interruption	48.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2020-10-01	2020	10	pandemic_interruption	36.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2020-11-01	2020	11	pandemic_interruption	54.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2020-12-01	2020	12	pandemic_interruption	41.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2021-01-01	2021	1	pandemic_interruption	33.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2021-02-01	2021	2	pandemic_interruption	31.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2021-03-01	2021	3	pandemic_interruption	44.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2021-04-01	2021	4	pandemic_interruption	20.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2021-05-01	2021	5	pandemic_interruption	36.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2021-06-01	2021	6	pandemic_interruption	49.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2021-07-01	2021	7	pandemic_interruption	36.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2021-08-01	2021	8	pandemic_interruption	31.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2021-09-01	2021	9	pandemic_interruption	39.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2021-10-01	2021	10	pandemic_interruption	53.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2021-11-01	2021	11	pandemic_interruption	99.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2021-12-01	2021	12	pandemic_interruption	92.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2022-01-01	2022	1	pandemic_interruption	40.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2022-02-01	2022	2	pandemic_interruption	35.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2022-03-01	2022	3	pandemic_interruption	25.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2022-04-01	2022	4	pandemic_interruption	16.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2022-05-01	2022	5	pandemic_interruption	31.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2022-06-01	2022	6	pandemic_interruption	29.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2022-07-01	2022	7	pandemic_interruption	14.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2022-08-01	2022	8	pandemic_interruption	20.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2022-09-01	2022	9	pandemic_interruption	30.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2022-10-01	2022	10	pandemic_interruption	36.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2022-11-01	2022	11	pandemic_interruption	53.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2022-12-01	2022	12	pandemic_interruption	22.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2023-01-01	2023	1	post_pandemic_resurgence	35.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2023-02-01	2023	2	post_pandemic_resurgence	43.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2023-03-01	2023	3	post_pandemic_resurgence	34.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2023-04-01	2023	4	post_pandemic_resurgence	46.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2023-05-01	2023	5	post_pandemic_resurgence	85.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2023-06-01	2023	6	post_pandemic_resurgence	84.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2023-07-01	2023	7	post_pandemic_resurgence	116.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2023-08-01	2023	8	post_pandemic_resurgence	55.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2023-09-01	2023	9	post_pandemic_resurgence	50.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2023-10-01	2023	10	post_pandemic_resurgence	110.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2023-11-01	2023	11	post_pandemic_resurgence	80.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2023-12-01	2023	12	post_pandemic_resurgence	77.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2024-01-01	2024	1	post_pandemic_resurgence	37.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2024-02-01	2024	2	post_pandemic_resurgence	35.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2024-03-01	2024	3	post_pandemic_resurgence	34.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2024-04-01	2024	4	post_pandemic_resurgence	100.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2024-05-01	2024	5	post_pandemic_resurgence	93.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2024-06-01	2024	6	post_pandemic_resurgence	150.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2024-07-01	2024	7	post_pandemic_resurgence	283.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2024-08-01	2024	8	post_pandemic_resurgence	322.0	True	4.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2024-09-01	2024	9	post_pandemic_resurgence	523.0	True	5.0	weekly	https://www.niid.go.jp/niid/en/survaillance-data-table-english.html	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2024-10-01	2024	10	post_pandemic_resurgence	528.0	True	4.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2024/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2024-11-01	2024	11	post_pandemic_resurgence	519.0	True	4.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2024/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2024-12-01	2024	12	post_pandemic_resurgence	593.0	True	5.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2024/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2025-01-01	2025	1	post_pandemic_resurgence	716.0	True	4.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2025-02-01	2025	2	post_pandemic_resurgence	1253.0	True	4.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2025-03-01	2025	3	post_pandemic_resurgence	2801.0	True	5.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2025-04-01	2025	4	post_pandemic_resurgence	7028.0	True	4.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2025-05-01	2025	5	post_pandemic_resurgence	9080.0	True	4.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2025-06-01	2025	6	post_pandemic_resurgence	16156.0	True	5.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2025-07-01	2025	7	post_pandemic_resurgence	14588.0	True	4.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2025-08-01	2025	8	post_pandemic_resurgence	9737.0	True	4.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2025-09-01	2025	9	post_pandemic_resurgence	6835.0	True	5.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2025-10-01	2025	10	post_pandemic_resurgence	3319.0	True	4.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2025-11-01	2025	11	post_pandemic_resurgence	2099.0	True	4.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24
+JPN	Japan	2025-12-01	2025	12	post_pandemic_resurgence	1658.0	True	4.0	weekly	https://id-info.jihs.go.jp/surveillance/idwr/rapid/2025/	Pertussis incidence.xlsx	JPN	country	country_direct	high	2018	2018	2018	2026-07-24

@@ -1,0 +1,9 @@
+{
+  "target_records": 205,
+  "projects": 13,
+  "single_date_projects": 11,
+  "larger_projects": 9,
+  "larger_single_date_projects": 8,
+  "matched_strata": 10,
+  "all_numerical_checks_passed": true
+}

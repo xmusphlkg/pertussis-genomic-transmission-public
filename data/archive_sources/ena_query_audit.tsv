@@ -1,0 +1,43 @@
+query_project_id	query_status	n_rows	last_successful_query_date
+PRJDB20292	records_cached_legacy	2	
+PRJDB20413	records_cached_legacy	20	
+PRJDB34249	records_cached_legacy	16	
+PRJDB35593	records_cached_legacy	16	
+PRJDB37898	records_cached_legacy	43	
+PRJDB7578	records_cached_legacy	134	
+PRJEB18624	records_cached_legacy	188	
+PRJEB2274	records_cached_legacy	341	
+PRJEB27048	queried_no_read_run_rows	0	2026-08-17
+PRJEB42353	records_cached_legacy	1563	
+PRJEB85093	queried_no_read_run_rows	0	2026-08-17
+PRJEB88325	records_cached_legacy	416	
+PRJNA1071282	records_cached_legacy	734	
+PRJNA1110622	queried_no_read_run_rows	0	2026-08-17
+PRJNA1133929	records_cached_legacy	63	
+PRJNA1135758	queried_no_read_run_rows	0	2026-08-17
+PRJNA1143937	queried_no_read_run_rows	0	2026-08-17
+PRJNA1178746	queried_no_read_run_rows	0	2026-08-17
+PRJNA1182239	queried_no_read_run_rows	0	2026-08-17
+PRJNA1193776	records_cached_legacy	62	
+PRJNA1199062	records_cached_legacy	192	
+PRJNA1295129	queried_no_read_run_rows	0	2026-08-17
+PRJNA231221	records_cached_legacy	3657	
+PRJNA266616	records_cached_legacy	119	
+PRJNA281570	queried_no_read_run_rows	0	2026-08-17
+PRJNA390469	queried_no_read_run_rows	0	2026-08-17
+PRJNA393244	records_cached_legacy	31	
+PRJNA432286	records_cached_legacy	78	
+PRJNA486745	records_cached_legacy	2	
+PRJNA488737	queried_no_read_run_rows	0	2026-08-17
+PRJNA489102	records_cached_legacy	50	
+PRJNA530108	queried_no_read_run_rows	0	2026-08-17
+PRJNA562796	records_cached_legacy	284	
+PRJNA695314	queried_no_read_run_rows	0	2026-08-17
+PRJNA695405	queried_no_read_run_rows	0	2026-08-17
+PRJNA770762	records_cached_legacy	50	
+PRJNA777368	queried_no_read_run_rows	0	2026-08-17
+PRJNA908268	records_cached_legacy	103	
+PRJNA934177	queried_no_read_run_rows	0	2026-08-17
+PRJNA934178	queried_no_read_run_rows	0	2026-08-17
+PRJNA934182	queried_no_read_run_rows	0	2026-08-17
+PRJNA934183	queried_no_read_run_rows	0	2026-08-17

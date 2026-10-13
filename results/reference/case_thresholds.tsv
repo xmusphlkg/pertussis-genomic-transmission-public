@@ -1,0 +1,4 @@
+country_iso3	cases_2019_max	cases_2019_median	first_post2022_month_above_2019_max	first_post2022_cases_above_2019_max	first_post2022_month_above_2019_median	first_post2022_cases_above_2019_median	first_two_consecutive_months_above_2019_max	first_two_consecutive_months_first_cases	post2022_peak_month	post2022_peak_cases
+AUS	1315.0	1002.5	2024-03-01	1375.0	2024-03-01	1375.0	2024-03-01	1375.0	2024-11-01	9308.0
+CHN	4388.0	2712.0	2023-08-01	4793.0	2023-07-01	2767.0	2023-08-01	4793.0	2024-05-01	97669.0
+JPN	1389.0	932.0	2025-03-01	2801.0	2025-02-01	1253.0	2025-03-01	2801.0	2025-06-01	16156.0
